@@ -1,0 +1,23 @@
+Ans: D
+
+Explanation :
+
+A constructor establishes an object and must have the same name as the class; a default constructor 
+is one that requires no arguments. A default constructor is created automatically by the Java compiler 
+for any class you create whenever you do not write your own constructor. For example, below is the 
+declaration of a default constructor
+
+public class TestConstructor
+{
+	public TestConstructor()
+	{	
+		System.out.println("I am a default constructor");
+	}
+	public static void main(String args[])
+	{
+		new TestConstructor();
+	}
+}
+ 
+Output:
+I am a default constructor

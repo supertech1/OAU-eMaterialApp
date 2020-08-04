@@ -1,0 +1,3 @@
+Solution :
+
+Due to platform independence, a Java compiler will interpret Java source code into Java Byte Code and pass to the JVM, which will pass machine understandable code through to cpu. A conventional compiler converts source code directly to machine code.

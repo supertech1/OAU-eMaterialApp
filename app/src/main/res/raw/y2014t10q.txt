@@ -1,0 +1,19 @@
+What is the output of this program?
+
+class  Output
+{
+	public static void main(String args[])
+	{
+		int  x, y; 
+		x = 10;
+		x++;
+		--x;
+		y= x++;
+		System.out.println(x + " " +y);
+	}
+}
+	
+	A. 11  11	
+	B. 10  10	
+	C. 11  10	
+	D. 10  11

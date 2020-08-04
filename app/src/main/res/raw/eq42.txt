@@ -1,0 +1,1 @@
+Which of the following method of Process class can terminate a process?

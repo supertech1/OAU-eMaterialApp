@@ -1,0 +1,6 @@
+Answer: b
+Explanation: The output of program is Thread[main,5,main], in this priority assigned to the thread is 5. Its the default value. Since we have not named the thread they are named by the group to they belong i:e main method.
+Output:
+$ javac multithreaded_programing.java
+$ java multithreaded_programing
+Thread[main,5,main] 

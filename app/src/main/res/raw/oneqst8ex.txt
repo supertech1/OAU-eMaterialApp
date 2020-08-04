@@ -1,0 +1,73 @@
+import java.util.Scanner;  //load Scanner class from java library into this class
+
+public class SystemOrder //SystemOrder class declaration
+{  //SystemOrder class opening brace
+    
+    public static void main(String args[]) //main method declaration
+    {  //main method opening brace
+        final double BASIC_SYSTEM_COST = 375.99; //declare a constant variable "BASIC_SYSTEM_COST" of data type double and initialize it to a default value.
+                                                 // (NB: you declare a variable constant using the java keyword 'final'...hence, any attempt to change the 
+						 //value initially assigned to it will result to a compile time error)
+     // initializing variables in declarations  
+        final double SCREEN_38CM_COST = 75.99; //declare variable SCREEN_38CM_COST as a constant and initialise it to 75.99 as a default value
+        final double SCREEN_43CM_COST = 99.99; //declare variable SCREEN_43CM_COST as a constant and initialise it to 99.99 as a default value
+        final double DVD_CD_WRITER_COST = 65.99;//declare variable DVD_CD_WRITER_COST as a constant and initialise it to 65.99as a default value
+        final double PRINTER_COST = 125.00; //declare variable PRINTER_COST as a constant and initialise it to a value by default (NB...we use this constant variable and the above 4 constant variables to hold the price of each commodity respectively)
+        int option_selected;  // declaration of integer variable 'option_selected' (NB:  this variable will hold the option selected by the user from the menu and it will be initialized later in the program)
+        double total = 0.0; //declare variable total to hold the total amount of all the goods purchased by the customer....We initialized it by default to 0.0 because at this stage, the customer is yet to request for any product
+        Scanner input = new Scanner(System.in); //declare reference variable 'input' of data type Scanner and assign it a reference to a Scanner object
+       
+        System.out.println("Welcome to SuperTech Computers...Below are the available products");
+        
+        menu(); //Here we are calling the menu method so as to display the company's list of products to the clients....(NB: the declaraion of this method is down below...Wou can check first so as for you to understand better the rest of the code)
+        
+        option_selected = input.nextInt(); //use the Scanner method (nextInt()) to read from the console window what the user will like to purchase and store the response into variable option_selected (Rmbr we declared variable option_selected without assigning it a value before)
+
+        while (option_selected != 5 && option_selected != 4) // use the while loop to continue requesting for what more the user will like to purchase provided he has not yet entered 4(Done shopping) or 5(Exit)
+        { //while block opening brace
+            if (option_selected == 1) //test to check if the user selected 1 as an option
+            { //if block opening brace
+                total += BASIC_SYSTEM_COST;  // Now add the price of the commodity the customer want to buy to our total variable (Rmbr this line is the same as you writing : total = total + BASIC_SYSTEM_COST; )
+                screenSizeMenu(); //call the screenSizeMenu() method(also declared below)....this method display another menu showing the available screen sizes 
+                option_selected = input.nextInt(); //now read the option value the customer typed on the console window and store it in option_selected variable (Hint: any value in this variable before will be overwritten)
+                if (option_selected == 1)  //test to check if the user selected 1 as an option
+                    total += SCREEN_38CM_COST; //if so, add the price of the selected screen to the current amount in variable 'total'.
+                else if (option_selected == 2)  //but if the user entered 2
+                    total += SCREEN_43CM_COST;  // add the price of the selected commodity to the current amount in variable 'total'
+                menu(); //Now display the menu back on the screen so as to request for more orders
+                option_selected = input.nextInt();  //read input from the user again
+            }
+            else if (option_selected == 2)  //Now, java will read this else...if statement provided the 'if' test condition above evaluated to false,
+            {
+                total += DVD_CD_WRITER_COST; //add the price of this commodity to total
+                menu(); //display the menu option again
+                option_selected = input.nextInt(); //read input from the user again
+            }
+            else if (option_selected == 3)  //test if the user choose 3 from the menu
+            {
+                total += PRINTER_COST; //add the price of this commodity to total
+                menu();  //display the menu option again
+                option_selected = input.nextInt();  //read input from the user again
+            }
+        } //while block closing brace
+        
+        if (option_selected == 4) //test to check if the option selected by the user is 4(i.e Done Shopping)
+        {  
+            System.out.println("The total cost of your order is :"+total); //Display the total amount of all the goods ordered by the user
+        }
+        else if (option_selected == 5) //test to check if the option selected by the user is 5(i.e Exit Shopping)
+        {
+            System.exit( 1); //call the exit method from the System class. (NB: calling exit(1) terminates the program)
+        }
+        
+    } 
+    public static void menu() //menu method declaration
+    {
+        System.out.printf("\t\tMenu\n\t1.Basic System\n\t2.DVD/CD Writer\n\t3.Printer\n\t4.Done Shopping\n\t5.Exit\nEnter Choice: ");    //display a formatted list of products (NB: '\t' and '\n' are escape sequence that denote tab and new line respectively)  
+    }
+    public static void screenSizeMenu() //screenSizeMenu declaration
+    {
+        System.out.println("Please select the screen size of your choice: ");
+        System.out.printf("\t\tScreen Size\n\t1. 38cm Screen\n\t2. 43cm Screen\nEnter Choice: ");
+    }   
+} //SystemOrder class closing brace

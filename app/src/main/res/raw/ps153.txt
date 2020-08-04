@@ -1,0 +1,2 @@
+Answer: b
+Explanation: N is used for Number.

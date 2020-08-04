@@ -1,0 +1,2 @@
+Answer: c
+Explanation: cache is the Hashtable where all of the files are cached in RAM and is initialized when the object is created.

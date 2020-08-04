@@ -1,0 +1,6 @@
+Answer:a
+Explanation:When an array is declared using new operator then all of its elements are initialized to 0 automatically. for loop body is executed 5 times as whenever controls comes in the loop i value is incremented twice, first by i++ in body of loop then by ++i in increment condition of for loop.
+output:
+$ javac array_output.java
+$ java array_output
+0 2 4 6 8

@@ -1,0 +1,2 @@
+Answer: d
+Explanation: Boolean wrapper defines 3 constants - TRUE, FLASE & TYPE.

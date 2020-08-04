@@ -1,0 +1,6 @@
+Answer:c
+Explanation: Whenever y is divisible by x remainder body of loop is skipped by continue statement, therefore if condition y == 8 is never true as when y is 8, remainder body of loop is skipped by continue statements of first if. Control comes to print statement only in cases when y is odd.
+output:
+$ javac jump_statments.java
+$ java jump_statments
+1 3 5 7 9

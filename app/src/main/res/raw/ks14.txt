@@ -1,0 +1,2 @@
+Answer: a
+Explanation: Byte stream uses InputStream and OutputStream classes for input and output operation.

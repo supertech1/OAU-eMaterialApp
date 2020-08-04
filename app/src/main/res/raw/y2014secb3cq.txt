@@ -1,0 +1,7 @@
+Consider this program segment below. What are the function of lines 1, 2, 3 and 4.
+
+Line 1. FileWriter f = new FileWriter("test.txt");
+Line 2. PrintWriter out = new PrintWriter(f);
+Line 3. out.println();
+Line 4. out.close();
+Line5. f.close();

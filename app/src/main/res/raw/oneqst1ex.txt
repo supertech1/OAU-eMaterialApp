@@ -1,0 +1,65 @@
+public class NumberToWord  //NumberToWord class declaration
+
+{ //The body of a class begins with left brace....henceforth, we will refer to left brace as 'opening brace' and right brace, } , as 'closing brace'.
+    
+    public static void acceptNum(int num)   //acceptNum method declaration with return type void(i.e the method returns nothing). This method accepts a single integer parameter which is the number that will be specified as an argument by the user when calling this method)
+                                            //'public' and 'static' are access modifiers. 'public' enables the accessiblity of this method outside the class while 'static' makes it accessible from a static context(just like we did in the main method below)
+    { //acceptNum method opening brace  
+        
+        assert (num >= 0 && num <= 9): "invalid number";  //assert is a java keyword to test if a condition is true. Here we are testing if num is between 0 and 9. If false, "invalid number" will be printed as the error message on the console window.
+        
+        if (num < 0 || num > 9)    //optionally, you can as well test if num is between 0 and 9 by using the if...else statement....NOTE: assert statement above will work only if assertion is enabled at run time
+        {   // if block opening brace
+            System.out.println("Invalid input...Argument should be between 0 and 9");  //display an error message on the console window. Seeing this as our output implies that the 'if' test condition above returns true(i.e num is not between 0 and 9)
+        }   // if block closing brace
+        else     //this else block will be executed only if the test condition in 'if statement' above is false. NOTE: if the condition is true, java will skip this else block
+        {   //else block opening brace
+            String output = "";  //varaible output holds the word equivalent of the number to display on the screen...initialized by default as an empty string
+            
+            switch (num)     //Switch construct testing if num is equal to any of its cases
+            {   //switch block starts here
+                case 0:   //a test to know if num is equal to 0
+                    output = "Zero"; //if variable num is equal to 1, re-initialise the output variable to 'zero'
+                    break ;  //'break' is a java keyword to exit out of a block. Therefore, using break here will exit out of the switch block if the test condition is true(i.e num equals to 1). if not, then the next case will be checked.
+                case 1:
+                    output = "One";
+                    break ;
+                case 2:     
+                    output = "Two";     
+                    break ;
+                case 3:     
+                    output = "Three";       
+                    break ;
+                case 4:     
+                    output = "Four";       
+                    break ;
+                case 5:     
+                    output = "Five";   
+                    break ;
+                case 6:     
+                    output = "Six";     
+                    break ;
+                case 7:     
+                    output = "Seven";       
+                    break ;
+                case 8:     
+                    output = "Eight";       
+                    break ;
+                case 9:
+                    output = "Nine";
+                    break ;
+            }   // switch block ends here    
+            System.out.println(output);     //display on the console the word representation of the number
+        }    // else block closing brace
+    }   //acceptNum method closing brace
+    
+    public static void main(String args[]) //main method declaration NOTE: main method is the execution starting point of an application
+    {   //main method block begins here
+        acceptNum( 8);   //call method acceptNum with 8 as an argument.This implies that the output of this program will be "Eight".
+    }   //main method block ends here
+}    //class NumberToWord closing brace
+
+//NOTE: one of the ways you can enable assertion is to specify the -ea option at execution point
+//e.g java -ea NumberToWord
+//NOTE: Everything inside the opening brace'{' and the closing brace '}' are referred to as a block
+

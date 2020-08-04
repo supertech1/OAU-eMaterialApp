@@ -1,0 +1,19 @@
+What will be the output of this code snippet?
+	
+int i = 1, j = -1;
+switch(i) 
+{
+	case 0:
+	case 1: System.out.println(j+4);
+			break;
+	case 2: System.out.println(j+3);
+			break;
+		default: System.out.println(j * 0)
+			break;
+	}
+}
+
+	A. -1	
+	B.  3	
+	C. -3	
+	D. 0

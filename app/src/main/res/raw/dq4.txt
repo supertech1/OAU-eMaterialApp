@@ -1,0 +1,1 @@
+Which of these is correct way of inheriting class A by class B?

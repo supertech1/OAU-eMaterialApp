@@ -1,0 +1,6 @@
+Decrement operator, --, decreases value of variable by what number?
+
+	A.  1	
+	B.  2	
+	C.  3	
+	D.  4

@@ -1,0 +1,6 @@
+Answer: b
+Explanation: None.
+Output:
+$ javac Linkedlist.java
+$ java Linkedlist
+[B, C] 

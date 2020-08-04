@@ -1,0 +1,7 @@
+After compiling the java statement : y=c/d + a*b +2-5; which operation is performed first by the computer?
+
+
+	A.	/
+	B.	+
+	C.	**
+	D.	*

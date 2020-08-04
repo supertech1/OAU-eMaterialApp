@@ -1,0 +1,6 @@
+Answer: d
+Explanation: Thread t has been made with default priority value 5 but in run method the priority has been explicitly changed to MAX_PRIORITY of class thread, that is 10 by code 't.setPriority(Thread.MAX_PRIORITY);' using the setPriority function of thread t.
+Output:
+$ javac multithreaded_programing.java
+$ java multithreaded_programing
+Thread[New Thread,10,main] 

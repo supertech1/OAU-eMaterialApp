@@ -1,0 +1,6 @@
+Answer: a
+Explanation: None.
+Output:
+$ javac Collection_Algos.java
+$ java Collection_Algos
+2 8 5 1

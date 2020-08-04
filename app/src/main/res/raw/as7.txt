@@ -1,0 +1,6 @@
+Answer:c
+Explanation:None.
+output:
+$ javac average.java
+$ java average
+16.46666666666667

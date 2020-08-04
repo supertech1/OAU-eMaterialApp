@@ -1,0 +1,2 @@
+Answer: b
+Explanation: static statements are run as soon as class containing then is loaded, prior to any object declaration.

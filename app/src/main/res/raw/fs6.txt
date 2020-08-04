@@ -1,0 +1,2 @@
+Answer: d
+Explanation: writeObject() is used to write an object into invoking stream, it can be input stream or output stream.

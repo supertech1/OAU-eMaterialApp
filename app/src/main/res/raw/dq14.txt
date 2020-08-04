@@ -1,0 +1,1 @@
+Which of these is correct way of calling a constructor having no parameters, of superclass A by subclass B?

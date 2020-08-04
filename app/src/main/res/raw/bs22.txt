@@ -1,0 +1,2 @@
+Answer:c 
+Explanation: All relational operators return a boolean value i:e true and false. 

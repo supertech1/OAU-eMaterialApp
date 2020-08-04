@@ -1,0 +1,7 @@
+Ans : B
+
+Explanation :
+
+The essence of array is to group data of the same type together. Name, ssn, age and
+income are not data of the same type because name is a sequence of character(String) while 
+others are Numeric data. Therefore, it is not suitable to use an array to store the aforementioned data.

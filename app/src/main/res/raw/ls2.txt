@@ -1,0 +1,2 @@
+Answer: c
+Explanation: drawString() method is defined in Graphics class, it is used to output a string in an applet.

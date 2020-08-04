@@ -1,0 +1,2 @@
+Answer: b
+Explanation: ObjectInputStream class extends the InputStream class and implements the ObjectInput interface.

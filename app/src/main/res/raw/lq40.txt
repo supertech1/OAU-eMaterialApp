@@ -1,0 +1,23 @@
+What is the output of this program?
+
+import java.text.*;
+
+import java.util.*;
+
+class Date_formatting {	 
+
+     public static void main(String args[]) {
+
+    	 Date date = new Date();
+
+    	 SimpleDateFormat sdf;
+
+         sdf = new SimpleDateFormat("z");
+
+         System.out.print(sdf.format(date));
+
+     }	
+
+}
+
+Note : The program is executed at 3 hour 55 minutes and 4 sec on Monday, 15 July(24 hours time).

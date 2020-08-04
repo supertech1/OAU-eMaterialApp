@@ -1,0 +1,2 @@
+Answer: a
+Explanation: Set interface extends collection interface to handle sets, which must contain unique elements.

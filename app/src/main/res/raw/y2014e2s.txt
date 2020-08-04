@@ -1,0 +1,7 @@
+Answer : D
+
+Explanation :
+	
+The range of data type char in java is 0 to  65535
+   
+        	

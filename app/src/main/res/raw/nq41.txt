@@ -1,0 +1,1 @@
+Which of these methods of Byte wrapper can be used to obtain Byte object from a string?

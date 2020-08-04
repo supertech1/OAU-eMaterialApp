@@ -1,0 +1,7 @@
+Assembly language programming is a synonym for which of the following:
+
+A. Binary code programming
+B. Low-level programming
+C. High-level programming
+D. Object-oriented programming
+E. Machine-level programming

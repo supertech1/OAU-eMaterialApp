@@ -1,0 +1,1 @@
+Which operator is used by Java run time implementations to free the memory of an object when it is no longer needed?

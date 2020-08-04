@@ -1,0 +1,7 @@
+Assume int[] t = {1, 2, 3, 4}. What is t.length?
+
+A. 4
+B. 1
+C. 2
+D. 3
+E. 0

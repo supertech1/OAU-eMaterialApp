@@ -1,0 +1,6 @@
+what kind of variables a class can consist of?
+
+A.	Class variables, instance variables
+B.	Class variables, local variables, instance variables
+C.	Class variables
+D.	Class variables, local variables

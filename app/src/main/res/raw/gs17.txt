@@ -1,0 +1,6 @@
+Answer: a
+Explanation: obj.getProtocol() is used to know the protocol used by the host. http stands for hyper text transfer protocol, usually 2 types of protocols are used http and https, where s in https stands for secured.
+Output:
+$ javac networking.java
+$ java networking
+http

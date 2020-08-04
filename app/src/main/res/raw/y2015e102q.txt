@@ -1,0 +1,6 @@
+Which statement is use to terminate loop early?
+
+A.	break
+B.	continue
+C.	terminate
+D.	skip

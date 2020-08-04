@@ -1,0 +1,9 @@
+Answer : C
+
+Explanation :
+
+Unicode defines fully international character set that can represent all the 
+
+characters found in all human languages. 
+   
+            

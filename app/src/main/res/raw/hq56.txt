@@ -1,0 +1,21 @@
+What is the output of this program?
+
+import java.util.*;
+
+class hashtable {
+
+   public static void main(String args[]) {
+
+       Hashtable obj = new Hashtable();
+
+       obj.put("A", new Integer(3));
+
+       obj.put("B", new Integer(2));
+
+       obj.put("C", new Integer(8));
+
+       System.out.print(obj.contains(new Integer(5)));
+
+   }
+
+}

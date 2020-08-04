@@ -1,0 +1,6 @@
+Answer: d
+Explanation: None.
+Output:
+$ javac Collection_iterators.java
+$ java Collection_iterators
+EMPTY

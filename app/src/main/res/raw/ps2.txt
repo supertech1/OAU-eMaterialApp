@@ -1,0 +1,2 @@
+Answer: d
+Explanation: Queue is not a part of collection framework.

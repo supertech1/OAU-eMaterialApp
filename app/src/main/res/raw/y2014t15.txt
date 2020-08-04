@@ -1,0 +1,39 @@
+
+What Is the output of this program?
+
+class mainclass
+{
+	public static void main(String args[])
+	{
+		boolean  var1 = true;
+		boolean  var2  = false;
+		if(var1)
+			System.out.println(var1);
+		else
+ 			System.out.println(var2);
+	}
+}
+A.   0		B.  1		C. true		D. false
+
+            Solution :
+
+class mainclass
+{
+	public static void main(String args[])
+	{
+		boolean  var1 = true; //assign boolean literal true to boolean variable var1
+
+		boolean  var2  = false;  //assign boolean literal false to boolean variable var2
+
+		if(var1)  //check whether the test condition is true...(NB: var1 returns true)
+		          //since the test condition of 'if' above is true, the following statement will be executed
+
+			System.out.println(var1);  //display the String representation of var1
+
+		else   //this else part will be executed only if the test condition above is false
+
+ 			System.out.println(var2);  //display the String representation of var1
+	}
+}
+
+            Ans : C

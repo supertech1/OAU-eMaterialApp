@@ -1,0 +1,6 @@
+Answer: b
+Explanation: class objects are always passed by reference, therefore changes done are reflected back on original arguments. obj.meth(obj) sends object obj as parameter whose variables a & b are multiplied and divided by 2 respectively by meth() function of class test. a & b becomes 20 & 10 respectively.
+output:
+$ javac Output.java
+$ java Output
+20 10

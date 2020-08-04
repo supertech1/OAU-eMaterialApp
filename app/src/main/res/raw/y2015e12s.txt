@@ -1,0 +1,6 @@
+Answer : C
+
+Explanation :
+
+Both IOException and ArithmeticExceptions are subclass of Exception. A superclass Exception 
+class can also catch exceptions thrown from any of its subclasses.

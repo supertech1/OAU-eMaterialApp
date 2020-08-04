@@ -1,0 +1,2 @@
+Answer: b
+Explanation:Range of data type float is 3.4e-038 to 3.4e+308.

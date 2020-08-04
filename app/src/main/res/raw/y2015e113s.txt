@@ -1,0 +1,5 @@
+Ans : A
+
+Explanation :
+
+Note local variables are those declared inside a method/constructor or as parameters in a method/constructor.

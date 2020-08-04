@@ -1,0 +1,2 @@
+Answer: c
+Explanation: toRadian() and toDegree() methods were added by Java 2.0 before that there was no method which could directly convert degree into radians and vice versa.

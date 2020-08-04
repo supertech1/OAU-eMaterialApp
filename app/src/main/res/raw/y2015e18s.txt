@@ -1,0 +1,6 @@
+Ans :   B
+
+Explanation :
+
+The memory location known as the call stack is where the computer stores the list 
+of method locations to which the system must return.

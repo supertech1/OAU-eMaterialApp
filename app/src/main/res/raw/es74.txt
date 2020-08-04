@@ -1,0 +1,2 @@
+Answer: d
+Explanation: Every method of OutputStream returns void and throws an IOExeption in case of errors.

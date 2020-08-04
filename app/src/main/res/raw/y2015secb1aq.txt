@@ -1,0 +1,28 @@
+What will be the output of the program and give explanation for your answer:
+
+public class x {
+
+public static void main(String[ ] args) {
+
+	try {
+
+	badMethod();
+System.out.print("A");
+
+	}
+	catch(RuntimeException ex)/*line10*/
+	}
+	System.out.print("B");
+	}
+Catch(RuntimeException ex1) {
+	System.out.print("C");
+}
+Finally {
+System.out.print("D");
+}
+System.out.print("E");
+}
+Public static void badmethod(){
+	Throw new RuntimeException();
+}
+}

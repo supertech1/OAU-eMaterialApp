@@ -1,0 +1,6 @@
+Answer: b
+Explanation: toString() Returns a String object representing the specified boolean. If the specified boolean is true, then the string "true" will be returned, otherwise the string "false" will be returned
+Output:
+$ javac Output.java
+$ java Output
+false

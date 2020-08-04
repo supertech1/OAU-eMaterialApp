@@ -1,0 +1,1 @@
+Which of these is a class which uses String as a key to store the value in object?

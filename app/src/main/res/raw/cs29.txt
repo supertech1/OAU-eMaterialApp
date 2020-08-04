@@ -1,0 +1,2 @@
+Answer: c
+Explanation: finalize() method is called just prior to garbage collection. it is not called when object goes out of scope.

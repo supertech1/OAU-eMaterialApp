@@ -1,0 +1,1 @@
+Which of these is used to access member of class before object of that class is created?

@@ -1,0 +1,1 @@
+Can command line arguments be converted into int automatically if required?

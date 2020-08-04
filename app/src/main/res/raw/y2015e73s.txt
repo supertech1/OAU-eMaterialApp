@@ -1,0 +1,5 @@
+Ans : B
+
+Explanation :
+
+The Java Console class is be used to get input from console. It provides methods to read texts and passwords.

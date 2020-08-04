@@ -1,0 +1,22 @@
+What will be the output of the program?
+
+public class Foo
+{
+	Public static void main(String [] args)
+	{
+		try
+		{
+			return;
+		}
+		finally
+		{
+			System.out.print("finally");
+		}
+	}
+}
+
+
+	A.	Finally
+	B.	Compilation fails
+	C.	The code runs out with no output
+	D.	An exception is thrown at runtime

@@ -1,0 +1,6 @@
+Which of these is an incorrect array declaration?
+
+	A.  int arr[] = new int[5]    
+	B.   int [] arr = new int[5]    
+	C.  int arr[]; arr = new int[5]    
+	D.   int arr[] = int[5] new

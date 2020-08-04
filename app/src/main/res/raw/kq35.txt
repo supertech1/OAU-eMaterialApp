@@ -1,0 +1,1 @@
+Which of these exception is thrown by close() and read() methods?

@@ -1,0 +1,2 @@
+Answer: c
+Explanation: ArrayList class implements a dynamic array by extending AbstractList class.

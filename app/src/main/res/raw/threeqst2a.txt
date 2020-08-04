@@ -1,0 +1,6 @@
+Qst: Write a program that makes use of nested for loops to display 
+	    the following shape.
+		
+		* * * * * *
+		* * * * * *
+		* * * * * *

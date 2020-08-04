@@ -1,0 +1,10 @@
+Answer : C
+
+Explanation :
+
+NB: There is no space between 'public', 'static' and 'void'
+keywords in the main method declaration. Therfore, compiling 
+this code results to compilation error.
+
+
+            

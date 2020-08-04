@@ -1,0 +1,17 @@
+Given this program, which of these statements is true?
+	public class While{ /* Line 1*/
+	public void loop() {
+	int x = 0;
+	while(1) /*Line 4*/
+	{
+		System.out.print(“x plus one is “ + (x + 1)); /* Line 6*/
+	}
+	} }
+A.	There is a syntax error on line 1.
+B.	There are syntax errors on lines 1 and 4
+C.	There are syntax errors on lines 1, 4, and 6.
+D.	There is a syntax error on line 4.
+
+Solution :
+	NB: The test condition in while statement must always be a boolean.
+		Ans : D

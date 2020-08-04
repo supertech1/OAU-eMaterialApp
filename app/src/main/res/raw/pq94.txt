@@ -1,0 +1,2 @@
+Which of these is a correct statement about args in this line of code?
+public static viod main(String args[])

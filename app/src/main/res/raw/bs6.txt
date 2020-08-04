@@ -1,0 +1,6 @@
+Answer:c
+Explanation: None
+output:
+$ javac increment.java
+$ java increment
+1.5 1

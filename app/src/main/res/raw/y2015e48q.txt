@@ -1,0 +1,7 @@
+All of these statements are incorrect EXCEPT?
+
+
+	A.	The arithmetic operators *,/,%, + and - all have the same level of precedence
+	B.	The remainder operator (%) can be used only with integer operands 
+	C.	Java considers the variables number and NuMbEr to be identical.
+	D.	All variables must be given a type when they are declared.

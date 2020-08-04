@@ -1,0 +1,6 @@
+Answer:c
+Explanation:Operator ++ has more preference than *, thus g becomes 4 and when multiplied by 8 gives 32.
+output:
+$ javac increment.java
+$ java increment
+32

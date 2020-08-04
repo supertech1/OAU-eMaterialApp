@@ -1,0 +1,4 @@
+Which of these methods of FileReader class is used to read characters from a file?
+	A.  read()	B. scanf()	C. get()	D. getInteger()
+	Solution :
+Ans :  A

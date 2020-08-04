@@ -1,0 +1,1 @@
+Which of the following methods return the value as a double?

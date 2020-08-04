@@ -1,0 +1,7 @@
+The segment code that handles or takes appropriate action following an exception is a ........... block.
+
+
+	A.	Try 
+	B.	Catch 
+	C.	Throws
+	D.	Handles

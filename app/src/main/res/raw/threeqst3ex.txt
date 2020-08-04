@@ -1,0 +1,15 @@
+
+public class TimesTable //TimesTable class declaration
+{  //TimesTable class opening brace
+    public static void displayTable(int index)  //displayTable method declaration....(NB: when calling this method, we can pass it an argument of any number and it will display the multiplication table for that number
+    {  //display method opening brace
+        for (int counter = 1; counter <= 12; counter++)  // use the for statement to loop the counter
+        { //for block opening brace
+            System.out.printf("%d X %d = %d\n",counter,index,(counter*index));  //using 'System.out.printf()' we can easily format our output....NB: %d is the format specifier for integers
+        }  //for block closing brace
+    }  //display method closing brace
+    public static void main(String args[])  //main method declaration
+    {  //main method opening brace
+        displayTable( 6 );
+    }  //main method closing brace
+}  //TimesTable class closing brace

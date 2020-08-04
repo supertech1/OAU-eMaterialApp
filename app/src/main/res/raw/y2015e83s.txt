@@ -1,0 +1,3 @@
+Ans : A
+Explanation :
+Class String belongs to the java.lang Package

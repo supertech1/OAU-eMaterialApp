@@ -1,0 +1,7 @@
+The code within a finally block executes when the try block ..........
+
+
+	A.	Identifies one or more Exceptions
+	B.	Does not identify any Exceptions
+	C.	Either a or b
+	D.	Neither a nor b

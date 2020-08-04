@@ -1,0 +1,2 @@
+What is the stored in the object obj in following lines of code?
+box obj;

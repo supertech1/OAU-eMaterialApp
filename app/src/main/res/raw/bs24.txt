@@ -1,0 +1,2 @@
+Answer: d 
+Explanation: Operator short circuit and, &&, and short circuit or, ||, skip evaluating right hand operand when output can be determined by left operand alone.

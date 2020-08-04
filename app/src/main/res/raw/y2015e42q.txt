@@ -1,0 +1,7 @@
+......... statement is used to execute an action when a condition is true and another when that condition is false.
+
+
+	A.	while 
+	B.	for
+	C.	if else
+	D.	if

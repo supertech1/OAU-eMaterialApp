@@ -1,0 +1,11 @@
+Answer  :  A
+
+Explanation :
+
+
+NB: Array can be initialized using both new and comma separated expressions
+surrounded by curly braces. For example, int arr[5] = new int[5 is 
+similar to  int arr[] = { 0, 0, 0, 0, 0};
+
+
+	        

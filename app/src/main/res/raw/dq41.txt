@@ -1,0 +1,1 @@
+Which of these method of class String is used to extract more than one character at a time a String object?

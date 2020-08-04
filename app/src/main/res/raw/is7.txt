@@ -1,0 +1,6 @@
+Answer: b
+Explanation: None
+output:
+$ javac Output.java
+$ java Output
+true

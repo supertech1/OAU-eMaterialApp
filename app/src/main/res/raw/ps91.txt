@@ -1,0 +1,2 @@
+Answer: a
+Explanation: Only main() method can be given parameters via using command line arguments.

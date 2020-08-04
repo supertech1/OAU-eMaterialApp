@@ -1,0 +1,7 @@
+what is the output of relational operators?
+
+A. Integer
+B. Boolean
+C. Characters
+D. Double
+E. String

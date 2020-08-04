@@ -1,0 +1,18 @@
+Answer : B
+
+Explanation :
+
+class asciicodes 
+{
+	public static void main(String args[])
+	{
+		char var1 = 'A'; //assign alphabet A to character variable a . Numeric(Ascii) value of 'A' is 65
+
+		char var2 = 'a';  //assign alphabet a to character variable a. Numeric(Ascii) value of 'A' is 97
+
+		System.out.println((int)var1 + " " + (int)var2);  //display the numeric values of both
+								                          // variables by casting them into an integer.
+	}
+}
+
+            

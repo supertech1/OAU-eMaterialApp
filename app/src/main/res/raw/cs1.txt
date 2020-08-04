@@ -1,0 +1,2 @@
+Answer: b
+Explanation: Memory is allocated to an object using new operator. box obj; just declares a reference to object, no memory is allocated to it hence it points to NULL.

@@ -1,0 +1,2 @@
+Answer: b
+Explanation: The Locale class isinstantiated to produce objects that each describe a geographical or cultural region.

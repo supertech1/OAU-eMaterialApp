@@ -1,0 +1,6 @@
+Which of the following statements are incorrect?
+
+A.	Default constructor is called at the time of declaration of the object if a constructor has not been defined
+B.	Constructor can be parameterized
+C.	finalize() method is called when a object goes out of scope and is no longer needed.
+D.	finalize() method must be declared protected.

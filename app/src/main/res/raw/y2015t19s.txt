@@ -1,0 +1,6 @@
+Ans : A
+
+Explanation :
+
+No main method declared in the program...Note: java will treat Main as a normal class method 
+not as the real main method because Main is different from main(Java is case sensitive).

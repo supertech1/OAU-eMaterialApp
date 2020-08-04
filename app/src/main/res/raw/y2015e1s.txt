@@ -1,0 +1,15 @@
+Answer : D
+
+Explanation:  
+
+An Exception is an indication of a problem that occurs during a program's execution.
+An exception is an unexpected or error condition. The programs you write can generate
+many types of potential exceptions, such as when you do the following:
+ * You issue a command to read a file from a disk, but the file does not exist there.
+ * You attempt to write data to a disk, but the disk is full or unformatted.
+ * Your program asks for user input, but the user enters invalid data.
+ * The program attempts to divide a value by 0.
+ * The program tries to access an array with a subscript that is too large or too small.
+
+These errors are called exceptions because, presumably, they are not usual occurrences;
+they are -exceptional.

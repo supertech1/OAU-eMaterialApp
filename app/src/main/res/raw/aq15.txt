@@ -1,0 +1,1 @@
+Which one is a valid declaration of a boolean?

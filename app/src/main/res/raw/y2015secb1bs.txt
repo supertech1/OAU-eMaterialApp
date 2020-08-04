@@ -1,0 +1,26 @@
+Solution :
+
+import java.io.*;
+
+public class ReadData {
+
+   public static void main(String args[]) throws IOException {
+      InputStreamReader input = null;  
+	String value = "";  
+
+      try {
+         input = new InputStreamReader(System.in); 
+         System.out.println("Enter 'q' to quit reading text");
+         char c;
+         do {
+            c = (char) input.read();
+            value += ""+c;
+         } while(c != 'q');
+      }finally {
+         if (input != null) {
+            input.close();
+         }
+      }
+	System.out.println("You typed :\n"+value);
+   }
+}

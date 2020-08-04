@@ -1,0 +1,1 @@
+What is the range of data type short in Java?

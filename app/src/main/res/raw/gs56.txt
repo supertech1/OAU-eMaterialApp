@@ -1,0 +1,2 @@
+Answer: d
+Explanation: By using 5 classes we can send and receive data between client and server, these are InetAddress, Socket, ServerSocket, DatagramSocket, and DatagramPacket.

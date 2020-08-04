@@ -1,0 +1,7 @@
+Scanner input = new Scanner(System.in); is a ........ declaration statement
+
+
+	A.	class
+	B.	method
+	C.	variable
+	D.	constant

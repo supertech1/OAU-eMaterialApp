@@ -1,0 +1,7 @@
+Answer :  A
+
+Explanation : 
+
+In object-oriented terminology, you "try" a procedure that might cause an error.
+A method that detects an error condition or Exception "throws an exception," and the
+block of code that processes the error "catches the exception."

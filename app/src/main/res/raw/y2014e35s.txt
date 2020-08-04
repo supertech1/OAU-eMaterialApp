@@ -1,0 +1,10 @@
+Answer : C
+
+Explanation :
+
+int x = 3, y = -11%2, z; //declaration of variable integer variables x, y and z.Here, x is assigned 3, y is assigned -1 and z has no value yet
+if(x > y)  //The test condition here is true
+	z = x;  //therefore, z is now 3 
+else
+	z = y;
+System.out.print(z); /display the value of variable z

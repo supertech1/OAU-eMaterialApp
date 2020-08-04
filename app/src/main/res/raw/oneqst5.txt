@@ -1,0 +1,4 @@
+Qst: Design and implement a program that asks the user to enter
+        two numbers and then displays the message "numbers are equal",
+        if the two numbers are equal and "NUMBERS ARE NOT EQUAL",if
+        they are not equal.

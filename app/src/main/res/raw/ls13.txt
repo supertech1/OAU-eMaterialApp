@@ -1,0 +1,2 @@
+Answer: a
+Explanation: java.security handles certificates, keys, digests, signatures, and other security functions.

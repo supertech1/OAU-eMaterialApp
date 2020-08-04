@@ -1,0 +1,1 @@
+Which function is used to perform some action when the object is to be destroyed?

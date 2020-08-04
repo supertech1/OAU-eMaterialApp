@@ -1,0 +1,5 @@
+Identify the commonly used method methods of ByteArrayOutputStream class from the following
+A.	ByteArrayOutputStream
+B.	ByteArrayOutputStream(int size)
+C.	public synchronized voidwriteTo(OutputStream out) throws IOException
+D.	Both A & B

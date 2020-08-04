@@ -1,0 +1,2 @@
+Answer: c
+Explanation: The default value of priority given to a thread is 5 but we can explicitly change that value between the permitted values 1 & 10, this is done by using the method setPriority().

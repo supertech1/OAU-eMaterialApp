@@ -1,0 +1,2 @@
+Answer: a
+Explanation: Type inference, allows you to invoke a generic method as an ordinary method, without specifying a type between angle brackets.

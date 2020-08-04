@@ -1,0 +1,1 @@
+Which right shift operator preserves the sign of the value?

@@ -1,0 +1,6 @@
+Answer: a
+Explanation: obj1 and obj2 are two different objects. equals() is a method of Object class, Since Object class is superclass of every class it is available to every object.
+output:
+$ javac Output.java
+$ java Output
+false

@@ -1,0 +1,1 @@
+Which of these methods can be used to get reference to a component that was removed from a container?

@@ -1,0 +1,7 @@
+Answer D.
+
+NB: there is no space between 'public', 'static' and 'void'
+keywords in the main method declaration. Therfore, compiling 
+this code results in compilation error.
+	
+           

@@ -1,0 +1,6 @@
+In a group of nested loops, which loop is executed the most number of times
+	
+	A. the outermost loop
+	B. the innermost loop
+	C. all loops are executed the same number of times
+	D. cannot be determined without knowing the size of the loops

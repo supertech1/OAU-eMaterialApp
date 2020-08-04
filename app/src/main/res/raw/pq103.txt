@@ -1,0 +1,1 @@
+If a class inheriting an abstract class does not define all of its function then it will be known as?

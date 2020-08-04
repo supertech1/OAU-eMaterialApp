@@ -1,0 +1,7 @@
+A Scanner enables a program to ........ data for use in a program
+
+
+	A.	write
+	B.	read
+	C.	print
+	D.	store

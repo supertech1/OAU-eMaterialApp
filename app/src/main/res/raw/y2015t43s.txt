@@ -1,0 +1,7 @@
+Ans : B
+
+Explanation :
+
+It is better to use double for arithmetic calculations since the end result could be very 
+large and contain decimals. In other to avoid data loss, double is the most suitable data
+type to represent average score.

@@ -1,0 +1,2 @@
+Answer: d
+Explanation: Runnable interface defines all the methods for handling thread operations in Java.

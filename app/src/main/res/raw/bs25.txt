@@ -1,0 +1,2 @@
+Answer: d 
+Explanation: true and false are keywords, they are non numeric values which do no relate to zero or non zero numbers. true and false are boolean values.

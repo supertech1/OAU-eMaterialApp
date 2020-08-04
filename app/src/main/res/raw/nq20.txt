@@ -1,0 +1,13 @@
+Will this program generate same output is executed again?
+
+class Output {
+
+     public static void main(String args[]) {
+
+         int y = double z = Math.random();
+
+         System.out.print(y);
+
+     }
+
+}

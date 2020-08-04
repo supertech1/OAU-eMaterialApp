@@ -1,0 +1,2 @@
+Answer: d
+Explanation: Character wrapper defines 5 constants - MAX_RADIX, MIN_RADIX, MAX_VALUE, MIN_VALUE & TYPE.

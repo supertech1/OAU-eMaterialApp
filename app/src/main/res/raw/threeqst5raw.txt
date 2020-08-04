@@ -1,0 +1,64 @@
+
+            Source Code:
+
+import java.util.Scanner;
+
+public class VendingMachine 
+{
+    private static int products[] = new int[ 5 ];
+    public static void menu()
+    {
+        System.out.println("\tWelcome Customer! Below are the available products");
+        System.out.printf("[1]Get Gum\n[2]Get Chocolate\n[3]Get Juice\n[4]Get PopCorn\n"
+                + "[5] Display total sold so far\n[6]Quit\n");
+        System.out.print("Enter your Choice: ");
+    }
+    
+    public static void displayPurchase(int[] product)
+    {
+        System.out.printf("\n\n%d items of gum sold\n%d items of chocolate sold\n"
+                + "%d items of juice sold\n%d items of popcorn"
+                + " sold \n\n",product[ 1 ],product[ 2 ],product[ 3 ],product[ 4 ]);
+    }
+    
+    public static void main(String args[])
+    {
+        Scanner input = new Scanner(System.in);
+        int user_input;
+        do {
+             menu();
+             user_input = input.nextInt();
+             if (user_input > 6 || user_input < 0)
+                 System.out.println("\nError, options 1-6 only\n");
+             else {
+                 switch (user_input)
+                 {
+                     case 1:
+                         System.out.println("\nHere is your Gum\n");
+                         products[ 1 ]++;
+                         break;
+                     case 2:
+                         System.out.println("\nHere is your chocolate\n");
+                         products[ 2 ]++;
+                         break;
+                     case 3:
+                         System.out.println("\nHere is your Juice\n");
+                         products[ 3 ]++;
+                         break;
+                     case 4:
+                         System.out.println("\nHere is your PopCorn\n");
+                         products[ 4 ]++;
+                         break;
+                     case 5:
+                         displayPurchase(products);
+                         break;
+                    
+                 }
+             }
+        }
+        while(user_input != 6);
+        
+        System.out.println("\nThank You\nSystem Terminating...\n.\n.\n.\n.\n.Terminated");
+    }
+    
+}

@@ -1,0 +1,7 @@
+One of the following is intended for general purpose IO, but not usually character data.
+
+
+A.	Reader
+B.	Writer
+C.	Byte Stream
+D.	Character Stream

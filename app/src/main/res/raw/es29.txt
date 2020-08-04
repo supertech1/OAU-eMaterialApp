@@ -1,0 +1,6 @@
+Answer: d
+Explanation: isisNaN() method returns true is the value being tested is a number. 1/0. is infinitely large in magnitude, which cant not be defined as a number hence false is stored in x.
+Output:
+$ javac isNaN_output.java
+$ java isNaN_output
+false

@@ -1,0 +1,20 @@
+
+		    Source Code:
+
+public class DrawTriangleWithStar
+{
+    public static void main(String args[])
+    {
+        int width = 4;
+        for (int row = 1; row<= 4; row++)
+        {
+            for (int column = 1; column <= width; column++)
+            {
+                System.out.print("*");
+            }
+            width--;
+            System.out.println();
+        }
+    }
+    
+}

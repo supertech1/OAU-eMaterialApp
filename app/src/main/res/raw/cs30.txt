@@ -1,0 +1,6 @@
+Answer: c
+Explanation: this keyword can be used inside any method to refer to the current object. this is always a reference to the object on which the method was invoked.
+output:
+$ javac Output.java
+$ java Output
+6 5

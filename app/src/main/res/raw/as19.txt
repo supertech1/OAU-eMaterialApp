@@ -1,0 +1,6 @@
+Answer:d
+Explanation: boolean '&' operator always returns true or false. var1 is defined true and var2 is defined false hence their '&' operator result is false.
+output:
+$ javac booloperators.java
+$ java booloperators
+false

@@ -1,0 +1,12 @@
+
+What is the numerical range of a char in Java?
+
+A. -128  to  127	B.  0 to 256	C.   0 to 32767		D.    0 to 65535
+
+	
+            Solution :
+
+
+The range of data type char in java is 0 to  65535
+	
+	        Ans : D

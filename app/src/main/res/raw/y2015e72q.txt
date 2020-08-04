@@ -1,0 +1,7 @@
+One among the following interfaces is not a member of java.io package
+
+
+A.	ObjectFilter
+B.	DataInput
+C.	FileFilter
+D.	ObjectInput

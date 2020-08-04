@@ -1,0 +1,6 @@
+Answer: c
+Explanation: finally block is always executed after try block, no matter exception is found or not.
+Output:
+$ javac Output.javac
+java Output
+HelloWorld

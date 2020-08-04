@@ -1,0 +1,2 @@
+Answer: b
+Explanation: A listener is a object that is notified when an event occurs. It has two major requirements first, it must have been registered with one or more sources to receive notification about specific event types, and secondly it must implement methods to receive and process these notifications.

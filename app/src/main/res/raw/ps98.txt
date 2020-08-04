@@ -1,0 +1,6 @@
+Answer: c
+Explanation: None.
+Output:
+$ javac Output.javac
+java Output This is a command Line
+This is a command Line

@@ -1,0 +1,2 @@
+Answer: b
+Explanation:While evaluating an expression containing int, bytes or shorts , the whole expression is converted to int then evaluated and result is also of type int.

@@ -1,0 +1,2 @@
+Answer: d
+Explanation: To disallow a method from being overridden, specify final as a modifier at the start of its declaration. Methods declared as final cannot be overridden.

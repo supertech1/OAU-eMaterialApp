@@ -1,0 +1,7 @@
+Which of the following is true about super class?
+
+
+A.	Variables, methods and constructors which are declared private can be accessed only by the members of the super class
+B.	Variables, methods and constructors which are declared protected can be accessed by any subclass of the super class.
+C.	Variables, methods and constructors which are declared public in the superclass can be accessed by any class
+D.	All of the above

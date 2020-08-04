@@ -1,0 +1,62 @@
+
+import java.util.Scanner;  //load the Scanner class from the java library into this class
+
+public class VendingMachine  //VendingMachine class declaration
+{ //VendingMachine class opening brace
+    private static int products[] = new int[ 5 ];  //declaring and initialising an array of integers called "products"....setting its length to 5. (NB: This array will keep counts of each product sold)
+    public static void menu()  //menu method declaration....(NB: This method will be called each time we need to display the menu items
+    {  //menu method opening brace
+        System.out.println("\tWelcome Customer! Below are the available products");  //display a welcome message
+        System.out.printf("[1]Get Gum\n[2]Get Chocolate\n[3]Get Juice\n[4]Get PopCorn\n"
+                + "[5] Display total sold so far\n[6]Quit\n"); //display formatted available products (NB: Each product being on a new line)
+        System.out.print("Enter your Choice: "); //display message requesting for user's choice
+    }  //menu method closing brace
+    
+    public static void displayPurchase(int[] product)  //displayPurchase method opening brace (NB: This method will be called when we are set to display the total number of each product sold)
+    {  //displayPurchase method opening brace
+        System.out.printf("\n\n%d items of gum sold\n%d items of chocolate sold\n"
+                + "%d items of juice sold\n%d items of popcorn"
+                + " sold \n\n",product[ 1 ],product[ 2 ],product[ 3 ],product[ 4 ]);  //display the total number of each product sold
+    }  //displayPurchase method closing brace
+    
+    public static void main(String args[])  //main method declaration
+    {  //main method opening brace
+        Scanner input = new Scanner(System.in);  //declare reference variable input of datatype Scanner and assign it a reference to a Scanner object
+        int user_input;  //an integer variable to hold the option selected by the user
+        do {  //Here we use the do...while statement to perform the logic of the program (NB: do...while statement functions similarly to while statement but in do..while statement, the code will run once before checking the condition for the loop whereas while statement check the test condition first)
+             menu();  //display menu on the screen by calling the menu method
+             user_input = input.nextInt();  //read the user response and store in variable user_input
+             if (user_input > 6 || user_input < 0)  //check if the value entered by the user is among the menu options(i.e 1-6)
+                 System.out.println("\nError, options 1-6 only\n");  //output an error message (this message will be printed on the screen if the test condition in the if statement above evaluated to true (i.e the user entered an invalid number)
+             else { // now if the number the user entered is a valid option, java will execute this else block
+                 switch (user_input)  //use the switch construct to determine the value entered by the user
+                 {  //switch block opening brace
+                     case 1:  //no test for number '1'....(NB: this statement simply means "is user_input == 1?". if yes, the statements that follows will be executed until java encounter the "break" keyword...so as to jump out of the switch construct
+                         System.out.println("\nHere is your Gum\n");  //print a message telling the users to collect what they have requested  for.
+                         products[ 1 ]++;  //increments this product by 1...thus each time the user request for this same product, it will continue incrementing  by 1 (Hence, keeping track of the counts)
+                         break; //jumb out of the loop if the case test condition evaluated to true.... (NB: The approach used in this case is applicable to the rest)
+                     case 2:
+                         System.out.println("\nHere is your chocolate\n");
+                         products[ 2 ]++;
+                         break;
+                     case 3:
+                         System.out.println("\nHere is your Juice\n");
+                         products[ 3 ]++;
+                         break;
+                     case 4:
+                         System.out.println("\nHere is your PopCorn\n");
+                         products[ 4 ]++;
+                         break;
+                     case 5:
+                         displayPurchase(products); //if the user choose 5, then we display the total number of each product sold 
+                         break;
+                    
+                 }
+             }
+        }
+        while (user_input != 6); //now check if the user is yet to choose option 6(i.e exit)....if so, run the loop again
+        
+        System.out.println("\nThank You\nSystem Terminating...\n.\n.\n.\n.\n.Terminated"); //Now exit the application (java will reach here only if the user select 6 as an option(i.e exit)
+    } //main method closing brace
+    
+} //VendingMachine class closing brace

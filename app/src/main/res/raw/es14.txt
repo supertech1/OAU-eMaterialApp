@@ -1,0 +1,2 @@
+Answer: c
+Explanation: interface is inherited by a class using implements.

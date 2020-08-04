@@ -1,0 +1,2 @@
+Answer: c
+Explanation: private members of a class cannot be inherited by a sub class.

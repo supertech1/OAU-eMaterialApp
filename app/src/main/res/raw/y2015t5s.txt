@@ -1,0 +1,5 @@
+Ans : A
+
+Explanation : 
+
+COMPILER is used for compiling instructions and it executes instructions together at a time

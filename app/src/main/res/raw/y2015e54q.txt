@@ -1,0 +1,7 @@
+The types int, float, double and char are called
+
+
+	A.	Primitive types
+	B.	Declaration types
+	C.	Class types
+	D.	Import types

@@ -1,0 +1,7 @@
+Which of these classes is not a member class of java.io package?
+	
+
+	A. String 	
+	B. StringReader	
+	C. Writer	
+	D. File

@@ -1,0 +1,7 @@
+Can we have multiple classes in same java file?
+
+
+A.	True
+B.	False
+C.	Only two classes
+D.	Don't know

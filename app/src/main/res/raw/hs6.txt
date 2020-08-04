@@ -1,0 +1,2 @@
+Answer: d
+Explanation: trimTosize() is used to reduce the size of the array that underlines an ArrayList object.

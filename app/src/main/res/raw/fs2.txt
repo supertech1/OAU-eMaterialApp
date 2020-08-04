@@ -1,0 +1,2 @@
+Answer: a
+Explanation: Serialization and deserialization occur automatically by java run time system, Garbage collection also occur automatically but is done by CPU or the operating system not by the java run time system.

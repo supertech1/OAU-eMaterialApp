@@ -1,0 +1,6 @@
+Answer: d
+Explanation: None.
+output:
+$ javac cons_method.java
+$ java cons_method
+30

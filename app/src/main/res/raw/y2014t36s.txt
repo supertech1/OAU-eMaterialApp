@@ -1,0 +1,16 @@
+Answer : D
+
+Explanation :
+
+(i) is correct because when a floating-point number (a double in this case) is cast to an int,
+
+it simply loses the digits after the decimal.
+
+(ii) and (iv) are correct. It is possible and valid to cast a long value to a byte value. If the long value is over 127,
+
+it loses its most significant (leftmost) bits.
+
+(iii) actually works, even though a cast is not necessary, because it is valid to assign a byte value to a long variable.
+
+
+	        

@@ -1,0 +1,6 @@
+Answer:a
+Explanation:None.
+output:
+$ javac area.java
+$ java area
+301.5656

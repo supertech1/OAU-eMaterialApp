@@ -1,0 +1,7 @@
+Ans : B
+
+Explanation :
+
+Values[2][1] simply reference the element in the third row, second column of the 
+array(Remember array index start from 0, therefore, to reference third row, you simply 
+use index 2 and to reference second column, you use index 1).

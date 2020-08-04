@@ -1,0 +1,71 @@
+
+What is the output of this program?
+	
+class array_output
+{
+	public static void main((String args[])
+	{
+		char array_variable [] = new char[10];
+		for(int i = 0; i < 10; ++i)
+		{
+			array_variable [i] = 'i';
+			System.out.print(array_variable[i] + " ");
+			i++;
+		}
+	}
+}
+
+A. i i i i i 	B. 0 1 2 3 4	C. i j k l m	D. None of the mentioned
+
+
+            Solution :
+
+class array_output
+{
+	public static void main((String args[])
+	{
+		char array_variable [] = new char[10]; //Declaration and initialization of an array of characters
+  						                       //with 10 being set as the array size
+
+		for(int i = 0; i < 10; ++i)    //for statement header
+		{
+			array_variable [i] = 'i';  // assign character 'i' to the current index array element
+						               //e.g array_variable[0] = 'i' ; array_variable[2] = 'i' e.t.c.
+
+			System.out.print(array_variable[i] + " ");   //display the value of each array element
+        								                 //separated by a space
+
+			i++;  //increment i by one (NB: i  being incremented here in the for  block is different
+			      //from the increment statement in the 'for header'...Thus, making i being
+			      //incremented in two places. (This implies that loop control variable 'i' is being incremented by 2)
+		}
+	}
+}
+	
+
+NB:    The general format of the for statement is as follows :
+
+for ( initialization; loopContinuationCondition; increment )
+{
+	Statement
+}
+
+where the 'initialization' expression names the loop's control  variable  and optionally
+
+provides its initial value, 'loopContinuationCondition' determines    whether   the  loop
+
+should continue executing and 'increment' modifies the control variable's value (possibly
+
+an increment or decrement), so that the loop-continuation condition eventually  becomes
+
+false. The two semicolons in the for header are required. If the loop-continuation
+
+condition is initially false, the program does not execute the for statement's body.
+
+Instead, execution proceeds with the statement following the for block.
+
+Order of Execution of 'for statement' :  'initialization' (Only once...i.e on the first iteration) followed by
+
+'loopContinuationCondition', followed by 'Statement', followed by 'increment'.
+
+            Ans: A

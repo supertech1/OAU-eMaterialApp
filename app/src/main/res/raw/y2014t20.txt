@@ -1,0 +1,13 @@
+
+Literals in java must be preceded by which of these
+
+A.  L		B.  l		C.  D		D. L and l
+
+
+            Solution :
+
+NB: long literals are preceded by L (or lowercase l). double literals may
+
+    optionally be preceded by D (or lowercase d).
+		
+            Ans : D

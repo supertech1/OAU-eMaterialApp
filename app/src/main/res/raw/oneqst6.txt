@@ -1,0 +1,5 @@
+Qst: Design and implement a program that asks the user to enter
+        two numbers and then guess at the sum of those two numbers.
+        If the user guesses correctly a congratulatory message is
+        displayed, otherwise a commiseration message is displayed
+        along with the correct answer.

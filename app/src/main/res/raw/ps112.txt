@@ -1,0 +1,2 @@
+Answer: a
+Explanation: try is used for the block that needs to checked for exception.

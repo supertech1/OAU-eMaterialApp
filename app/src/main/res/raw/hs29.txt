@@ -1,0 +1,6 @@
+Answer: B
+Explanation: obj.get('B') method is used to obtain the value associated with key 'B', which is 2.
+Output:
+$ javac Maps.java
+$ java Maps
+2

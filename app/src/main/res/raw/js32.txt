@@ -1,0 +1,2 @@
+Answer: c
+Explanation: There are two types of multitasking: Process based multitasking and Thread based multitasking.

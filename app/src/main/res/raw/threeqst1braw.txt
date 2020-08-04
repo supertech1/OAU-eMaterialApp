@@ -1,0 +1,19 @@
+
+            Source Code:
+
+import java.util.Scanner;
+
+public class DisplayEvenForUser 
+{
+    public static void main(String args[])
+    {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter the Last Number: ");
+        int user_input = input.nextInt();
+        for (int counter = 1; counter <= user_input; counter++)
+        {  
+            if ((counter % 2) == 0)
+                System.out.println(counter);
+        }
+    }
+}

@@ -1,0 +1,2 @@
+Answer: a
+Explanation: Exceptions in java are run-time errors.

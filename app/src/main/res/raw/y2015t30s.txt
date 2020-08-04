@@ -1,0 +1,9 @@
+Ans : E
+
+Explanation :
+
+In a class, there can be several methods with the same name. However they must have a different signature. 
+The signature of a method is comprised of its name, its argument/parameter types and the order of its 
+arguments/parameters. The signature of a method is not comprised of its return type nor its visibility
+nor the exceptions it may throw. The practice of defining two or more methods within the same class that
+share the same name but have different parameters is called overloading methods.

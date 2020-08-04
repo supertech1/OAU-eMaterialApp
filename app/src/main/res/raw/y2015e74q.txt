@@ -1,0 +1,5 @@
+74.	............ is a stream that transforms data in some way
+A.	Processing stream
+B.	Transformer
+C.	UTF stream
+D.	Pipe

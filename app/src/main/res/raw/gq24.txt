@@ -1,0 +1,1 @@
+Which of these methods is used to know the type of content used in the URL?

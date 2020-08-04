@@ -1,0 +1,2 @@
+Answer: a
+Explanation: LogMessage is a simple interface that is used to abstract the output of messages from the httpd.

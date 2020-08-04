@@ -1,0 +1,6 @@
+Which of these is specified by a File object?
+	
+	A. a file in disk	
+	B. directory path	
+	C. directory in disk	
+	D. None of the mentioned

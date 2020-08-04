@@ -1,0 +1,6 @@
+Answer: a
+Explanation: None.
+output:
+$ javac Output.java
+$ java Output
+150

@@ -1,0 +1,6 @@
+Ans : E
+Explanation :
+"Yes" is a sequence of characters. String is the appropriate data type to declare such literal.
+The declaration is as follows:
+
+String raining = "Yes";

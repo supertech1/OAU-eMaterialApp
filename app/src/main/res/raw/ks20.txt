@@ -1,0 +1,6 @@
+Answer: a
+Explanation: \' is used for single quotes that is for representing ' .
+Output:
+$ javac Input_Output.java
+$ java Input_Output
+abc'

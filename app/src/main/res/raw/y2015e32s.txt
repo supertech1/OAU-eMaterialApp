@@ -1,0 +1,11 @@
+Ans : A
+
+Explanation :
+
+Operator precedence refers to the rules for the order in which parts of a mathematical
+expression are evaluated. The multiplication, division, and remainder operators have the
+same precedence. Their precedence is higher than that for the addition and subtraction
+operators. Addition and subtraction have the same precedence. In other words,
+multiplication, division, and remainder always take place from left to right prior to addition or
+subtraction in an expression. Also, Everything to the right of the assignment operator is always 
+evaluated before the assignment is performed. 

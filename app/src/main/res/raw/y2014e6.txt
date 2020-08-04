@@ -1,0 +1,11 @@
+
+What is the value of the boolean expression (3>6) && (4 < 8)?
+A. true		B.  false	C.  0	D.  None
+
+	        Solution:
+
+Since 3 is lesser than 6, the left operand of the && operator
+evaluates to false. Therefore, the  && operator returns false
+NB: && operator returns true only if both operands are true
+
+		    Ans : B

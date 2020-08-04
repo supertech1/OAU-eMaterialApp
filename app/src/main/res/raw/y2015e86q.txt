@@ -1,0 +1,6 @@
+Which among the following ways is/are used to read data from the keyboard?
+
+A.	InputStreamReader
+B.	Console
+C.	Scanner
+D.	All mentioned above

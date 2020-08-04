@@ -1,0 +1,6 @@
+Answer: d
+Explanation: double floor(double X) returns a largest whole number less than or equal to variable X. Here the smallest whole number less than 3.14 is 3.
+Output:
+$ javac Output.java
+$ java Output
+3

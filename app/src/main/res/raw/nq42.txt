@@ -1,0 +1,1 @@
+Which of the following methods Byte wrapper return the value as a double?

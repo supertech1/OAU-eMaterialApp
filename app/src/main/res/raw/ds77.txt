@@ -1,0 +1,6 @@
+Answer: d
+Explanation: delete(0,2) is used to delete the characters from 0 th position to 1 st position.
+Output:
+$ javac output.java
+$ java output
+llo

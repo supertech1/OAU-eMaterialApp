@@ -1,0 +1,2 @@
+Answer:a
+Explanation: Unary not operator, ~, inverts all of the bits of its operand in binary representation.

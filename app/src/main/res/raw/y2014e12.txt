@@ -1,0 +1,14 @@
+
+What will be the output of the program?
+
+		int x = 3, y = 1;
+		if(x = y)   System.out.println("x = " + x);
+
+A. x = 1	B.  x = 3	C.  Compilation error		D. Code runs with no output
+
+		    Solution :
+
+The 'if statement' condition must be a boolean expression. Therefore,
+using an assignment operator as the condition results to a compilation error.
+
+		    Ans: C

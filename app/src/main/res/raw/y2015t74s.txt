@@ -1,0 +1,5 @@
+Ans : D
+
+Explanation :
+
+Option C print "Welcome to java" 9 times while option D print it 11 times.

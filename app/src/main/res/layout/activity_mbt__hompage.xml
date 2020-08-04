@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.supertech.csc201real.MBT_Hompage">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:paddingTop="50dp"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:background="#2B87D2"
+            android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:paddingBottom="5dp"
+            android:background="#FFC0C1C2"
+            android:layout_height="match_parent">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#2B87D2"
+                android:textColor="#ffffff"
+                android:gravity="center"
+                android:text="Welcome to Java MCQs Test!"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#ffffff"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#2B87D2"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="4dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginLeft="2dp"
+                android:textColor="#FF040C3D"
+                android:layout_height="wrap_content"
+                android:text="In this section, we have two Exam Modes. Exam Mode A provides 40 random java multiple choice questions for you to attempt within 25minutes while Exam Mode B gives you the avenue to choose the topic to be tested on. In Exam Mode B, you will be provided with 15 questions to attempt within 10 minutes."
+                android:layout_marginBottom="10dp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#ffffff"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#2B87D2"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="3dp"
+                android:gravity="center_horizontal"
+                android:textColor="@color/red"
+                android:layout_height="wrap_content"
+                android:text="Exam Rules:"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                >
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FF040C3D"
+                android:text="1.   "
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="2dp"
+                android:layout_height="wrap_content"
+                android:textColor="#FF040C3D"
+                android:layout_marginLeft="3dp"
+                android:text="On failing to complete the exam within the given duration, the system will shutdown and present your result analysis."
+                />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                >
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FF040C3D"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="5dp"
+                    android:text="2.   "
+                    />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_height="wrap_content"
+                android:textColor="#FF040C3D"
+                android:text="No negative marking."
+                android:layout_marginLeft="3dp"
+                android:layout_marginBottom="10dp"
+
+                />
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#ffffff"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#2B87D2"
+
+                />
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:gravity="center_horizontal"
+                android:textColor="@color/red"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Please select an Exam Mode :"
+
+                />
+
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+
+                    android:layout_height="wrap_content">
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:textColor="#303F9F"
+                        android:layout_height="wrap_content"
+                        android:text="Exam Mode A"
+                        android:checked="false"
+                        android:id="@+id/mode_a_radiobutton" />
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:textColor="#303F9F"
+                        android:layout_height="wrap_content"
+                        android:text="Exam Mode B"
+
+                        android:checked="false"
+                        android:id="@+id/mode_b_radiobutton" />
+
+                </RadioGroup>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:gravity="center_horizontal"
+                android:layout_height="match_parent"
+                android:id="@+id/choosetopic_layout"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Choose Topic :  "
+                    android:layout_gravity="center_vertical"
+                    android:textColor="@color/red"
+                    android:layout_height="wrap_content" />
+            <Spinner
+                android:layout_width="200dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="30dp"
+                android:id="@+id/mbt_spinner"
+                android:spinnerMode="dialog"
+                android:prompt="@string/mbt_prompt_msg"
+
+
+                >
+
+
+
+            </Spinner>
+                </LinearLayout>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Start Test"
+                android:id="@+id/mbt_start_button"
+                android:layout_gravity="center_horizontal"
+
+                />
+
+
+
+
+        </LinearLayout>
+        </ScrollView>
+        </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+
+
+</android.support.design.widget.CoordinatorLayout>

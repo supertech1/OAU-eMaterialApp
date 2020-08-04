@@ -1,0 +1,5 @@
+Which of these methods are used to read in from file?
+	A. get()	B. read()	C. scan()	D. readFileInput()
+Solution :
+Each time read() is called, it reads a single byte from the file and returns the byte as an integer value. read() returns -1 when the end of the file is encountered.
+Ans: b

@@ -1,0 +1,10 @@
+What is the value of len after the following executes?
+
+String s1 = "Top, right!";
+int len = s1.length();
+
+A. 8
+B. 10
+C. 11
+D. 13
+E. 14

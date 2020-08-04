@@ -1,0 +1,1 @@
+Which of these method of FileReader class is used to read characters from a file?

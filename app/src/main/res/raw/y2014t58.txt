@@ -1,0 +1,11 @@
+
+Which of the following can be operands of arithmetic operators?
+
+A.  Numeric	B.  Boolean	C.  Characters		D.  Both Boolean & Characters
+
+	Solution :
+
+The operand of arithmetic operators can be any of numeric or character type, 
+but not boolean
+		
+	Ans: D

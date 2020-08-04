@@ -1,0 +1,11 @@
+Qst: Write the menu-driven program that provides three options:
+	    The first allows the user to enter a temperature in Celcius 
+	    and displays the corresponding Fahrenheit temperature; The
+	    second allows the user to enter a temperature in Fahrenheit 
+	    and displays the corresponding Celcius temperature; The 
+	    third option allows the user to quit. The formulae that you
+	    need are as follows, where C represents a Celcius temperature
+	    and F a Fahrenheit temperature:
+
+		    F = ((9*tempValueC) /5) + 32
+       		C = (5*(tempValueF - 32)) / 9

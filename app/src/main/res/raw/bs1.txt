@@ -1,0 +1,2 @@
+Answer:d
+Explanation: The operand of arithmetic operators can be any of numeric or character type, But not boolean.

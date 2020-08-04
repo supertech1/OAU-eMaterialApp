@@ -1,0 +1,6 @@
+Answer: d
+Explanation: equals() is method of class String, it is used to check equality of two String objects, if they are equal, true is retuned else false.
+output:
+$ javac string_class.java
+$ java string_class
+false true

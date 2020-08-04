@@ -1,0 +1,6 @@
+Answer: d
+Explanation: The default priority given to a thread is 5.
+Output:
+$ javac multithreaded_programing.java
+$ java multithreaded_programing
+5

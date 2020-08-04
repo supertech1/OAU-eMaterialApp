@@ -1,0 +1,8 @@
+Ans : D
+
+Explanation :
+
+These begin and end with delimiters, /*     and   */. The compiler ignores all text between the Delimiters.
+   e.g    /*This is another comment that is
+          called multi-line comment */
+

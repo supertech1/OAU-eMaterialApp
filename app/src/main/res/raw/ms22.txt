@@ -1,0 +1,2 @@
+Answer: b
+Explanation: A ContainerEvent is generated when a component is added to or removed from a container. It has two integer constants COMPONENT_ADDED & COMPONENT_REMOVED.

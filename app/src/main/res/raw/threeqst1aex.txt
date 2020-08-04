@@ -1,0 +1,11 @@
+public class DisplayEven //DisplayEven class declaration
+{  //DisplayEven class opening brace
+    public static void main(String args[])  //main method declaration
+    {  //main method opening brace
+        for (int counter = 1; counter <= 20; counter++)  //using the for loop to loop from 1 to 20
+        { //for block opening brace  
+            if ((counter % 2) == 0)  //check if there will be a reminder(or not) on dividing(using modulus sign %) the current value of counter by 2
+                System.out.println(counter);  //display counter on the console if the test condition above is true
+        } //for block closing brace
+    }  //main method closing brace
+} 

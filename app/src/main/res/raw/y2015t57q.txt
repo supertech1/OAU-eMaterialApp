@@ -1,0 +1,7 @@
+The body of every class declaration is delimited by ..................
+
+A. braces
+B. parenthesis
+C. square bracket
+D. angle bracket
+E. none of these

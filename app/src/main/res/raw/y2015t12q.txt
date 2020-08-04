@@ -1,0 +1,7 @@
+A pseudocode is a way for:
+
+A. Presenting algorithms in near human/natural languages
+B. Codes that can only be executed on pseudo machines
+C. Coding in near natural/human languages
+D. All of the above
+E. None of the above

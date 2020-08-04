@@ -1,0 +1,2 @@
+Answer: b
+Explanation: The syntax for a generic method includes a type parameter, inside angle brackets, and appears before the method's return type. For static generic methods, the type parameter section must appear before the method's return type.

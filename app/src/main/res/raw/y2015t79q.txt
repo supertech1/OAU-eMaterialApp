@@ -1,0 +1,12 @@
+What is i after the following for loop?
+
+int y = 0;
+for(int i = 0; i < 10; ++i){
+y+= i;
+}
+
+A.	Undefined
+B.	9
+C.	10
+D.	45
+E.	11

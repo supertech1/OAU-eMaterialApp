@@ -1,0 +1,18 @@
+Ans : B
+
+Explanation :
+
+System.out contains 3 methods which are used to display output in the command window. 
+The 3 methods are : print(), println() and printf().
+
+Method System.out.println displays (or prints) a line of text in the command
+window. When System.out.println completes its task, it positions the output cursor (the location where
+the next character will be displayed) at the beginning of the next line in the command.
+
+Also, Method System.out.print displays (or prints) a line of text in the command
+Window but unlike System.out.println , it does not positions the output cursor  at 
+the beginning of the nextline, instead, the output cursor is immediately after the last character.
+
+And lastly, method System.out.printf display a formatted output in the command window.
+
+

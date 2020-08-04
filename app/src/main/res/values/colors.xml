@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3f51b5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#01147f</color>
+    <color name="menutextcolor">#151414</color>
+    <color name="menubgcolor">#f2eded</color>
+    <color name="white">#ffffff</color>
+    <color name="gridviewbordercolor">#4b88c9</color>
+    <color name="lightblue">#d0dee7</color>
+    <color name="darkgreen">#1b3b1e</color>
+    <color name="red">#ea2801</color>
+    <color name="green">#44a900</color>
+
+</resources>

@@ -1,0 +1,11 @@
+Ans : B
+
+Explanation :
+
+An escape sequence begins with a backslash followed by a character; the pair represents a single character. Some Common escape sequence are :
+
+\n   - Newline. Position the screen cursor at the beginning of the next line.
+\t    -   Horizontal tab. Move the screen cursor to the next tab stop.
+\r   -   Carriage return.
+\\    -   Backslash. Used to print a backslash character.
+\"    -   Double quote. Used to print a double-quote character

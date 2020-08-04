@@ -1,0 +1,1 @@
+Which of these literals can be contained in a data type float variable?

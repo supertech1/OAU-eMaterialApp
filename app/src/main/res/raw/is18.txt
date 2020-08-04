@@ -1,0 +1,6 @@
+Answer: d
+Explanation: finally keyword is used to execute the code before try and catch block end.
+Output:
+$ javac exception_handling.java
+$ java exception_handling
+BC

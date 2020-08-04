@@ -1,0 +1,17 @@
+
+What will be the output of the program?
+
+        int x = 7, y = 4;
+		if(x > 7)y = y + x;
+		System.out.println(y++);
+
+A.  4		B.  5		C.  11		D.  12
+
+		    Solution :
+
+int x = 7, y = 4;  //declaration and initialization of integer variables x and y
+if(x > 7)   //check if variable x is greater than 7.   NB: the test condition returns false since x is not greater than 7
+    y = y + x;  //provided the test condition above evaluates to true, add the value in variable x to the current value in variable y and store the result in variable y.
+System.out.println(y++);  //display the current value in variable 'y'...then, increment y by 1
+
+		    Ans : A

@@ -1,0 +1,30 @@
+Answer : D
+
+Explanation :
+
+class variable_scope
+{
+	public static void main(String args[])
+	{
+		int x; x = 5;  //integer variable 'x' being declared and assigned a value of 5.
+    			        //variable 'x' is only visible here in the main method block, thus, it will be accessible
+	    		       //inside the following inner block.
+
+		{
+		    //NB: variable 'x' is still withing its scope..i.e, it is visible in this block
+			int y = 6; //integer variable 'y'...assigned 6
+				      //NB: variable 'y' is only visible and accessible in this inner block
+				      //This implies that accessing variable 'y' outside this block will lead
+				      //to a compilation error
+
+			System.out.print(x + " " + y); //display the value of x and y.
+		}
+
+        //NB: variable 'y' is no longer visible and accessible here
+
+		System.out.println(x + " " + y); //Now we are accessing variable 'y' which is no longer visible
+		                                 //and accessible.Therefore, compiling this code results to a compilation error
+	}
+}
+
+		

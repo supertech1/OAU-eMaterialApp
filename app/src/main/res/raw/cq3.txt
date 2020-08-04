@@ -1,0 +1,1 @@
+Which of the following is a valid declaration of an object of class Box?

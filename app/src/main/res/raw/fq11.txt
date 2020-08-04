@@ -1,0 +1,1 @@
+Which of these is a process of extracting/removing the state of an object from a stream?

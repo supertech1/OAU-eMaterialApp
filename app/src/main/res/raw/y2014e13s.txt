@@ -1,0 +1,8 @@
+Answer : D
+
+Explanation :
+
+The switch-expression must evaluate to a type: byte, short,
+char, int, enum, or String
+
+            

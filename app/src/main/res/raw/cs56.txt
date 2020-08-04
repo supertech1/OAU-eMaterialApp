@@ -1,0 +1,2 @@
+Answer: a
+Explanation: main() method must be declared static, main() method is called by Java's run time system before any object of any class exists.

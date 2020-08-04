@@ -1,0 +1,6 @@
+An expression involving byte, int, and literal numbers is promoted to which of these?
+
+	A.  int 	
+	B.  long	
+	C.  byte	
+	D.  float

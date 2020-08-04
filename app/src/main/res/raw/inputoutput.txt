@@ -1,0 +1,119 @@
+<p><strong>LECTURE SEVEN</strong></p>
+<p><strong>INPUT AND OUTPUT</strong></p>
+<p><strong>&nbsp;</strong></p>
+<p>Java I/O <strong>(Input and Output)</strong> is used <em>to process the input</em> and <em>produce the output</em>.</p>
+<p>Java uses the concept of stream to make I/O operation fast. The java.io package contains all the classes required for input and output operations.</p>
+<p>We can perform file handling in java by Java I/O API.The stream in the java.io package supports many data such as primitives, object, localized characters, etc.</p>
+<p>&nbsp;</p>
+<h2><strong>STREAM</strong></h2>
+<p>A stream is a sequence of data.In Java a stream is composed of bytes. It's called a stream because it is like a stream of water that continues to flow.</p>
+<p>In java, 3 streams are created for us automatically. All these streams are attached with console.</p>
+<p>1) System.out: standard output stream</p>
+<p>2) System.in: standard input stream</p>
+<p>3) System.err: standard error stream</p>
+<p>Let's see the code to print output and error message to the console.</p>
+<ol>
+<li>out.println("simple&nbsp;message");&nbsp;&nbsp;</li>
+<li>err.println("error&nbsp;message");&nbsp;</li>
+</ol>
+<p>&nbsp;</p>
+<h2><strong>OutputStream vs InputStream</strong></h2>
+<p>The explanation of OutputStream and InputStream classes are given below:</p>
+<h3><strong>OutputStream</strong></h3>
+<p>Java application uses an output stream to write data to a destination, it may be a file, an array, peripheral device or socket.</p>
+<h3><strong>InputStream</strong></h3>
+<p>Java application uses an input stream to read data from a source, it may be a file, an array, peripheral device or socket.</p>
+<p>Let's understand working of Java OutputStream and InputStream by the figure given below.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h2><strong>OutputStream class</strong></h2>
+<p>OutputStream class is an abstract class. It is the super class of all classes representing an output stream of bytes. An output stream accepts output bytes and sends them to some sink.</p>
+<h3><strong>Useful methods of OutputStream</strong></h3>
+<table width="602">
+<tbody>
+<tr>
+<td width="262">
+<p><strong>Method</strong></p>
+</td>
+<td width="340">
+<p><strong>Description</strong></p>
+</td>
+</tr>
+<tr>
+<td width="262">
+<p>1) public void write(int)throws IOException</p>
+</td>
+<td width="340">
+<p>is used to write a byte to the current output stream.</p>
+</td>
+</tr>
+<tr>
+<td width="262">
+<p>2) public void write(byte[])throws IOException</p>
+</td>
+<td width="340">
+<p>is used to write an array of byte to the current output stream.</p>
+</td>
+</tr>
+<tr>
+<td width="262">
+<p>3) public void flush()throws IOException</p>
+</td>
+<td width="340">
+<p>flushes the current output stream.</p>
+</td>
+</tr>
+<tr>
+<td width="262">
+<p>4) public void close()throws IOException</p>
+</td>
+<td width="340">
+<p>is used to close the current output stream.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3><strong>OutputStream Hierarchy</strong></h3>
+<p>&nbsp;</p>
+<h2><strong>InputStream class</strong></h2>
+<p>InputStream class is an abstract class. It is the super class of all classes representing an input stream of bytes.</p>
+<h3><strong>Useful methods of InputStream</strong></h3>
+<table width="602">
+<tbody>
+<tr>
+<td width="221">
+<p>Method</p>
+</td>
+<td width="381">
+<p>Description</p>
+</td>
+</tr>
+<tr>
+<td width="221">
+<p>1) public abstract int read()throws IOException</p>
+</td>
+<td width="381">
+<p>reads the next byte of data from the input stream. It returns -1 at the end of file.</p>
+</td>
+</tr>
+<tr>
+<td width="221">
+<p>2) public int available()throws IOException</p>
+</td>
+<td width="381">
+<p>returns an estimate of the number of bytes that can be read from the current input stream.</p>
+</td>
+</tr>
+<tr>
+<td width="221">
+<p>3) public void close()throws IOException</p>
+</td>
+<td width="381">
+<p>is used to close the current input stream.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><strong>*******************END OF LECTURE SEVEN*************</strong></p>

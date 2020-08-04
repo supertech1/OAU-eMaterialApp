@@ -1,0 +1,7 @@
+single line comment starts with .............. in java
+
+A. /**
+B. //
+C. /*
+D. /
+E. */

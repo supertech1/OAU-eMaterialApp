@@ -1,0 +1,6 @@
+Answer: b
+Explanation: The super class of Byte class defines a constant MIN_VALUE below which a number is considered to be negative infinity. MIN_VALUE is 4.9E-324.
+Output:
+$ javac Output.java
+$ java Output
+4.9E-324

@@ -1,0 +1,2 @@
+Answer: b
+Explanation: HashSet and TreeSet implements Set interface where as LinkedList and ArrayList implements List interface.

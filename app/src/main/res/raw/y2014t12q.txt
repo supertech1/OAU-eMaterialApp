@@ -1,0 +1,6 @@
+Which one is a valid declaration of a Boolean?
+
+	A. boolean  b1 = 1;	
+	B.  boolean b2 = 'false';
+	C.  boolean b3 = false;	
+	D. boolean b4 = 'true'

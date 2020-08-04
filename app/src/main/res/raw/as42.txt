@@ -1,0 +1,2 @@
+Answer:d
+Explanation:Operator new must be succeeded by array type and array size.

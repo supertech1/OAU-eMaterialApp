@@ -1,0 +1,2 @@
+Answer: a
+Explanation: By using format string "a" we can print AM/PM in time.

@@ -1,0 +1,2 @@
+Answer:a
+Explanation:Byte occupies 8 bits in memory. Its range is from -128 to 127.

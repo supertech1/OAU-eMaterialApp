@@ -1,0 +1,6 @@
+Ans : C
+
+Explanation : 
+
+The above program would result to compilation error due to the capital 'IF' used  on line 1 and
+the unknown variable 'y'.

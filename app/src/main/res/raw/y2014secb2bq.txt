@@ -1,0 +1,11 @@
+Which of these codes will run and why?
+i. 	public class C {
+		public boolean equals(C that) {
+			return id(this) == id(that);
+		}
+
+ii. 	public class C {
+			public boolean equals(Object that) {
+				return (that instanceof C) && id(this) == id(( C )that);
+		}
+	}

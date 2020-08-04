@@ -1,0 +1,12 @@
+What will be the output of the following snippet?
+	
+int p = 1, n;
+for(n = 1; n<= 5; n++);
+p = p* n;
+System.out.println(p);
+	
+
+	A. 0 	
+	B. 5	
+	C. 5	
+	D. 6

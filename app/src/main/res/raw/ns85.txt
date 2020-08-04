@@ -1,0 +1,2 @@
+Answer: d
+Explanation: Void class has only one field - TYPE, which holds a reference to the Class object for type void. We do not create instance of this class.

@@ -1,0 +1,7 @@
+Single line comment ends with ................ in java
+
+
+	A.	/**
+	B.	//
+	C.	/*
+	D.	None of these

@@ -1,0 +1,17 @@
+Qst: Consider the bank accounts discussed in exercise 9 again.
+        Now assume that each type of bank account is associated
+        with a minimum balance as given in the table below:
+
+        ********************************
+	    Account		Minimum Balance
+	    ********************************
+	    A		            250
+	    B		            1000
+	    C		            250
+	    X		            5000
+	    ********************************
+
+	    Adapt the switch statement of the program in exercise 9 above
+	    so that the interest is applied only if the amount entered
+	    satisfies the minimum balance requirement for the given account
+	    otherwise an error message should be displayed.

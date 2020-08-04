@@ -1,0 +1,6 @@
+Answer: b
+Explanation: obj.getName() returns the name of the file.
+Output:
+$ javac files.java
+$ java files
+system

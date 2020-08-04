@@ -1,0 +1,31 @@
+Answer : C
+
+Explanation : 
+	
+class evaluate 
+{
+	public static void main(String args[])
+	{
+		int a[ ] = {1,2,3,4,5}; //declare and initialize integer array variable 'a' using array initializers.
+                                //NB: the size of the array will be computed automatically by
+                                //java using the total number of elements in the curly brackets.
+                                //Each element is seperated by a comma.
+
+		int d[ ] = a; // assign array variable 'a' to integer array variable 'd'.
+		              //NB: array variable 'd' now contains all the elements in array variable 'a'
+
+		int sum = 0;  //integer variable 'sum' initialized to 0
+                      //Hint: this variable will hold the total sum of the computation in the below 'for statement'
+
+		for(int j = 0; j < 3; ++j)  //a for loop to iterate 3 times
+
+		sum += (a[j] * d[j + 1]) + (a[j + 1] * d[j]); //on each iteration, compute the expression in
+			//the parentheses and add the result to the current value in variable 'sum'. NB: the index(i.e j)
+			//changes on each iteration by an increment of 1
+
+		System.out.println(sum);  //display the value in sum. NB: this statement is not part of
+						          //the 'for statement'.
+	}
+}
+	
+				

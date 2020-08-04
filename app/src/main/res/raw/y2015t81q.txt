@@ -1,0 +1,7 @@
+if you declare an array double[] list = {3.4,2.0,3.5,5.5}, list[1] is ............
+
+A. 3.4
+B. Undefined
+C. 2.0
+D. 5.5
+E. 3.5

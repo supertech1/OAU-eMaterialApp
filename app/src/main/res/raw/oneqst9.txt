@@ -1,0 +1,18 @@
+Qst: Consider a bank that offers four different types of
+        account("A","B","C" and "X"), the following table
+        illustrates the annual rate of interest offered for
+        each type of account.
+
+	    ****************************************
+	    Account		Annual rate of interest
+	    ****************************************
+	    A		            1.5%
+	    B		            2%
+	    C		            1.5%
+	    X		            5%
+	    ****************************************
+	    Design and implement a program that allows the user to enter
+	    an amount of money and a type of bank account, before displaying
+	    the amount of money that can be earned in one year as interest
+	    on that money for the given type of bank account. You should
+	    use the switch statement when implementing this program.

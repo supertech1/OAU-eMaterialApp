@@ -1,0 +1,5 @@
+Ans : A
+
+Explanation :
+
+A comprehensive note on selection statements is in the note section of this application.

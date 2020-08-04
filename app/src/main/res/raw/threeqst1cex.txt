@@ -1,0 +1,24 @@
+
+import java.util.Scanner;  //load Scanner class from java library
+
+public class EvenOddNum  // EvenOddNum class declaration
+{  //EvenOddNum class opening brace
+    
+    public static void main(String args[])  //main method declaration
+    {  //main method opening brace
+        
+        Scanner input = new Scanner(System.in);  //Assign a reference to the Scanner object and store it in the reference variable 'input' of data type Scanner
+        System.out.print("Enter the Last Number: ");  //Display message asking the user for the last number (we will use this number as the end point in our for loop)
+        int user_input = input.nextInt();  //call Scanner method nextInt() to read interger values from the console window
+        for (int counter = 1; counter <= user_input; counter++)  //use the for loop to display all the numbers that are even from 1 to the number the user entered
+        {  //for block opening brace
+            if ((counter % 2) == 0)  //use the for loop to display all the numbers that are even from 1 to the number the user entered
+                System.out.println(counter+" is Even");  // if counter has no remainder when divided by 2, then display counter concatenated with " is Even" on the screen
+            else { //then if the test condition of 'if' above evaluated to false, java will read this else part
+                System.out.println(counter+" is Odd");  //if counter has a remainder when divided by 2, then display counter concatenated with " is Odd" on the screen
+            }
+        }  //for block closing brace
+    }  //main method closing brace
+    
+    
+}  //EvenOddNum class closing brace

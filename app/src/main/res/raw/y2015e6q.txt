@@ -1,0 +1,6 @@
+A method that detects an error condition or Exception .............. an exception
+
+	A.	tries
+	B.	catches 
+	C.	handles 
+	D.	encapsulates

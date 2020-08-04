@@ -1,0 +1,2 @@
+Answer: d
+Explanation: If an exception occurs within the try block, it is thrown and cached by catch block for processing.

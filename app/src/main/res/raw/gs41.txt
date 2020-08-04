@@ -1,0 +1,2 @@
+Answer: d
+Explanation: The getRawRequest() method reads data from a stream until it gets two consecutive newline characters.

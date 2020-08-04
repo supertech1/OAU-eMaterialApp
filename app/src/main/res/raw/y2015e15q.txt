@@ -1,0 +1,7 @@
+Which methods can throw an Exception?
+
+
+	A.	Methods with a throw clause
+	B.	Methods with a catch block
+	C.	Methods with both a throws clause and a catch block
+	D.	Any method

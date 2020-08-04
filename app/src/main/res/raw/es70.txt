@@ -1,0 +1,6 @@
+Answer: c
+Explanation: getparent() giver the parent directory of the file and isfile() checks weather the present file is a directory or a file in the disk
+Output:
+$ javac files.java
+$ java files
+\java false

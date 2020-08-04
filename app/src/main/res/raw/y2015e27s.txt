@@ -1,0 +1,5 @@
+Ans : D
+
+Explanation :
+
+String is a sequence of characters.

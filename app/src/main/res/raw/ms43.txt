@@ -1,0 +1,2 @@
+Answer: c
+Explanation: ActionListener defines the actionPerformed() method that is invoked when an adjustment event occurs.

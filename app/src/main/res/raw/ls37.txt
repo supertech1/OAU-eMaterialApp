@@ -1,0 +1,6 @@
+Answer: c
+Explanation: None.
+Output:
+$ javac Date_formatting.java
+$ java Date_formatting
+55:03:04

@@ -1,0 +1,26 @@
+Consider the following program, which uses the StockItem class, and in which some of the code has been replaced by comments:
+
+Import java.util.*;
+public class TestProg {
+	Public static void main(String [] args){
+	Scanner keyboard = new scanner (System.in);
+	String tempNumber;
+	String tempName;
+	Double tempPrice;
+	System.out.print("Enter the stock number : ");
+	tempNumber = keyboardString.nextLine();
+	System.out.print("Enter the name of the itme : ");
+	tempNumber = keyboardString.nextLine();
+	System.out.print("Enter the price of the item: ");
+	tempNumber = keyboard.nextDouble();
+	
+	//Create a new item of stock using the values that were entered by the user
+	//increase the total number of items in stock by 5
+	//Display the stock number;
+	//Display the total price of all items in stock
+	}
+}
+
+ii. Replace the comments with appropriate code
+iii. A further attribute, salesTax, is required.The value of this attribute should always be the same for each object of the class. Write the declaration for this attribute.
+iv. Provide a class method, setSalesTax, for this class - it should receive a double and set the value of the sales tax to this value.

@@ -1,0 +1,15 @@
+Ans : B
+
+Explanation :
+
+A Boolean variable can either be true or false and since we can answer the question : "Is it raining?"
+with either true or false, then a suitable data type to record such is Boolean. 
+
+For Example,
+
+boolean rain_status = true;
+
+The interpreatation of the above statement is simply that rain is falling since rain_status = true. 
+You can as well set rain_status to false by simply writing:
+
+rain_status = false;

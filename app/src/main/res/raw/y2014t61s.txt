@@ -1,0 +1,8 @@
+Answer : A
+
+Explanation :
+
+Both decrement operator (--) and increment operator (++) decreases 
+the value of a variable by 1
+
+	

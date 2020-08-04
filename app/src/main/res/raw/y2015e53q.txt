@@ -1,0 +1,8 @@
+java is case sensitive? 
+
+
+	A.	True
+	B.	False
+	C.	Indifferent
+	D.	Error
+	E.	None of the above

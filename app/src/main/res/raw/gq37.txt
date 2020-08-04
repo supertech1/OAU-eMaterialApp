@@ -1,0 +1,19 @@
+What is the output of this program?
+
+import java.net.*;
+
+class networking {
+
+    public static void main(String[] args) throws Exception {
+
+         URL obj = new URL("http://www.sanfoundry.com/javamcq");
+
+         URLConnection obj1 = obj.openConnection();
+
+         System.out.print(obj1.getContentType());
+
+    }
+
+}
+
+Note: Host URL is written in html and simple text.

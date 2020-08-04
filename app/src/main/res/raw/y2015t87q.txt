@@ -1,0 +1,10 @@
+what will this code print?
+
+int arr[] = new int[5];
+System.out.print(arr);
+
+A. Garbage value
+B. 0
+C. 00000
+D. value stored in arr[0]
+E. None of the mentioned

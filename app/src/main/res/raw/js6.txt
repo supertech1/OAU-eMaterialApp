@@ -1,0 +1,2 @@
+Answer: a
+Explanation: When two or more threads need to access the same shared resource, they need some way to ensure that the resource will be used by only one thread at a time, the process by which this is achieved is called synchronization

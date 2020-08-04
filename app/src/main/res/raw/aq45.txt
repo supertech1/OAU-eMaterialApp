@@ -1,0 +1,1 @@
+Which of these is necessary to specify at time of array initialization?

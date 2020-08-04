@@ -1,0 +1,9 @@
+Answer: B
+
+Explanation :
+
+The type float specifies a single-precision value that uses 32 bits of storage. 
+
+Its value ranges from  1.4e-045 to 3.4e+038
+
+	

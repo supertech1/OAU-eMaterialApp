@@ -1,0 +1,6 @@
+Answer: d
+Explanation: Hashtable object obj contains values 3, 2, 8 when obj.contains(new Integer(5)) is executed it searches for 5 in the hashtable since it is not present false is returned.
+Output:
+$ javac hashtable.java
+$ java hashtable
+false

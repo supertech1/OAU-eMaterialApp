@@ -1,0 +1,6 @@
+Answer: c
+Explanation: There can be more than one catch for a single try block. Here Arithmetic exception(/ by 0) occurs instead of Array index out of bound exception, so 2nd catch block is executed.
+Output:
+$ javac exception_handling.java
+$ java exception_handling
+12345B

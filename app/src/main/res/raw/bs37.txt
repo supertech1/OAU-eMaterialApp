@@ -1,0 +1,6 @@
+Answer: d
+Explanation: Operator ++ has higher precedence than multiplication operator, *, x is incremented to 9 than multiplied with 3 giving 27.
+output:
+$ javac operators.java
+$ java operators
+27 9

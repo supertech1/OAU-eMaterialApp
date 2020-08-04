@@ -1,0 +1,2 @@
+Answer: a
+Explanation: URL is Uniform Resource Locator.

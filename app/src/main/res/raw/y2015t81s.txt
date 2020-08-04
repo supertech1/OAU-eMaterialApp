@@ -1,0 +1,5 @@
+Ans : C
+
+Explanation :
+
+Array index start from zero....check the note section for comprehensive note on arrays.

@@ -1,0 +1,6 @@
+Answer: b
+Explanation: Character.isDigit(a[0]) checks for a[0], whether it is a digit or not, since a[0] i:e 'a' is a character false is returned. a[3] is a whitespace hence Character.isWhitespace(a[3]) returns a true. a[2] is an upper case letter i:e 'A' hence Character.isUpperCase(a[2]) returns true.
+Output:
+$ javac Output.java
+$ java Output
+false true true

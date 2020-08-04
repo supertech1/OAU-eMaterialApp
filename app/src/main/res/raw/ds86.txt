@@ -1,0 +1,6 @@
+Answer: b
+Explanation: length() method is used to obtain length of StringBuffer object, length of "Hello" is 5.
+Output:
+$ javac output.java
+$ java output
+5

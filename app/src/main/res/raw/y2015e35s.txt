@@ -1,0 +1,5 @@
+Ans : C
+
+Explanation :
+
+++ and !(NOT) operator has right to left associativity

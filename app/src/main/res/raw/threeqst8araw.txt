@@ -1,0 +1,45 @@
+
+            Source Code:
+
+import java.util.Scanner;
+
+public class Temperature
+{
+    public static void menu()
+    {
+        System.out.printf("[1]Convert Temperature in celcius to fahrenheit\n"
+                + "[2]Convert Temperature in fahrenheit to celcius\n[3]Exit\nEnter Choice: ");
+                
+    }
+    public static double getTempInF(double tempValueC)
+    {
+        return (( 9 * tempValueC) / 5 ) + 32;
+    }
+    
+    public static double getTempInC(double tempValueF)
+    {
+        return ( 5 * (tempValueF - 32)) / 9;
+    }
+    public static void main(String args[])
+    {
+        menu();
+        Scanner input = new Scanner(System.in);
+        int user_input = input.nextInt();
+        if (user_input == 3)
+            System.exit( 1 );
+        if (user_input == 2)
+        {
+            System.out.print("Enter Temp in fahrenheit: ");
+            double temp = input.nextDouble();
+            double tempInC = getTempInC(temp);
+            System.out.printf("\n%.2fFahrenheit = %.2fCelcius", temp,tempInC);
+        }
+        if (user_input == 1)
+        {
+            System.out.print("Enter Temp in celcius: ");
+            double temp = input.nextDouble();
+            double tempInF = getTempInF(temp);
+            System.out.printf("\n%.2fCelcius = %.2fFahrenheit", temp,tempInF);
+        }
+    }
+}

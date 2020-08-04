@@ -1,0 +1,6 @@
+What is the return type of a method that does not return any value?
+
+A.	int
+B.	float
+C.	void
+D.	double

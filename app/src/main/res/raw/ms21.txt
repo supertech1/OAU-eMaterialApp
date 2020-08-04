@@ -1,0 +1,2 @@
+Answer: a
+Explanation: A ComponentEvent is generated when the size, position or visibility of a component is changed.

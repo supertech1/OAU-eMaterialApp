@@ -1,0 +1,9 @@
+What is the output of this program snippet?   	
+
+int v1 = 5, v2 = 6
+System.out.println(v1 > v2);
+	
+	A. 1	
+	B. 0	
+	C. true	
+	D. false

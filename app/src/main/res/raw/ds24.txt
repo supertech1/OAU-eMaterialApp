@@ -1,0 +1,2 @@
+Answer: d
+Explanation: Declaring a class final implicitly declares all of its methods final, and makes the class inheritable.

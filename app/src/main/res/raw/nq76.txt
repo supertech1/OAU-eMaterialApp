@@ -1,0 +1,1 @@
+Which of these Exceptions is thrown by loadClass() method of ClassLoader class?

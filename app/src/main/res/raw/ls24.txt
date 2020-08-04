@@ -1,0 +1,2 @@
+Answer: a
+Explanation: All remote methods throw RemoteException.

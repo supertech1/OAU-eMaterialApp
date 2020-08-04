@@ -1,0 +1,16 @@
+What is the output of this program?
+
+class booloperators {
+public static void main(String args[])
+{
+boolean var1 = true;
+boolean var2 = false;
+System.out.println((var2 && var2));
+}
+}
+
+A. 0
+B. 1
+C. true
+D. false
+E. false && false

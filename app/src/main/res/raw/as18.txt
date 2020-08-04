@@ -1,0 +1,6 @@
+Answer:c
+Explanation:None.
+output:
+$ javac mainclass.java
+$ java mainclass
+true

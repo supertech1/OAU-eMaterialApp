@@ -1,0 +1,21 @@
+What will be the output of the program?
+
+public class Switcha
+{
+	public static void main(String [] args)
+	{
+		int j = 1, x = 2;
+		switch(x)
+		{
+			case 1: j++;
+			case 2: j++;
+			case 3: j++;
+		}
+		System.out.println(j + x);
+	}
+}
+	
+	A.  2	
+	B.  4	
+	C.  3	
+	D.  5

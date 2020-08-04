@@ -1,0 +1,12 @@
+What will be the output of the code snippet?
+		int x = 7, y = 4;
+		if(x > 5)
+		if(y>5)]
+		System.out.println(“x and y are > 5”);
+		else
+		System.out.println(“x is <= 5”);
+	A. x is <= 5	B.  x and y are > 5	C. None 	D. Compilation error.
+
+		Solution :
+	NB: There is a syntax error on line 3 due to presence of the right square bracket. Therefore, resulting to a compilation error
+		Ans : D

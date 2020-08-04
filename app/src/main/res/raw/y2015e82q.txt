@@ -1,0 +1,6 @@
+Identify the method of FileReader class used to read characters from a file
+
+A.	scanf
+B.	get()
+C.	getInteger()
+D.	read()

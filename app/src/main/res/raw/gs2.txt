@@ -1,0 +1,2 @@
+Answer: a
+Explanation: TCP/IP - Transfer control protocol/Internet Protocol is used to break data into small packets an send them to an address across a network.

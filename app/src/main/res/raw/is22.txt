@@ -1,0 +1,2 @@
+Answer: b
+Explanation: Error class is related to java run time error that can't be caught usually, RuntimeExecption is subclass of Exception class which contains all the exceptions that can be caught.

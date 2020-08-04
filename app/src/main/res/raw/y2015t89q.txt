@@ -1,0 +1,7 @@
+which statement is use to skip the loop and continue with the next iteration?
+
+A. terminate
+B. break
+C. continue
+D. skip
+E. none of the mentioned

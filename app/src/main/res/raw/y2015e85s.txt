@@ -1,0 +1,6 @@
+Ans : B
+
+Explanation :
+
+A BufferedReader reads a line of text from a character-input stream, buffering characters
+so that reading is more efficient.

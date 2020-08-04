@@ -1,0 +1,2 @@
+Answer: a
+Explanation: Maps revolve around two basic operations - get() and put(). to put a value into a map, use put(), specifying the key and the value. To obtain a value, call get() , passing the key as an argument. The value is returned,

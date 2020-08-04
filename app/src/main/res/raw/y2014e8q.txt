@@ -1,0 +1,13 @@
+What will be the output of this code snippet?
+
+int x = 12, y = 45, z = 8, s = 0;
+if(x>y & x >z)  s = x;
+else if(y > x & y > z) s = y;
+else s = z;
+System.out.println(s);
+
+
+	A.   8		
+	B.   45		
+	C.   12		
+	D.   0.

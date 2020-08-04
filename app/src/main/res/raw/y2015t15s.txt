@@ -1,0 +1,6 @@
+Ans : E
+
+Explanation :
+
+Java is cross platform in the sense that a compiled Java program runs on all platforms for which 
+there exists a JVM. (This holds for all major operating systems, including Windows, Mac OS and Linux.)

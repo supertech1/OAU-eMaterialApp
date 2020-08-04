@@ -1,0 +1,6 @@
+Answer: d
+Explanation: New input stream is linked to streal 'serials', an object 'ois' of ObjectInputStream is used to access this newly created stream, ois.close(); closes the stream hence we can't access the stream and ois.available() returns 0.
+Output:
+$ javac streams.java
+$ java streams
+0

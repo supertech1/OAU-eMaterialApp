@@ -1,0 +1,6 @@
+Answer: a
+Explanation: None.
+Output:
+$ javac Bitset.java
+$ java Bitset
+2

@@ -1,0 +1,2 @@
+Answer: a
+Explanation: InputStream & OutputStream are designed for byte stream. Reader and writer are designed for character stream.

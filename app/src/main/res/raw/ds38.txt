@@ -1,0 +1,6 @@
+Answer: b
+Explanation: ascii is an array of integers which contains ascii codes of Characters A, B, C, D. String(ascii, 1, 3) is an constructor which initializes s with Characters corresponding to ascii codes stored in array ascii, starting position being given by 1 & ending position by 3, Thus s stores BCD.
+output:
+$ javac String_demo.java
+$ java String_demo
+BCD

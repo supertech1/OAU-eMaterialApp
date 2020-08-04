@@ -1,0 +1,6 @@
+Answer : C
+
+Explanation :
+
+In cases when the file specified is not found, then FileNotFoundException is thrown by java run-time system, earlier versions of java used to throw IOException but after Java 2.0 they throw FileNotFoundException.
+		

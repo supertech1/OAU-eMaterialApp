@@ -1,0 +1,7 @@
+Which of these is a valid property of a java comment statement?
+
+
+	A.	It is very non-significant to program readability
+	B.	Comment cannot be set anywhere in a program
+	C.	It consist of all characters following an ampersand symbol
+	D.	They are usually executed by the compiler

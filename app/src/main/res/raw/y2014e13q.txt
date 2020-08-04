@@ -1,0 +1,14 @@
+What will be the output of the program?
+
+double f = 12.0;
+switch( f )
+{
+	case 12: System.out.println("Twelve");
+	default: System.out.println("Default");
+}
+
+
+	A.  Zero 	
+	B.  Twelve	
+	C.  Default	
+	D.  Compilation error

@@ -1,0 +1,6 @@
+Which of the following can be operands of arithmetic operators?
+
+	A.  Numeric	
+	B.  Boolean	
+	C.  Characters		
+	D.  Both Boolean & Characters

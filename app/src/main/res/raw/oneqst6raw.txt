@@ -1,0 +1,25 @@
+            Source Code:
+
+import java.util.Scanner;
+
+public class TestForSum 
+{
+    public static void main(String args[])
+    {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter the first number: ");
+        double num1 = input.nextDouble();
+        System.out.print("Enter the second number: ");
+        double num2 = input.nextDouble();
+        double sum = num1 + num2;
+        System.out.print("Enter the sum of the two numbers: ");
+        double guessSum = input.nextDouble();
+        if (guessSum == sum)
+        {
+            System.out.println("\nCongratulations! You are correct");
+        }
+        else {
+            System.out.println("oops! You are wrong...The sum is " + sum);
+        }
+    }
+}

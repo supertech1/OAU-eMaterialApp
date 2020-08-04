@@ -1,0 +1,7 @@
+which of this is not a valid property of a java comment statement?
+
+A. It is very crucial to program readability
+B. Comment can be set anywhere in a program
+C. It consist of all characters following an exclamation mark symbol
+D. They are usually executed by the compiler
+E. None of the above

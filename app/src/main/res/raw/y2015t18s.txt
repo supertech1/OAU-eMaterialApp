@@ -1,0 +1,5 @@
+Ans : C
+
+Explanation :
+
+There is no terminator(semi-colon) at the end of the statement on //line4

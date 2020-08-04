@@ -1,0 +1,6 @@
+Answer: d
+Explanation: None.
+output:
+$ javac Output.java
+$ java Output
+3 4 4

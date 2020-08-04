@@ -1,0 +1,2 @@
+Answer: b
+Explanation: getTimeInstance() method returns an instance of DateFormat that can format time information.

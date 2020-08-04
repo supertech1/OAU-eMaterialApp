@@ -1,0 +1,7 @@
+String in java is a?
+
+
+	A.	Class
+	B.	Object 
+	C.	Variable
+	D.	Character array

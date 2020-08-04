@@ -1,0 +1,2 @@
+Answer: b
+Explanation: isInfinite() methods returns true if specified value is an infinite value otherwise it returns false.

@@ -1,0 +1,1 @@
+Which of these clause will be executed even if no exceptions are found?

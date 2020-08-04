@@ -1,0 +1,1 @@
+Which of these variables stores the number of hits that are successfully served out of cache?

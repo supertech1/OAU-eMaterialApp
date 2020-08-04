@@ -1,0 +1,15 @@
+//calculate the average of two numbers;
+
+class num{public static void main(String args[]){
+float firstvar; float secondvar; float ave;
+firstvar = 6.0; secondvar = 8.0; ave = (firstvar + secondvar)/2.0;
+System.out.print("The average of two values is: "+ ave);
+}
+}
+What is the output of the program given above:
+
+A. It will not execute
+B. 7
+C. 7
+D. The average of two values is : +7
+E. The average of two values is : 7.0

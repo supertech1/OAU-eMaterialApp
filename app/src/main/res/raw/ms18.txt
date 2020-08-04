@@ -1,0 +1,2 @@
+Answer: a
+Explanation: The amount of the adjustment can be obtained from the getvalue() method, it returns an integer value corresponding to the amount of adjustment made.

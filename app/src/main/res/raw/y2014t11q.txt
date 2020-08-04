@@ -1,0 +1,23 @@
+What is the output of this program?
+
+class  Output
+{
+	public static void main(String args[])
+	{
+		int  a = 1;
+		int  b = 2;
+		int c;
+		int d;
+		c = ++b;
+		d = a++;
+		c++;
+		b++;
+		++a;
+		System.out.println(a + " " + b + " " + c);
+	}
+}
+
+	A.  3 2 4		
+	B. 3 2 3 		
+	C.  2 3 4		
+	D.  3 4 4

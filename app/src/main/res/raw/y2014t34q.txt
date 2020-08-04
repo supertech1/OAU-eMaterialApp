@@ -1,0 +1,6 @@
+What is the range of data type short in java?
+
+	A. -128 to 127		
+	B. -32768   to 32767	
+	C.  -2147483648 to 2147483647	
+	D.  None of the mentioned

@@ -1,0 +1,2 @@
+Answer: c
+Explanation: singletonList() returns the object as an immutable List. This is a easy way to convert a single object into a list. This was added by Java 2.0.

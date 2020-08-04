@@ -1,0 +1,2 @@
+Answer: a
+Explanation: Method startsWith() of string class is used to check whether the String in question starts with a specified string. It is specialized form of method regionMatches()

@@ -1,0 +1,6 @@
+Which of these selection statements test only for equality?
+
+	A.   if		
+	B.   switch	
+	C.   if & switch	
+	D.   None

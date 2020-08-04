@@ -1,0 +1,1 @@
+Which of these events will be generated if we close an applet's window?

@@ -1,0 +1,7 @@
+what type should you use to represent the amount of money you have?
+
+A. int
+B. double
+C. boolean
+D. String 
+E. Byte

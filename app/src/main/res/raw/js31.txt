@@ -1,0 +1,2 @@
+Answer: b
+Explanation: multithreaded programming a process in which two or more parts of same process run simultaneously.

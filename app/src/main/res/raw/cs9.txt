@@ -1,0 +1,6 @@
+Answer: a
+Explanation: When we assign an object to another object of same type, all the elements of right side object gets copied to object on left side of equal to, =, operator.
+output:
+$ javac mainclass.java
+$ java mainclass
+1

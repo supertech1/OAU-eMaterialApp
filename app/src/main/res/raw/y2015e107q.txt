@@ -1,0 +1,7 @@
+What of the following is the default value of an instance variable
+
+
+A.	null 
+B.	0
+C.	Depends upon the type of variable
+D.	Not assigned

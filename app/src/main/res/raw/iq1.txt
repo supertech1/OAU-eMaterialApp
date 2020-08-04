@@ -1,0 +1,1 @@
+Which of these is the method which is executed first before execution of any other thing takes place in a program?

@@ -1,0 +1,5 @@
+Ans : B
+
+Explanation :
+
+isFile() returns true if called on a file and returns false when called on a directory.

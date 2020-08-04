@@ -1,0 +1,1 @@
+Modulus operator, %, can be applied to which of these?

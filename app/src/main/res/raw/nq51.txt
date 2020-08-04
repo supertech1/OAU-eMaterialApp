@@ -1,0 +1,1 @@
+Which of these methods of Character wrapper can be used to obtain the char value contained in Character object.

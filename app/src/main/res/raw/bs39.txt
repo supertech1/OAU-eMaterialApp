@@ -1,0 +1,2 @@
+Answer: c
+Explanation: Parentheses do not degrade the performance of the program. Adding parentheses to reduce ambiguity does not negatively affect your system.

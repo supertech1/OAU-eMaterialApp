@@ -1,0 +1,47 @@
+
+            Source Code:
+
+import java.util.Scanner;
+
+public class CurrencyConverter 
+{
+    
+    static Scanner input = new Scanner(System.in);
+    
+    public static double obtainAmount()
+    {
+        System.out.println("Enter the amount to be converted: ");
+        double amountEntered = input.nextDouble();
+        return amountEntered;
+    }
+    
+    
+    public static double obtainExchangeRate()
+    {
+        System.out.println("Enter the exchange rate: ");
+        double exchangeRateEntered = input.nextDouble();
+        return exchangeRateEntered;
+    }
+    
+    
+    public static double convert(double amount, double exchangeRate)
+    {
+        double result = amount / exchangeRate;
+        return result;
+    }
+    
+    public static void displayResult(double amount, double exchangeRate, double result)
+    {
+        System.out.printf("with an exchange rate of %.2f, %.2f is converted to %.2f ", exchangeRate, amount,result);
+    }
+    
+    public static void main(String args[])
+    {
+        double amount = obtainAmount();
+        double exchangeRate = obtainExchangeRate();
+        double result = convert(amount, exchangeRate);
+        displayResult(amount, exchangeRate, result);
+    }
+    
+}
+

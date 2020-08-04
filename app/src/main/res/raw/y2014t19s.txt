@@ -1,0 +1,9 @@
+Answer : B
+
+Explanation :
+
+NB: Logical and (&) operator always return a boolean literal (i.e true or false).
+
+It returns true when both operands evaluates to true and returns false otherwise.
+
+            

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/menugroup">
+        <item
+            android:id="@+id/menututorialone"
+            android:orderInCategory="0"
+            android:title="@string/tutorialone" />
+        <item
+            android:id="@+id/menututorialtwo"
+            android:orderInCategory="1"
+            android:title="@string/tutorialtwo" />
+
+
+        <item
+            android:id="@+id/menupq"
+            android:orderInCategory="2"
+            android:title="@string/pq" />
+
+        <item
+            android:id="@+id/menumcqs"
+            android:orderInCategory="3"
+            android:title="@string/menumcqs" />
+
+        <item
+            android:id="@+id/menupt"
+            android:orderInCategory="4"
+            android:title="Java Test" />
+
+        <item
+            android:id="@+id/about"
+            android:orderInCategory="5"
+            android:title="@string/about" />
+
+
+    </group>
+
+</menu>

@@ -1,0 +1,6 @@
+Answer:a
+Explanation: ASCII value of 'A' is 65, on using ++ operator character value increments by one.
+output:
+$ javac mainclass.java
+$ java mainclass
+66

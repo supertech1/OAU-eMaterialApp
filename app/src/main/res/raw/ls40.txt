@@ -1,0 +1,6 @@
+Answer: d
+Explanation: format string "z" is used to print time zone.
+Output:
+$ javac Date_formatting.java
+$ java Date_formatting
+PDT

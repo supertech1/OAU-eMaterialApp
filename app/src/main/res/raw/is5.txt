@@ -1,0 +1,2 @@
+Answer: d
+Explanation: Even if a method is returning a value, it is not nessaccry to store that value.

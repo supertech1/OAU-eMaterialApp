@@ -1,0 +1,7 @@
+The Java Virtual Machine is: 
+
+	A.The latest computer system by oracle
+	B.An environment for allows java programs to run on any machine
+	C.The best gaming computer developed in 1995
+	D.An environment for converting java to binary file
+	E.All of the above

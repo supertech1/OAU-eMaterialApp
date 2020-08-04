@@ -1,0 +1,2 @@
+Answer: a
+Explanation: Like in any other language, streams are used for input and output operations.

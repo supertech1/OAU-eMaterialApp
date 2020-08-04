@@ -1,0 +1,7 @@
+Answer : A
+
+Explanation :
+
+NB: Long literals always ends with L (or lowercase l)
+		
+            

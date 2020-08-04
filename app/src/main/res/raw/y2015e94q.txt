@@ -1,0 +1,19 @@
+pick the for loop which duplicates this while loop:
+
+int x=0;
+while(x<500){
+System.out.println(x);
+x = x+5;
+}
+
+A.	for(int x=5; x<=500; x+=5){
+System.out.println(x);}
+
+B.	for(int x=0; x<500; x+=5){
+System.out.println(x);}
+
+C.	for(float x=0.0; x<500.0; x+=5.0){
+System.out.println(x);}
+
+D.	for(int x= 500; x>=0; x-=5){
+System.out.println(x);}

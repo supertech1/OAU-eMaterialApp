@@ -1,0 +1,6 @@
+A method  can ...............
+
+	A.	Check for errors but not handle them
+	B.	Handle errors but not check them
+	C.	Either of the above
+	D.	Neither of the above

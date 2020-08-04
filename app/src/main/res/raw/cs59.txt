@@ -1,0 +1,6 @@
+Answer: b
+Explanation: arr.length() is 5, so the loop is executed for three times.
+output:
+$ javac Output.java
+$ java Output
+1 2 3

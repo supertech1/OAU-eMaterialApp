@@ -1,0 +1,6 @@
+Answer: c
+Explanation: For the 1st iteration -1 is displayed. The 2nd exception is caught in catch block and 0 is displayed.
+Output:
+$ javac exception_handling.java
+$ java exception_handling
+-10

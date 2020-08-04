@@ -1,0 +1,48 @@
+
+What is the output of this program?
+
+class array_output
+{
+	public static void main(String args[])
+	{
+		int array_variable[] = new int[10];
+		for(int i = 0; i < 10; ++i)
+		{
+			array_variable[i] = i;
+			System.out.print(array_variable[i] + " ");
+			i++;
+		}
+	}
+}
+
+A.  0 2 4 6 8 	B.  1 3 5 7 9   C.  0 1 2 3 4 5 6 7 8 9    D.  1 2 3 4 5 6 7 8 9 10
+
+
+            Solution :
+
+
+class array_output
+{
+	public static void main((String args[])
+	{
+
+		char array_variable [] = new char[10]; //Declaration and initialization of an array of characters
+                                               //with 10 being set as the array size
+
+		for(int i = 0; i < 10; ++i)    //for statement header
+		{
+		
+		    array_variable [i] = i;  // assign current value of variable 'i' to the current index array element
+                                     //e.g array_variable[2] = 2 ; array_variable[4] = 4 e.t.c.
+
+   		    System.out.print(array_variable[i] + " ");   //display the value of each array element
+                                                         //separated by a space
+
+   		     i++;  //increment i by one (NB: i  being incremented here in the for  block is different
+        		   //from the increment statement in the 'for header'...Thus, making i being
+         		   //incremented in two places. (This implies that loop control variable 'i' is being incremented by 2)
+		}
+	}
+}
+
+            Ans: A

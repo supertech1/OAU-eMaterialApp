@@ -1,0 +1,6 @@
+Answer: a
+Explanation: fact() method recursively calculates factorial of a number, when value of n reaches 1, base case is excuted and 1 is returned.
+Output:
+$ javac Output.javac
+$ java Output
+1

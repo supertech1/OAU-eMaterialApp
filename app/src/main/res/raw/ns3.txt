@@ -1,0 +1,2 @@
+Answer: b
+Explanation: double floor(double X) returns a largest whole number less than or equal to variable X.

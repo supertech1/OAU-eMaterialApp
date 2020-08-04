@@ -1,0 +1,8 @@
+Qst: Design and implement a program that converts a sum of money 
+	    to a different currency. The amount of money to be converted, 
+	    and the exchange rate, are entered by the user. The program 
+	    should have separate methods for:
+		    Obtaining the sum of money from the user;
+		    Obtaining the exchange rate from the user;
+		    Making the conversion;
+		    Displaying the result.

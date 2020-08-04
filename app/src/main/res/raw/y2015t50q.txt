@@ -1,0 +1,7 @@
+What does this code print? System.out.println(2 + 3* 5 – 1);
+
+A. 24
+B. 14
+C. This will give a compile time error
+D. 16
+E. It will give a run-time error

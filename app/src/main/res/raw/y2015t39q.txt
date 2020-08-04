@@ -1,0 +1,7 @@
+Which of the following statements is incorrect?
+
+A. By convention, method names begin with an uppercase first letter, and all subsequent words in the name begin with a capital first letter.
+B. All import declarations must appear before the first class declaration in the file
+C. Empty paranthesis following a method name in a method declaration indicate that the method does not require any paremeters to perform its task
+D. Every method’s body is delimited by left and right brace ({ and })
+E. Any class that contains public static void main(String[] args) can be used to execute an application

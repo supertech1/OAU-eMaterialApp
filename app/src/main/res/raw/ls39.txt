@@ -1,0 +1,6 @@
+Answer: a
+Explanation: None.
+Output:
+$ javac Date_formatting.java
+$ java Date_formatting
+Mon Jul 15 2013

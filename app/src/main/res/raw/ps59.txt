@@ -1,0 +1,6 @@
+Answer: C
+Explanation: None.
+Output:
+$ javac LOCALE_CLASS.java
+$ java LOCALE_CLASS
+HINDI

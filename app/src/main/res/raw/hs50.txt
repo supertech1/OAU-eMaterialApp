@@ -1,0 +1,6 @@
+Answer: a
+Explanation: push() and pop() are standard functions of the class stack, push() inserts in the stack and pop removes from the stack. 3 & 2 are inserted using push() the pop() is used which removes 2 from the stack then again push is used to insert 5 hence stack contains elements 3 & 5.
+Output:
+$ javac stack.java
+$ java stack
+[3, 5] 

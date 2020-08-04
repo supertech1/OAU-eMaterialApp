@@ -1,0 +1,2 @@
+Answer: c
+Explanation: Java defines only two types of streams - Byte stream and character stream.

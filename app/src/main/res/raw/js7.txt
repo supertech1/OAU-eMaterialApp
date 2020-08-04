@@ -1,0 +1,6 @@
+Answer: b
+Explanation: Although we have not created any object of thread class still we can make a thread pointing to main method, we can refer it by using this.
+Output:
+$ javac multithreaded_programing.java
+$ java multithreaded_programing
+Thread[My Thread,5,main] 

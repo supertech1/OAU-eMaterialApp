@@ -1,0 +1,2 @@
+Answer: d
+Explanation: addElement() is used to add data in the vector, to obtain the data we use elementAt() and to first and last element we use firstElement() and lastElement() respectively.

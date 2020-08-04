@@ -1,0 +1,2 @@
+Answer: c
+Explanation: before() returns true if the invoking Date object contains a date that is earlier than one specified by date, otherwise it returns false.

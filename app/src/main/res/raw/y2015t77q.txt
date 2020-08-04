@@ -1,0 +1,14 @@
+What will be displayed when the following code is executed?
+
+int number = 6;
+while(number > 0){
+number -= 3;
+System.out.print(number + “ “);
+}
+
+
+A.	6 3 0
+B.	6 3 
+C.	3 0 
+D.	3 0 -3
+E.	0 -3

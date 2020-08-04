@@ -1,0 +1,6 @@
+Answer: b
+Explanation: clone() method of object class is used to generate duplicate copy of the object on which it is called. Copy of obj1 is generated and stored in obj2.
+Output:
+$ javac Output.java
+$ java Output
+1 2 1 2

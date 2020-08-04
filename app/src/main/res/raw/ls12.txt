@@ -1,0 +1,2 @@
+Answer: d
+Explanation: Reflection is the ability of a software to analyze itself. This is provided by java.lang.reflevt package.

@@ -1,0 +1,7 @@
+Answer : C
+
+Explanation :
+
+Throwable is the superclass of class Exception. Class Throwable has only two direct subclasses 
+which are Exception and Error, in java, any subclass can also be referred to as a member of its
+superclass. Therefore, you can refer to Exceptions as Throwables.

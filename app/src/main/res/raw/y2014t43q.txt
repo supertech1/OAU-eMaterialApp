@@ -1,0 +1,18 @@
+What is the output of this program?
+
+class area
+{
+	public static void main (String args[])
+	{
+		double r, pi, a;
+		r = 9.8;
+		pi = 3.14;
+		a = pi * r * r;
+		System.out.println( a );
+	}
+}
+
+	A.   301.5656	
+	B.   301		
+	C.   301.56	
+	D.   301.56560000

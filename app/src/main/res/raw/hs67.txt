@@ -1,0 +1,6 @@
+Answer: b
+Explanation: obj.length() returns the length allotted to object obj at time of initialization and obj.size() returns the size of current object obj, each BitSet element is given 16 bits therefore the size is 4 * 16 = 64, whereas length is still 5.
+Output:
+$ javac Bitset.java
+$ java Bitset
+5 64

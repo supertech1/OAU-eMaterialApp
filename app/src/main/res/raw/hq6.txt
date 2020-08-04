@@ -1,0 +1,1 @@
+Which of these method is used to reduce the capacity of an ArrayList object?

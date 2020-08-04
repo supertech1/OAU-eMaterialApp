@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#ad9daf"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.supertech.csc201real.CscNote">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="55dp"
+    tools:context="com.example.supertech.csc201real.CscNote">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/course_outline"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#978a99"
+                android:drawableRight="@android:drawable/arrow_down_float"
+                android:onClick="courseOutline"
+                android:paddingRight="10dp"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="10dp"
+                android:text="Course Outline"
+                android:textColor="#fff" />
+
+            <expansion.src.com.github.aakira.expandablelayout.ExpandableRelativeLayout
+                android:id="@+id/course_outline_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/course_outline"
+                android:background="#e9e4ea"
+                android:padding="16dp"
+                app:ael_duration="400"
+                app:ael_expanded="false"
+                app:ael_interpolator="accelerate"
+                app:ael_orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:id="@+id/course_outline_textview"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:text="Outline Note" />
+            </expansion.src.com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+            <Button
+                android:id="@+id/introduction"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/course_outline_layout"
+                android:background="#ad9daf"
+                android:drawableRight="@android:drawable/arrow_down_float"
+                android:onClick="introduction"
+                android:paddingRight="10dp"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="10dp"
+                android:text="Introduction"
+                android:textColor="#fff" />
+
+            <expansion.src.com.github.aakira.expandablelayout.ExpandableRelativeLayout
+                android:id="@+id/introduction_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/introduction"
+                android:background="#e9e4ea"
+                android:padding="16dp"
+                app:ael_duration="400"
+                app:ael_expanded="false"
+                app:ael_interpolator="accelerate"
+                app:ael_orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/introduction_textview"
+                    android:textColor="#000000"
+                    android:text="intoduction note" />
+            </expansion.src.com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+            <Button
+                android:id="@+id/varaible"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/expandableLayout2"
+                android:background="#978a99"
+                android:drawableRight="@android:drawable/arrow_down_float"
+                android:onClick="variables"
+                android:paddingRight="10dp"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="10dp"
+                android:text="Variables, Data Types/ Expressions"
+                android:textColor="#fff" />
+
+            <expansion.src.com.github.aakira.expandablelayout.ExpandableRelativeLayout
+                android:id="@+id/variable_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/varaible"
+                android:background="#e9e4ea"
+                android:padding="16dp"
+                app:ael_duration="400"
+                app:ael_expanded="false"
+                app:ael_interpolator="accelerate"
+                app:ael_orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/varaible_textview"
+                    android:textColor="#000000"
+                    android:text="variables note" />
+            </expansion.src.com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+            <Button
+                android:id="@+id/selections"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/variable_layout"
+                android:background="#ad9daf"
+                android:drawableRight="@android:drawable/arrow_down_float"
+                android:onClick="selections"
+                android:paddingRight="10dp"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="10dp"
+                android:text="Selection Statements"
+                android:textColor="#fff" />
+
+            <expansion.src.com.github.aakira.expandablelayout.ExpandableRelativeLayout
+                android:id="@+id/selections_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/selections"
+                android:background="#e9e4ea"
+                android:padding="16dp"
+                app:ael_duration="400"
+                app:ael_expanded="false"
+                app:ael_interpolator="accelerate"
+                app:ael_orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:id="@+id/selection_textview"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:text="selection note" />
+            </expansion.src.com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+            <Button
+                android:id="@+id/array"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/selections_layout"
+                android:background="#978a99"
+                android:drawableRight="@android:drawable/arrow_down_float"
+                android:onClick="array"
+                android:paddingRight="10dp"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="10dp"
+                android:text="Arrays"
+                android:textColor="#fff" />
+
+            <expansion.src.com.github.aakira.expandablelayout.ExpandableRelativeLayout
+                android:id="@+id/array_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/array"
+                android:background="#e9e4ea"
+                android:padding="16dp"
+                app:ael_duration="400"
+                app:ael_expanded="false"
+                app:ael_interpolator="accelerate"
+                app:ael_orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/array_textview"
+                    android:textColor="#000000"
+                    android:text="array note" />
+            </expansion.src.com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+            <Button
+                android:id="@+id/repetition"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/array_layout"
+                android:background="#ad9daf"
+                android:drawableRight="@android:drawable/arrow_down_float"
+                android:onClick="repetition"
+                android:paddingRight="10dp"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="10dp"
+                android:text="REPETITION STATEMENTS"
+                android:textColor="#fff" />
+
+            <expansion.src.com.github.aakira.expandablelayout.ExpandableRelativeLayout
+                android:id="@+id/repetition_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/repetition"
+                android:background="#e9e4ea"
+                android:padding="16dp"
+                app:ael_duration="400"
+                app:ael_expanded="false"
+                app:ael_interpolator="accelerate"
+                app:ael_orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:id="@+id/repetition_textview"
+                    android:text="repetition note" />
+            </expansion.src.com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+            <Button
+                android:id="@+id/classes"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/repetition_layout"
+                android:background="#978a99"
+                android:drawableRight="@android:drawable/arrow_down_float"
+                android:onClick="classes"
+                android:paddingRight="10dp"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="10dp"
+                android:text="Classes and Methods"
+                android:textColor="#fff" />
+
+            <expansion.src.com.github.aakira.expandablelayout.ExpandableRelativeLayout
+                android:id="@+id/classes_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/classes"
+                android:background="#e9e4ea"
+                android:padding="16dp"
+                app:ael_duration="400"
+                app:ael_expanded="false"
+                app:ael_interpolator="accelerate"
+                app:ael_orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/classes_textview"
+                    android:textColor="#000000"
+                    android:text="classes note" />
+            </expansion.src.com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+            <Button
+                android:id="@+id/input_output"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/classes_layout"
+                android:background="#ad9daf"
+                android:drawableRight="@android:drawable/arrow_down_float"
+                android:onClick="inputOutput"
+                android:paddingRight="10dp"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="10dp"
+                android:text="Input and Output"
+                android:textColor="#fff" />
+
+            <expansion.src.com.github.aakira.expandablelayout.ExpandableRelativeLayout
+                android:id="@+id/input_output_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/input_output"
+                android:background="#e9e4ea"
+                android:padding="16dp"
+                app:ael_duration="400"
+                app:ael_expanded="false"
+                app:ael_interpolator="accelerate"
+                app:ael_orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/input_output_textview"
+                    android:textColor="#000000"
+                    android:text="input output note" />
+            </expansion.src.com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+            <Button
+                android:id="@+id/exceptions"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/input_output_layout"
+                android:background="#978a99"
+                android:drawableRight="@android:drawable/arrow_down_float"
+                android:onClick="exceptions"
+                android:paddingRight="10dp"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="10dp"
+                android:text="Exceptions"
+                android:textColor="#fff" />
+
+            <expansion.src.com.github.aakira.expandablelayout.ExpandableRelativeLayout
+                android:id="@+id/exceptions_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/exceptions"
+                android:background="#e9e4ea"
+                android:padding="16dp"
+                app:ael_duration="400"
+                app:ael_expanded="false"
+                app:ael_interpolator="accelerate"
+                app:ael_orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/exception_textview"
+                    android:textColor="#000000"
+                    android:text="Exception note" />
+            </expansion.src.com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>

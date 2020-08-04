@@ -1,0 +1,11 @@
+What is the output of this program, Command line exceution is done as - "java Output This is a command Line"?
+
+class Output {
+
+   public static void main(String args[]) {
+
+        System.out.print("args[3]");
+
+   }
+
+}

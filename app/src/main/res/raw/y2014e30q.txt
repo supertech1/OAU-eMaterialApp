@@ -1,0 +1,19 @@
+What is the output of this program snippet?
+		
+boolean a = true, b = true;
+if(a)
+   System.out.println("Hi");
+else if(a && b)
+   System.out.println("A && B");
+else
+   {
+	if(!b)
+	   System.out.println("notB");
+	else
+	   System.out.println("OK");
+}
+	
+	A. A && B. 	
+	B. notB	
+	C.  Hi	
+	D. Ok

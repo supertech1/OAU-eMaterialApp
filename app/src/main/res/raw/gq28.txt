@@ -1,0 +1,21 @@
+What is the output of this program?
+
+import java.net.*;
+
+class networking {
+
+    public static void main(String[] args) throws Exception {
+
+         URL obj = new URL("http://www.sanfoundry.com/javamcq");
+
+         URLConnection obj1 = obj.openConnection();
+
+         int len = obj1.getContentLength();
+
+         System.out.print(len);
+
+     }
+
+}
+
+Note: Host URL is having length of content 127.

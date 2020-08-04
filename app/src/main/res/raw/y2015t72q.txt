@@ -1,0 +1,13 @@
+What is the output of the following code?
+
+int x = 0;
+while( x < 4) {
+x = x+ 1;
+}
+System.out.println("x is ""+x);
+
+A.	x is 0
+B.	x is 4
+C.	x is 3
+D.	x is 1
+E.	x is 2

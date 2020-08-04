@@ -1,0 +1,13 @@
+
+What will this code print?
+
+int arr[] = new int[5];
+System.out.print(arr);
+
+
+A. 0	B.  value stored in arr[0]	C.  00000    D. Garbage value
+
+
+	Solution :
+
+	Ans : D

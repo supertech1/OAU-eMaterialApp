@@ -1,0 +1,7 @@
+A ............... is the name of the abstract class for streams dealing with character input
+
+
+A.	InputStream
+B.	OutputStream
+C.	Reader 
+D.	Writer

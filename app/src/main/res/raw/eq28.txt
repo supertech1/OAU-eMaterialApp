@@ -1,0 +1,15 @@
+What is the output of this program?
+
+class isinfinite_output {
+
+    public static void main(String args[]) {
+
+         Double d = new Double(1 / 0.);  
+
+         boolean x = d.isInfinite();
+
+         System.out.print(x);
+
+     }
+
+}

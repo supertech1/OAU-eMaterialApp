@@ -1,0 +1,11 @@
+Answer :   B
+
+Explanation :
+
+int x = 12, y = 45, z = 8, s = 0; //declaration and initialization of integer variable x, y, z and s
+if(x>y & x >z)  s = x;  //check if x is greater than y and z. NB: the test condition returns false
+else if(y > x & y > z) s = y;  //check if y is greater than x and z.  NB: the test condition here is true.Therefore, the else part will be skipped.
+else s = z;
+System.out.println(s);  //display the value in variable s
+
+		    

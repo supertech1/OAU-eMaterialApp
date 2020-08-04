@@ -1,0 +1,2 @@
+Answer: c
+Explanation: All the exception types are subclasses of the built in class Throwable.

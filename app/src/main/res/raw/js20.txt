@@ -1,0 +1,6 @@
+Answer: d
+Explanation: Threads t1 & t2 are created by class newthread that is implementing runnable interface, hence both the threads are provided their own run() method specifying the actions to be taken. When constructor of newthread class is called first the run() method of t1 executes than the run method of t2 printing 2 times "false" as both the threads are not equal one is having different priority than other, hence falsefalse is printed.
+Output:
+$ javac multithreaded_programing.java
+$ java multithreaded_programing
+falsefalse

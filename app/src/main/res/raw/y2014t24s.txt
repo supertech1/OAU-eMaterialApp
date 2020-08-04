@@ -1,0 +1,32 @@
+Answer : B
+
+Explanation :
+
+
+class array_output
+{
+	public static void main(String args[])
+	{
+		int array_variable[] = new int[10]; //declaration of an integer array (array size = 10)
+
+		for (int i = 0; i < 10; ++i)  //for statement header
+		                              //Hint: This for statement is meant to iterate 10 times following the declaration of the header
+		                              // but the logic will soon change in the for block.
+		{
+
+			array_variable[i] = i / 2; //assign current index array element the result of the expression
+
+			array_variable[i]++;  //increment the value in the current index array element by 1
+
+			System.out.print(array_variable[i] + " "); //display the value in the current
+							                            //index array element
+
+			i++; // increment index variable 'i' again by 1 (NB: variable 'i' is being incremented
+         	     //twice, one from the above statement and the other from the 'for header'
+		         //Hint: this  'for statement' iterates 5 times (i.e when 'i' = 0,2,4,6 and 8)
+		}
+	}
+}
+			
+
+		

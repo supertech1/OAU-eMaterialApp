@@ -1,0 +1,6 @@
+Answer:c
+Explanation: None.
+output:
+$ javac ternary_operator.java
+$ java ternary_operator
+3

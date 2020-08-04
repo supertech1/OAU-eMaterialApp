@@ -1,0 +1,6 @@
+Which of these statement is correct? 
+
+	A) true and false are numeric values 1 and 0.    
+	B) true and false are numeric values 9 and 10    
+	C) true is any non zero value and false is zero    
+	D) true and false are non numeric values.

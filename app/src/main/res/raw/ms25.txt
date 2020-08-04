@@ -1,0 +1,2 @@
+Answer: d
+Explanation: The component event class defines 4 constants COMPONENT_HIDDEN, COMPONENT-MOVED, COMPONENT-RESIZE and COMPONENT-SHOWN.

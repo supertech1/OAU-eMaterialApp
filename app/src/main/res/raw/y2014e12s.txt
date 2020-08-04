@@ -1,0 +1,8 @@
+Answer : C
+
+Explanation :
+
+The 'if statement' condition must be a boolean expression. Therefore,
+using an assignment operator as the condition results to a compilation error.
+
+		    

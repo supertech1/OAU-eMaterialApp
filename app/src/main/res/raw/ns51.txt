@@ -1,0 +1,2 @@
+Answer: c
+Explanation: To obtain the char value contained in a Character object, we use charValue() method.

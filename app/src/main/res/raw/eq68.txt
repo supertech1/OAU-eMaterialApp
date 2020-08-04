@@ -1,0 +1,17 @@
+What is the output of this program?
+
+import java.io.*;
+
+class files {
+
+    public static void main(String args[]) {
+
+         File obj = new File("/java/system");
+
+         System.out.print(obj.getAbsolutePath());
+
+    }
+
+}
+
+Note: file is made in c drive.

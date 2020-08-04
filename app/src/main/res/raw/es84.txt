@@ -1,0 +1,2 @@
+Answer: c
+Explanation: CharArrayReader is an implementation of an input stream that uses character array as a source. Here array is the input source.

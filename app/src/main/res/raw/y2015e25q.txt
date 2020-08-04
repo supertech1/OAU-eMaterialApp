@@ -1,0 +1,12 @@
+What is printed when the following code executes and x has been set to zero?
+
+IF (x >0 || (y/x)==3) 
+	System.out.println("first case");
+else
+	System.out.println("second case");
+
+
+	A.	first case
+	B.	second case
+	C.	error.
+	D.	"first case"

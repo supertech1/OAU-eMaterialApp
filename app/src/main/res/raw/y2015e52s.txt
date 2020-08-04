@@ -1,0 +1,15 @@
+Ans : D
+
+Explanation :
+
+An identifier in Java is a sequence of characters of unlimited length. The sequence of characters
+includes all Java letters and Java digits, the first of which must be a Java letter. Java uses the
+Unicode character set. A Java letter is a letter from any language that is represented by Unicode 
+character set. For example, A-Z, a-z, _ (underscore), and $ are considered Java letters from the 
+ASCII character set range of Unicode. Java digits include 0-9 ASCII digits and any Unicode character 
+that denotes a digit in a language. Spaces are not allowed in an identifier.
+
+Rules guiding Identifiers :
+1)	Identifier cannot start with a number
+2)	Identifier cannot contain a space
+3)	Identifier cannot contain operator

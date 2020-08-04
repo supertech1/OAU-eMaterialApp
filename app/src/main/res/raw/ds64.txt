@@ -1,0 +1,2 @@
+Answer: b
+Explanation: compareTo() function returns zero when both the strings are equal, it returns a value less than zero if the invoking string is less than the other string being compared and value greater than zero when invoking string is greater than the string compared to.

@@ -1,0 +1,7 @@
+To create your own Exception that you can throw, you must extend a subclass of ....................
+
+
+	A.	Object 
+	B.	Throwable
+	C.	Exception
+	D.	b or c

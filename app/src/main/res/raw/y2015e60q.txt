@@ -1,0 +1,6 @@
+The .......... statement performs the action (or group of actions) in its body one or more times.
+
+	A.	while 
+	B.	do...while
+	C.	for
+	D.	switch

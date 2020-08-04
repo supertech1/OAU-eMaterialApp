@@ -1,0 +1,15 @@
+What is the output of this program?
+
+class string_class {
+
+   public static void main(String args[])
+
+   {
+
+      String obj = "I LIKE JAVA";   
+
+      System.out.println(obj.length());
+
+    }
+
+}

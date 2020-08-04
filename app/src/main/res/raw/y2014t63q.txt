@@ -1,0 +1,7 @@
+Which looping process checks the test condition at the 
+end of the loop's body
+	
+	A. for 	 
+	B. while   
+	C. do-while  
+	D. None

@@ -1,0 +1,2 @@
+Answer: c
+Explanation: To implement the method drawString we need first need to define abstract method of AWT that is paint() method. Without paint() method we can not define and use drawString or any Graphic class methods.

@@ -1,0 +1,7 @@
+Java codes can run on which of the following operating systems?
+
+A. Linux
+B. Windows
+C. Unix
+D. Macintosh OS
+E. All of the above

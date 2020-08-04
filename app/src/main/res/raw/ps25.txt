@@ -1,0 +1,2 @@
+Answer: b
+Explanation: unmodifiableCollection() is available for al collections, Set, Map, List etc.

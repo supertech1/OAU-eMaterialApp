@@ -1,0 +1,23 @@
+What is the output of this program?
+
+import java.util.*;
+
+   class Linkedlist {
+
+        public static void main(String args[]) {
+
+        LinkedList obj = new LinkedList();
+
+        obj.add("A");
+
+        obj.add("B");
+
+        obj.add("C");
+
+        obj.removeFirst();
+
+        System.out.println(obj);
+
+   }
+
+}

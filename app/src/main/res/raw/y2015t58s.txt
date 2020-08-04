@@ -1,0 +1,7 @@
+Ans : B
+
+Explanation :
+
+Single-line comment begins with // and terminate at the end of the line on which the // appears
+   e.g //This is a comment
+

@@ -1,0 +1,1 @@
+What is the return type of a method that does not returns any value?

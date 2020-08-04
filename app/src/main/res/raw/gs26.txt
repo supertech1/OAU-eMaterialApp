@@ -1,0 +1,2 @@
+Answer: d
+Explanation: When we send a request to a http server it respond with a status code this status code is stored in statusCode and a textual equivalent which is stored in reasonPhrase.

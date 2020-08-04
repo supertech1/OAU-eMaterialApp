@@ -1,0 +1,13 @@
+
+Which one is a valid declaration of a boolean?
+A.   boolean b1 = 1; 	B.  boolean b2 = 'false';	C.   boolean b3 = false;   D.  boolean b4 = 'true'
+
+	        Solution:
+
+A is not valid because a numeric value can't be assigned to a boolean variable
+
+B is not valid because boolean literals(i.e true and false) are not to be quoted
+
+D is not valid because boolean literals(i.e true and false) are not to be quoted
+
+            Ans: C

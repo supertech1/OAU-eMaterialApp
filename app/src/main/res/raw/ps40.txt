@@ -1,0 +1,7 @@
+Answer: b
+Explanation: i.next() returns the next element in the iteration. i.remove() removes from the underlying collection the last element returned by this iterator (optional operation). This method can be called only once per call to next(). The behavior of an iterator is unspecified if the underlying collection is modified while the iteration is in progress in any way other than by calling this method.
+Output:
+$ javac Collection_iterators.java
+$ java Collection_iterators
+2 1 8
+(output will be different on your system)

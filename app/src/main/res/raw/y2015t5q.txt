@@ -1,0 +1,7 @@
+Which of these translates a code to executable statements, all of the codes at once :
+
+A. A compiler
+B. A converter
+C. An interpreter
+D. All of the above
+E. None of the above

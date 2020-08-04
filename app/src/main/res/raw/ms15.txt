@@ -1,0 +1,2 @@
+Answer: b
+Explanation: The getModifiers() methods returns a value that indicates which modifiers keys (ALT, CTRL, META, SHIFT) were pressed when the event was generated.

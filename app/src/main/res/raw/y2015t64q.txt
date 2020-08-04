@@ -1,0 +1,12 @@
+Given the following code segment, what is the value of b when it finishes executing?
+
+double a = 9.6982;
+
+int b = 12;
+b = (int) a;
+
+A. 9.6982
+B. 12
+C. 10
+D. 9
+E. 9.6

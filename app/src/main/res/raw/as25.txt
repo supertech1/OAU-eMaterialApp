@@ -1,0 +1,2 @@
+Answer:b
+Explanation:Keywords are specially reserved words which can not be used for naming a user defined variable, example : class, int, for etc.

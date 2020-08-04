@@ -1,0 +1,6 @@
+Answer: b
+Explanation: None.
+Output:
+$ javac networking.java
+$ java networking
+cisco.com

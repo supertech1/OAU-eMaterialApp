@@ -1,0 +1,29 @@
+Qst 1: Implement the program given in question 5 of the
+self practice questions above.Now:
+	
+a. Rewrite main so that it catches any exceptions it may now throw by
+ displaying meesage on the screen indicationg the exception thrown.
+
+	
+b. At the moment, the "End of program" message may not always be executed.
+Add an appropaite finally clause so that this message is always executed at 
+the end of the program.
+	
+
+c. Add an additional catch clause in main to catch 
+any unaccounted-for exceptions(within this catch clause, print out the stack
+trace of the exception).
+	
+
+d. Create your own exception class invalidPositionException(make this a 
+checked exception).
+	
+
+e. Rewrite the display method so that it throws theInvalidPositionException
+ from a catch block.
+	
+
+f. Rewrite main to take account of this amended disolay method.
+	
+
+g. Document these exceptions using appropaite Javadoc comments.

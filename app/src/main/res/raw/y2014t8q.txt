@@ -1,0 +1,18 @@
+What is the output of this program?
+	
+class Modulus
+{
+ 	public static void main(String args[])
+	{
+		double a = 25.64;
+		int b = 25;
+		a = a  % 10;
+		b = b % 10;
+		System.out.println(a +  " " + b);
+	}
+}
+	
+	A. 5.640000000000001  5	
+	B.  5.640000000000001  5.0	
+	C. 5  5			
+	D. 5   5.640000000000001

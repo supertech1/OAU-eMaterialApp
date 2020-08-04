@@ -1,0 +1,17 @@
+
+            Source Code:
+
+public class TimesTable 
+{
+    public static void displayTable(int index)
+    {
+        for (int counter = 1; counter <= 12; counter++)
+        {
+            System.out.printf("%d X %d = %d\n",counter,index,(counter*index));
+        }
+    }
+    public static void main(String args[])
+    {
+        displayTable( 6 );
+    }
+}

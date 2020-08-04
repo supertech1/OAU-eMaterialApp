@@ -1,0 +1,6 @@
+Answer: d
+Explanation: Java defines an operator +, it is used to concatenate strings.
+output:
+$ javac string_demo.java
+$ java string_demo
+IlikeJava

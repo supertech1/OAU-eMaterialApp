@@ -1,0 +1,25 @@
+Answer: A
+
+Explanation :
+	
+class Modulus
+{
+ 	public static void main(String args[])
+	{
+		double a = 25.64;  //variable 'a' of data type double - initialized to 25.64
+
+		int b = 25;        // variable 'b' of data type int - initialized to 25
+
+		a = a  % 10;       // Here is equivalent to : a = 25.64 % 10  (NB: After evaluation, a = 5.640000000000001)
+
+		b = b % 10;        // Here is equivalent to : b = 25 % 10  (After evaluation, b = 5)
+			               //(NB: java truncated the decimal part of the modulus division above because
+				           // variable 'b' is of 'int' data type and 'int' data type holds only numeric integers)
+
+		System.out.println(a +  " "  + b);  //Display the value in variable a and variable b, separating
+                                            //them by a space using the concatenation symbol (+)
+	}
+}
+
+		
+            

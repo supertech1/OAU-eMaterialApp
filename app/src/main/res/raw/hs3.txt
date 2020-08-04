@@ -1,0 +1,2 @@
+Answer: d
+Explanation: When we add an element, the capacity of ArrayList object increases automatically, but we can increase it manually to specified length x by using function ensureCapacity(x);

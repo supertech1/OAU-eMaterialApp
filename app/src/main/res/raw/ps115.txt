@@ -1,0 +1,2 @@
+Answer: d
+Explanation: try must be followed by either catch or finally block.

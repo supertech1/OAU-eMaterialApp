@@ -1,0 +1,43 @@
+What is the output of this program?
+
+class box {
+
+   int width;
+
+   int height;
+
+   int length;
+
+   int volume;
+
+   void finalize() {
+
+       volume = width*height*length;
+
+       System.out.println(volume);
+
+   }
+
+   protected void volume() {
+
+        volume = width*height*length;
+
+        System.out.println(volume);
+
+    } 
+
+}    
+
+class Output { 
+
+    public static void main(String args[])
+
+    {
+
+         box obj = new box();
+
+         obj.volume();
+
+    } 
+
+}

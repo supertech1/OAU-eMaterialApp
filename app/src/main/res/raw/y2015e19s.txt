@@ -1,0 +1,7 @@
+Ans : D
+
+Explanation :
+
+One of the most useful Exception method is the printStackTrace() method. When you
+catch an Exception, you can call printStackTrace() to display a list of methods in the call
+stack so you can determine the location of the Exception.

@@ -1,0 +1,2 @@
+Answer: a
+Explanation: The MouseMotionAdapter class defines 2 methods - mouseDragged() and mouseMoved.

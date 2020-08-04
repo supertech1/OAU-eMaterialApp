@@ -1,0 +1,15 @@
+What is the output of this program?
+
+class Output {
+
+     public static void main(String args[]) {
+
+    	 Double i = new Double(257.578123456789);  
+
+         float x = i.floatValue();
+
+         System.out.print(x);
+
+     }
+
+}

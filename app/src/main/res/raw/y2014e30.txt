@@ -1,0 +1,31 @@
+What is the output of this program snippet?
+		boolean a = true, b = true;
+		if(a)
+		System.out.println(“Hi”);
+		else if(a && b)
+		System.out.println(“A && B”);
+		else
+		{
+			if(!b)
+			System.out.println(“notB”);
+			else
+			System.out.println(“OK”);
+		}
+	A. A && B. 	B. notB	C.  Hi	D. Ok
+
+	Solution :
+
+		boolean a = true, b = true  //declaration and initialization of boolean variables a and b
+		if(a) //NB: the test condition here returns true since variable ‘a’ was initialized to true. Therefore, only the following statement will execute while others will be ignored.
+		System.out.println(“Hi”);
+		else if(a && b)
+		System.out.println(“A && B”);
+		else
+		{
+			if(!b)
+			System.out.println(“notB”);
+			else
+			System.out.println(“OK”);
+		}
+
+			Ans : C

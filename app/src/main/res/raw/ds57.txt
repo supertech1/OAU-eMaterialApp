@@ -1,0 +1,6 @@
+Answer: d
+Explanation: The == operator compares two object references to see whether they refer to the same instance, where as equals() compares the content of the two objects.
+Output:
+$ javac output.java
+$ java output
+false true

@@ -1,0 +1,2 @@
+Answer:a
+Explanation:Data type long literals are appended by an upper or lowercase L. 0x99fffL is hexadecimal long literal.

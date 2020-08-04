@@ -1,0 +1,19 @@
+
+What is the output of this program?
+
+class increment 
+{
+
+	public static void main(String args[]) 
+	{
+		int  g = 3;   //initialize and assign 3 to integer variable 'g'
+		System.out.print(++g * 8);  
+	}
+}
+
+A.  25		B.  24		C.   32		D.   33
+	
+
+            Solution :
+
+            Ans : C     (Check 2014/15 test qst 9 for explanation)

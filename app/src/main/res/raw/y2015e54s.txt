@@ -1,0 +1,6 @@
+Ans : A
+
+Explanation:
+
+Primitive data types are built-in in java...the following are types of primitive data type:
+int , char, byte, short, long, float, double and boolean.

@@ -1,0 +1,6 @@
+Answer: d
+Explanation: finally block is always executed after tryblock, no matter exception is found or not. catch block is executed only when exception is found. Here divide by zero exception is found hence both catch and finally are executed.
+Output:
+$ javac Output.javac
+java Output
+WorldWorld

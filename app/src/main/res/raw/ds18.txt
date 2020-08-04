@@ -1,0 +1,6 @@
+Answer: d
+Explanation: class A has been declared final hence it cannot be inherited by any other class. Hence class B does not have member i, giving compilation error.
+output:
+$ javac inheritance.java
+Exception in thread "main" java.lang.Error: Unresolved compilation problem:
+i cannot be resolved or is not a field

@@ -1,0 +1,7 @@
+A ......... is a location in the computer’s memory where a value can be stored for use later in a program
+
+A. constant
+B. integer
+C. float
+D. string
+E. variable

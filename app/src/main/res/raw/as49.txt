@@ -1,0 +1,6 @@
+Answer:d
+Explanation:None.
+output:
+$ javac array_output.java
+$ java array_output
+i i i i i i i i i i

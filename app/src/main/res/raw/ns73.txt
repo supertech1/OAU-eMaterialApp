@@ -1,0 +1,2 @@
+Answer: b
+Explanation: TotalMemory() returns the total number of bytes available to the program.

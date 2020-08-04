@@ -1,0 +1,17 @@
+What is the output of this program?
+
+class output {
+
+     public static void main(String args[])
+
+     {
+
+        char ch;
+
+        ch = "hello".charAt(1);
+
+        System.out.println(ch);
+
+     }
+
+}

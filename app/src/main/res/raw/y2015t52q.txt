@@ -1,0 +1,7 @@
+What does this code print? System.out.println(1.0/3);
+
+A. 0
+B. This will give a compile time error
+C. 0.333333
+D. 1
+E. It will give a run-time error

@@ -1,0 +1,14 @@
+Does this code create new file name a.txt?
+
+try {
+File f = new File("a.txt");
+}
+catch (Exception e){
+}catch (IOExceptionio){
+}
+
+
+A.	False
+B.	True
+C.	Input/output error
+D.	Compilation Error

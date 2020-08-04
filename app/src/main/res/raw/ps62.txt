@@ -1,0 +1,2 @@
+Answer: c
+Explanation: It is not possible to create generic type instances. Example - "E obj = new E()" will give a compilation error.

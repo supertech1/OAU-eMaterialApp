@@ -1,0 +1,12 @@
+Ans: A
+
+Explanation :
+
+The programming paradigm is the way you think and conceptualize about the real-world problem and its solution in the underlying computational models. The programming paradigm comes into the picture well before you start writing a program using a programming language. It is in the analysis phase when you use a particular paradigm to analyze a problem and its solution in a particular way.
+
+Types of programming paradigm
+
+1. Imperative Paradigm
+2. Functional Pradigm
+3. Object-Oriented Paradigm
+4. Logic Programming

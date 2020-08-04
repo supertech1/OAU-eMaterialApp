@@ -1,0 +1,10 @@
+<p><strong>* Introduction</strong></p>
+<p><strong>* Variables, Data Types, Expressions and Control Flow</strong></p>
+<p><strong>* Selection Statement</strong></p>
+<p><strong>* Arrays</strong></p>
+<p><strong>* Repetition Statement</strong></p>
+<p><strong>* Mid-Semester Test</strong></p>
+<p><strong>* Classes and Methods</strong></p>
+<p><strong>* Input and Output</strong></p>
+<p><strong>* Exceptions</strong></p>
+<p><strong>* Practical</strong></p>

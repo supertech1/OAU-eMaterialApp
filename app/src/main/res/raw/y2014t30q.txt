@@ -1,0 +1,17 @@
+What is the output of this program?
+
+class Cond
+{
+	public static void main( String args[])
+	{
+		int i = 20, j = 55,  z = 0;
+		if( i < j)  z = i;
+		else  z = j - i;
+		System.out.println(z);
+	}
+}
+
+	A.  0	
+	B.  20		
+	C.  55		
+	D.  35

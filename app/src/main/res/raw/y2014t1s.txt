@@ -1,0 +1,11 @@
+Answer: C
+
+Explanation: Greater than (>) operator is an example of 
+relational operators  in java.Relational operators are 
+binary operators (i.e they take two operands ) and the
+result produced by a relational operator is always a
+boolean value(either true or false). Other relational
+operators include the following ( <, ==, <= , >= , != ).
+ 
+
+		

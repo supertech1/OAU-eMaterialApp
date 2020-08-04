@@ -1,0 +1,5 @@
+Solution: 
+
+The code will not compile due to many syntax errors such as Catch instead of catch, 
+Public instead of public, Finally instead of finally. Also, on /*line 10*/, the catch block 
+does not contain its opening brace.

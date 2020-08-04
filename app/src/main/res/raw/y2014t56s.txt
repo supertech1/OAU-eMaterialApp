@@ -1,0 +1,27 @@
+Answer : D
+
+Explanation :
+
+class array_output
+{
+	public static void main((String args[])
+	{
+
+		char array_variable [] = new char[10]; //Declaration and initialization of an array of characters
+        		                               //with 10 being set as the array size
+
+		for(int i = 0; i < 10; ++i)    //for statement header NB: this for statement iterates 10 times
+		{
+   			
+			array_variable [i] = 'i';  // assign character 'i' to the current index array element
+                        			   //e.g array_variable[0] = 'i' ; array_variable[2] = 'i' e.t.c.
+
+   			System.out.print(array_variable[i] + " ");   //display the value of each array element
+                                                         //separated by a space
+
+		}
+	}
+}
+
+		
+		

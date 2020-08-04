@@ -1,0 +1,11 @@
+Answer : C
+
+Explanation :
+
+A is not valid because a numeric value can't be assigned to a boolean variable
+
+B is not valid because boolean literals(i.e true and false) are not to be quoted
+
+D is not valid because boolean literals(i.e true and false) are not to be quoted
+
+            

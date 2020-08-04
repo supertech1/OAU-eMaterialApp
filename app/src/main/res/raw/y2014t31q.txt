@@ -1,0 +1,6 @@
+The switch statement does not require a break.
+
+	A.  True	
+	B.  False	
+	C.  True and False	
+	D.  True or False

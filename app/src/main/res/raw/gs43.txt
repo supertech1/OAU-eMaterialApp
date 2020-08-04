@@ -1,0 +1,2 @@
+Answer: c
+Explanation: serveFromCatche() is a boolean method that attempts to find a particular URL in the cache. If it is successful then the content of that cache entry are written to the client, otherwise it returns false.

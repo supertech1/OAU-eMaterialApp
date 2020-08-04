@@ -1,0 +1,9 @@
+Which of these are called white space?
+
+(i) Space characters (ii) newlines (iii) tabs
+
+A. I only
+B. I and ii
+C. I, ii, and iii
+D. Iii only
+E. I and iii

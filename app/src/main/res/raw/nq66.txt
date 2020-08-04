@@ -1,0 +1,15 @@
+What is the output of this program?
+
+class Output {
+
+     public static void main(String args[]) {
+
+         String str = "true";
+
+         boolean x = Boolean.valueOf(str);
+
+         System.out.print(x);
+
+    }
+
+}

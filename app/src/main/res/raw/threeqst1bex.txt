@@ -1,0 +1,17 @@
+
+import java.util.Scanner;  //load Scanner class from java library into this class
+
+public class DisplayEvenForUser //DisplayEvenForUser class declaration
+{ //DisplayEvenForUser opening brace
+    public static void main(String args[])  //main method declaration
+    {  //main method opening brace
+        Scanner input = new Scanner(System.in);  //Assign a reference to the Scanner object and store it in the reference variable 'input' of data type Scanner
+        System.out.print("Enter the Last Number: ");   //Display message asking the user for the last number (we will use this numberas the end point in our for loop)
+        int user_input = input.nextInt();
+        for (int counter = 1; counter <= user_input; counter++) //use the for loop to display all the numbers that are even from 1 to the number the user entered
+        {  //for opening brace
+            if ((counter % 2) == 0) //check if there will be a reminder(or not) on dividing the current value of counter by 2 (using modulus sign %)
+                System.out.println(counter); //display counter on the console if the test condition above is true
+        }  //for closing brace
+    }  //main method closing brace
+}  //DisplayEvenForUser class closing brace

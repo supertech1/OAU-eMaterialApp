@@ -1,0 +1,49 @@
+
+	Source Code:
+
+import java.util.Scanner;  //load Scanner class from java library into this program
+
+public class CurrencyConverter //CurrencyConverter class declaration
+
+{   //CurrencyConverter class opening brace
+    
+    static Scanner input = new Scanner(System.in);  //Get a reference to the Scanner object and store it in the reference variable 'input' of data type Scanner
+    
+    public static double obtainAmount()  //obtainAmount method declaration. NB: This method obtains the sum of money from the user
+    {  //obtainAmount method opening brace
+        System.out.println("Enter the amount to be converted: ");  //Request from the user the amount to be converted
+        double amountEntered = input.nextDouble();  //Read user's input and store it in variable "amountEntered" using Scanner utility method "nextDouble()"
+        return amountEntered;  //Now return back the amount entered by the user to the caller of this method.
+    }  //obtainAmount method closing brace
+    
+    
+    public static double obtainExchangeRate()   //obtainExchangeRate method declaration. NB: This method obtains the exchange rate from the user
+    {  //obtainExchangeRate method opening brace
+        System.out.println("Enter the exchange rate: ");  //Request from the user the exchange rate
+        double exchangeRateEntered = input.nextDouble();  //Read user's input
+        return exchangeRateEntered;  // return back the exchange rate entered by the user to the caller
+    }   //obtainExchangeRate method  closing brace
+    
+    
+    public static double convert(double amount, double exchangeRate)   //convert method declaration. NB: This method will do the conversion
+   									//This method accepts 2 parameters (i.e the amount to be converted and the exchange rate)
+    {  // convert method opening brace
+        double result = amount / exchangeRate;  //do the calculation and store the result in double variable 'result'
+        return result;  //return back the converted amount to the caller of this method
+    }  // convert method closing brace
+    
+    public static void displayResult(double amount, double exchangeRate, double result)  //displayResult method declaration. NB: This method displays the output on the console window
+    {  //displayResult method opening brace
+         System.out.printf("with an exchange rate of %.2f, %.2f is converted to %.2f ", exchangeRate, amount,result);  //Display the formatted output on the console window
+    }  //displayResult method closing brace
+    
+    public static void main(String args[])  //main method declaration to test the program
+    {  //main method opening brace
+        double amount = obtainAmount();  //obtain amount to be converted from the user by calling method 'obtainAmount'
+        double exchangeRate = obtainExchangeRate();  //obtain the exchange rate from the user by calling method 'obtainExchangeRate'
+        double result = convert(amount, exchangeRate);   //do the conversion by calling method 'convert'
+        displayResult(amount, exchangeRate, result);  //display the result to the user
+    }  //main method closing brace
+    
+}   //CurrencyConverter class opening brace
+

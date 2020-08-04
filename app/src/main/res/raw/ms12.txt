@@ -1,0 +1,2 @@
+Answer: a
+Explanation: An event is an object that describes a state change in a source.

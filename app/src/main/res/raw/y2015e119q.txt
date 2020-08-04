@@ -1,0 +1,6 @@
+which of the following is a method having same name as that of it's class?
+
+A.	finalize
+B.	delete
+C.	class
+D.	constructor

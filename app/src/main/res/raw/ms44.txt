@@ -1,0 +1,2 @@
+Answer: a
+Explanation: ComponentListener defines four methods componentResized(), componentMoved(), componentShown() and componentHidden().

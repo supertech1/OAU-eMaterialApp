@@ -1,0 +1,11 @@
+Ans : C
+
+Explanation : 
+
+An identifier in Java is a sequence of characters of unlimited length. The sequence of characters includes all Java letters and Java digits, the first of which must be a Java letter.
+
+Rules guiding Identifiers :
+
+   1)  Identifier cannot start with a number
+   2)  Identifier cannot contain a space
+   3)  Identifier cannot contain operator

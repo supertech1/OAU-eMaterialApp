@@ -1,0 +1,38 @@
+
+What is the output of this program?
+
+class area
+{
+	public static void main (String args[])
+	{
+		double r, pi, a;
+		r = 9.8;
+		pi = 3.14;
+		a = pi * r * r;
+		System.out.println( a );
+	}
+}
+
+A.  301.5656	B.  301		C.   301.56	D.  301.56560000
+
+
+            Solution :
+	
+class area
+{
+	public static void main (String args[])
+	{
+
+		double r, pi, a; //declaration of double variables 'r','pi' and 'a'
+
+		r = 9.8; //initialize r to 9.8
+
+		pi = 3.14;  //initialize pi to 3.14
+
+		a = pi * r * r;  //calculate the expression to the right and assign the result to variable 'a'
+
+		System.out.println( a );  //display the value in variable 'a'
+	}
+}
+
+	        Ans : A

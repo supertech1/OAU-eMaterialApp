@@ -1,0 +1,17 @@
+Answer: C
+
+Explanation :
+	
+class increment
+{
+	public static void main(String args[])
+	{
+		int   g =3;                 //variable g of data type 'int'...initialized to 3
+
+		System.out.print(++g * 8);  //pre-increment(++) operator increases its operand by 1 before using
+		                            //the operand value. Thus, incrementing g by 1 before using it...therfore,
+		                            //the line can be read as : 'display the result of 4 * 8'
+	}
+}
+
+            

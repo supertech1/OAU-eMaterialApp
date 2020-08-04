@@ -1,0 +1,7 @@
+Answer: d
+Explanation: shuffle - randomizes all the elements in a list.
+Output:
+$ javac Collection_Algos.java
+$ java Collection_Algos
+1 5 2 8
+(output will be different on your system)

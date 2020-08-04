@@ -1,0 +1,2 @@
+Answer:b
+Explanation: Function overloading is a process of defining more than one method in a class with same name differentiated by function signature i:e return type or parameters type and number. Example – int volume(int length, int width) & int volume(int length , int width , int height) can be used to calculate volume.

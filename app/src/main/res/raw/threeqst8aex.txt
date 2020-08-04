@@ -1,0 +1,46 @@
+
+Source Code:
+
+import java.util.Scanner;  //load Scanner class from java library
+
+public class Temperature   //Temperature class declaration
+{  //Temperature class opening brace
+    public static void menu() //menu method declaraion. NB: This method will be called whenever we want to display menu on the screen
+    {  //menu method opening brace
+        System.out.printf("[1]Convert Temperature in celcius to fahrenheit\n"
+                + "[2]Convert Temperature in fahrenheit to celcius\n[3]Exit\nEnter Choice: ");  //display a formatted menu of options for users to select from
+                
+    }  //menu method closing brace
+
+    public static double getTempInF(double tempValueC) //Hint : this method will be called whenever we want to convert Celcius temperature to Fahrenheit
+    {
+        return (( 9 * tempValueC) / 5 ) + 32;   //do the calculation and return the result (Temperature in Fahrenheit) back to the caller
+    }
+    
+    public static double getTempInC(double tempValueF)  ////Hint : this method will be called whenever we want to convert Fahrenheit temperature to Celcius
+    {
+        return ( 5 * (tempValueF - 32)) / 9;  //do the calculation and return the result (Temperature in Celcius) back to the caller
+    }
+    public static void main(String args[])  //main method declaration 
+    {  //main method opening brace
+        menu();  //display options on the screen by calling the menu method
+        Scanner input = new Scanner(System.in);  //Get a reference to the Scanner object and store it in the reference variable 'input' of data type Scanner
+        int user_input = input.nextInt();  //read the integer value entered by the user(i.e the option selected)
+        if (user_input == 3) //check if the user selected the exit option
+            System.exit( 1 );  //if the test condition above is true, exit the program
+        if (user_input == 2)  //check whether the user selected option 2
+        { 
+            System.out.print("Enter Temp in fahrenheit: "); //request for the temperature in fahrenheit from the user
+            double temp = input.nextDouble();  //read the user's input
+            double tempInC = getTempInC(temp);  //convert the temperature to celcius by calling getTempInC method and passing as an argument the temperature in fahrenheit entered by the user 
+            System.out.printf("\n%.2fFahrenheit = %.2fCelcius", temp,tempInC);  //display the result
+        }
+        if (user_input == 1) //check whether the user selected option 2
+        {
+            System.out.print("Enter Temp in celcius: ");  //request for the temperature in celcius from the user
+            double temp = input.nextDouble();  //read the user's input
+            double tempInF = getTempInF(temp);  //convert the temperature to Fahrenheit by calling getTempInF method and passing as an argument the temperature in Celcius entered by the user 
+            System.out.printf("\n%.2fCelcius = %.2fFahrenheit", temp,tempInF);  //display the result
+        }
+    }  //main method closing brace
+}  //Temperature class closing brace

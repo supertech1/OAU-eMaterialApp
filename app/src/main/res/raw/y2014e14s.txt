@@ -1,0 +1,16 @@
+Answer : B
+
+Explanation :
+
+public class Test
+{
+	public static void main(Strings[] arg)  //String not Strings
+	{
+		string day = "Tuesday";  //String not string
+		int time = 16;
+		if(day.equal("Monday") & time == 16)  //equals not equal
+        	System.out.println("CSC 201 lecture is on")  //missing end of statement semicolon
+	}
+}
+
+    		

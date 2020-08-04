@@ -1,0 +1,15 @@
+
+Modulus operator, %, can be applied to which of these? 
+
+A.  Integers	B.  Floating-point numbers
+
+C.   Both Integers and floating-point numbers   D.  None of the mentioned.
+			
+
+		Solution :
+
+Modulus operator, %, is an arithmetic operator. 
+
+Thus, it is applicable to integers and floating-point numbers
+			
+		Ans : C

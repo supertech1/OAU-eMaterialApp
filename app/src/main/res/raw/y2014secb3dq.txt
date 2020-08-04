@@ -1,0 +1,1 @@
+Write a program segment that allows you to write data on a file using loop statement.

@@ -1,0 +1,5 @@
+Answer:d
+Explanation:Second print statement doesn't have access to y , scope y was limited to the block defined after initialization of x.
+output:
+$ javac variable_scope.java
+Exception in thread 'main' java.lang.Error: Unresolved compilation problem: y cannot be resolved to a variable

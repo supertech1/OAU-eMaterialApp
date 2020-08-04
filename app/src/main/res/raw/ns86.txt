@@ -1,0 +1,6 @@
+Answer: a
+Explanation: getClass() is used to obtain the class of an object, here ‘a’ is an object of class ‘X’. hence a.getClass() returns ‘X’ which is stored in class Class object obj.
+Output:
+$ javac Output.java
+$ java Output
+X

@@ -1,0 +1,9 @@
+Answer : C
+
+Explanation :
+
+To be able to use a method to its full potential, you must know the method's name and three
+additional pieces of information:
+	*The method's return type
+	*The type and number of arguments the method requires
+	*The type and number of Exceptions the method throws

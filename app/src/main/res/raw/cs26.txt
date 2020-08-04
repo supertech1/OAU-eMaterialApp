@@ -1,0 +1,6 @@
+Answer: b
+Explanation: None.
+output:
+$ constructor_output.java
+$ constructor_output
+150

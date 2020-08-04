@@ -1,0 +1,2 @@
+Answer: d
+Explanation: Dictionary, Map & Hashtable all implement Map interface hence all of them uses keys to store value in the object.

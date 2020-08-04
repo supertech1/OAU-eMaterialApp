@@ -1,0 +1,7 @@
+When a try block does not generate an Exception and you have included multiple catch blocks .......
+
+
+	A.	They all execute
+	B.	Only the first one executes
+	C.	Only the first matching one executes
+	D.	No catch block executes

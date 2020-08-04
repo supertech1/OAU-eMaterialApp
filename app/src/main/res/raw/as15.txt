@@ -1,0 +1,2 @@
+Answer:c
+Explanation: Boolean can only be assigned true or false literals.

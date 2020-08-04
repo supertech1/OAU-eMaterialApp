@@ -1,0 +1,5 @@
+Ans: B
+
+Explanation :
+
+Java is a very case sensitive language, i.e Public is not the same as keyword public (Check Line 3 of the given code)

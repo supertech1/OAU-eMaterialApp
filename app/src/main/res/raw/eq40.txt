@@ -1,0 +1,13 @@
+What is the output of this program?
+
+class Output {
+
+     public static void main(String args[]) {
+
+         Long i = new Long(256);  
+
+         System.out.print(i.hashCode());
+
+     }
+
+}

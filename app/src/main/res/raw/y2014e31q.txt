@@ -1,0 +1,6 @@
+Which of these values is returned by read( ) method is end of file (EOF) is encountered ?
+	
+	A.   0	
+	B.   1	
+	C.  -1	
+	D.  Null

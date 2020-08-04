@@ -1,0 +1,6 @@
+Ans : B
+
+Explanation :
+
+Keywords are reserved words in java....Examples are: private, public, protected, static, void,
+int, for, while, new continue, break e.t.c

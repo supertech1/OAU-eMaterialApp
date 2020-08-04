@@ -1,0 +1,6 @@
+Answer: c
+Explanation: isInfinite() method returns true is the value being tested is infinitely large or small in magnitude. 1/0. is infinitely large in magnitude hence true is stored in x.
+Output:
+$ javac isinfinite_output.java
+$ java isinfinite_output
+true

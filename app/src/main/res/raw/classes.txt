@@ -1,0 +1,162 @@
+<p><strong>LECTURE SIX</strong></p>
+<p><strong>CLASSES AND METHODS</strong></p>
+<p><strong>WHAT IS A CLASS IN JAVA?</strong></p>
+<p>&nbsp;&nbsp;&nbsp; Classes are the basic units of programming in the object-oriented paradigm.In this lecture on writing java programs, we are going to be looking at some elementary aspects of a class in Java, for example, using the class keyword to declare a class, declaring the main() method to run a class, etc. This Lecture explains how to declare and use a class in detail.</p>
+<p>&nbsp;&nbsp; Classes are essential, and they are the absic parts of programs in object-oriented programming.They are used as templates to create objects.A class in java may consist of five components.</p>
+<p><strong>Fields</strong></p>
+<p><strong>Methods</strong></p>
+<p><strong>Constructors</strong></p>
+<p><strong>Static initializers</strong></p>
+<p><strong>Instance initilizers.</strong></p>
+<p><strong>Fields and methods</strong> are also known as members of the class. Classes and interfaces can also be members of a class.</p>
+<p><strong>Constructors</strong> are used to create objects of a class. You must have at least one constructor for a class.</p>
+<p><strong><u>Initializers</u></strong> are used to initialize fields of a class. You can have zero or more initializers of static or instance types.</p>
+<p>The rest of this Lecture will discuss how to declare and use the different components of a class.</p>
+<p>&nbsp;</p>
+<p><strong>DECLARING A CLASS</strong></p>
+<p><strong><u>The general syntax for declaring a class in Java is</u></strong></p>
+<p><strong>&lt;&lt;modifiers&gt;&gt; class &lt;&lt;class name&gt;&gt; {</strong></p>
+<p><strong>// Body of the class goes here</strong></p>
+<p><strong>}</strong></p>
+<p>Here, &lt;&lt;modifiers&gt;&gt; are keywords that associate special meanings to the class declaration. A class declaration may have zero or more modifiers. The keyword class is used to declare a class. The &lt;&lt;class name&gt;&gt; is a user-defined</p>
+<p>name of the class, which should be a valid identifier. Each class has a body, which is specified inside a pair of braces ({}). The body of a class contains its different components, for example, fields, methods, etc. The following snippet of code defines a class named &ldquo;Human&rdquo; with an empty body. Note that here the Human class does not use any modifiers.</p>
+<p>// Human.java</p>
+<p><strong>class Human {</strong></p>
+<p><strong>// Empty body for now</strong></p>
+<p><strong>}</strong></p>
+<p>&nbsp;</p>
+<p><strong>DECLARING FIELDS IN A CLASS</strong></p>
+<p>Fields of a class represent properties (also called attributes) of objects of that class. Suppose every object of human class has two properties: a name and a gender. The human class should include declarations of two fields: one to represent name and one to represent gender.</p>
+<p>The fields are declared inside the body of the class. The general syntax to declare a field in a class is</p>
+<p><strong>&lt;&lt;modifiers&gt;&gt; class &lt;&lt;class name&gt;&gt; {</strong></p>
+<p><strong>// A field declaration</strong></p>
+<p><strong>&lt;&lt;modifiers&gt;&gt;&lt;&lt;data type&gt;&gt;&lt;&lt;field name&gt;&gt; = &lt;&lt;initial value&gt;&gt;;</strong></p>
+<p><strong>}</strong></p>
+<p>A field declaration can use zero or more modifiers. The data type of the field precedes its name. Optionally, you can also initialize each field with a value. If you do not want to initialize a field, its declaration should end with a semicolon after its name.</p>
+<p>With the declaration of two fields, name and gender, the declaration of the Human class will look as shown:</p>
+<p>// Human.java</p>
+<p><strong>class Human {</strong></p>
+<p><strong>String name;</strong></p>
+<p><strong>String gender;</strong></p>
+<p><strong>}</strong></p>
+<p><strong><u>Java lets you declare two types of fields for a class:</u></strong></p>
+<ol>
+<li><strong>Class fields</strong></li>
+<li><strong>Instance fields</strong></li>
+</ol>
+<p>Class fields are also known as class variables. Instance fields are also known as instance variables. In the above snippet of code, name and gender are two instance variables of the Human class. Java has a different way to declare class&nbsp; variables. All class variables must be declared using the static keyword as a modifier. The declaration of the Human class in the example below adds a count class variable.</p>
+<p>**Example:&nbsp; Declaration of a Human Class with One Class Variable and Two Instance Variables.</p>
+<p><strong>// Human.java</strong></p>
+<p><strong>package com.jdojo.cls;</strong></p>
+<p><strong>class Human {</strong></p>
+<p><strong>String name;</strong></p>
+<p><strong>String gender;</strong></p>
+<p><strong>static long count;</strong></p>
+<p><strong>} </strong></p>
+<p>// An instance variable</p>
+<p>// An instance variable</p>
+<p>// A class variable because of the static modifier</p>
+<p>**Class modifiers</p>
+<p>For a top-level class, the class-modifiers may be a list of public , and at most one of abstract and final . For a member class, the class-modifiers may be a list of static , and at most one of abstract and final , and at most one of private , protected and public . For a local class, the class-modifiers is a list of at most one of abstract and final .</p>
+<p><strong>The class modifiers public, final, and abstract</strong></p>
+<p>If a top-level class C is declared public , then it is accessible outside its package;</p>
+<p>If a class C is declared final , then one cannot declare subclasses of C , and hence cannot over-ride any methods declared in C . This is useful for preventing rogue subclasses from violating data representation invariants.</p>
+<p>If a class C is declared abstract , then it cannot be instantiated, but non-abstract subclasses of C can be instantiated. An abstract class may declare constructors and have initializers, to be executed when instantiating concrete subclasses. An abstract class may declare abstract and non-abstract methods; a non-abstract class cannot declare abstract methods. A class cannot be both abstract and final , because no objects could be created of that class.</p>
+<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong></p>
+<p><strong>METHODS IN JAVA</strong></p>
+<p>A method is java is a collection of statements that are grouped together to perform an operation. When you call the System.out.<strong>println()</strong> method, for example, the system actually executes several statements in order to display a message on the console.</p>
+<p>Now you will learn how to create your own methods with or without return values, invoke a method with or without parameters, and apply method abstraction in the program design.</p>
+<h2>Creating Method</h2>
+<p>Considering the following example to explain the syntax of a method &minus;</p>
+<p><strong><u>Syntax</u></strong></p>
+<p>public static int methodName(int a, int b) {</p>
+<p>// body</p>
+<p>}</p>
+<p><strong>public static</strong> &minus; modifier</p>
+<p><strong>int</strong> &minus; return type</p>
+<p><strong>methodName</strong> &minus; name of the method</p>
+<p><strong>a, b</strong> &minus; formal parameters</p>
+<p><strong>int a, int b</strong> &minus; list of parameters</p>
+<p>Method definition consists of a method header and a method body. The same is shown in the following syntax &minus;</p>
+<p><strong><u>Syntax</u></strong></p>
+<p><strong>modifier returnType nameOfMethod (Parameter List) {</strong></p>
+<p><strong>// method body</strong></p>
+<p><strong>}</strong></p>
+<p>The syntax shown above includes &minus;</p>
+<p><strong>modifier</strong> &minus; It defines the access type of the method and it is optional to use.</p>
+<p><strong>returnType</strong> &minus; Method may return a value.</p>
+<p><strong>nameOfMethod</strong> &minus; This is the method name. The method signature consists of the method name and the parameter list.</p>
+<p><strong>Parameter List</strong> &minus; The list of parameters, it is the type, order, and number of parameters of a method. These are optional, method may contain zero parameters.</p>
+<p><strong>method body</strong> &minus; The method body defines what the method does with the statements.</p>
+<h2><strong>METHOD CALLING</strong></h2>
+<p>For using a method, it should be called. There are two ways in which a method is called i.e., method returns a value or returning nothing (no return value).</p>
+<p>The process of method calling is simple. When a program invokes a method, the program control gets transferred to the called method. This called method then returns control to the caller in two conditions, when &minus;</p>
+<p><u>the return statement is executed. </u></p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp; <u>it reaches the method ending closing brace. </u></p>
+<p>The methods returning void is considered as call to a statement. Lets consider an example &minus;</p>
+<p>System.out.println("This is ToKiel Solutions");</p>
+<p>&nbsp;</p>
+<p>The method returning value can be understood by the following example &minus;</p>
+<p>int result = sum(6, 9);</p>
+<p>Following is the example to demonstrate how to define a method and how to call it &minus;</p>
+<p><strong>Example</strong></p>
+<p><strong>public class ExampleMinNumber {</strong></p>
+<p><strong>public static void main(String[] args) {</strong></p>
+<p><strong>int a = 11;</strong></p>
+<p><strong>int b = 6;</strong></p>
+<p><strong>int c = minFunction(a, b);</strong></p>
+<p><strong>System.out.println("Minimum Value = " + c);</strong></p>
+<p><strong>}</strong></p>
+<p><strong>/** returns the minimum of two numbers */</strong></p>
+<p><strong>public static int minFunction(int n1, int n2) {</strong></p>
+<p><strong>int min;</strong></p>
+<p><strong>if (n1 &gt; n2)</strong></p>
+<p><strong>min = n2;</strong></p>
+<p><strong>else</strong></p>
+<p><strong>min = n1;</strong></p>
+<p><strong>return min; </strong></p>
+<p><strong>}</strong></p>
+<p><strong>}</strong></p>
+<p>This will produce the following result &minus;</p>
+<p><strong>Output</strong></p>
+<p>Minimum value = 6</p>
+<p>Minimum Value = 7.3</p>
+<h2>The Constructors</h2>
+<p>A constructor initializes an object when it is created. It has the same name as its class and is syntactically similar to a method. However, constructors have no explicit return type.</p>
+<p>Typically, you will use a constructor to give initial values to the instance variables defined by the class, or to perform any other startup procedures required to create a fully formed object.</p>
+<p>All classes have constructors, whether you define one or not, because Java automatically provides a default constructor that initializes all member variables to zero. However, once you define your own constructor, the default constructor is no longer used.</p>
+<p><strong>Example</strong></p>
+<p>Here is a simple example that uses a constructor without parameters &minus;</p>
+<p>// A simple constructor.</p>
+<p><strong>class MyClass {</strong></p>
+<p><strong>int x;</strong></p>
+<p><strong>&nbsp;</strong></p>
+<p><strong>// Following is the constructor</strong></p>
+<p><strong>MyClass() {</strong></p>
+<p><strong>x = 10;</strong></p>
+<p><strong>}</strong></p>
+<p>}</p>
+<p>You will have to call constructor to initialize objects as follows &minus;</p>
+<p><strong>public class ConsDemo {</strong></p>
+<p><strong>&nbsp;</strong></p>
+<p><strong>public static void main(String args[]) {</strong></p>
+<p><strong>MyClass t1 = new MyClass();</strong></p>
+<p><strong>MyClass t2 = new MyClass();</strong></p>
+<p><strong>System.out.println(t1.x + "" + t2.x);</strong></p>
+<p><strong>}</strong></p>
+<p><strong>}</strong></p>
+<p><strong>Output</strong></p>
+<p>10 10</p>
+<h2><strong><u>The finalize( ) Method</u></strong></h2>
+<p>It is possible to define a method that will be called just before an object's final destruction by the garbage collector. This method is called <strong>finalize( )</strong>, and it can be used to ensure that an object terminates cleanly.</p>
+<p>For example, you might use finalize( ) to make sure that an open file owned by that object is closed.</p>
+<p>To add a finalizer to a class, you simply define the finalize( ) method. The Java runtime calls that method whenever it is about to recycle an object of that class.</p>
+<p>Inside the finalize( ) method, you will specify those actions that must be performed before an object is destroyed.</p>
+<p>The finalize( ) method has this general form &minus;</p>
+<p>protected void finalize( ) {</p>
+<p>// finalization code here</p>
+<p>}</p>
+<p>Here, the keyword protected is a specifier that prevents access to finalize( ) by code defined outside its class.</p>
+<p>This means that you cannot know when or even if finalize( ) will be executed. For example, if your program ends before garbage collection occurs, finalize( ) will not execute.</p>
+<p>&nbsp;</p>
+<p><strong>**************END OF LECTURE SIX*************</strong></p>

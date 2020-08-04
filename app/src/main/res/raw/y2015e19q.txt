@@ -1,0 +1,7 @@
+You can get a list of the methods through which an exception has travelled by using the ............
+
+
+	A.	get Message()
+	B.	call stack()
+	C.	getpath()
+	D.	printStackTrace()

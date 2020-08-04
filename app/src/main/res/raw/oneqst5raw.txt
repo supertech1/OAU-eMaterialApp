@@ -1,0 +1,23 @@
+            Source Code:
+
+import java.util.Scanner;
+
+public class TestForEquality 
+{
+    public static void main(String args[])
+    {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter the first number: ");
+        double num1 = input.nextDouble();
+        System.out.print("Enter the second number: ");
+        double num2 = input.nextDouble();
+        if (num1 == num2)
+        {
+            System.out.println("\nNumbers are equal");
+        }
+        else {
+            System.out.println("\nNUMBERS ARE NOT EQUAL");
+        }
+    }
+    
+}

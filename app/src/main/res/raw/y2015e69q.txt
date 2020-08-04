@@ -1,0 +1,7 @@
+............ is the name of the abstract base class for streams dealing with general purpose (non-character) input.
+
+
+	A.	InputStream
+	B.	OutputStream
+	C.	Reader
+	D.	Writer

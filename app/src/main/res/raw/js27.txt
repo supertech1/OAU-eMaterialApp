@@ -1,0 +1,6 @@
+Answer: c
+Explanation: The getName() function is used to obtain the name of the thread, in this code the name given to thread is 'New Thread'.
+Output:
+$ javac multithreaded_programing.java
+$ java multithreaded_programing
+New Thread

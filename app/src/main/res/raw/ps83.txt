@@ -1,0 +1,2 @@
+Answer: a
+Explanation: If a recursive method does not have a base case then an infinite loop occurs which results in stackoverflow.

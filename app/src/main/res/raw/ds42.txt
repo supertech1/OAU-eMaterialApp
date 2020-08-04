@@ -1,0 +1,2 @@
+Answer: a
+Explanation: getBytes() stores the character in an array of bytes. It uses default character to byte conversions provided by platform.

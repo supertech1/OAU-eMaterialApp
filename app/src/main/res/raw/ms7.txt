@@ -1,0 +1,2 @@
+Answer: a
+Explanation: getID() can be used to determine the type of an event.

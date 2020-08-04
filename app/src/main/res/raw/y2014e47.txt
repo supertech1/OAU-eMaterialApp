@@ -1,0 +1,4 @@
+Which of these classes is used to read characters in a file?
+	A. FileReader		B. FileWriter		C. FileInputStream	D. InputStreamReader
+	Solution :
+Ans: A

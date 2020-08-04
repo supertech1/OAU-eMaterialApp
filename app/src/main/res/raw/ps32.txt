@@ -1,0 +1,2 @@
+Answer: d
+Explanation: To obtain an iterator to the start of the start of the collection we use iterator() method.

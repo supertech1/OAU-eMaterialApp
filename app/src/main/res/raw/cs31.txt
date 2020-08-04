@@ -1,0 +1,2 @@
+Answer: a
+Explanation: Two or more methods can have same name as long as their parameters declaration is different, the methods are said to be overloaded and process is called method overloading. Method overloading is a way by which Java implements polymorphism.

@@ -1,0 +1,7 @@
+Ans : A
+
+Explanation :
+
+The backslash (\) is an escape character. which has special meaning to System.out’s print and println methods. 
+When a backslash appears in a string, Java combines it with the next character to form an escape sequence. 
+For Example, escape sequence \n represents the newline character.

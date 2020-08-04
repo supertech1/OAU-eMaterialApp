@@ -1,0 +1,1 @@
+Which of these operator is used to generate an instance of an exception than can be thrown by using throw?

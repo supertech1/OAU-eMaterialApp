@@ -1,0 +1,2 @@
+Answer: b
+Explanation: Whenever a subclass needs to refer to its immediate superclass, it can do so by use of the keyword super.

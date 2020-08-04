@@ -1,0 +1,2 @@
+Answer: c
+Explanation: The isAlive( ) method returns true if the thread upon which it is called is still running. It returns false otherwise.

@@ -1,0 +1,19 @@
+Answer : D
+
+Explanation :
+
+class booloperators
+{
+	Public static void main(String  args[])
+	{
+		boolean  var1 = true;  //assign boolean literal true to boolean variable var1
+
+		boolean  var2  = false;  //assign boolean literal false to boolean variable var2
+
+		System.out.println((var2 & var2));  //display the result of the test expression in the bracket
+						                    //NB: Logical and (&) operator returns true only if both operands
+						                    //are true. Therefore, since var2 is false, & operator above will return false
+	}
+}
+
+            

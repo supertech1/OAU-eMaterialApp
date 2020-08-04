@@ -1,0 +1,6 @@
+Answer: c
+Explanation: None
+output:
+$ javac inheritance.java
+$ java inheritance
+2 3

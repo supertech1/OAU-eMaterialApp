@@ -1,0 +1,6 @@
+Which of these occupy first 0 to 127 in Unicode character set used for characters in java?
+
+	A.   ASCII	
+	B.   ISO-LATIN-1	
+	C.   None of the mentioned	
+	D.   ASCII and ISO-LATIN1

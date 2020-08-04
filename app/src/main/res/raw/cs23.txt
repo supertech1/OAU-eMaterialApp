@@ -1,0 +1,2 @@
+Answer: d
+Explanation: A constructor is a method that initializes an object immediately upon creation. It has the same name as that of class in which it resides.

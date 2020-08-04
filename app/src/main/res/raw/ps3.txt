@@ -1,0 +1,2 @@
+Answer: d
+Explanation: SortedList is not a part of collection framework.

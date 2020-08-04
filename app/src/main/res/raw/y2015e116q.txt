@@ -1,0 +1,7 @@
+What is the default of value of object variable?
+
+
+A.	Undefined
+B.	0
+C.	null
+D.	not defined

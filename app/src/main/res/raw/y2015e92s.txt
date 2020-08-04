@@ -1,0 +1,6 @@
+Ans :  A
+
+Explanation :
+
+99 is on the second row, third column in the array but since  array index start from zero, 
+we reference the array position of 99 in java with items[1][2] .

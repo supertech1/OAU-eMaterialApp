@@ -1,0 +1,6 @@
+Answer: d
+Explanation: This program was previously done by using Runnable interface, here we have used Thread class. This shows both the method are equivalent, we can use any of them to create a thread.
+Output:
+$ javac multithreaded_programing.java
+$ java multithreaded_programing
+falsefalse

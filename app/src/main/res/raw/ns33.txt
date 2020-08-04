@@ -1,0 +1,2 @@
+Answer: a
+Explanation: isNaN() methods returns true if num specified is not a number, otherwise it returns false.

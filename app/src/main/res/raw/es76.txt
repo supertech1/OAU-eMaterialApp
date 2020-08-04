@@ -1,0 +1,2 @@
+Answer: b
+Explanation: write() and read() are the two main methods of OutputStream & InputStream respectively that are used for printing and reading the byte data.

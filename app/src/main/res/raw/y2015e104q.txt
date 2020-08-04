@@ -1,0 +1,7 @@
+In java, elements of an array are automatically initialized to some default value. 
+What is the default value for the elements of an array of integers?
+
+A.	0
+B.	"0"
+C.	null
+D.	1

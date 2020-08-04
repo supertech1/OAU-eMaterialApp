@@ -1,0 +1,6 @@
+Which of these is returned by the greater than (>) operator?
+
+	A. Integers	
+	B. Floating-point numbers	
+	C. Boolean	
+	D.  None

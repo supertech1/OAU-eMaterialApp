@@ -1,0 +1,7 @@
+One of these is NOT an escape sequence
+
+
+	A.	\n
+	B.	%n
+	C.	\"
+	D.	\r

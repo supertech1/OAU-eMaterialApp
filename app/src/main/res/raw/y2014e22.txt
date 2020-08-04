@@ -1,0 +1,18 @@
+What is the output of this program?
+	class Dan
+	{
+		public static void main(String a[ ] )
+		{
+			int odd = 1;
+			if(odD.
+				System.out.println(“odd”);
+			else
+				System.out.println(“even”);
+		}
+	}
+	A.   compilation error		B.   odd	C.   even	D. None
+
+	Solution :
+	NB: This code results to a compilation error due to the missing parenthesis in the ‘if’ statement above
+	
+		Ans : A

@@ -1,0 +1,6 @@
+Answer: d
+Explanation: b >> 1 in if returns 5 which is equal to a i:e 5, therefore body of if is executed and block second is exited. Control goes to end of the block second executing the last print statement, printing 10.
+output:
+$ javac Output.java
+$ java Output
+10

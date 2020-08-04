@@ -1,0 +1,2 @@
+Answer: c
+Explanation: Abstract class cannot be directly initiated with new operator, Since abstract class does not contain any definition of implementation it is not possible to create an abstract object.

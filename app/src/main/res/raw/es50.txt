@@ -1,0 +1,6 @@
+Answer: a
+Explanation: Since last parameter of System.arraycopy(a,1,b,3,0) is 0 nothing is copied from array a to array b, hence b remains as it is.
+Output:
+$ javac Output.java
+$ java Output
+ABCDEF GHIJKL

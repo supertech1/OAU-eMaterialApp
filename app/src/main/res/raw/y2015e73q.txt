@@ -1,0 +1,11 @@
+These four methods are commonly used in?
+
+public char[] readPassword(String fmt, Object... args)
+public String readLine()
+public String readLine(String fmt, Object ... args)
+public char[] readPassword()
+
+A.	Scanner class
+B.	Console class
+C.	DataInputStream
+D.	DataSecureStream

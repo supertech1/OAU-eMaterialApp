@@ -1,0 +1,15 @@
+What is the output of this program?
+
+class Output {
+
+    public static void main(String args[]) {
+
+        char a = '@';
+
+	boolean x = Character.isLetter(a);
+
+        System.out.print(x);
+
+    }
+
+}

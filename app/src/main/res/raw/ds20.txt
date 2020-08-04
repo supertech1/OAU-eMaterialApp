@@ -1,0 +1,6 @@
+Answer: b
+Explanation: r is reference of type A, the program assigns a reference of object obj2 to r and uses that reference to call function display() of class B.
+output:
+$ javac Dynamic_dispatch.java
+$ java Dynamic_dispatch
+2

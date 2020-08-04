@@ -1,0 +1,7 @@
+Can data flow through a given stream in both directions?
+
+
+A.	No; a stream has one direction only, input or output.
+B.	No; streams only work for output
+C.	Yes; only one stream is needed to read and write a file
+D.	Yes; but only one direction at a time.

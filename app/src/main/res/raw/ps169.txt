@@ -1,0 +1,6 @@
+Answer: d
+Explanation: System.arraycopy() is a method of class System which is used to copy a string into another string.
+Output:
+$ javac Output.java
+$ java Output
+ABCDEF GHICDL

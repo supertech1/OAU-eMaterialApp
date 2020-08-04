@@ -1,0 +1,16 @@
+What is the output of this program?
+
+class Guess
+{
+	publicstaticvoid  main(String a[])
+	{
+		int sum = 0, i;
+		for( i = 0; i < 5; ++i) sum += i;
+		System.out.print(sum);
+	}
+}
+
+	A.  5	
+	B.  10	
+	C.  14	
+	D.  compilation error

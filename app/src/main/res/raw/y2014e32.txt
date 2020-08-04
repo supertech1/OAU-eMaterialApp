@@ -1,0 +1,7 @@
+Which of these exception is thrown by close( ) and read( ) methods?
+	A.  IOException	B. FileException	C. FileNotFoundException	D. FileInputException
+
+	Solution :
+
+Explanation: Both close() and read() method throw IOException.
+	Ans : A

@@ -1,0 +1,19 @@
+What is the output of this program?
+
+import java.io.*;
+
+class files {
+
+     public static void main(String args[]) {
+
+       File obj = new File("/java/system");
+
+       System.out.print(obj.getParent());
+
+       System.out.print(" " + obj.isFile());
+
+    }
+
+}
+
+Note: file is made in c drive.

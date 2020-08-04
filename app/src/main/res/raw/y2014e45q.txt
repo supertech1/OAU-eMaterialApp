@@ -1,0 +1,7 @@
+Which of these classes is not related to input and output stream in terms of functioning?
+	
+
+	A. File		
+	B.  Writer	
+	C. InputStream	
+	D. Reader

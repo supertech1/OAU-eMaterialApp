@@ -1,0 +1,1 @@
+Which of these classes encapsulate runtime enviroment?

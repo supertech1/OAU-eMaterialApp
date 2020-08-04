@@ -1,0 +1,6 @@
+Answer: d
+Explanation: InetAddress obj1 = InetAddress.getByName("cisco.com"); creates object obj1 having DNS and IP address of cisco.com, InetAddress obj2 = InetAddress.getByName("sanfoundry.com"); creates obj2 having DNS and IP address of sanfoundry.com , since both these address point to two different locations false is returned by obj1.equals(obj2);.
+Output:
+$ javac networking.java
+$ java networking
+true

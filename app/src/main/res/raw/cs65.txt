@@ -1,0 +1,2 @@
+Answer: b
+Explanation: Strings in Java are immutable that is they can not be modified.

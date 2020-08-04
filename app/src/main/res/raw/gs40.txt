@@ -1,0 +1,6 @@
+Answer: d
+Explanation: toExternalForm() is used to know the full URL of an URL object.
+Output:
+$ javac networking.java
+$ java networking
+http://www.sanfoundry.com/javamcq

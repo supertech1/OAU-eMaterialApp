@@ -1,0 +1,6 @@
+Ans : D
+
+Explanation :
+	
+NB: The test condition in while statement must always be a boolean.
+		

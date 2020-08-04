@@ -1,0 +1,1 @@
+Which of these is used as default for a member of a class if no access specifier is used for it?

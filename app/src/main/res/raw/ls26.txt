@@ -1,0 +1,2 @@
+Answer: a
+Explanation: java.text provides capabilities for formatting, searching and manipulating text.

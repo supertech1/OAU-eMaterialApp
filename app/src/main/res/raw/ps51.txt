@@ -1,0 +1,2 @@
+Answer: b
+Explanation: The Observable class is used to create subclasses that other part of program can observe.

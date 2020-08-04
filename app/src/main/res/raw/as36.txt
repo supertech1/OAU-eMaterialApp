@@ -1,0 +1,6 @@
+Answer:a
+Explanation:Operator ++ increments the value of character by 1. c1 and c2 are given values D and 84, when we use ++ operator their values increments by 1, c1 and c2 becomes E and U respectively.
+output:
+$ javac char_increment.java
+$ java char_increment
+E U

@@ -1,0 +1,11 @@
+A programming platform comprises the following:
+
+(i)	Machine codes  (ii) Operating System     (iii) Integrated development development
+(iv) hardware system
+
+
+A. (i) and (ii)
+B. (iii) and (iv)
+C. (ii) and (iii)
+D. (ii) and (iv)
+E. (i) and (iii)

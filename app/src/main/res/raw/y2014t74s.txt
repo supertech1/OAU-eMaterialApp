@@ -1,0 +1,7 @@
+Answer : B
+
+Explanation :
+
+No two case constants in the same switch can have identical values.
+		
+	

@@ -1,0 +1,2 @@
+Answer: a
+Explanation: Serialization is the process of writing the state of an object to a byte stream. This is used when you want to save the state of your program to persistent storage area.

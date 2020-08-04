@@ -1,0 +1,5 @@
+Answer : C
+
+Explanation: 
+
+java.io provides support for input and output operations.

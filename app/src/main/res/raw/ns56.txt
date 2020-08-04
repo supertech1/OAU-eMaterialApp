@@ -1,0 +1,6 @@
+Answer: c
+Explanation: Character.MAX_VALUE returns the largest character value, which is of character '?'.
+Output:
+$ javac Output.java
+$ java Output
+?

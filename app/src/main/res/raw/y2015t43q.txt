@@ -1,0 +1,7 @@
+What type could you use to represent the average score for a course?
+
+A. int
+B. double
+C. boolean
+D. String
+E. Byte

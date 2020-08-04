@@ -1,0 +1,6 @@
+Answer: B
+Explanation: obj.keySet() returns a set containing all the keys used in properties object, here obj contains keys AB, BC, CD therefore obj.keySet() returns [AB, BC, CD].
+Output:
+$ javac properties.java
+$ java properties
+[AB, BC, CD] 

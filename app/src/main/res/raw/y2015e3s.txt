@@ -1,0 +1,17 @@
+Answer: B
+
+Explanation :
+
+Class Throwable has only two direct subclasses which are Exception and Error. 
+Class Exception and its subclasses' for instance, RuntimeException (package java.lang)
+and IOException (package java.io) - represent exceptional situations that can occur in a
+Java program and that can be caught by the application while on the other hand, Class Error 
+and its subclasses represent abnormal situations that happen in the JVM. Most Errors happen 
+infrequently and should not be caught by applications because it's usually not possible for
+applications to recover from Errors.Hence, Errors are more serious than Exceptions. 
+The Error class represents more serious errors from which your program usually cannot recover. 
+Usually, you do not use or implement Error objects in your programs. A program cannot recover 
+from Error conditions on its own.
+
+The Exception class comprises less serious errors that represent unusual conditions that
+arise while a program is running and from which the program can recover

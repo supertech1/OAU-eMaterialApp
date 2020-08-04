@@ -1,0 +1,2 @@
+Answer: c
+Explanation: There are two types of focus events - permanent and temporary. The isTemporary() method indicates if this focus change is temporary, it returns a Boolean value.

@@ -1,0 +1,6 @@
+Answer:b
+Explanation: var2 is initialised to 1. The conditional statement returns false and the else part gets executed.
+output:
+$ javac selection_statements.java
+$ java selection_statements
+2

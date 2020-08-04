@@ -1,0 +1,9 @@
+Ans : A
+
+Explanation :
+
+main method is the execution starting point of all java applications....the declaration is as follows:
+
+public static void main(String args[])
+{
+}

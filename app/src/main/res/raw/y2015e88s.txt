@@ -1,0 +1,7 @@
+Ans: D
+
+Explanation :
+
+The given array is a multidimentional array of 3 rows. To access the last row(i.e the third row), 
+you simply use [2][0], calling [3][0] would result to ArrayIndexOutOfBoundException since no such 
+row index(i.e 3) exist.

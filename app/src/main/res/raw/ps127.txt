@@ -1,0 +1,4 @@
+Answer: c
+Explanation: Mexception is self defined exception, we are generating Myexception but catching DevideByZeroException which causes error.
+Output:
+$ javac Output.javac

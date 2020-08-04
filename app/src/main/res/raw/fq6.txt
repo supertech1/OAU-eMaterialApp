@@ -1,0 +1,1 @@
+Which of these is method of ObjectOutput interface used to write the object to input or output stream as required?

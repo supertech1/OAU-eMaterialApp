@@ -1,0 +1,7 @@
+What is the process of defining two or more methods within same class that have same
+name but different parameters declaration?
+
+A.	Method overloading
+B.	Method overriding
+C.	Method hiding
+D.	None of the mentioned

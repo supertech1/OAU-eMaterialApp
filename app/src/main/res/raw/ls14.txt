@@ -1,0 +1,2 @@
+Answer: c
+Explanation: The ReflectPermission class allows reflection of a private or protected members of a class. This was added after java 2.0 .

@@ -1,0 +1,6 @@
+Answer: a
+Explanation: oos.writeInt(5); writes integer 5 in the Output stream which is extracted by z = ois.readInt(); and stored in z hence z contains 5.
+Output:
+$ javac streams.java
+$ java streams
+5

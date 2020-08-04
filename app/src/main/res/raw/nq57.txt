@@ -1,0 +1,13 @@
+What is the output of this program?
+
+class Output {
+
+   public static void main(String args[]) {
+
+        int a = Character.MIN_VALUE;
+
+        System.out.print((char)a);
+
+    }
+
+}

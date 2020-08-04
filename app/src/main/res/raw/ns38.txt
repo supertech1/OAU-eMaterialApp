@@ -1,0 +1,6 @@
+Answer: d
+Explanation: i.intValue() method returns the value of wrapper i as a Integer. i is 257.578 is double number when converted to an integer data type its value is 257.
+Output:
+$ javac Output.java
+$ java Output
+257

@@ -1,0 +1,2 @@
+Answer: d
+Explanation: All objects of class share same static variable, when object of a class are declared, all the objects share same copy of static members, no copy of static variables are made.

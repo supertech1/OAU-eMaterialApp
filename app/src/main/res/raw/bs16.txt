@@ -1,0 +1,6 @@
+Answer:c
+Explanation: Unary not operator, ~, inverts all of the bits of its operand. 42 in binary is 00101010 in using ~ operator on var1 and assigning it to var2 we get inverted value of 42 i:e 11010101 which is -43 in decimal.
+output:
+$ javac bitwise_operator.java
+$ java bitwise_operator
+42 -43

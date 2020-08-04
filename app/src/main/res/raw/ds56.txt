@@ -1,0 +1,6 @@
+Answer: b
+Explanation: startsWith() method is case sensitive "hello" and "Hello" are treated differently, hence false is stored in var.
+Output:
+$ javac output.java
+$ java output
+false

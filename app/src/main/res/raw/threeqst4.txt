@@ -1,0 +1,3 @@
+Qst: Implement a program which allows the user to determine the
+        size of a square of stars and then Adapt it so that the
+        user is allowed to enter a size only between 2 and 20;

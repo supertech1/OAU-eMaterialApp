@@ -1,0 +1,2 @@
+Answer: b
+Explanation: To implement Runnable interface, a class needs only to implement a single method called run().

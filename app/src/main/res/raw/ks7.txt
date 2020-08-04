@@ -1,0 +1,6 @@
+Answer: c
+Explanation: None.
+Output:
+$ javac Input_Output.java
+$ java Input_Output
+abcq

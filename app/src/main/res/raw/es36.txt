@@ -1,0 +1,2 @@
+Answer: b
+Explanation: long longValue() is used to obtain value of invoking object as a long.

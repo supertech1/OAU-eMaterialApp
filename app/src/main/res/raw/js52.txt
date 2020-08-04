@@ -1,0 +1,2 @@
+Answer: c
+Explanation: try block can be followed by any of finally or catch block, try block checks for exceptions and work is performed by finally and catch block as per the exception.

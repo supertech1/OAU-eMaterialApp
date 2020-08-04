@@ -1,0 +1,6 @@
+Answer: c
+Explanation: floatValue() converts the value of wrapper i into float, since float can measure till 5 places after decimal hence 257.57812 is stored in floating point variable x.
+Output:
+$ javac Output.java
+$ java Output
+257.57812

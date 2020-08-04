@@ -1,0 +1,2 @@
+Answer: d
+Explanation: Deserialization is a process by which the data written in the stream can be extracted out from the stream.

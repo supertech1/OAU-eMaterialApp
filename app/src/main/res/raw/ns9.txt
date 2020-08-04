@@ -1,0 +1,6 @@
+Answer: d
+Explanation: ciel(double X) returns the smallest whole number greater than or equal to variable x.
+Output:
+$ javac Output.java
+$ java Output
+4

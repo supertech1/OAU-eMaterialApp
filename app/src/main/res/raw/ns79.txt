@@ -1,0 +1,6 @@
+Answer: d
+Explanation: Although class Y extends class X but still a is not considered related to Y. hence isInstance() returns false.
+Output:
+$ javac Output.java
+$ java Output
+false

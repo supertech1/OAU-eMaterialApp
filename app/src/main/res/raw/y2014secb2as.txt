@@ -1,0 +1,16 @@
+Solution :
+
+Note : Each call to ABC.echo(" ") will always display the content in the double quote.
+Output :
+1: a1
+ 2: a2
+ 3: A()
+ 4: b1
+ 5: B()
+ 6: b1 reset
+ 7: a2 reset
+ 8: c1
+ 9: c3
+10: C()
+11: c2
+12: b2

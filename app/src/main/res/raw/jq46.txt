@@ -1,0 +1,1 @@
+Which of these class is used to encapsulate IP address and DNS?

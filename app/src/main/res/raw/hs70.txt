@@ -1,0 +1,6 @@
+Answer: c
+Explanation: obj1.and(obj2) returns an BitSet object which contains elements common to both the object obj1 and obj2 and stores this BitSet in invoking object that is obj1. Hence obj1 contains 3 & 4.
+Output:
+$ javac Bitset.java
+$ java Bitset
+{3, 4}

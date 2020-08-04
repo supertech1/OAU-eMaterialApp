@@ -1,0 +1,7 @@
+One of these is not a reason for programming:
+
+A. Harnessing the computational power of computer to solve problems
+B. Determining whether a problem can be solved within reasonable time
+C. Simulating proposed solution to problems
+D. Making human beings redundant and giving their jobs to robots
+E. Increase the accuracy of solution to problems

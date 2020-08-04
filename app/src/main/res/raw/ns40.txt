@@ -1,0 +1,6 @@
+Answer: b
+Explanation: i.compareTo() methods two double values, if they are equal then 0 is returned and if not equal then 1 is returned, here 257.57812 and 257.578123456789 are not equal hence 1 is returned and stored in x.
+Output:
+$ javac Output.java
+$ java Output
+1

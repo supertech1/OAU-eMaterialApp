@@ -1,0 +1,20 @@
+What will be the output of this program ?
+public class Ify
+{
+	public static void main(String [ ] args)
+	{
+		boolean b = false;
+		int h = 42;
+		if(h < 50 && !b) h++;
+		if(h > 50) h - = 10;
+		else if(h > 40) h += 7;
+		else   --h;
+		System.out.println(h);
+	}
+			
+}
+	
+	A.  41 		
+	B.  42		
+	C.  50		
+	D.  51

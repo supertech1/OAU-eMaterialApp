@@ -1,0 +1,7 @@
+One among the following classes can return more than one character to be returned to inputstream.
+
+
+A.	StringArrayReader
+B.	BufferedReader
+C.	Bufferedwriter
+D.	PushbachReader

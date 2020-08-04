@@ -1,0 +1,6 @@
+Answer: c
+Explanation: Collections.sort(list) sorts the given list, the list was 2->8->5->1 after sorting it became 1->2->5->8.
+Output:
+$ javac Collection_iterators.java
+$ java Collection_iterators
+1 5 8 2

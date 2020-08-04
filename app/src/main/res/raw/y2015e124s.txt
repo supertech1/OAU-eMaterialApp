@@ -1,0 +1,8 @@
+Ans :  
+
+Explanation : A
+
+Overloading involves using one term to indicate diverse meanings, or writing multiple
+methods with the same name but with different parameter lists. When you overload a Java
+method, you write multiple methods with a shared name. The compiler understands your meaning
+based on the arguments you use with the method call.

@@ -1,0 +1,6 @@
+Answer : A
+	
+Explanation :
+
+String is a member of java.lang package
+

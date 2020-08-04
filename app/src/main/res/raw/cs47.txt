@@ -1,0 +1,6 @@
+Answer: b
+Explanation: None.
+output:
+$ javac access_specifier.java
+$ java access_specifier
+3 3

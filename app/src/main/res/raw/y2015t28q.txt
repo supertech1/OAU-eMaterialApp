@@ -1,0 +1,7 @@
+Java can be used for all of the following except:
+
+A. create a console-based program
+B. create an applet
+C. create a gui-based program
+D. create a web-page
+E. create a networking program

@@ -1,0 +1,7 @@
+Which of the following input/output package is usually used with java?
+
+
+	A.	java.input
+	B.	java.io
+	C.	java.inout
+	D.	java.file

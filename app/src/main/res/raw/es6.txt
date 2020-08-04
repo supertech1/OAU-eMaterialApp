@@ -1,0 +1,2 @@
+Answer: d
+Explanation: A package can be renamed only after renaming the directory in which the classes are stored.

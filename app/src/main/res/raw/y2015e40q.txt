@@ -1,0 +1,7 @@
+Which of the following statements is incorrect?
+
+
+	A.	Placing an import declaration inside or after a class declaration is a syntax error
+	B.	Before using a Scanner, you must create it and specify the source of the data.
+	C.	Classes in  java.lang are the only ones in the java API that requires an import declaration 
+	D.	Everything to the right of the assignment operator is always evaluated before the assignment is performed.

@@ -1,0 +1,9 @@
+
+Literal can be of which of these data types?
+
+A.  integer 	B.  float		C.  boolean	D.  all of the mentioned
+
+
+            Solution:
+
+	        Ans: D

@@ -1,0 +1,1 @@
+Which of the following is method of System class is used to find how long a program takes to execute?

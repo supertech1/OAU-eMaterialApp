@@ -1,0 +1,6 @@
+Answer: c
+Explanation: trim() method is used to remove leading and trailing whitespaces in a string.
+Output:
+$ javac output.java
+$ java output
+"Hello World"

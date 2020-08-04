@@ -1,0 +1,9 @@
+Answer : C
+
+Explanation : 
+
+The test condition will return false when variable 'n' is greater than
+or equals to 5. At the point variable 'n' is initialized to 5, the test
+condition returns false, thus, terminating the loop.
+
+	

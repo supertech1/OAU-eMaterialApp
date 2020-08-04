@@ -1,0 +1,2 @@
+Answer:c
+Explanation: Unicode defines fully international character set that can represent all the characters found in all human languages. Its range is from 0 to 65536.

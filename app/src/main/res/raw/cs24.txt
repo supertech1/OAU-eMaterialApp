@@ -1,0 +1,2 @@
+Answer: d
+Explanation: Java handles deallocation of memory automatically, we do not need to explicitly delete an element. Garbage collection only occurs during execution of the program. When no references to the object exist, that object is assumed to be no longer needed, and the memory occupied by the object can be reclaimed.

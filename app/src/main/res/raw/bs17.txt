@@ -1,0 +1,6 @@
+Answer: a
+Explanation: And operator produces 1 bit if both operand are 1. Or operator produces 1 bit if any bit of the two operands in 1.
+output:
+$ javac bitwise_operator.java
+$ java bitwise_operator
+7 2

@@ -1,0 +1,2 @@
+Answer: c
+Explanation: Thread class is used to make threads in java, Thread encapsulates a thread of execution. To create a new thread the program will either extend Thread or implement the Runnable interface.

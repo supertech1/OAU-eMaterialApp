@@ -1,0 +1,17 @@
+
+public class DrawRectangleWithStar  //DrawRectangleWithStar class declaration
+{  //DrawRectangleWithStar Opening brace
+    
+    public static void main(String args[])  //main method declaration
+    { //main method opening brace
+        for (int row = 1; row <= 3; row++)   //outer for statement to keep track of the rows
+        { //outer for block opening brace
+            for (int column = 1; column <= 6; column++)  //inner for statement to keep track of the columns
+            { //inner for block opening brace
+                System.out.print("*"); //display '*' on the window...(NB: The logic behind this code is that:  "on a single run of the outer for statement, the inner for statement will run 6times"....Now read the code again and you should be able to get the concept now. 
+            } // inner for block closing brace
+            System.out.println();  //Output a new line(i.e take the cursor to the next row) after the completion of the inner for statement execution.
+        } //outer for block closing brace 
+    } //main method closing brace
+    
+}  //DrawRectangleWithStar class closing brace

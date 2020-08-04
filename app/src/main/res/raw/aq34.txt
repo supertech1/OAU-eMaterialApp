@@ -1,0 +1,1 @@
+If an expression contains double, int, float, long, then whole expression will promoted into which of these data types?

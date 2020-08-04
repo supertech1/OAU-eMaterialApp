@@ -1,0 +1,6 @@
+Answer: b
+Explanation: 3.14 in degree 179.9087. We usually take it to be 180. Buts here we have type casted it to integer data type hence 179.
+Output:
+$ javac Output.java
+$ java Output
+179

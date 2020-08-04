@@ -1,0 +1,7 @@
+What type should you use to record if it is raining or not?
+
+
+	A.	int 
+	B.	double 
+	C.	boolean
+	D.	String

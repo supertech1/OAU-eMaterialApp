@@ -1,0 +1,6 @@
+Which of these is incorrect string literal?
+
+	A. "Hello World"
+	B. "Hello\nWorld"
+	C. "\"Hello World""
+	D. "Hello \n world"

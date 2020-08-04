@@ -1,0 +1,7 @@
+Which of these statements about import declaration is correct?
+
+
+	A.	None
+	B.	All import declarations must appear before the first class declaration in the file
+	C.	Placing an import declaration inside or after a class declaration is a syntax error
+	D.	Forgetting to include an import declaration for a class used results in a compilation error

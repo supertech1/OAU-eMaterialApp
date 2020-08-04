@@ -1,0 +1,1 @@
+Which of these access specifier must be used for class so that it can be inherited by another sub class?

@@ -1,0 +1,6 @@
+Answer: c
+Explanation: Value of variable sum is printed outside of try block, sum is declared only in try block, outside try block it is undefined.
+Output:
+$ javac exception_handling.java
+Exception in thread "main" java.lang.Error: Unresolved compilation problem:
+sum cannot be resolved to a variable

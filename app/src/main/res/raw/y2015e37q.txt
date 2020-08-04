@@ -1,0 +1,7 @@
+In a java program, x=1.5, i =3, and j=2, what is the value of y if: y=2*x+ i/j
+
+
+	A.	3.5
+	B.	4.0
+	C.	4.5
+	D.	5.0

@@ -1,0 +1,6 @@
+Answer: c
+Explanation: None.
+Output:
+$ javac Output.java
+$ java Output
+2

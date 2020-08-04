@@ -1,0 +1,6 @@
+Answer: d
+Explanation: oos.writeFloat(3.5); writes 3.5 in output stream. A new input stream is linked to stream 'serials', an object 'ois' of ObjectInputStream is used to access this newly created stream, ois.available() gives the total number of byte in the input stream since a float was written in the stream thus the stream contains 4 byte, hence 4 is returned and printed.
+Output:
+$ javac streams.java
+$ java streams
+4

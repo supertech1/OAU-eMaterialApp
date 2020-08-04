@@ -1,0 +1,2 @@
+Answer: d
+Explanation: Stack, Hashtable, Vector, Properties and Dictionary are legacy classes.

@@ -1,0 +1,18 @@
+Qst 2. Which of the following operators can operate on a Boolean variable?
+	1. &&  2. ==  3. +  4.  +=
+	
+	A. 3 & 2     B. 1 & 2	  C. 1,2 & 4	 D. 1,2, & 3
+
+
+			Solution:
+
+Arithmetic operators in Java are operators used with numeric type operands. 
+That is, both operands to arithmetic operators must be one of types byte, short, 
+char, int, long, float, and double. These operators cannot have operands of 
+boolean primitive type and reference type. Examples of these arithmetic operators 
+are: +, - ,+=, -= , * , / , % e.t.c. Also, we have Boolean logical operators  which
+are used with boolean operand(s). Examples of boolean logical operators are:
+&&, ==, ! , || e.t.c . Therefore, only option 1 and 2 can operate on Boolean variable.
+
+
+			Ans: B

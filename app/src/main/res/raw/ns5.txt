@@ -1,0 +1,2 @@
+Answer: a
+Explanation: Math class contains all the floating point functions that are used for geometry, trigonometry, as well as several general purpose methods. Example : sin(), cos(), exp(), sqrt() etc.

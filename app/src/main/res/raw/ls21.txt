@@ -1,0 +1,2 @@
+Answer: a
+Explanation: Remote method invocationor RMI allows us to invoke a method of java object that executes on another machine..

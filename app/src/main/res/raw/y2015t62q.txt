@@ -1,0 +1,7 @@
+java API stands for 
+
+A. java Application Program Interfacing
+B. Java Application Programming Interface
+C. Java Application Program Interface
+D. Java Application Programming Interfacing
+E. Java Applicative Programming Interfacing

@@ -1,0 +1,1 @@
+Which of the following is incorrect statement regarding the use of generics and parameterized types in Java?

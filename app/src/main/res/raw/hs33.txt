@@ -1,0 +1,2 @@
+Answer: b
+Explanation: fill() method assigns a value to all the elements in an array, in other words it fills the array with specified value.

@@ -1,0 +1,2 @@
+Answer: C
+Explanation: InputStream & OutputStream classes under byte stream they are not streams. Character Stream contains all the classes which can work with Unicode.

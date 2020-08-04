@@ -1,0 +1,6 @@
+Ans : A
+
+Explanation :
+
+By  convention, method names begin with lowercase and subsequent words start with uppercase. 
+Example: getFirstName(), setAge(); calculate().....e.t.c.

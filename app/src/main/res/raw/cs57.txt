@@ -1,0 +1,6 @@
+Answer: c
+Explanation: All objects of class share same static variable, all the objects share same copy of static members, obj1.x and obj2.x refer to same element of class which has been incremented twice and its value is 2.
+output:
+$ javac static_use.java
+$ java static_use
+2 2

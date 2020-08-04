@@ -1,0 +1,5 @@
+Answer: d
+Explanation: join() method of Thread class waits for thread being called to finish or terminate, but here we have no condition which can terminate the thread, hence code 't.join()' leads to runtime error and nothing will be printed on the screen.
+Output:
+$ javac multithreaded_programing.java
+$ java multithreaded_programing

@@ -1,0 +1,7 @@
+Which of these is a method to clear all the data present in output buffers?
+	
+
+	A. clear( )	
+	B. flush( )	
+	C. fflush( )	
+	D. close( )

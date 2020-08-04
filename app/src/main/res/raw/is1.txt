@@ -1,0 +1,2 @@
+Answer: c
+Explanation: If a static method is present in the program then it will be executed first, then main will be executed.

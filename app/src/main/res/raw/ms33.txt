@@ -1,0 +1,2 @@
+Answer: a
+Explanation: getPoint() method can be used to obtain coordinates of a mouse, alternatively we can use getX() and getY() methods for x and y coordinates of mouse respectively.

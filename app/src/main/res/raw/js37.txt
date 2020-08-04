@@ -1,0 +1,6 @@
+Answer: d
+Explanation: None.
+Output:
+$ javac multithreaded_programing.java
+$ java multithreaded_programing
+Thread[main,5,main] 

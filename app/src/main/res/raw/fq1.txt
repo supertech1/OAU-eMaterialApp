@@ -1,0 +1,1 @@
+Which of these is a process of writing the state of an object to a byte stream?

@@ -1,0 +1,7 @@
+When a java source code is compiled, the output is a?
+
+	A. Machine code
+	B. Bytecode
+	C. Hexacode
+	D. Binary code
+	E. Bitcode

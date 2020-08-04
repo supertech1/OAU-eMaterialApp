@@ -1,0 +1,44 @@
+
+What is the output of this program?
+
+class  Output
+{
+	public static void main(String args[])
+	{
+		int  x, y; 
+		x = 10;
+		x++;
+		--x;
+		y= x++;
+		System.out.println(x + " " +y);
+	}
+}
+	
+A.  11  11	B.  10  10	C.  11  10	D.  10  11
+
+
+            Solution :
+
+class  Output
+{
+	public static void main(String args[])
+	{
+		int  x, y;  //declaration of variable x and y
+
+		x = 10;     //initialize x to 10
+
+		x++;        //using post-increment operator, increase x by 1 (NB: on this line, x is still 10)
+			        //On this line x is now 11.
+
+		--x;        //using pre-decrement operator, decrease x by 1  ( NB: x is now back to 10 on this line)
+
+		y= x++;     //assign x to y, then increment x by 1 (This is an effect of post-increment operator)
+		            // (NB: on executing the above line, the current value of x is assigned to y thereafter 
+			        //incrementing x by 1. Therefore y = 10, x = 11
+
+		System.out.println(x + " " +y);  //Display the result
+	}
+}
+			
+				
+            Ans: C

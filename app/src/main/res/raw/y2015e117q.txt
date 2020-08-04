@@ -1,0 +1,6 @@
+which of the following statements are incorrect?
+
+A.	Public members of class can be accessed by any code in the program
+B.	Private members of class can only be accessed by other members of the class
+C.	Private members of class can be inherited by a sub class, and become protected members in sub class
+D.	Protected members of a class can be inherited by a sub class, and become private members of the sub class.

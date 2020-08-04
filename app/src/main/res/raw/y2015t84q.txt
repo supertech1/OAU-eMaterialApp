@@ -1,0 +1,10 @@
+Analyze the following code.
+
+int[] list = new int[5];
+list = new int[6];
+
+A. The code has compile errors because the variable list cannot be changed once it is assigned.
+B. The code can compile and run fine. The second line assigns a new array to list
+C. The code has runtime errors because the variable list cannot be changed once it is assigned
+D. The code has compile errors because you cannot assign a different size array to list
+E. None of the mentioned

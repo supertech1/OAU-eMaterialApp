@@ -1,0 +1,6 @@
+Answer:a
+Explanation:Variable c has been dynamically initialized to square root of a * a + b * b, during run time.
+output:
+$ javac dynamic_initialization.java
+$ java dynamic_initialization
+5.0

@@ -1,0 +1,6 @@
+Answer: d
+Explanation: end time is the time taken by loop to execute it can be any non zero value depending on the System.
+Output:
+$ javac Output.java
+$ java Output
+78

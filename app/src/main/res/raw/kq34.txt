@@ -1,0 +1,1 @@
+Which of these values is returned by read() method is end of file (EOF) is encountered?

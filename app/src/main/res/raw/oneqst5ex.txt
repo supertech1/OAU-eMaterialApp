@@ -1,0 +1,26 @@
+import java.util.Scanner;   //import is a java keyword which helps load a class/method/variable from another library/package. Hence, this line loads the Scanner class from the java library into this class.
+
+public class TestForEquality  //class TestForEquality declaration
+{ //TestForEquality class opening brace
+   
+    public static void main(String args[]) //main method declaration
+    { //main method opening brace
+        Scanner input = new Scanner(System.in); // This line declares a reference variable of datatype Scanner and initialize it with a Scanner Object....Check More Explanation on the Scanner class at the end of this page
+        System.out.print("Enter the first number: ");  //ask the user for the first number...NB: We use System.out.print() in order to retain the cursor on the same line. Hence, the user enter the first number next to the displayed message .
+        double num1 = input.nextDouble(); // use the Scanner class nextDouble to request for the first number and store the value returned by nextDouble in variable 'num1'.
+        System.out.print("Enter the second number: "); //ask the user for the second number
+        double num2 = input.nextDouble(); //store the returned value from nextDouble method in variable 'num2'.
+        if(num1 == num2) //check if the value in variable 'num1' equals to the value in variable 'num2'.  NB: You test for eqaility of real numbers using ==
+        {
+            System.out.println("\nNumbers are equal"); //output a new line first by using an escape sequence (\n), afterwhich "Numbers are equal" is then displayed on the following line
+        }
+        else { //we use the else here to tell java to execute the following line if the value in variable 'num1' is not equal to the value in variable 'num2'
+            System.out.println("\nNUMBERS ARE NOT EQUAL");
+        }
+    } //main method closing brace
+    
+} //TestForEquality class closing brace
+
+//Scanner class is a class in the java library and you can use this class to read data from input streams such as the console window and files.
+//it contains methods for reading values of different datatype...e.g nextInt() for reading an int value, nextDouble() for reading a double value(i.e a floating point value)
+//nextLine() to read the entire line....e.t.c.

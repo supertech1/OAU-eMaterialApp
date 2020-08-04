@@ -1,0 +1,10 @@
+Ans : B
+
+Explanation :
+
+When performing calculations in java, java checks the data type of both the lef operand and 
+the right operand to determine the result data type. If If any of the operand is a double, 
+the result would be a double, if both are numeric type(byte or short or int or long), the 
+result would be an int. In the code given, both operands are ints(1 and 5) , so, you should 
+expect the result data type to be an int....normally the result is 0.2 but since java would 
+return an int, the .2 got truncated in the process.

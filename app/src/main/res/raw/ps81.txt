@@ -1,0 +1,2 @@
+Answer: b
+Explanation: Recursion is the process of defining something in terms of itself. It allows us to define method that calls itself.

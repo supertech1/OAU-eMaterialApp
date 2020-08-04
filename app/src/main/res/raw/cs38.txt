@@ -1,0 +1,6 @@
+Answer: d
+Explanation: For obj.add(a,a); ,the function in line number 4 gets executed and value of x is 4. For the next function call, the function in line number 7 gets executed and value of y is 6.4
+output:
+$ javac Overload_methods.java
+$ java Overload_methods
+4 6.4

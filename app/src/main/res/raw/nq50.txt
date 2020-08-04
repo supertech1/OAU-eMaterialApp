@@ -1,0 +1,27 @@
+What is the output of this program?
+
+class Output {
+
+   public static void main(String args[]) {
+
+        Double y = new Double(257.57812);
+
+    	Double i = new Double(257.578123456789);  
+
+        try {
+
+    	    int x = i.compareTo(y);
+
+            System.out.print(x);
+
+        }
+
+        catch(ClassCastException e) {
+
+            System.out.print("Exception");
+
+        }
+
+    }
+
+}

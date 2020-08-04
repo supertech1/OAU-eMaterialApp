@@ -1,0 +1,7 @@
+Which of the following is the logical relation symbol used in a program reverses the meaning of a condition
+
+	
+	A.	/= 
+	B.	 /=/=
+	C.	!
+	D.	NOT

@@ -1,0 +1,2 @@
+Answer: d
+Explanation: Thread exist in several states, a thread can be running, suspended, blocked, terminated & ready to run.

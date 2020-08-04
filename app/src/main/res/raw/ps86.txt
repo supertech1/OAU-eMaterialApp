@@ -1,0 +1,6 @@
+Answer: d
+Explanation: Since the base case of the recursive function func() is not defined hence infinite loop occurs and results in stackoverflow.
+Output:
+$ javac Output.javac
+$ java Output
+Exception in thread "main" java.lang.StackOverflowError

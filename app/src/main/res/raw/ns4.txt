@@ -1,0 +1,2 @@
+Answer: d
+Explanation: rint() rounds up a variable to nearest integer.

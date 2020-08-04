@@ -1,0 +1,2 @@
+Answer:c
+Explanation: Modulus operator can be applied to both integers and floating point numbers. 

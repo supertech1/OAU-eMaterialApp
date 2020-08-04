@@ -1,0 +1,2 @@
+Answer: d
+Explanation: print() and println() are defined under the class PrintStream, System.out is the byte stream used by these methods .

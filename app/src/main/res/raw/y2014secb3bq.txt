@@ -1,0 +1,5 @@
+What is the importance of this program segment?
+
+public static void main(String[ ] args) throws IOException {
+		body
+	}

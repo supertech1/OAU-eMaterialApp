@@ -1,0 +1,13 @@
+
+Which of these cannot be used for a variable name in java?
+
+A.  identifier	B. keyword	C. identifier & keyword		D. None of the mentioned
+
+
+            Solution:
+
+NB: keywords are specially reserved words in java which cannot be used for naming variables
+
+e.g public, private, int , float e.t.c
+
+            Ans : B

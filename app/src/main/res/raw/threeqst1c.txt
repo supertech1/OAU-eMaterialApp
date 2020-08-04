@@ -1,0 +1,2 @@
+Qst: Modify the program again so that it identifies which of these numbers
+     	are odd and which are even

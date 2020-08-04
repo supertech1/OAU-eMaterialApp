@@ -1,0 +1,71 @@
+            Source Code:
+
+import java.util.Scanner;
+
+public class SystemOrder 
+{
+    public static void main(String args[])
+    {
+        final double BASIC_SYSTEM_COST = 375.99;
+        final double SCREEN_38CM_COST = 75.99;
+        final double SCREEN_43CM_COST = 99.99;
+        final double DVD_CD_WRITER_COST = 65.99;
+        final double PRINTER_COST = 125.00;
+        int option_selected;
+        double total = 0.0;
+        Scanner input = new Scanner(System.in);
+       
+        System.out.println("Welcome to SuperTech Computers...Below are the available products");
+        
+        menu();
+        
+        option_selected = input.nextInt();
+
+        while (option_selected != 5 && option_selected != 4)
+        {
+            if (option_selected == 1)
+            {
+                total += BASIC_SYSTEM_COST;
+                screenSizeMenu();
+                option_selected = input.nextInt();
+                if (option_selected == 1)
+                    total += SCREEN_38CM_COST;
+                else if (option_selected == 2)
+                    total += SCREEN_43CM_COST;
+                menu();
+                option_selected = input.nextInt();
+            }
+            else if (option_selected == 2)
+            {
+                total += DVD_CD_WRITER_COST;
+                menu();
+                option_selected = input.nextInt();
+            }
+            else if (option_selected == 3)
+            {
+                total += PRINTER_COST;
+                menu();
+                option_selected = input.nextInt();
+            }
+        }
+        
+        if (option_selected == 4)
+        {
+            System.out.println("The total cost of your order is :" + total);
+        }
+        else if (option_selected == 5)
+        {
+            System.exit( 1);
+        }
+        
+    } 
+    public static void menu()
+    {
+        System.out.printf("\t\tMenu\n\t1.Basic System\n\t2.DVD/CD Writer\n\t3.Printer\n\t4.Done Shopping\n\t5.Exit\nEnter Choice: ");     
+    }
+    public static void screenSizeMenu()
+    {
+        System.out.println("Please select the screen size of your choice: ");
+        System.out.printf("\t\tScreen Size\n\t1. 38cm Screen\n\t2. 43cm Screem\nEnter Choice: ");
+    }   
+}

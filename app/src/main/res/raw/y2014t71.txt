@@ -1,0 +1,12 @@
+
+Which of these selection statements test only for equality?
+
+A.   if		B.   switch	C.   if & switch	D.  None
+
+		
+	Solution:
+
+switch statements checks for equality between the controlling 
+variable and its constant cases
+
+	Ans : B

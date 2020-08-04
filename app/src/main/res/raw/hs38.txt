@@ -1,0 +1,6 @@
+Answer: b
+Explanation: Arrays.sort(array) method sorts the array into 1,2,3,4,5.
+Output:
+$ javac Array.java
+$ java Array
+12345

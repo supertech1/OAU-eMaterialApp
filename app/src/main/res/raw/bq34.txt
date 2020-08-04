@@ -1,0 +1,4 @@
+What is the order of precedence (highest to lowest) of following operators?
+1. &
+2. ^
+3. ?:

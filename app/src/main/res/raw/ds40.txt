@@ -1,0 +1,6 @@
+Answer: c
+Explanation: toString() is method of class Object, since it is superclass of every class, every object has this method. toString() returns the string associated with the calling object.
+output:
+$ javac Output.java
+$ java Output
+A@1cd2e5f

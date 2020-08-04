@@ -1,0 +1,1 @@
+Which of these method is given parameter via command line arguments?

@@ -1,0 +1,2 @@
+Answer: d
+Explanation: compareTo() methods compare the specified object to be double, if it is not then ClassCastException is thrown.

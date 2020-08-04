@@ -1,0 +1,18 @@
+What is the output of this program?
+	
+class Selection_statements
+{
+	public static void main(String args[ ] )
+	{
+		int v1  = 5, v2 = 6;
+		if(v2 == v1)
+			System.out.print(v2);
+		else
+			System.out.print(++v2);
+	}
+}
+
+	A. 6	
+	B. 5	
+	C. 7	
+	D. 4

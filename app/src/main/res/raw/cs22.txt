@@ -1,0 +1,2 @@
+Answer: d
+Explanation: this keyword can be used inside any method to refer to the current object. this is always a reference to the object on which the method was invoked.

@@ -1,0 +1,9 @@
+Overloading allows methods to be differentiated by:
+
+(i) Name (ii) types of arguments (iii) number of arguments
+
+A. (i) only
+B. (i) and (ii) 
+C. (i) and (iii)
+D. (ii) and (iii)
+E. (i), (ii) and (iii)

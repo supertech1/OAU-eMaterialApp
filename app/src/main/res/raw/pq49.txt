@@ -1,0 +1,15 @@
+What is the output of this program?
+
+import java.util.*;
+
+class LOCALE_CLASS {
+
+    public static void main(String args[]) {
+
+         Locale obj = new Locale("HINDI") ;
+
+         System.out.print(obj.getDisplayLanguage());
+
+    }
+
+}

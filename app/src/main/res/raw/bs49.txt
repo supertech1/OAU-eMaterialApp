@@ -1,0 +1,6 @@
+Answer: b
+Explanation: Operator short circuit and, &&, skips evaluating right hand operand if left hand operand is false thus division by zero in if condition does not give an error.
+output:
+$ javac Output.java
+$ java Output
+2

@@ -1,0 +1,6 @@
+Answer: d
+Explanation: Operator | returns true if any one operand is true, thus 'c = true | false' is true. Operator & returns a true if both of the operand is true thus d is false. Ternary operator ?: assigns left of ':' if condition is true and right hand of ':' if condition is false. d is false thus e = d ? b : c , assigns c to e , e contains true.
+output:
+$ javac bool_operator.java
+$ java bool_operator
+false true

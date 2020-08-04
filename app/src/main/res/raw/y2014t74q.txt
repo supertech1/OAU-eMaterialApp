@@ -1,0 +1,6 @@
+Which of these statements is not correct?
+	
+	A. switch statement is more efficient than a set of nested ifs.
+	B. No two case constants in the same switch can have identical values.
+	C. switch statements test for equality, whereas if statement evaluates any type of Boolean expression
+	D. it is possible to create a nested switch statements

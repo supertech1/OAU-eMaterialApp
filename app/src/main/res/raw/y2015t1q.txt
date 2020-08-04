@@ -1,0 +1,6 @@
+This is NOT a type of programming paradigm :
+	A. Class-Oriented programming
+	B. Logic Programming
+	C. Functional Programming
+	D. Object-Oriented Programming
+	E. None of the above

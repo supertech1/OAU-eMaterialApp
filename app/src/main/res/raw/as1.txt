@@ -1,0 +1,2 @@
+Answer:b
+Explanation:Short occupies 16 bits in memory. Its range is from -32768 to 32767.

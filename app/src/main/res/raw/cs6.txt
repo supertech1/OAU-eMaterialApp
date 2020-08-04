@@ -1,0 +1,6 @@
+Answer: c
+Explanation: Two variables with the same name can't be created in a class.
+output:
+$ javac main_class.java
+Exception in thread "main" java.lang.Error: Unresolved compilation problem:
+Duplicate local variable x

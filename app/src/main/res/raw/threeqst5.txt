@@ -1,0 +1,16 @@
+Qst: Consider a vending machine that offers the following options:
+        [1] Get gum
+        [2] Get chocolate
+        [3] Get Juice
+        [4] Get popcorn
+        [5] Display total sold so far
+        [6] Quit
+     
+        Design and implement a program that continuously allows users
+        to select from these options. When options 1-4 are selected an
+        appropriate message is to be displayed acknowledging their choice.
+        For example, when option 3 is selected the following message could 
+        be displayed: "Here  is your popcorn"
+        When option 6 is chosen the program terminates. If an option other 
+        than 1-6 is entered an appropriate error message should be displayed 
+        such as: Error, options 1 - 6 only!

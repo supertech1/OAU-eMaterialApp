@@ -1,0 +1,6 @@
+Literals in java must be preceded by which of these
+
+	A.  L		
+	B.  l		
+	C.  D		
+	D.  L and l

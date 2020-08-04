@@ -1,0 +1,7 @@
+If the above program (Qst 17) does not have an error or the error is detected and corrected, why will it not execute?
+
+A. It has no valid entrance point
+B. Java does not have a way of executing it
+C. It was not meant to execute but only to print
+D. The program does not have a valid class name
+E. We cannot determine this from the code

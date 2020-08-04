@@ -1,0 +1,1 @@
+Qst: Write a java function that calculates factorials using a for loop

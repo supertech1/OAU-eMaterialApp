@@ -1,0 +1,2 @@
+Answer: c
+Explanation: equals() method of string class returns boolean value true if both the string are equal and false if they are unequal.

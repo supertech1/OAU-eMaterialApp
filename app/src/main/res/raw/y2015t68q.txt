@@ -1,0 +1,13 @@
+After the following code is executed, which of i, ii and/or iii will evaluate to true?
+
+String s1 = “ABCD”;
+String s2 = s1;
+String s3 = s2;
+
+(i)	s1.equals(s3)   (ii) s1 == s2     (iii) s1 == s3
+
+A. i, ii, iii
+B. i only
+C. ii only
+D. iii only
+E. ii and iii only

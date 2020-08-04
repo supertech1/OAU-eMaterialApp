@@ -1,0 +1,21 @@
+(i) 
+
+Solution :
+
+*The semi colon (;) after if condition on line 1 serves as an empty statement.  The implication of 
+this is that java would consider the empty statement as the statement attached with the if statement
+whereas that was not the intention of the programmers, this could be refer to as a logic error.
+
+*Else used instead of else on line 3.
+
+(ii)
+
+Solution :
+
+*Else used instead of else on line 3.
+
+*The semi colon (;) after Else on line 3 serves as an empty statement. The implication of this is that
+java would consider the empty statement as the statement attached with the else statement whereas that 
+was not the intention of the programmers, this could be refer to as a logic error.
+
+*Terminator (;) missing on line 4

@@ -1,0 +1,6 @@
+Answer: c
+Explanation: Math.pow(x, y) methods returns value of y to the power x, i:e x ^ y, 2.0 ^ 3.0 = 8.0.
+Output:
+$ javac Output.java
+$ java Output
+8.0

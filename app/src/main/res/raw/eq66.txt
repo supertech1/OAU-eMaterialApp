@@ -1,0 +1,1 @@
+Which of these is method for testing whether the specified element is a file or a directory?

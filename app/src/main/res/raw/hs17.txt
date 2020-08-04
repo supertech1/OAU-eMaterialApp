@@ -1,0 +1,6 @@
+Answer: d
+Explanation: obj.addFirst(“D”) method is used to add ‘D’ to the start of a LinkedList object obj.
+Output:
+$ javac Linkedlist.java
+$ java Linkedlist
+[D, A, B, C] 

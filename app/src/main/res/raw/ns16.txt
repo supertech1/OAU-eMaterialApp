@@ -1,0 +1,2 @@
+Answer: a
+Explanation: ciel(double X) returns the smallest whole number greater than or equal to variable X.

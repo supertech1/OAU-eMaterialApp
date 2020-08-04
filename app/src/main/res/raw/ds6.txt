@@ -1,0 +1,6 @@
+Answer: c
+Explanation: class A & class B both contain display() method, class B inherits class A, when display() method is called by object of class B, display() method of class B is executed rather than that of Class A.
+output:
+$ javac inheritance_demo.java
+$ java inheritance_demo
+2

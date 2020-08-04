@@ -1,0 +1,6 @@
+Answer : D
+
+Explanation :	
+
+NB: There is a syntax error on line 3 due to presence of the right square bracket. Therefore, resulting to a compilation error
+		

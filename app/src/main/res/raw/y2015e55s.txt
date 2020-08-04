@@ -1,0 +1,7 @@
+Ans :  C
+
+Explanation :
+
+Import declarations must be immediately after package declaration(if there is any). 
+But should in case there is no package declaration, all import declarations must be 
+declared before any class declaration.

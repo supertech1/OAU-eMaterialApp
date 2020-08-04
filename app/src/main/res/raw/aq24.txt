@@ -1,0 +1,1 @@
+Literal can be of which of these data types?

@@ -1,0 +1,6 @@
+for which of the following applications is an array NOT suitable:
+
+A.	Holding the score on twelve midterms exams of a class.
+B.	Holding the name, social security number, age, and income of an individual .
+C.	Holding the temperature readings taken every hour throughout a day.
+D.	Holding the total sales a tore made in each of twelve months.

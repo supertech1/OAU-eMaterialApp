@@ -1,0 +1,7 @@
+Which of these statements is incorrect? 
+
+A. Equal to operator has least precedence
+B. Brackets() have highest precedence
+C. Division operator, / , has higher precedence than multiplication operator
+D. Addition operator, +, and subtraction operator have equal precedence
+E. None of the above

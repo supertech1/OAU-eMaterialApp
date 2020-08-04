@@ -1,0 +1,6 @@
+Which of these values can a boolean variable contain?
+
+	A. True & False	
+	B. 0 & 1	
+	C. Any integer value	   
+	D. true

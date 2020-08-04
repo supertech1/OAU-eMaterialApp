@@ -1,0 +1,2 @@
+Answer: c
+Explanation: StringBuffer class is used to create strings that can be modified after they are created.

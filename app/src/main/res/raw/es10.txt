@@ -1,0 +1,6 @@
+Answer: d
+Explanation: Since output.class file is not in the directory pkg in which class output is defined, program will not be able to run.
+output:
+$ javac output.java
+$ java output
+can not find file output.class

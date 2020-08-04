@@ -1,0 +1,6 @@
+Answer:d
+Explanation:Array arr contains 10 elements. n contains 6 thus in next line n is given value 2 printing arr[2]/2 i:e 2/2 = 1.
+output:
+$ javac evaluate.java
+$ java evaluate
+1

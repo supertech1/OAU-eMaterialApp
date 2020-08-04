@@ -1,0 +1,7 @@
+An advantage to using a try ........ catch block is that exceptional events are ..........
+
+
+	A.	Eliminated
+	B.	Reduced
+	C.	Integrated with regular events
+	D.	Isolate from regular events

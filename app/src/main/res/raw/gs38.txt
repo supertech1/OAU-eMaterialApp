@@ -1,0 +1,2 @@
+Answer: d
+Explanation: There are 5 instance variables : port, docRoot, log, cache and stopFlag. All of them are private.

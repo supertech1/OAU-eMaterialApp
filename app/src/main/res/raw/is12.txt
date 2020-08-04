@@ -1,0 +1,2 @@
+Answer: c
+Explanation: Exceptional handling is managed via 5 keywords – try, catch, throws, throw and finally.

@@ -1,0 +1,7 @@
+Java applications begin execution at method ..............
+
+A. main
+B. public
+C. private
+D. class
+E. void

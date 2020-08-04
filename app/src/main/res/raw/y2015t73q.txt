@@ -1,0 +1,14 @@
+Analyze the following statement:
+
+double sum = 0;
+for(double d = 0; d < 10;){
+d += 0.1;
+sum += sum + d;
+}
+
+
+A. the program has a compile error because the adjustment is missing in the for loop
+B. the program has a compile error because the control variable in the for loop cannot be of the double data type
+C. the program compiles and runs fine
+D. the program has a compile error because the adjustment is missing in the for loop
+E. the program runs in an infinite loop because d < 10 would always be true.

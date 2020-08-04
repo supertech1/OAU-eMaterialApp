@@ -1,0 +1,2 @@
+Answer: a
+Explanation: for a URL to be accessed from remote location http protocol must be used.

@@ -1,0 +1,6 @@
+Answer: c
+Explanation: None.
+Output:
+$ javac vector.java
+$ java vector
+4

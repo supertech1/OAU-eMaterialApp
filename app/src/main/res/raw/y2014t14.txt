@@ -1,0 +1,32 @@
+
+What is the output of this program?
+
+class mainclass
+{
+	public static void main(String args[])
+	{
+		char a = 'A';
+		a++;  			
+		System.out.print((int)a);  
+	}
+}
+A.   66		B. 67		C.  65		D.  64
+
+
+            Solution :
+
+class mainclass
+{
+	public static void main(String args[])
+	{
+		char a = 'A';  //assign alphabet A to character variable a. NB: Numeric(Ascii) value of 'A' is 65)
+
+		a++;  //increment the value of character variable a ...making a = 'B' on this line
+
+		System.out.print((int)a);  //display the numeric value of the character in variable 'a' by
+					               // casting the variable into an integer. Casting is done by preceding the
+					               //variable to be casted with the data type (in bracket) we are casting to.
+	}
+}
+
+            Ans: A

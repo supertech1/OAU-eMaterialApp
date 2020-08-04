@@ -1,0 +1,2 @@
+Answer: d
+Explanation: Collection interface is inherited by all other interfaces like Set, Array, Map etc. It defines core methods that all the collections like set, map, arrays etc will have

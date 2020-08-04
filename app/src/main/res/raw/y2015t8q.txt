@@ -1,0 +1,7 @@
+Why do we have many different programming languages?
+
+A. So that if one breaks down, we can take another one
+B. Some computer systems work with only some type of programming languages
+C. They are made by competitors seeking to own the programming market
+D. New programmers find old programming languages archaic
+E. They serve different programming needs

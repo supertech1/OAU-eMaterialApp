@@ -1,0 +1,6 @@
+Answer: d
+Explanation: “stop” will be able to terminate the do-while loop only when it occurs singly in a line. “Hello stop World” does not terminate the loop.
+Output:
+$ javac Input_Output.java
+$ java Input_Output
+Hello stop World

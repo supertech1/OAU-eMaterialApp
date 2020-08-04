@@ -1,0 +1,2 @@
+Answer: a
+Explanation: Both close() and read() method throw IOException.

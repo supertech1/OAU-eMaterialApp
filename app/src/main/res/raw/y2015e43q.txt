@@ -1,0 +1,7 @@
+in a class decoration, keyword ......... is followed immediately by the class's name
+
+
+	A.	public 
+	B.	class
+	C.	method
+	D.	main

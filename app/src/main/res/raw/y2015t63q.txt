@@ -1,0 +1,7 @@
+In a java program, x = 2.0, a = 2.0 and b = 4.0, what is the value of y if: y = a * x + b ** 2/x?
+
+A. 8
+B. 12
+C. 16
+D. 32
+E. 14

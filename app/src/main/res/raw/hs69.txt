@@ -1,0 +1,6 @@
+Answer: d
+Explanation: None.
+Output:
+$ javac date.java
+$ java date
+Tue Jun 11 11:29:57 PDT 2013

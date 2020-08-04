@@ -1,0 +1,6 @@
+One of the following is used to convert the byte-oriented stream into character-oriented stream
+
+	A.	InputStreamReader
+	B.	Console
+	C.	Scanner
+	D.	DataInputStream

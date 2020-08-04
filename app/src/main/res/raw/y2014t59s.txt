@@ -1,0 +1,9 @@
+Answer : C
+
+Explanation :
+
+Modulus operator, %, is an arithmetic operator. 
+
+Thus, it is applicable to integers and floating-point numbers
+			
+		

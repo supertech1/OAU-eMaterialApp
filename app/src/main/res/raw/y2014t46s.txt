@@ -1,0 +1,7 @@
+Answer : D
+
+Explanation :
+
+A boolean variable can only contain boolean literals (i.e either true or false)
+		
+	

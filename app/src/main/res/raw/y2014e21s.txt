@@ -1,0 +1,18 @@
+Answer : B
+
+Explanation :
+	
+boolean a = false, b = false;   //declaration and initialization of boolean variables a and b
+if(a)  //NB: the test condition here returns false since variable 'a' was initialized to false. Therefore, the following statement will not execute.
+  System.out.println("A"); 
+else if(a && b)  //NB: the test condition here returns false as well since variable a and b are both false
+		System.out.println("A && B");
+	else  //NB: java will read this else part since the test condition in 'if' above returns false
+	{	
+		if(!b)  //NB: !b returns true since b is false. Therefore, java executes the following statement
+			System.out.println("notB");  //Display 'notB' on the console window
+		else  //NB: java will not execute this else part since the test condition in 'if' above evaluated to true
+			System.out.println("OK");
+	}
+
+	

@@ -1,0 +1,3 @@
+Ans : B
+Explanation :
+A newLine() method is provided in BufferedWriter which is not in FileWriter.

@@ -1,0 +1,9 @@
+Which of these is an incorrect Statement?
+
+	A. It is necessary to use new operator to initialize an array.
+
+	B. Array can be initialized using comma separated expressions surrounded by curly braces
+
+	C. Array can be initialized when they are declared.
+
+	D. None of the mentioned.

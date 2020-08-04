@@ -1,0 +1,2 @@
+Answer: d
+Explanation: The object class class is superclass of all other classes.

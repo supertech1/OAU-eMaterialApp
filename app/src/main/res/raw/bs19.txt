@@ -1,0 +1,6 @@
+Answer: b
+Explanation: Right shift operator, >>, devides the value by 2.
+output:
+$ javac rightshift_operator.java
+$ java rightshift_operator
+5

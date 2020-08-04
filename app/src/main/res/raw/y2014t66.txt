@@ -1,0 +1,9 @@
+
+Which looping process is best used when the number of iterations is known?
+	
+A.  for		B. while	C. do-while	D.  All of the above
+
+	
+	Solution :
+	
+	Ans : A

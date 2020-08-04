@@ -1,0 +1,2 @@
+Answer: d
+Explanation: Number is an abstract class containing subclasses Double, Float, Byte, Short, Character, Integer and Long.

@@ -1,0 +1,9 @@
+Arrange the following operator according to their priority from high to low:
+
+(i) + (ii) / (iii) >= (iv) ++ (v) & (AND)
+
+
+	A.	I-ii-iii-iv-v
+	B.	v-iv-iii-ii-i
+	C.	iv-ii-i-iii-v
+	D.	none of the above

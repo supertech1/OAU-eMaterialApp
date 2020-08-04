@@ -1,0 +1,6 @@
+Answer: b
+Explanation: Collections.reverse(list) reverses the given list, the list was 2->8->5->1 after reversing it became 1->5->8->2.
+Output:
+$ javac Collection_Algos.java
+$ java Collection_Algos
+1 5 8 2

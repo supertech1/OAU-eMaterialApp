@@ -1,0 +1,15 @@
+What is the output of this program?
+
+class Output {
+
+    public static void main(String args[])
+
+    {
+
+        Object obj = new Object();
+
+    	System.out.print(obj.getclass());
+
+    }
+
+}

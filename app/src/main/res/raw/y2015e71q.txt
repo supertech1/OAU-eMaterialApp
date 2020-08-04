@@ -1,0 +1,7 @@
+Can a stream act as a data source for another stream?
+
+
+	A.	No streams must be connected directly to physical devices 
+	B.	No streams do not deal with data
+	C.	Yes. Some streams can be connected together
+	D.	Yes. An input stream can be connected to an output stream

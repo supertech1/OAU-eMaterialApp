@@ -1,0 +1,5 @@
+Ans : D
+
+Explanation :
+
+The program is just to check for the maximum number of a particular set of numbers(in this case, array elements).

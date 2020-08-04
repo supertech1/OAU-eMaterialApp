@@ -1,0 +1,6 @@
+Solution :
+
+if statement is a selection statement. An if statement checks if an expression is true or false, and then
+runs the code inside the statement only if it is true. On the other hand, While statement is a repetition statement.
+A while statement is a loop. Basically, it continues to execute the code in the while statement for however long the
+expression is true.

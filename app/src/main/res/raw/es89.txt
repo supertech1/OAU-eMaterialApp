@@ -1,0 +1,6 @@
+Answer: a
+Explanation: None.
+Output:
+$ javac Chararrayinput.java
+$ java Chararrayinput
+abc

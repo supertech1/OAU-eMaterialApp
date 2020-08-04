@@ -1,0 +1,1 @@
+What is the name of data member of class Vector which is used to store number of elements in the vector?

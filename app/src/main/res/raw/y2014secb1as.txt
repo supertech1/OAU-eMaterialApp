@@ -1,0 +1,3 @@
+Solution :
+
+When references are compared with == operator in java, the result is true if both references refer to the same object in memory. Since String is a reference data type, it is possible for two String objects with identical values not to be equal under the == operator when both objects are not referring to the same object in memory. To compare the actual contents (or state information) of objects for equality, a method must be invoked. In the case of Strings, that method is equals

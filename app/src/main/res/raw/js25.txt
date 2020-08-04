@@ -1,0 +1,3 @@
+Answer:a
+Explanation:isAlive() function is defined in class Thread, it is used for implementing multithreading and to check whether the thread called
+upon is still running or not.

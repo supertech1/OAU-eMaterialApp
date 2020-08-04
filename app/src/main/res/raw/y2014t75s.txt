@@ -1,0 +1,21 @@
+Answer :  C
+
+Explanation :
+
+class Selection_statements
+{
+	publicstaticvoid main(String args[ ] )
+	{
+		int v1  = 5, v2 = 6;  //declaration and initialization of integer variables v1 and v2
+		
+		if(v2 == v1)   //check if variable v2 equals variable v1.
+
+			System.out.print(v2); //display the value in v2.  NB: this line never executes since the 
+							// test condition returned false
+		else
+			System.out.print(++v2); //display the result of the expression in the println method.
+	}
+}
+
+		
+	

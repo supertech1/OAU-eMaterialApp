@@ -1,0 +1,6 @@
+Answer: d
+Explanation: The code "sdf = new SimpleDateFormat("hh:mm:ss");" create a SimpleDataFormat class with format hh:mm:ss where h is hours, m is month and s is seconds.
+Output:
+$ javac Date_formatting.java
+$ java Date_formatting
+55:03:04

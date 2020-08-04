@@ -1,0 +1,6 @@
+Answer: d
+Explanation:TreeSet class uses set to store the values added by function add in ascending order using tree for storage
+Output:
+$ javac Output.java
+$ java Output
+[1, 3, 4, 8, 9] 

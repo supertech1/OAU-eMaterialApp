@@ -1,0 +1,10 @@
+Answer : B
+
+Explanation :
+
+A catch block catches and handles an Exception. A catch block is a segment of code that can handle 
+an exception that might be thrown by the try block that precedes it. The exception might be one that 
+is thrown automatically, or you might explicitly write a throw statement. You usually code at least 
+one catch block immediately following a try block. A catch block begins with the keyword catch
+and is followed by a parameter in parentheses (called the exception parameter) and a block of code 
+enclosed in curly braces.

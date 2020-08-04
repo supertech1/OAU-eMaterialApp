@@ -1,0 +1,28 @@
+which of the following loops correctly computes 1/2 + 2/3 + 3/4 + ..... + 99 / 100
+
+A : double sum = 0;
+for (int i = 1; i <=99; i++){
+sum = i/(i+1);
+}
+
+B: double sum = 0;
+for(int i = 1; i < 99; i++){
+sum += i /  (i + 1)
+}
+System.out.println("Sum is "+sum);
+
+C: double sum = 0;
+for (int i = 1; i <= 99; i++){
+sum += 1.0 * i/(i + 1);
+}
+
+D: double sum = 0;
+for (int i = 1; i <=99; i++){
+sum += i / (i + 1.0);
+}
+System.out.println("Sum is "+sum);
+
+A. CD
+B. BCD
+C. ABCD
+D. B

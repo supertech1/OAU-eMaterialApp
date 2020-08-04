@@ -1,0 +1,6 @@
+Answer: c
+Explanation: try without catch or finally
+Output:
+$ javac exception_handling.java
+$ java exception_handling
+error: 'try' without 'catch', 'finally' or resource declarations

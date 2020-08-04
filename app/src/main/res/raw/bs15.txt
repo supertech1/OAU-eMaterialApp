@@ -1,0 +1,2 @@
+Answer: d
+Explanation: The right shift operator automatically fills the higher order bit with its previous contents each time a shift occurs. This also preserves the sign of the value.

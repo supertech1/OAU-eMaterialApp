@@ -1,0 +1,6 @@
+Answer: b
+Explanation: oos.writeFloat(3.5); writes in output stream which is extracted by x = ois.readInt(); and stored in x hence x contains 3.5.
+Output:
+$ javac streams.java
+$ java streams
+3.5

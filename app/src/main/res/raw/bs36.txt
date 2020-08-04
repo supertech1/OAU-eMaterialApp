@@ -1,0 +1,6 @@
+Answer:c
+Explanation: Operator ++ has the highest precedence than / , * and +. var2 is incremented to 7 and then used in expression, var3 = 7 * 5 / 7 + 7, gives 12.
+output:
+$ javac operators.java
+$ java operators
+12

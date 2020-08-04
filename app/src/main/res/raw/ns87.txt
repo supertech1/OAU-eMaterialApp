@@ -1,0 +1,6 @@
+Answer: c
+Explanation: getSuperClass() returns the super class of an object. b is an object of class Y which extends class X , Hence Super class of b is X. therefore class X is printed.
+Output:
+$ javac Output.java
+$ java Output
+class X

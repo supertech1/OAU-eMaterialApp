@@ -1,0 +1,2 @@
+Answer: a
+Explanation: Every class does not need to have a main() method, there can be only one main() method which is made public.

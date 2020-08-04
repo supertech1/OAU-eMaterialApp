@@ -1,0 +1,6 @@
+Answer: a
+Explanation: charAt() is a method of class String which gives the character specified by the index. obj.charAt(3) gives 4th character i:e I.
+output:
+$ javac string_class.java
+$ java string_class
+I

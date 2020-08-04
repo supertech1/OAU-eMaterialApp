@@ -1,0 +1,7 @@
+Answer : A
+
+Explanation :
+
+If a method throws an Exception that it will not catch but that will be caught by a different
+method, you must use the keyword throws followed by an Exception type in the method
+header.

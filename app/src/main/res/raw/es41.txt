@@ -1,0 +1,2 @@
+Answer: a
+Explanation: The Void class has one field, TYPE, which holds a reference to the Class object for the type void.

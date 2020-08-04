@@ -1,0 +1,2 @@
+Answer: d
+Explanation: Either we can use public, protected or we can name the class without any specifier.

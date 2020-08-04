@@ -1,0 +1,6 @@
+Answer: d
+Explanation: append() method of class StringBuffer is used to concatenate the string representation to the end of invoking string.
+Output:
+$ javac output.java
+$ java output
+Hello World

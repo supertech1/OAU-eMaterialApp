@@ -1,0 +1,7 @@
+Before a variable is used, it must be: 
+
+A. Declared
+B. Expressed
+C. Initialized
+D. Defined
+E. Applied

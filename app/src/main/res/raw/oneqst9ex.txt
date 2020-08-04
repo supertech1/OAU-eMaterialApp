@@ -1,0 +1,44 @@
+import java.util.Scanner;  //load Scanner class from java library into this class
+
+public class BankInterest //BankInterest class declaration
+{ //BankInterest class opening brace
+    
+    public static void main(String args[]) //main method declaration
+    {  //main method opening brace
+        final double A_INTEREST = 0.15;  //declare a constant variable A_INTEREST and initialise it by default value 0.15 to the interest rate of account type A
+        final double B_INTEREST = 0.02;  //declare a constant variable B_INTEREST and initialise it by default value 0.02 to the interest rate of account type B
+        final double C_INTEREST = 0.15;  //declare a constant variable C_INTEREST and initialise it by default value 0.15 to the interest rate of account type C
+        final double X_INTEREST = 0.05;  //declare a constant variable X_INTEREST and initialise it by default value 0.05 to the interest rate of account type X
+        
+        Scanner input = new Scanner(System.in); //declare reference variable 'input' of datatype Scanner and assign it a reference to a Scanner object
+        System.out.print("Enter the type of bank account: "); //display a message asking for the account type
+        String type = input.next();  //read the input from the user using scanner method input.next()
+        System.out.print("\nEnter the amount to calculate its interest for the given account: ");  //display a message asking the amount the user want to calculate its interest
+        double amount = input.nextDouble();  //read the input from the user using scanner method (nextDouble())
+        type = type.toUpperCase();  //convert the account type the user entered to an upper case if it's not one already
+        
+        double interest; //variable 'interest' declaration, it will hold the interest on the capital entered by the user
+        
+        switch (type)  //Now we use the switch construct here to check for the account type entered by the user and calculate the interest respectively
+        { //switch opening brace
+            case "A": //check if the account type is A, if so, execute the following 3 lines
+                interest = amount * A_INTEREST; //calculate the interest and store it in the interest variable
+                System.out.printf("Account type : %s\nCapital : %.2f\nInterest : %.2f\n",type,amount,interest);  //display the account type, amount and interest on the console window
+                break ;   //using break keyword here will skip the rest of the code in this switch block provided the account type is A.  (NB: This same approach is applicable to the rest of the cases in this switch block)
+            case "B":
+                interest = amount * B_INTEREST;
+                System.out.printf("Account type : %s\nCapital : %.2f\nInterest : %.2f\n", type,amount,interest);
+                break ;
+            case "C":
+                interest = amount * C_INTEREST;
+                System.out.printf("Account type : %s\nCapital : %.2f\nInterest : %.2f\n", type,amount,interest);
+                break ;
+            case "X":
+                interest = amount * X_INTEREST;
+                System.out.printf("Account type : %s\nCapital : %.2f\nInterest : %.2f\n", type,amount,interest);
+                break ;
+        } //switch closing brace
+        
+    }  //main method closing brace
+    
+} //BankInterest class closing brace

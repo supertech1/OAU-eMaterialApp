@@ -1,0 +1,2 @@
+Answer: d
+Explanation: max(), min() and abs() are all rounding functions.

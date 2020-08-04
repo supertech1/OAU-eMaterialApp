@@ -1,0 +1,1 @@
+Which of these method is used to make all elements of an equal to specified value?

@@ -1,0 +1,24 @@
+89.	You want to create a table that looks like
+
+12	-9	8
+7	14
+-32	-1	0
+
+Which of the following will work?
+
+
+A.	double[][] table = {2,7,-32,
+-9, 14, 1
+8, 0, 0};
+
+B.	double[][] table = {{12,-9,8},
+{7, 14, 0},
+{-32, -1, 0}};
+
+C.	double[][] table = {2,7,-32,
+-9, 14, 1
+8, 0};
+
+D.	double[][] table = {{12,-9,8},
+{7, 14},
+{-32, -1, 0}};

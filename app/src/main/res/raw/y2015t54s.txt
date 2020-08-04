@@ -1,0 +1,5 @@
+Ans : C
+
+Explanation :
+
+You cant divide by zero in java.

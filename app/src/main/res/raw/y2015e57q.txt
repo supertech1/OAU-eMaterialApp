@@ -1,0 +1,7 @@
+Which of the following is the logical relation symbol used in a program to ensure either or both of 
+two conditions are true
+
+	A.	||
+	B.	//
+	C.	OR
+	D.	\\

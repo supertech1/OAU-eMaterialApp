@@ -1,0 +1,6 @@
+Answer: d
+Explanation: String(chars) is a constructor of class string, it initializes string s with the values stored in character array chars, therefore s contains "abc".
+output:
+$ javac String_demo.java
+$ java String_demo
+abc

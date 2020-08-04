@@ -1,0 +1,1 @@
+Which of the following exceptions is thrown by every method of Runtime class?

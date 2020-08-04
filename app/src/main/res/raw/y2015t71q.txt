@@ -1,0 +1,13 @@
+How many times will the following code print "Welcome to java"?
+
+int count = 0;
+while(count < 10){
+System.out.println("Welcome to java");
+Count++;
+}
+
+A. 10
+B. 9
+C. 11
+D. 0
+E. 8

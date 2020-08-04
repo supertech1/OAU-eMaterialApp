@@ -1,0 +1,6 @@
+Answer: b
+Explanation: None.
+output:
+$ javac mainclass.java
+$ java mainclass
+200

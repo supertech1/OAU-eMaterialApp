@@ -1,0 +1,1 @@
+Which of these modifiers can be used for a variable so that it can be accessed from any thread or parts of a program?

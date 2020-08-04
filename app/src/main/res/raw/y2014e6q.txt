@@ -1,0 +1,7 @@
+What is the value of the boolean expression (3>6) && (4 < 8)?
+	
+
+	A.  true		
+	B.  false	
+	C.  0	
+	D.  None

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.supertech.csc201real">
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/applogog"
+        android:label="@string/app_name"
+        android:manageSpaceActivity=".Csc201"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Splashscreen"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LogIntoApp"
+            android:label="@string/title_activity_log_into_app"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HomePage"
+            android:label="@string/title_activity_home_page"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PastQuestion"
+            android:label="@string/title_activity_past_question"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PQSolutionList"
+            android:label="@string/title_activity_pqsolution_list"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PQSolutions"
+            android:label="@string/title_activity_pqsolutions"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SolutionActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_solution"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TutorialFour"
+            android:label="@string/title_activity_tutorial_four"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TutorialOne"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_tutorial_one"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TutorialThree"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_tutorial_three"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TutorialTwo"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_tutoral_two"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AllMenuListen"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".examsection"
+            android:label="@string/title_activity_examsection"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".About"
+            android:label="@string/title_activity_about"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Practice"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_practice"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MBT_Hompage"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_mbt__hompage"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MBT_Exampage"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_mbt__exampage"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MBT_Result_Preview"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_mbt__result__preview"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MBT_Answers_Display"
+            android:label="@string/title_activity_mbt__answers__display"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Csc201" />
+        <activity android:name=".CscNote"
+            android:theme="@style/AppTheme.NoActionBar"
+            ></activity>
+    </application>
+
+</manifest>

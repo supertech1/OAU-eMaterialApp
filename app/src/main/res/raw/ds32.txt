@@ -1,0 +1,2 @@
+Answer: a
+Explanation: operator + is used to concatenate strings, Example String s = "i " + "like " + "java"; String s contains "I like java".

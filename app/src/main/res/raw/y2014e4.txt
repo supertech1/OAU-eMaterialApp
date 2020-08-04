@@ -1,0 +1,13 @@
+
+Which of these values can a boolean variable contain?
+A.   True & False
+B.   0  &  1
+C.  Any integer value
+D.  true
+	
+	        Solution :
+
+A boolean variable can only contain boolean
+literals (i.e either true or false)
+      
+            Ans: D

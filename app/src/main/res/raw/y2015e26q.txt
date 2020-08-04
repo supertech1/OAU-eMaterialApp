@@ -1,0 +1,13 @@
+What would the following print?
+
+int x = 3;
+int y = 2;
+if(y/x>0)
+	System.out.print("first");
+	System.out.print("second");
+
+
+	A.	first 
+	B.	second 
+	C.	"first"
+	D.	"second"

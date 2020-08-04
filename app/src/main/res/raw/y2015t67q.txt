@@ -1,0 +1,9 @@
+all programs can be written in terms of three types of control structures: 
+
+(i)	selection (ii) increment (iii) repetition (iv) fixed (v) sequence
+
+A. i , ii & iii
+B. i, iii, v
+C. ii, iii & v
+D. i, ii & iv
+E. iii, iv & v

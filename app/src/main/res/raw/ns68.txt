@@ -1,0 +1,6 @@
+Answer: a
+Explanation: valueOf() returns a Boolean instance representing the specified boolean value. If the specified boolean value is true, this method returns Boolean.TRUE; if it is false, this method returns Boolean.FALSE. If a new Boolean instance is not required, this method should generally be used in preference to the constructor Boolean(boolean), as this method is likely to yield significantly better space and time.
+Output:
+$ javac Output.java
+$ java Output
+true

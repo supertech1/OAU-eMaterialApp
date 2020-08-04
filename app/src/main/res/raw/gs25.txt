@@ -1,0 +1,2 @@
+Answer: d
+Explanation: URL, URLDecoder and URLConnection all there are used to access information stored in a URL.

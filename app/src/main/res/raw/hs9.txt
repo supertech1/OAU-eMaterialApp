@@ -1,0 +1,6 @@
+Answer: a
+Explanation: Although obj.ensureCapacity(3); has manually increased the capacity of obj to 3 but the value is stored only at index 0, therefore obj.size() returns the total number of elements stored in the obj i:e 1, it has nothing to do with ensureCapacity().
+Output:
+$ javac Output.java
+$ java Output
+1

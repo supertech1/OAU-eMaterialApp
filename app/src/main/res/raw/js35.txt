@@ -1,0 +1,2 @@
+Answer: d
+Explanation: In cases where two or more thread with same priority are competing for CPU cycles, different operating system handle this situation differently. Some execute them in time sliced manner some depending on the thread they call.

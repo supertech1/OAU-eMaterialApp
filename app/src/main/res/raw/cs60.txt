@@ -1,0 +1,6 @@
+Answer: a
+Explanation: Arrays in java are implemented as objects, they contain an attribute that is length which contains the number of elements that can be stored in the array. Hence a1.length gives 10 and a2.length gives 5.
+output:
+$ javac Output.java
+$ java Output
+10 5

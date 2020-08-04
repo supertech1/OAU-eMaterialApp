@@ -1,0 +1,27 @@
+What is the output of this program?
+
+import java.util.*;
+
+class Output {
+
+    public static void addNumbers(List<? super Integer> list) {
+
+         for (int i = 1; i <= 10; i++) {
+
+             list.add(i);
+
+          }
+
+    }
+
+    public static void main(String args[]) {
+
+         List<Double> ld = Arrays.asList();
+
+         addnumbers(10.4);
+
+         System.out.println("getList(2)");
+
+   }
+
+}

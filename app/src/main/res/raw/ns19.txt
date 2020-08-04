@@ -1,0 +1,6 @@
+Answer: b
+Explanation: IEEEremainder() returns the remainder of dividend / devisor. Here dividend is 102 and devisor is 5 therefore remainder is 2. It is similar to modulus - '%' operator of C/C++ language.
+Output:
+$ javac Output.java
+$ java Output
+2

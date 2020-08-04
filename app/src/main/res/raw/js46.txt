@@ -1,0 +1,2 @@
+Answer: c
+Explanation: InetAddress class encapsulate both IP address and DNS, we can interact with this class by using name of an IP host.

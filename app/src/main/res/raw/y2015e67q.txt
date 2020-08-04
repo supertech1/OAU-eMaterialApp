@@ -1,0 +1,6 @@
+When comparing java.io.BufferedWriter and java.io.FileWriter, which capability exist as a method in only one of two?
+
+	A.	Writing to the stream
+	B.	Writing a line separator to the stream
+	C.	Closing the stream
+	D.	Flushing the stream

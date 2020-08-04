@@ -1,0 +1,6 @@
+Answer:d
+Explanation: getChars(start,end,s,0) returns an array from the string c, starting index of array is pointed by start and ending index is pointed by end. s is the target character array where the new string of letters is going to be stored and the new string will be stored from 0th position in s.
+Output:
+$ javac output.java
+$ java output
+llo i l

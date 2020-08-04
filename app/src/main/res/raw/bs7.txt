@@ -1,0 +1,6 @@
+Answer: a
+Explanation: Modulus operator returns the remainder of a division operation on the operand. a = a % 10 returns 25.64 % 10 i:e 5.640000000000001. Similarly b = b % 10 returns 5.
+output:
+$ javac Modulus.java
+$ java Modulus
+5.640000000000001 5

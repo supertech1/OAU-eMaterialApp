@@ -1,0 +1,15 @@
+What is the output of this program?
+
+class output {
+
+    public static void main(String args[])
+
+    {
+
+        String a = "hello i love java";
+
+        System.out.println(a.indexOf('i')+" "+a.indexOf('o') +" "+a.lastIndexOf('i')+" "+a.lastIndexOf('o'));
+
+    }
+
+}

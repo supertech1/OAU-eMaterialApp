@@ -1,0 +1,8 @@
+Ans : A
+
+Explanation :
+
+The break statement, when executed in a while, for, do...while or switch, causes immediate
+exit from that statement. Execution continues with the first statement after the control
+statement. Common uses of the break statement are to escape early from a loop or to
+skip the remainder of a switch

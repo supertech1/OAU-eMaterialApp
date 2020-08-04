@@ -1,0 +1,1 @@
+Which of these tranfer protocol must be used so that URL can be accessed by URLConnection class object?

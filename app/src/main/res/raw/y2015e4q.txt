@@ -1,0 +1,6 @@
+The method that ends the current application and returns control to the operating system is ...........
+
+	A.	System.end()
+	B.	System.done()
+	C.	System.exit()
+	D.	System.abort()

@@ -1,0 +1,10 @@
+Answer : D
+
+Explanation :
+
+for(int i = 0; i < 4; i += 2)  //NB: the for loop increment by 2
+{
+	System.out.print(i+ " ");  //display the current index.
+}
+
+		    

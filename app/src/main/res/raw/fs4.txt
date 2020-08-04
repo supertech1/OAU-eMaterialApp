@@ -1,0 +1,2 @@
+Answer: c
+Explanation: ObjectOutput interface extends the DataOutput interface and supports object serialization.

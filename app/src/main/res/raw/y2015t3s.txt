@@ -1,0 +1,17 @@
+Ans : C
+
+Explanation :
+
+MACHINE LANGUAGE: is the sequence of 0s (Zero's) and 1s (One's)  used to write a sequence of instructions for
+the computer to execute. It is also referred to as instructions written in binary format. 
+This makes it the closest to the computer  hardware.
+
+ASSEMBLY LANGUAGE uses mnemonic or symbols to write instructions for the computer to execute. 
+It requires an assembler to translate its symbols to machine code.
+
+Objected oriented programming is a programming language that enables a programmer to write programs that 
+are more or less independent of a particular type of computer. They are languages that shields programmers
+from the responsibility of having to manage explicitly all the computer features of data storage and operations. 
+Management of these computer features is handled by the operating system. It requires a compiler or interpreter
+to convert its code to machine code
+

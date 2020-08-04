@@ -1,0 +1,5 @@
+Which of these classes contains the methods used to write in a file?
+	A. FileStream	B. FileInputStream	C. BUfferedOutputStream	D. FileBufferStream
+
+	Solution :
+Ans : b

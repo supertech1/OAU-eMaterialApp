@@ -1,0 +1,9 @@
+Ans : C.
+
+Explanation :
+
+The package that is implicitly imported into every Java program is named java.lang. The
+classes it contains are fundamental classes, or basic classes, as opposed to the optional
+classes that must be explicitly named. Some references list a few other Java classes as also
+being "fundamental" but the java.lang package is the only automatically imported, named
+package.

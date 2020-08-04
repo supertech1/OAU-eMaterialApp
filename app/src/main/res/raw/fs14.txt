@@ -1,0 +1,2 @@
+Answer: d
+Explanation: ObjectInput interface extends the DataInput interface and supports object serialization.

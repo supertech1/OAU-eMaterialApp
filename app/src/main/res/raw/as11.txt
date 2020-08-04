@@ -1,0 +1,2 @@
+Answer:d
+Explanation: Char occupies 16-bit in memory, so it supports 2^16 i:e from 0 to 65535.

@@ -1,0 +1,59 @@
+public class NumberToWord  //1
+{                           //2
+    public static void acceptNum(int num)   //3
+    {                                       //4
+        assert (num >0 && num < 9): "invalid number";   //5
+        if(num <= 0 || num >= 9)    //6
+        {   //7
+            System.out.println("Invalid input...Argument should be between 0 and 9");   //8
+        }   //9
+        else    //10
+        {   //11                                                                               
+            String output = "";     //12
+            switch(num)     //13
+            {       //14
+                case 1:     //15
+                    output = "One";     //16
+                    break;      //17
+                case 2:     //18
+                    output = "Two";     //19
+                    break;      //20
+                case 3:     //21
+                    output = "Three";       //22
+                    break;      //23
+                case 4:     //24
+                    output = "Four";       //25
+                    break;      //26
+                case 5:     //27
+                    output = "Five";    //28
+                    break;      //29
+                case 6:     //30
+                    output = "Six";     //31
+                    break;      //32
+                case 7:     //33
+                    output = "Seven";       //34
+                    break;      //35
+                case 8:     //36
+                    output = "Eight";       //37
+                    break;      //38
+            }       //39
+            System.out.println(output);     //40
+        }       //41
+    }       //42
+    public static void main(String args[]) //43
+    {   //44
+        acceptNum(8);   //45
+    }   //46
+}       //47
+
+/** Brief Explanation:
+The "NumberToWord" class declaration (lines 1 - 47) contains an "acceptNum" method 
+declaration (lines 3 - 42) and a main method declaration(lines 43 - 46). Method "acceptNum"
+takes as an argument "num" (the number to print as a word on the screen) and uses the
+switch construct(lines 13 - 39) to determine the specified number to be printed on the screen
+by comparing "num" with each of the cases (lines 15,18,21,24,27,30) respectively.
+We use System.out.println(output) on line 40 to print out the nnumber as a word on the screen.
+Line 45 is a call to method "acceptNum" with an argument of "8" in main method. NB: main method is 
+the execution starting point of java programs. Hence, executing this code result to "Eight" being
+printed on the screen
+*/

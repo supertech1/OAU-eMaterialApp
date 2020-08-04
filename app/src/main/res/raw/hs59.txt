@@ -1,0 +1,6 @@
+Answer: c
+Explanation: obj.toString returns String equivalent of the hashtable, which can also be obtained by simply writing System.out.print(obj); as print system automatically coverts the obj to string equivalent.
+Output:
+$ javac hashtable.java
+$ java hashtable
+{A=3, C=8, B=2}

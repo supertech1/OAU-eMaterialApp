@@ -1,0 +1,2 @@
+Answer: a
+Explanation: valueOf() returns true if the specified string contains "true" in lower or uppercase and false otherwise.

@@ -1,0 +1,2 @@
+Answer: c
+Explanation: INDIA is not a Locale class.

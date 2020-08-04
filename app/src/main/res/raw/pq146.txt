@@ -1,0 +1,1 @@
+Which of the following allows us to call generic methods as a normal method?

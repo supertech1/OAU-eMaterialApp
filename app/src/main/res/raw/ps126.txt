@@ -1,0 +1,6 @@
+Answer: b
+Explanation: Myexception is self defined exception.
+Output:
+$ javac Output.java
+java Output
+Exception

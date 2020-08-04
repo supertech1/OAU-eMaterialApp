@@ -1,0 +1,13 @@
+What is the output of this program?
+
+class binary {
+
+    public static void main(String args[]) {
+
+        int num = 17;
+
+        System.out.print(Integer.toBinaryString(num));
+
+    }
+
+}

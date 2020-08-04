@@ -1,0 +1,25 @@
+
+What is the output of this program?
+
+class Output
+{
+	publicstaticvoid  main(String a[])
+	{
+		int x = 10, y = 1;
+		if( x != 10 )
+			System.out.println( y);
+		else
+			System.out.println( y + 3 )
+		}
+	}
+
+A.	1		B.  4		C.   Compilation error		D. 10
+
+
+            Solution:
+
+NB: There is no space between 'public', 'static' and 'void' keywords in the main method declaration.
+ Therfore, compiling this code results to compilation error.
+
+
+            Ans : C

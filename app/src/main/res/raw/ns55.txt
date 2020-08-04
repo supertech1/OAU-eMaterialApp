@@ -1,0 +1,2 @@
+Answer: d
+Explanation: isDefined() returns true if ch is defined by Unicode. Otherwise, it returns false.

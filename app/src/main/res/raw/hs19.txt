@@ -1,0 +1,6 @@
+Answer: b
+Explanation: HashSet obj creates an hash object which implements Set interface, obj.size() gives the number of elements stored in the object obj which in this case is 3.
+Output:
+$ javac Output.java
+$ java Output
+[A, B, C] 3

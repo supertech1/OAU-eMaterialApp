@@ -1,0 +1,6 @@
+Answer : A
+	
+Explanation :
+
+NB: There is no declaration statement for variable gender. Also, in other to avoid logic errors, the equals method (not ==) is used for checking equality of Strings in java.
+	

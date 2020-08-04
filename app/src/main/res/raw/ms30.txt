@@ -1,0 +1,2 @@
+Answer: b
+Explanation: ComponentEvent is superclass of ContainerEvent, FocusEvent, KeyEvent, MouseEvent and WindowEvent.

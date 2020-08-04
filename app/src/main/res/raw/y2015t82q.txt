@@ -1,0 +1,7 @@
+If you declare an array double[] list = {3.4,2.0,3.5,5.5}, the highest index in array list is ......
+
+A.	0
+B.	1
+C.	2
+D.	3
+E.	4

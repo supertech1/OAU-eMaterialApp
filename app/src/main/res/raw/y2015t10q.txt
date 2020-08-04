@@ -1,0 +1,7 @@
+An algorithm is a :
+
+	A. Piece of software written in High level language
+	B. Piece of software written for programmers
+	C. Set of step-by-step instructions for accomplishing a task on a computer system
+	D. Set of step-by-step instruction for accomplishing a task coded using java
+	E. None of the above

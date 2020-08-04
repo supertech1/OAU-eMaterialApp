@@ -1,0 +1,6 @@
+Which of these is a data type long literal?
+
+	A. 0x99fffL	
+	B. ABCDEFG		
+	C. 0x99fffa	
+	D. 99671246

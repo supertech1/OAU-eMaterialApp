@@ -1,0 +1,6 @@
+Answer: b
+Explanation: obj is an object of class ArrayList hence it is an dynamic array which can increase and decrease its size. obj.add('X') adds to the array element X and obj.add(1,'X') adds element x at index position 1 in the list, Hence obj.add(1,'D') stores D at index position 1 of obj and shifts the previous value stored at that position by 1.
+Output:
+$ javac Arraylist.java
+$ java Arraylist
+[A, D, B, C] 

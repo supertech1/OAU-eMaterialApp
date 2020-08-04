@@ -1,0 +1,29 @@
+public class Factorial  //declaration of the Factorial class...NB: 'Factorial' is the name(also call identifier) of the class.
+                        //NB: It is not a must to start the class name with a capital letter(i.e you can as well use a smaall letter to start) but by convention, class name starts with a capital letter.
+
+{ //Factorial class opening brace
+
+    public static void calculateFactorial(int num)  //calculateFactorial method declaration. It accepts a single integer parameter i.e the number we want to calculate its factorial
+    {  //calculateFactorial method opening brace
+        int result = 1;  // variable result holds the factorial result after calculation....we initialize it to 1 by default
+        if (num < 0) // check if the specified num is lesser than zero(i.e a negative num)
+            result = 0;  //therefore we set our factorial result to zero if the specified number is negative
+        else if (num == 0) //using the else...if construct to check if the specified num is equal to zero
+            result = 1; //set factorial result to 1 if the specified number is zero
+        else { // this line means : else if the specified number is positive, do what is in the else block.
+
+            for (int i = num; i>= 1; i--)  //Now we use the 'for repetitive statement' to loop backward till we reach 1....e.g if the specified number is 4, 4! = 4x3x2x1, after which we assign the final answer to the result variable.
+            { //for block opening brace
+                result *= i;  //this is equivalent to you writing result = result * i;
+            } // for block closing brace
+            
+        }    
+        System.out.printf("%d! = %d", num,result); //Now we display the fatorial result on the console window...check Tutotial One(Qst 3) for more explanation on System.out.printf()
+    }  //calculateFactorial method closing brace
+    
+    public static void main(String args[]) //main method declaration
+    {
+        calculateFactorial( 5);  //calling calculateFactorial method with 5 as an argument
+    }
+    
+}  //Factorial class closing brace

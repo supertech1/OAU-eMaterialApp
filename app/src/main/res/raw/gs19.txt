@@ -1,0 +1,6 @@
+Answer: c
+Explanation: None.
+Output:
+$ javac networking.java
+$ java networking
+www.sanfoundry.com

@@ -1,0 +1,8 @@
+Ans:  C
+
+Explanation :
+
+length is used to get the number of elements in an array. The above array is a 2 Dimensional
+array which contains arrays as its elements. things[2] refers to the 3rd element in things array 
+which in turn contain an array. Therefore, calling things[2].length will simply calculate the total
+number of elements in the inner array.

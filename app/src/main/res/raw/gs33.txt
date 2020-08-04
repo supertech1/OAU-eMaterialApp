@@ -1,0 +1,2 @@
+Answer: c
+Explanation: MIME is an internet standard for communicating multimedia content over email. The HTTP protocol uses and extends the notion of MIME headers to pass attribute pairs between HTTP client and server.

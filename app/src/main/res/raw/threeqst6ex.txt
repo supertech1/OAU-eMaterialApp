@@ -1,0 +1,66 @@
+
+import java.util.Scanner;  //load Scanner class from java library into this class
+
+
+public class PoundToKilogramConverter  //PoundToKilogramCoverter class declaration
+{  //PoundToKilogramCoverter class opening brace
+    public static double convert(double amount, String unit) //method convert which accept two parameters, the first one being a primitive datatype of type double while the second being a reference datatype of type String)
+    { //convert method opening brace
+        final double OnePoundToKg = 0.454;  //a constant variable declaration of datatype double...this varaible holds the kilogram equivalence of one pound
+        double result; //a variable of data type double to hold our result
+        if (unit.equalsIgnoreCase("kg")) //check if the current unit of the amount specified is equal to 'kg' regardless of the casing
+        {  //if block opening brace
+            result = amount/OnePoundToKg;  //if the test condition is true....convert the amount to pounds by dividing the amount by the conversion rate 
+        }  //if block closing brace
+        else if (unit.equalsIgnoreCase("p")) // but if the current unit of the amount specified is equal to "p" regardless of the casing as well...execute the following block
+        {  //else block opening brace
+            result = amount * OnePoundToKg;  //if the else..if condition is true....convert the amount to kilogram by dividing the amount by the conversion rate
+        }  //else block closing brace
+        else { //now if the unit specified is neither in kilogram nor in pounds
+            result = 0.0; //set our result variable to 0.0
+        }
+        return result; //now we return the result back to the caller using the the return keyword.
+    } //convert method closing brace
+    
+    public static void menu() //menu method declaration....this method will be called to display options of conversion for the user to select from.
+    {  // menu method opening brace
+        System.out.printf("\t\t\tConvert:\n[1] Pounds to Kilogram\n[2] Kilogram to Pounds\n[3] "
+                + "Exit\nEnter Choice: "); //display a formatted list of options
+    }  // menu method closing brace
+    public static void main(String args[])  //main method declaration
+    { //main method opening brace
+        Scanner input = new Scanner(System.in); //declare reference variable input of datatype Scanner and assign it a reference to a Scanner object
+        int user_input; //this integer variable is to hold the option the user selected from the menu
+        double amount; // this double variable is to hold the amount specified by the user to convert
+        do  { //Here we are using the do..while statement to perform the logic.....which implies that the code inside the do block will run once after execution before checking for the loop condition
+            menu(); //display the menu to the user
+            user_input = input.nextInt(); //read inputs from the user(i.e an integer value)
+            if( user_input == 3) //now check if the user select 3(i.e exit)
+                break;  //if the test condition in 'if' above is true, skip the rest of the do...while block
+            System.out.print("Enter the amount to convert: "); //ask the user for the amount to convert
+            
+            amount = input.nextDouble();  //read the amount specified by the user from the console window and store it in the 'amount' variable
+            
+            if (user_input > 3 || user_input < 1) //check if the user entered a value greater than 3 or lesser than 1 when asked to choose an option from the menu earlier
+                System.out.println("Invalid Input"); //if the test condition in the 'if' statement above is true, then the user en
+            else  { //
+                switch(user_input) //use the switch construct to determine the option selected by the user
+                { //switch block opening brace
+                    case 1:  //if the user entered 1
+                        System.out.printf("\n%.2fpounds = %.2fKg\n",amount,convert(amount, "p")); //now do the conversion by calling the convert method and display a formatted output 
+                        break;  //jump out of the switch block if the test condition above is true (NB: same approach is applicable to the rest of the cases)
+                    case 2:
+                        System.out.printf("\n%.2fKg = %.2fPounds\n",amount,convert(amount, "kg"));
+                        break;
+                    case 3:
+                        break;
+                        
+                } //switch block closing brace
+            } //else block closing brace
+        } //do block closing brace
+        while (user_input != 3); //check if the user has not yet entered 3(i.e exit)
+        System.out.println("Thank you!"); //display a "Thank you" if message once the loop condition is no longer true
+        
+    } //main method closing brace
+    
+}  //PoundToKilogramConverter class closing brace

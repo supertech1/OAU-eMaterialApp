@@ -1,0 +1,9 @@
+Ans :  B
+
+Explanation :
+
+To create your own throwable Exception, you must extend a subclass of Throwable. Recall that 
+Throwable has two subclasses, Exception and Error, which are used to distinguish between recoverable
+and nonrecoverable errors. Because you always want to create your own Exceptions for recoverable errors, 
+you should extend your Exceptions from the Exception class. You can extend any existing Exception subclass,
+such as ArithmeticException or NullPointerException, but usually you want to inherit directly from Exception.

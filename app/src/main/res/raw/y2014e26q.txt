@@ -1,0 +1,9 @@
+What is the output of this code snippet?
+
+boolean a = true, b = false, c = a & b;
+System.out.println(!c);
+	
+	A.  0	
+	B.  1	
+	C.  false	
+	D.  true

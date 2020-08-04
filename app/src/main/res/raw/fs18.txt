@@ -1,0 +1,6 @@
+Answer: d
+Explanation: x = ois.readInt(); will try to read an integer value from the stream 'serial' created before, since stream contains an object of Myclass hence error will occur and it will be catched by catch printing deserialization.
+Output:
+$ javac serialization.java
+$ java serialization
+deserialization

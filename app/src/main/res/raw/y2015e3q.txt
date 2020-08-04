@@ -1,0 +1,7 @@
+Which of the following statements is true?
+
+
+	A.	Exceptions are more serious than errors
+	B.	Errors are more serious than exceptions
+	C.	Errors and Exceptions are equally serious
+	D.	Exceptions and errors are the same thing

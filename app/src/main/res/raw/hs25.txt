@@ -1,0 +1,2 @@
+Answer: d
+Explanation: keySet() methods is used to get a set containing all the keys used in a map. This method provides set view of the keys in the invoking map.

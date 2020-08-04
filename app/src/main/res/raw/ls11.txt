@@ -1,0 +1,2 @@
+Answer: b
+Explanation: java.awt provides capabilities for graphical user interface.

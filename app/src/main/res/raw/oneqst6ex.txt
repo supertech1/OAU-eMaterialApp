@@ -1,0 +1,24 @@
+import java.util.Scanner;    //load Scanner class from java library into this class
+
+public class TestForSum   //TestForSum class declaration
+{ //TestForSum opening brace
+   
+    public static void main(String args[]) //main method declaration
+    {
+        Scanner input = new Scanner(System.in);   // store the reference to a Scanner object in variable 'input' of data type Scanner(NB: variable 'input' is an example of a reference varaible)
+        System.out.print("Enter the first number: "); //display a message asking the user for the first number on the console window
+        double num1 = input.nextDouble(); //read the number typed by the user on the console window and thereafter store it in variable 'num1' of data type double
+        System.out.print("Enter the second number: ");//print a message asking for the second number on the console window
+        double num2 = input.nextDouble();  //read the number typed by the user and store it in variable 'num2'
+        double sum = num1 + num2; //add the content of variable 'num1' and 'num2' together then store the result in variable 'sum' of data type double as well
+        System.out.print("Enter the sum of the two numbers: ");  //Now display a message asking the user to guess for the sum
+        double guessSum = input.nextDouble(); //read the number typed by the user and store it in varaible 'guessSum'
+        if(guessSum == sum) //use the if..else construct to check if the users prediction (i.e the value in variable guessSum) is equal to the actual sum(i.e variable sum)
+        {
+            System.out.println("\nCongratulations! You are correct"); //display this congratulatory message on the console window if the user guessed correctly
+        }
+        else { // NB: java will read this else part only if the 'if' test condition evaluate to false
+            System.out.println("oops! You are wrong...The sum is " + sum); //Since the user guess is not accurate, concatenate the correct answer(using the + symbol) together with the commiseration message
+        }
+    } //main method closing brace
+}  //TestForSum closing brace

@@ -1,0 +1,7 @@
+What command is used to invoke the compiler to compile the java 
+
+A. java compile filename
+B. java filename
+C. javac filename
+D. javax filename
+E. filename java

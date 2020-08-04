@@ -1,0 +1,33 @@
+
+What is the output of this program?
+
+class Cond
+{
+	public static void main( String args[])
+	{
+		int i = 20, j = 55,  z = 0;
+		if( i < j)  z = i;
+		else  z = j - i;
+		System.out.println(z);
+	}
+}
+
+A. 0	B.  20		C.  55		D.  35
+
+            Solution :
+
+class Cond
+{
+	public static void main( String args[])
+	{
+		int i = 20, j = 55,  z = 0;  //declaration and initialization of integer variables 'i', 'j' and 'z'
+
+		if( i < j)  z = i;    //check whether 'i' is lesser than 'j'...NB: since 'i' is lesser than 'j', the value
+					         //in variable 'i' will be assigned to variable 'z'...therefore, the else part will be skipped
+		else  z = j - i;
+	
+		System.out.println(z);  //display the value in variable 'z'
+	}
+}
+
+	        Ans: B

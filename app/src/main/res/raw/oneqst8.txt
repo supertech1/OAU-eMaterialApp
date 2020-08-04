@@ -1,0 +1,11 @@
+Qst: Write a program to take an order for a computer system.
+        The basic system costs 375.99. The user then has to choose
+        from a 38cm Screen(costing 75.99) or a 43cm Screen(costing 99.99).
+        The following extras are optional.
+
+	    ***********************
+	    Item	   Price
+	    ***********************
+	    DVD/CD Writer  65.99
+	    Printer 	   125.00
+	    ***********************

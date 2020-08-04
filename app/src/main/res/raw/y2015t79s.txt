@@ -1,0 +1,5 @@
+Ans : A
+
+Explanation :
+i is a local variable, you cant access variable ‘i’ after the loop because it wont be visible there. 
+You can only access/control the variable in the for loop

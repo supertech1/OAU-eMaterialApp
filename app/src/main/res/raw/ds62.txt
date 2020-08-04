@@ -1,0 +1,2 @@
+Answer: c
+Explanation: Two strings can be concatenated by using concat() method.

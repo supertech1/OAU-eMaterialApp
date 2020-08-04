@@ -1,0 +1,6 @@
+Answer: c
+Explanation: Execution command line is "$ java exception_handling one" hence there is only single string that is in args array, making its length 1, hence "a = a/ a " a" in second try block is executing which throws arithmeticexception which is caught by catch of firts try block as the nested try block does not have a catch block which can detect ArithmeticException. Hence 0TypeA is printed
+Output:
+$ javac exception_handling.java
+$ java exception_handling
+0TypeA

@@ -1,0 +1,2 @@
+Answer: d
+Explanation: Method length() of string class is used to get the length of the object which invoked method length().

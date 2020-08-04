@@ -1,0 +1,21 @@
+What is the output of this program if input given is "Hello stop World"?
+
+class Input_Output {
+
+    public static void main(String args[]) throws IOException {	 
+
+         string str;
+
+         BufferedReader obj = new BufferedReader(new InputStreamReader(System.in));
+
+         do {
+
+              str = (char) obj.readLine();
+
+    	      System.out.print(str);
+
+         } while(!str.equals("strong"));
+
+     }
+
+}

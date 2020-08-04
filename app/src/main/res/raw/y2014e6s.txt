@@ -1,0 +1,9 @@
+Answer : B
+
+Explanation :
+
+Since 3 is lesser than 6, the left operand of the && operator
+evaluates to false. Therefore, the  && operator returns false
+NB: && operator returns true only if both operands are true
+
+		    

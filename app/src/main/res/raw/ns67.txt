@@ -1,0 +1,6 @@
+Answer: b
+Explanation: valueOf() returns true if the specified string contains "true" in lower or uppercase and false otherwise.
+Output:
+$ javac Output.java
+$ java Output
+false

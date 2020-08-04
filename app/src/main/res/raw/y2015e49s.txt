@@ -1,0 +1,9 @@
+Ans : B
+
+Explanation :
+
+It is possible for you to start your comments with an ampersand symbol immediately after 
+the comment starting tag. For example, taking single-line comment into consideration, 
+we can have a comment like : 
+
+//&this is a comment following an ampersand symbol.

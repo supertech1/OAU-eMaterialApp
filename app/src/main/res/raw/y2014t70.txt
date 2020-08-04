@@ -1,0 +1,14 @@
+
+What value is stored in variable n at the end of this looping? 
+for( int n = 0; n < 5; n++)
+	
+A. 0	B.  4	C.   5	D.  6
+
+	
+	Solution :
+
+The test condition will return false when variable 'n' is greater than
+or equals to 5. At the point variable 'n' is initialized to 5, the test
+condition returns false, thus, terminating the loop.
+
+	Ans : C

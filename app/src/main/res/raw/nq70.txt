@@ -1,0 +1,11 @@
+What is the output of this program?
+
+class Output {
+
+    public static void main(String args[]) {
+
+    	String x = Boolean.toString(false);
+
+    }
+
+}

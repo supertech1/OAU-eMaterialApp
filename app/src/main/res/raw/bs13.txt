@@ -1,0 +1,2 @@
+Answer: d 
+Explanation: The left shift operator shifts all of the bite in a value to the left specified number of times. For each shift left, the high order bit is shifted out and lost, zero is brought in from right. When a left shift is applied to an integer operand, bits are lost once they are shifted past the bit position 31.

@@ -1,0 +1,6 @@
+Answer: a
+Explanation: Variables a & b are passed by value, copy of their values are made on formal parameters of function meth() that is i & j. Therefore changes done on i & j are not reflected back on original arguments. a & b remain 10 & 20 respectively.
+output:
+$ javac Output.java
+$ java Output
+10 20

@@ -1,0 +1,18 @@
+Answer : B
+
+Explanation :
+
+int i = 1, j = -1; //declaration and initialization of integer variables i and j
+switch(i) //check for the value of i using this switch construct
+{
+	case 0:  //check if i equals 0
+	case 1:  //check if i equals 1
+	System.out.println(j+4);   //since i equals 1, this statement will execute. NB: the rest of the cases will be skipped.
+	break;
+	case 2: System.out.println(j+3);
+	break;
+	default: System.out.println(j * 0)
+	break;
+}
+
+	

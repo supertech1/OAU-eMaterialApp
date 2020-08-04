@@ -1,0 +1,7 @@
+Which of these interfaces is not a member of java.io package?
+	
+
+	A. DataInput	
+	B. ObjectInput		
+	C. ObjectFilter		
+	D. FileFilter

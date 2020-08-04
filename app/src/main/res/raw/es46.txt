@@ -1,0 +1,2 @@
+Answer: d
+Explanation: System class holds a collection of static methods and variables. The standard input, output and error output of java run time are stored in the in, out and err variables of System class.

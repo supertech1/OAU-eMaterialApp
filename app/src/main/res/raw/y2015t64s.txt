@@ -1,0 +1,6 @@
+Ans : D
+
+Explanation :
+
+Since b is an int and b is set to 9.6982 which is a double, java truncate the decimal 
+part and assign the integer part to b.

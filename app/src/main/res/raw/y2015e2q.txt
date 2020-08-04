@@ -1,0 +1,7 @@
+All Java Exceptions are  ..............
+
+
+	A.	Errors
+	B.	Runtime Exceptions
+	C.	Throwables
+	D.	Omissions

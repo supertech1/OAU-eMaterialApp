@@ -1,0 +1,1 @@
+Which of these exceptions is thrown by remover() method?

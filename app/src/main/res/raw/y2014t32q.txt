@@ -1,0 +1,6 @@
+The while loop repeats a set of code while the condition is false
+
+	A.  True	
+	B.  False	
+	C.  True and False		
+	D.  True or False

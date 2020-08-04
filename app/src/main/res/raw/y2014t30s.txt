@@ -1,0 +1,19 @@
+Answer : B
+
+Explanation :
+
+class Cond
+{
+	public static void main( String args[])
+	{
+		int i = 20, j = 55,  z = 0;  //declaration and initialization of integer variables 'i', 'j' and 'z'
+
+		if( i < j)  z = i;    //check whether 'i' is lesser than 'j'...NB: since 'i' is lesser than 'j', the value
+					         //in variable 'i' will be assigned to variable 'z'...therefore, the else part will be skipped
+		else  z = j - i;
+	
+		System.out.println(z);  //display the value in variable 'z'
+	}
+}
+
+	        

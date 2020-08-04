@@ -1,0 +1,9 @@
+Ans : D
+
+Explanation :
+
+Programming platform is the underlying hardware or software for a system. For example, the platform might
+be an Intel 80486 processor running DOS Version 6.0. The platform could also be UNIX machines on an Ethernet network.
+The platform defines a standard around which a system can be developed. Once the platform has been defined, software
+ developers can produce appropriate software and managers can purchase appropriate hardware and applications. 
+The term is often used as a synonym of operating system.

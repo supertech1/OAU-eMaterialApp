@@ -1,0 +1,6 @@
+Answer: d
+Explanation: genericstack's object gs is defined to contain a string parameter but we are sending an integer parameter, which results in compilation error.
+Output:
+$ javac Output.javac
+$ java Output
+Hello

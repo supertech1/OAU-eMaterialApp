@@ -1,0 +1,2 @@
+Answer: a
+Explanation: reverse() method reverses all characters. It returns the reversed object on which it was called.

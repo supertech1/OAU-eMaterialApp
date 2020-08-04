@@ -1,0 +1,2 @@
+Answer: a
+Explanation: Action event is generated when a button is pressed, a list item is double-clicked or a menu item is selected.

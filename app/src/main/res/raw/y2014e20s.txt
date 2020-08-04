@@ -1,0 +1,16 @@
+Answer : D
+
+Explanation :
+
+int x = 1, y = 10;  //declaration and initialization of variable x and y
+while(x<y) //NB: this while loop will continue iterating until the value of x is lesser than that of y
+{
+	x+=2 * x;  //add the result of the expression to the right to the current of value of x
+	y = y - 1;  //assign variable y the result of the expression to the right.
+		//Hint : This while loop will only iterate twice. On the first iteration, x = 3 and y = 9, and on second //iteration, x = 9, y = 8. At this point, the loop will stop since x is now greater than y.	
+}
+System.out.println(x); //display the current value of x
+} 
+}
+	
+	

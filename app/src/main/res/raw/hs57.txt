@@ -1,0 +1,6 @@
+Answer: a
+Explanation: None.
+Output:
+$ javac hashtable.java
+$ java hashtable
+0

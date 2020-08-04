@@ -1,0 +1,43 @@
+            Source Code:
+
+import java.util.Scanner;
+
+public class BankInterest  
+{
+    public static void main(String args[])
+    {
+        final double A_INTEREST = 0.15;
+        final double B_INTEREST = 0.02;
+        final double C_INTEREST = 0.15;
+        final double X_INTEREST = 0.05;
+        
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter the type of bank account: ");
+        String type = input.next();
+        System.out.print("\nEnter the amount to calculate its interest for the given account: ");
+        double amount = input.nextDouble();
+        type = type.toUpperCase();
+        
+        double interest;
+        
+        switch (type)
+        {
+            case "A":
+                interest = amount * A_INTEREST;
+                System.out.printf("Account type : %s\nCapital : %.2f\nInterest : %.2f\n", type,amount,interest);
+                break ;
+            case "B":
+                interest = amount * B_INTEREST;
+                System.out.printf("Account type : %s\nCapital : %.2f\nInterest : %.2f\n", type,amount,interest);
+                break ;
+            case "C":
+                interest = amount * C_INTEREST;
+                System.out.printf("Account type : %s\nCapital : %.2f\nInterest : %.2f\n", type,amount,interest);
+                break ;
+            case "X":
+                interest = amount * X_INTEREST;
+                System.out.printf("Account type : %s\nCapital : %.2f\nInterest : %.2f\n", type,amount,interest);
+                break ;
+        }
+    }
+}

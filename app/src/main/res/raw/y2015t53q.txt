@@ -1,0 +1,7 @@
+What does this code print? System.out.println(1/5);
+
+A. 0.555556
+B. 0
+C. It will give a run-time error
+D. 0.5
+E. It will give a compile-time error

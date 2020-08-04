@@ -1,0 +1,5 @@
+Empty parantheses following a method name in a method declaration indicate that the method does not require any parameters to perform its task. (Question not complete)
+A.
+B.
+C.
+D.

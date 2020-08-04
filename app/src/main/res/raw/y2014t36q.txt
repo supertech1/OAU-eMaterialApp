@@ -1,0 +1,11 @@
+Which of the following are legal lines of java code?
+
+i.   int w =  (int) 888.8;
+ii.  byte x  = (byte)  100L;
+iii. long  y  = (byte) 100;
+iv.  byte  z =  (byte) 100L;
+
+	A.   i and ii 	
+	B.   ii and iii	
+	C.   iii and iv	
+	D.   All statements are correct

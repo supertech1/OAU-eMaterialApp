@@ -1,0 +1,7 @@
+Multiline comment ends with ................ in java
+
+A. /**
+B. **/
+C. /*
+D. */
+E. //

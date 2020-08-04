@@ -1,0 +1,43 @@
+What is the output of this program?
+
+import java.util.*;
+
+public class genericstack <E> {
+
+      Stack <E> stk = new Stack <E>();
+
+       public void push(E obj) {
+
+           stk.push(obj);
+
+    }
+
+    public E pop() {
+
+          E obj = stk.pop();
+
+    	  return obj;
+
+    }
+
+}
+
+class Output {
+
+     public static void main(String args[]) {
+
+         genericstack <String> gs = new genericstack<String>();
+
+         gs.push("Hello");
+
+         System.out.print(gs.pop() + " ");
+
+         genericstack <Integer> gs = new genericstack<Integer>();
+
+         gs.push(36);
+
+         System.out.println(gs.pop());
+
+     }
+
+}

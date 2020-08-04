@@ -1,0 +1,7 @@
+Solution :
+
+The keyword throws is used to specify a throws clause. The throws clause is placed after the closing parenthesis
+of the method's parameters list. The throws keyword is followed by a comma-separated list of exception types that the method main will throw
+if various problems occur. Such exceptions may be thrown by statements in the method's
+body or by methods called from the body. Hence, the throws clause in the above code
+indicate to the rest of the program that method main may throw an IOException

@@ -1,0 +1,13 @@
+What is the output of this program snippet?
+	
+	int x = 3, y = -11%2, z;
+	if(x > y)
+		z = x;
+	else
+		z = y;
+	System.out.print(z);
+
+	A. 0	
+	B. 1	
+	C. 3	
+	D. -4

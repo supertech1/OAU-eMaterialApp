@@ -1,0 +1,2 @@
+Answer: c
+Explanation: Return type of an method must be made void if it is not returning any value.

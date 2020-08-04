@@ -1,0 +1,6 @@
+Answer: a
+Explanation: Keyword super is used to call constructor of class A by constructor of class B. Constructor of a initializes i & j to 1 & 2 respectively.
+output:
+$ javac super_use.java
+$ java super_use
+1 2

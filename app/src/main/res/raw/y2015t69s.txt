@@ -1,0 +1,7 @@
+Ans : E
+
+Explanation :
+
+   A Variable is a named  memory location that can be assigned a value. It can as well be referred to as a location in the computer's memory where a value can be stored for use later in a program.  All Java variables must be declared with a name  and a type  before they can be used. A variable's name enables the program to access the value of the variable in memory.
+
+   A variable's name can be any valid identifier. A variable's type specifies what kind of information is stored at that location in memory. Like other statements, declaration statements end with a semicolon (;).

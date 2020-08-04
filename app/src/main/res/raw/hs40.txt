@@ -1,0 +1,6 @@
+Answer: b
+Explanation: None.
+Output:
+$ javac Array.java
+$ java Array
+3

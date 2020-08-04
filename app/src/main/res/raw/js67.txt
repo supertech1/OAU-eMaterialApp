@@ -1,0 +1,6 @@
+Answer: c
+Explanation: obj1.t.wait() causes main thread to go out of processing in sleep state hence causes exception and "Main thread interrupted" is printed.
+Output:
+$ javac multithreaded_programing.java
+$ java multithreaded_programing
+Main thread interrupted

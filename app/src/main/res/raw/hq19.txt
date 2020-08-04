@@ -1,0 +1,21 @@
+What is the output of this program?
+
+import java.util.*;
+
+class Output {
+
+     public static void main(String args[]) {
+
+          HashSet obj = new HashSet();
+
+          obj.add("A");
+
+          obj.add("B");
+
+          obj.add("C");
+
+          System.out.println(obj + " " + obj.size());
+
+      }
+
+}

@@ -1,0 +1,10 @@
+Ans : A
+
+Explanation : 
+
+The program will not compile because the expression ((firstvar + secondvar)/2.0;) on line 4 gives a double
+as result which is not compatible with the data type of the float variable (ave) we want to assign the result to. 
+For the program to compile, all you need to do is to cast the result to double which can be done as follows:   
+firstvar = 6.0; secondvar = 8.0; ave = (float)((firstvar + secondvar)/2.0);
+
+The code will compile and run fine if replace  line 4 with the above statement.

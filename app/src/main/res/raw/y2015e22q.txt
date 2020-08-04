@@ -1,0 +1,19 @@
+What will be the output of the program
+public class MyProgram
+{
+	public static void main(stringargs[])
+	{
+		try{
+			System.out.print("Hello world");
+		}
+		finally{
+			System.out.println("finally executing");
+		}
+	}
+}
+
+
+	A.	Nothing the program will not compile because no exceptions are specified
+	B.	Nothing, the program will not compile because no catch clause are specified
+	C.	Hello world
+	D.	Hello world finally executing

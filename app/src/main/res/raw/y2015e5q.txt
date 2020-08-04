@@ -1,0 +1,7 @@
+In object-oriented terminology, you .......... a procedure that might not complete correctly 
+
+
+	A.	try
+	B.	catch 
+	C.	handle
+	D.	encapsulate

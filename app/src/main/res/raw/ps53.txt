@@ -1,0 +1,2 @@
+Answer: d
+Explanation: notifyObserver() notifies all the observers of the invoking object that it has changed by calling update(). A null is passed as the second argument to update().

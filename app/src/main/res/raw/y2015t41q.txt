@@ -1,0 +1,7 @@
+Which of the following expression is equivalent to this? !(x || y)
+
+A. (x || y)
+B. (x && y)
+C. (!x) && (!y)
+D. !(x && y)
+E. (!x) || (!y)

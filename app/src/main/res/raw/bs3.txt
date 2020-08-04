@@ -1,0 +1,2 @@
+Answer: d
+Explanation: Operator ++ increases value of variable by 1. x = x + 1 can also be written in shorthand form as x += 1. Also x =+ 1 will set the value of x to 1.

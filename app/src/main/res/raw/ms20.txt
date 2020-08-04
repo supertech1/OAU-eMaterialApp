@@ -1,0 +1,2 @@
+Answer: d
+Explanation: UNIT_INCREMENT VALUE will change when the button at the end of scroll bar was clicked to increase its value.

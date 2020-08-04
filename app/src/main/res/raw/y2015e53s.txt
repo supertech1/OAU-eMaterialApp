@@ -1,0 +1,13 @@
+Ans : A
+	
+Explanation: 
+
+Java is a case sensitive language. As an illustration, let us define two String variables
+to hold the firstname of a student.
+
+	String FirstNAME = "tola"
+	String firstname = "seun"
+
+The above two String variables name (FirstNAME and firstname) are not considered the 
+same due to the fact that one is  a mixture of capital letters small letters while the other 
+is in lower case all through. Because java is case sensitive, we say both variable names are not the same.

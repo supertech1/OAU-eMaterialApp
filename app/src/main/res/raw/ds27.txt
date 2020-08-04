@@ -1,0 +1,6 @@
+Answer: b
+Explanation: class A is an abstract class, it contains a abstract function display(), the full implementation of display() method is given in its subclass B, Both the display functions are the same. Prototype of display() is defined in class A and its implementation is given in class B.
+output:
+$ javac Abstract_demo.java
+$ java Abstract_demo
+2

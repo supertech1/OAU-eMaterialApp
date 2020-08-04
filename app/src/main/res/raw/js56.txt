@@ -1,0 +1,6 @@
+Answer: b
+Explanation: None.
+Output:
+$ javac exception_handling.java
+$ java exception_handling
+1

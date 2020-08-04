@@ -1,0 +1,6 @@
+Answer: b
+Explanation: Using comma operator , we can include more than one statement in the initialization and iteration portion of the for loop. Therefore both ++i and j = i + 1 is executed i gets the value – 0,1,2,3,4 & j gets the values -0,1,2,3,4,5.
+output:
+$ javac comma_operator.java
+$ java comma_operator
+6

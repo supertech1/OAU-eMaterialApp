@@ -1,0 +1,2 @@
+Qst 1b. Modify the program so that the user enters a number and the program 
+	    displays all the even numbers from 1 up to the number entered by the user.

@@ -1,0 +1,2 @@
+Answer: b
+Explanation: Packages are both naming and visibility control mechanism. We can define a class inside a package which is not accessible by code outside the package.

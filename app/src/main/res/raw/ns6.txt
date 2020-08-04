@@ -1,0 +1,2 @@
+Answer: a
+Explanation: abs() returns the absolute value of a variable.

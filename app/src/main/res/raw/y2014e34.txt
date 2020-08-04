@@ -1,0 +1,11 @@
+What is the output of this program snippet?
+	boolean a = true, b = !true, c = a | b, d = a & b;
+	System.out.println(c + “ “ + d);
+	A. false false	B. true true	C. true false	D. false true
+	
+	Solution :
+	boolean a = true, b = !true, c = a | b, d = a & b; //declaration and initialization of boolean variables a, b, c and d
+	NB: after executing the above statement, a = true, b = false, c = true and d = false
+System.out.println(c + “ “ + d);
+	
+	Ans : C

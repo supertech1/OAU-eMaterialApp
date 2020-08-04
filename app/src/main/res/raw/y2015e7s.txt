@@ -1,0 +1,11 @@
+Answer : B
+
+Explanation : 
+
+A try block encloses the code that might throw an exception and the code that should 
+not execute if an exception occurs.  A try block consists of the following elements:
+
+	*The keyword try
+ 	*An opening curly brace
+	*Executable statements, including some that might cause exceptions
+	*A closing curly brace

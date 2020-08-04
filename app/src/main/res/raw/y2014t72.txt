@@ -1,0 +1,21 @@
+
+Which of these is a selection statement in Java?
+	
+A. if( )  B. for ( )  C. continue  D. break
+
+		Solution :
+
+Java has three types of selection statements. The if statement 
+either performs (selects) an action, if a condition is true, 
+or skips it, if the condition is false. The if...else statement
+performs an action if a condition is true and performs a different
+action if the condition is false. The switch statement performs one
+of many different actions,depending on the value of an expression. 
+The if statement is a single-selection statement because it selects 
+or ignores a single action (or, as we'll soon see, a single group of
+actions). The if...else statement is called a double-selection statement
+because it selects between two different actions (or groups of actions).
+The switch statement is called a multiple-selection statement because it
+selects among many different actions (or groups of actions).
+
+		Ans: A

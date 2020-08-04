@@ -1,0 +1,12 @@
+Ans : D
+
+Explanation :
+
+Comments are used to document program so that the program can be readable and understandable.  
+There are three types of comments in java namely:
+
+   1)  Single-line comment   //
+   2)  Multi-line comment  /*     */
+   3)  Javadoc comment   /**    */
+
+Java compiler ignores comment.

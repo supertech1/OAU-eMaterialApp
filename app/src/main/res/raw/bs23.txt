@@ -1,0 +1,2 @@
+Answer: d 
+Explanation: Operator Short circuit AND, &&, equal to, == , ternary if-then-else, ?:, are boolean logical operators. += is an arithmetic operator it can operate only on numeric values.

@@ -1,0 +1,1 @@
+Which of these class can encapsulate an entire executing program?

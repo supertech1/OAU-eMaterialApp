@@ -1,0 +1,7 @@
+which of these have highest precedence?
+
+A. ()
+B. ++
+C. *
+D. >>
+E. /

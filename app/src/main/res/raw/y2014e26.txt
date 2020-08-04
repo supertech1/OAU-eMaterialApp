@@ -1,0 +1,11 @@
+What is the output of this code snippet?
+	boolean a = true, b = false, c = a & b;
+	System.out.println(!c);
+	A. 0	B. 1	C.  false	D.  true
+
+		Solution :
+	boolean a = true; b = false, c = a & b; //declaration and initialization of boolean variables a, b and c
+	//NB: & operator only returns true if both operand are true. Thus, false being assigned to variable c
+	System.out.println(!c)  //NB: since c is false, !c returns true
+
+		Ans : D

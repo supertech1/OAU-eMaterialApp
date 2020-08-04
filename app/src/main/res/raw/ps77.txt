@@ -1,0 +1,6 @@
+Answer: d
+Explanation: None.
+Output:
+$ javac Output.javac
+$ java Output
+6.0

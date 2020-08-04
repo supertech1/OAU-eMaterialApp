@@ -1,0 +1,30 @@
+            Source Code:
+
+import java.util.Scanner;
+
+public class ProcessScore 
+{
+    public static void main(String args[])
+    {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter Exam Score: ");
+        double score = input.nextDouble();
+        char grade;
+        
+        if (score >= 70)
+            grade = 'A';
+        else if (score >= 60 && score < 70)
+            grade = 'B';
+        else if (score >= 50 && score < 60)
+            grade = 'C';
+        else if (score >= 45 && score < 50)
+            grade = 'D';
+        else if (score >= 40 && score <= 45)
+            grade = 'E';
+        else {
+            grade = 'F';
+        }
+        
+        System.out.printf("Your Grade is : %c", grade);
+    }
+}

@@ -1,0 +1,6 @@
+Answer: d
+Explanation: None.
+output:
+$ javac String_demo.java
+$ java String_demo
+4 3

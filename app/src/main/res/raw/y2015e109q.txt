@@ -1,0 +1,6 @@
+What is static block?
+
+A.	It is used to create synchronized code
+B.	There is no such block
+C.	It is used to initialize the static data member, it is executed before main method at the time of class loading
+D.	None of the above

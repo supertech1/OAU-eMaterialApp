@@ -1,0 +1,2 @@
+Answer: a
+Explanation: EventObject class is a super class of all the events and is defined in java.util package.

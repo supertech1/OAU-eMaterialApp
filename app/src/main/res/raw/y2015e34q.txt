@@ -1,0 +1,8 @@
+Which of the following set of integers are incorrect?
+(i)	1, 234 (ii) -345 (iii) 0 (iv) 12.0 (v) -3
+
+
+	A.	None of the above
+	B.	All of the above
+	C.	i,ii,v
+	D.	i, iv

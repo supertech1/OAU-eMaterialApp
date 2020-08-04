@@ -1,0 +1,5 @@
+Ans : B
+
+Explanation :
+
+Check the note section for comprehensive note on Repetition statement

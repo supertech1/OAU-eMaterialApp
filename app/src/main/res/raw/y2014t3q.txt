@@ -1,0 +1,6 @@
+Which of these operators can skip evaluating right hand operator?
+
+	A. !	
+	B. |	
+	C.  &	
+	D. &&

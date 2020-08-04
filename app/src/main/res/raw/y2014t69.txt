@@ -1,0 +1,10 @@
+
+If there is more than one statement in the block of a for loop, which of the
+following must be placed at the beginning and end of the loop block?
+
+A. parentheses ( )	B. French curly braces  { }    C.  brackets [ ]  D. none
+
+	
+	Solution :
+
+	Ans : B

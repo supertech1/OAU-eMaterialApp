@@ -1,0 +1,6 @@
+Answer: b
+Explanation: reverse() method reverses all characters. It returns the reversed object on which it was called.
+Output:
+$ javac output.java
+$ java output
+olleH

@@ -1,0 +1,5 @@
+Ans : D.
+
+Explanation:
+
+A single line comment has no ending tag. It terminates at the end of line on which it was used.

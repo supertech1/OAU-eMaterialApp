@@ -1,0 +1,5 @@
+Answer: c
+Explanation: Thread t has been made by using Runnable interface, hence it is necessary to use inherited abstract method run() method to specify instructions to be implemented on the thread, since no run() method is used it gives a compilation error.
+Output:
+$ javac multithreaded_programing.java
+The type newthread must implement the inherited abstract method Runnable.run()

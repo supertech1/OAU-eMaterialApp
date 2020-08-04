@@ -1,0 +1,5 @@
+Ans : C
+
+Explanation:
+
+INTERPRETER is used to interpret instructions one at a time.

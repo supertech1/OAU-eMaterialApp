@@ -1,0 +1,12 @@
+
+Which of these operators is used to allocate memory to array variable in java?
+
+A.  malloc	B.  alloc	C.   new	D. new malloc
+
+	        Solution :
+
+Operator new allocates block of memory specified by the size of array, and gives 
+
+the reference of memory allocated to the array variable
+		
+	        Ans : C

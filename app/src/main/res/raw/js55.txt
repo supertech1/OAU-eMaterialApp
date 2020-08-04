@@ -1,0 +1,2 @@
+Answer: d
+Explanation: ArrayIndexOutOfBoundsException is a built in exception that is caused when we try to access an index location which is beyond the length of an array.

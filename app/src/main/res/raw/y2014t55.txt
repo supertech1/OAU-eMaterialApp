@@ -1,0 +1,38 @@
+
+What is the output of this program?
+
+class evaluate
+{
+	public static void main(String args[])
+	{
+		int arr[] = new int[] {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
+		int n = 6;
+		n = arr[arr[n] / 2];
+		System.out.println(arr[n] / 2);
+	}
+}
+
+A.  3	B.  0	C.   6	D.   1
+
+		Solution :
+
+class evaluate
+{
+	public static void main(String args[])
+	{
+		int arr[] = new int[] {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}; //integer array declaration and initialization
+		
+		int n = 6; // assign 6 to integer variable 'n'
+		
+		n = arr[arr[n] / 2];  //evaluate the expression and assign the result to variable 'n'
+				              //NB: Array index starts from 0. Thus, the above expression can be evaluated as follows :
+		                      // n = arr[arr[6] / 2]  = arr[6/2] = arr[3] = 3.
+		
+		System.out.println(arr[n] / 2); //NB: The division expression in this println method is an
+			                           //integer division, therefore, the decimal part will be truncated. i.e instead of 1.5 which is the
+			                           //actual result, the displayed result will be 1.
+	}
+}
+	
+
+		Ans: D

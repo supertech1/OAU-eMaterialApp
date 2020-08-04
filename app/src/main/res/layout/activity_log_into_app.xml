@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.supertech.csc201real.HomePage">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="60dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff">
+
+            <LinearLayout
+                android:id="@+id/top_flipper"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:orientation="vertical">
+
+
+                <ViewFlipper
+                    android:id="@+id/viewFlipper"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center_horizontal"
+                    android:autoStart="true"
+                    android:flipInterval="2000"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="0dp">
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:adjustViewBounds="true"
+                        android:paddingTop="0dp"
+
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/javatraining" />
+
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:adjustViewBounds="true"
+
+                        android:paddingTop="0dp"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/androidtraining" />
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:adjustViewBounds="true"
+                        android:paddingTop="0dp"
+
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/webdevtraining" />
+
+                    <ImageView
+                        android:id="@+id/imageView1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_gravity="top"
+                        android:layout_marginTop="0dp"
+                        android:adjustViewBounds="true"
+                        android:paddingTop="0dp"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/software_banner" />
+                </ViewFlipper>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/middle_row"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/top_flipper"
+                android:background="#FFC0C1C2"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <ScrollView
+                    android:layout_width="match_parent"
+
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView30"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="20dp"
+                            android:gravity="center_vertical"
+                            android:text="OAU CSC201 APP"
+                            android:textAlignment="center"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="#FF040C3D" />
+
+                        <EditText
+                            android:id="@+id/username_edittext"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center_horizontal"
+
+                            android:layout_marginTop="10dp"
+                            android:background="@color/bright_foreground_material_dark"
+                            android:drawableLeft="@drawable/username_icon"
+                            android:drawablePadding="10dp"
+                            android:paddingLeft="5dp"
+
+                            android:ems="10"
+                            android:hint="Username"
+                            android:inputType="text"
+                            android:maxLength="10" />
+                        <EditText
+                            android:id="@+id/phonenum_edittext"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center_horizontal"
+                            android:drawableLeft="@drawable/phonenum_icon"
+                            android:drawablePadding="10dp"
+                            android:paddingLeft="5dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@color/bright_foreground_material_dark"
+                            android:ems="10"
+                            android:hint="Phone Number"
+                            android:inputType="phone"
+                            android:maxLength="14" />
+
+                        <EditText
+                            android:id="@+id/serial_edittext"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="10dp"
+                            android:background="@color/bright_foreground_material_dark"
+                            android:drawableLeft="@drawable/serialnumber_icon"
+                            android:drawablePadding="10dp"
+                            android:paddingLeft="5dp"
+                            android:ems="10"
+                            android:hint="Serial No"
+                            android:inputType="text"
+                            android:maxLength="4" />
+
+                        <EditText
+                            android:id="@+id/pin_edittext"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="5dp"
+                            android:background="@color/bright_foreground_material_dark"
+                            android:drawableLeft="@drawable/password_icon"
+                            android:drawablePadding="10dp"
+                            android:paddingLeft="5dp"
+                            android:ems="10"
+                            android:hint="Pin"
+                            android:inputType="textPassword"
+                            android:maxLength="15" />
+
+                        <Button
+                            android:id="@+id/activate_button"
+                            android:layout_width="wrap_content"
+                            android:layout_height="26dp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="5dp"
+                            android:layout_weight="0.05"
+                            android:background="#2B87D2"
+                            android:text="Activate"
+                            android:textColor="@color/bright_foreground_material_dark" />
+
+                        <TextView
+                            android:id="@+id/status_textview"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginBottom="10dp"
+                            android:text=""
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="#FF0000" />
+
+                        <TextView
+                            android:id="@+id/textView3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="15dp"
+                            android:text="Help Lines :"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="#FF040C3D" />
+
+
+                        <TextView
+                            android:id="@+id/textView7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="4dp"
+                            android:autoLink="phone"
+                            android:text="09035562211"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="@color/design_textinput_error_color_light"
+                            android:textColorLink="@color/design_textinput_error_color_light" />
+
+
+                        <TextView
+                            android:id="@+id/textView8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:autoLink="phone"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="08175410053"
+                            android:textColor="@color/design_textinput_error_color_light"
+                            android:textColorHighlight="@color/design_textinput_error_color_light"
+                            android:textColorLink="@color/design_textinput_error_color_light" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="15dp"
+                            android:text="To know more about us, visit:"
+                            android:textColor="#FF040C3D"
+
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:autoLink="web"
+                            android:text="www.tokielsolutions.com.ng"
+                            android:layout_marginBottom="25dp"
+                            android:textColor="@color/red" />
+                    </LinearLayout>
+                </ScrollView>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:background="#2B87D2"
+                android:gravity="center"
+                android:text="All rights reserved."
+                android:textColor="@color/white"
+
+                />
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

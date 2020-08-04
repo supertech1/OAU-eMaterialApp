@@ -1,0 +1,2 @@
+Answer: a
+Explanation: Bitset class creates a special type of array that holds bit values. This array can increase in size as needed.

@@ -1,0 +1,6 @@
+Answer: c
+Explanation: Since we have not explicitly set the port default value that is -1 is printed.
+Output:
+$ javac networking.java
+$ java networking
+-1

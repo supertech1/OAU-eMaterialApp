@@ -1,0 +1,5 @@
+Answer: d
+Explanation: No output is printed. CharArrayReader object input1 contains string 'abcdefgh' whereas object input2 contains string 'bcde', when while((i=input1.read())==(j=input2.read())) is executed the starting character of each object is compared since they are unequal control comes out of loop and nothing is printed on the screen.
+Output:
+$ javac Chararrayinput.java
+$ java Chararrayinput

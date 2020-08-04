@@ -1,0 +1,15 @@
+
+The switch statement does not require a break.
+
+A. True	B.  False	C. True and False	D. True or False
+
+
+            Solution :
+
+
+The break statement is not required at the end of each case in switch statement.  However, if it is omitted,
+
+control will flow into the next set of statements
+
+
+            Ans :  A

@@ -1,0 +1,6 @@
+Answer: a
+Explanation: None.
+Output:
+$ javac multithreaded_programing.java
+$ java multithreaded_programing
+My Thread

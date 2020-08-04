@@ -1,0 +1,7 @@
+........ statement does not position the output cursor at the beginning of the next line in the command window.
+
+
+	A.	println
+	B.	print
+	C.	printf
+	D.	none of these

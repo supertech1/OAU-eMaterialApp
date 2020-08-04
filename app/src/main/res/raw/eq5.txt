@@ -1,0 +1,1 @@
+Which of the following is correct way of importing an entire package 'pkg'?

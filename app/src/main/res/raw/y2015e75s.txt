@@ -1,0 +1,5 @@
+Ans : D
+
+Explanation :
+
+IOException is unreachable to compiler because all exception are going to catch up by Exception block.

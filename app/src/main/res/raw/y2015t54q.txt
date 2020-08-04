@@ -1,0 +1,7 @@
+What does this code do when it is executed? System.out.println(10/0);
+
+A. print 0
+B. give a run-time error
+C. give a compile-time error(won't compile)
+D. print 10
+E. print 0.1

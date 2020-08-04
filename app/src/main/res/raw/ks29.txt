@@ -1,0 +1,6 @@
+Answer: d
+Explanation: The insert() method inserts one string into another. It is overloaded to accept values of all simple types, plus String and Objects. Sting is inserted into invoking object at specified position. "Good " is inserted in "Hello World" T index 6 giving "Hello Good World".
+output:
+$ javac output.java
+$ java output
+Hello Good World

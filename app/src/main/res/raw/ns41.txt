@@ -1,0 +1,2 @@
+Answer: c
+Explanation: decode() methods returns a Byte object that contains the value specified by string.

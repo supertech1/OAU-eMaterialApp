@@ -1,0 +1,32 @@
+
+What is the output of this program?
+
+class asciicodes 
+{
+	public static void main(String args[])
+	{
+		char var1 = 'A';
+		char var2 = 'a';
+		System.out.println((int)var1 + " " + (int)var2);
+	}
+}
+
+A.  162		B.  65 97	C.  67 95	D. 66 98
+
+
+            Solution:
+
+class asciicodes 
+{
+	public static void main(String args[])
+	{
+		char var1 = 'A'; //assign alphabet A to character variable a . Numeric(Ascii) value of 'A' is 65
+
+		char var2 = 'a';  //assign alphabet a to character variable a. Numeric(Ascii) value of 'A' is 97
+
+		System.out.println((int)var1 + " " + (int)var2);  //display the numeric values of both
+								                          // variables by casting them into an integer.
+	}
+}
+
+            Ans : B

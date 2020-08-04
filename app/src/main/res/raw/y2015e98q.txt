@@ -1,0 +1,7 @@
+Does a programmers always know how long an array will be when the program is being written?
+
+
+A.	Yes the program will not compile without the length being declared.
+B.	No ...... the array object is created when the program is running, and the length might change from run to tun.
+C.	Yes ....... otherwise the program will not run correctly
+D.	No ...... arrays can grow to whatever length is needed

@@ -1,0 +1,8 @@
+Ans : B
+
+Explanation :
+
+Constructors are not inherited, however, a superclass's constructors are still available
+to subclasses. In fact, the first task of any subclass constructor is to call its direct 
+superclass's constructor, either explicitly or implicitly (if no constructor call is specified),
+to ensure that the instance variables inherited from the superclass are initialized properly.

@@ -1,0 +1,1 @@
+Which of these method of ArrayList class is used to obtain present size of an object?

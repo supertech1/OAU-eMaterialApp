@@ -1,0 +1,7 @@
+Three pieces of information needed to use a method to its full potential but you don't need to know
+
+
+	A.	The method's return type
+	B.	The type of arguments the method requires
+	C.	The number of statements within the method
+	D.	The type of exceptions the method throws

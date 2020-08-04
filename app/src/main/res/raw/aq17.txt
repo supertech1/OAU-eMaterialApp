@@ -1,0 +1,17 @@
+What is the output of this program?
+
+class mainclass {
+
+  public static void main(String args[]) 
+
+  {
+
+  char a = 'A';
+
+  a++;
+
+  System.out.print((int)a);
+
+  } 
+
+}

@@ -1,0 +1,12 @@
+Arrange the following in order of closeness to hardware :
+
+(i)	Machine language programming 
+(ii) object-oriented programming 
+(iii) assembly language programming 
+
+A. I , II, and III
+B. III, II and I
+C. I, III and II
+D. II, I and iii
+E. ii, iii and i
+

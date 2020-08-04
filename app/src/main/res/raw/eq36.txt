@@ -1,0 +1,1 @@
+Which of these methods is used to obtain value of invoking object as a long?

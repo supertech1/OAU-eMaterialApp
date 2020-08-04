@@ -1,0 +1,1 @@
+Which exception is thrown by read() method?

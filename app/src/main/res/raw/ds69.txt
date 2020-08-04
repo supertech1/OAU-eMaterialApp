@@ -1,0 +1,6 @@
+Answer: a
+Explanation: substring(0,4) returns the character from 0 th position to 3 rd position.
+output:
+$ javac output.java
+$ java output
+Hell

@@ -1,0 +1,3 @@
+What will s2 contain after following lines of code?
+String s1 = "one";
+String s2 = s1.concat("two")

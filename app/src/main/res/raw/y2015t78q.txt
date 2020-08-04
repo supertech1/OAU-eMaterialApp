@@ -1,0 +1,13 @@
+What is the output for y?
+
+int y = 0;
+for(int i = 0; i < 10; ++i){
+y += i;
+}
+System.out.println(y);
+
+A.	11
+B.	13
+C.	12
+D.	45
+E.	10

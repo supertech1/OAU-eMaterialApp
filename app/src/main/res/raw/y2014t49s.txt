@@ -1,0 +1,12 @@
+Answer :  D
+
+Explanation :
+
+On memory allocation to an array variable, operator new must precede
+
+the array type and size. Therefore, option D is an incorrect way of
+
+declaring an array.
+
+		
+		

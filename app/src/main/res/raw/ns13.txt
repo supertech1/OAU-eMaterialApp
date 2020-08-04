@@ -1,0 +1,2 @@
+Answer: d
+Explanation: IEEEremainder() returns the remainder of dividend / devisor.

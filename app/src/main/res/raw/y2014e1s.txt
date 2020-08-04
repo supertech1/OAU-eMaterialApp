@@ -1,0 +1,7 @@
+Answer : C
+
+Explanation :
+
+All transcendental math functions returns a double value
+
+            

@@ -1,0 +1,2 @@
+Answer: d
+Explanation: All object of class share a single copy of methods defined in a class, Methods are allotted memory only once. All the objects of the class have access to methods of that class are allotted memory only for the variables not for the methods.

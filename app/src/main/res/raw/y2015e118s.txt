@@ -1,0 +1,7 @@
+Ans : C
+
+Explanation :
+
+Whenever you want to define a method with no value to be returned to the caller,
+ you simply specify void as the return type. (Note: it is compulsory to specify a 
+return type when declaring a method except if the method is a constructor)

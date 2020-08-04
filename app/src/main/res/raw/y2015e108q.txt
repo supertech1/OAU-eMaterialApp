@@ -1,0 +1,7 @@
+What is the size of int variable?
+
+
+A.	8 bit
+B.	16 bit
+C.	32 bit
+D.	64 bit

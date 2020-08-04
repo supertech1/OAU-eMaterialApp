@@ -1,0 +1,7 @@
+One of these is a java repetition statement 
+
+
+	A.	if-Then-Else
+	B.	if
+	C.	for
+	D.	switch 

@@ -1,0 +1,2 @@
+Answer: c
+Explanation: hasNext() returns boolean values true or false.

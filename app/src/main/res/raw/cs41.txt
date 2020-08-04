@@ -1,0 +1,2 @@
+Answer: b
+Explanation: main() method must be specified public as it called by Java run time system, outside of the program. If no access specifier is used then by default member is public within its own package & cannot be accessed by Java run time system.

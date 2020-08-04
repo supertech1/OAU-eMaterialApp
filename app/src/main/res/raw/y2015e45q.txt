@@ -1,0 +1,7 @@
+one of these is a control structure in which java program can be written
+
+
+	A.	selection
+	B.	read
+	C.	print
+	D.	write

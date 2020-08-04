@@ -1,0 +1,6 @@
+Answer: c
+Explanation: firstly elements 3, 2, 5 are entered in the vector obj, but when obj.removeAll(obj); is executed all the elements are deleted and vector is empty, hence obj.isEmpty() returns true.
+Output:
+$ javac vector.java
+$ java vector
+true

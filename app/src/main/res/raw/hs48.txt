@@ -1,0 +1,6 @@
+Answer: d
+Explanation: None.
+Output:
+$ javac vector.java
+$ java vector
+[3, 2, 8, 6] 

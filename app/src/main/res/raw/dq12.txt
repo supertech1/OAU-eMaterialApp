@@ -1,0 +1,1 @@
+What is the process of defining a method in subclass having same name & type signature as a method in its superclass?

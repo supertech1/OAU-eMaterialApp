@@ -1,0 +1,2 @@
+Answer: c
+Explanation: AWT stands for Abstract Window Toolkit, it is used by applets to interact with the user.

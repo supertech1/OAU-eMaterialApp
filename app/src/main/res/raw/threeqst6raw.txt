@@ -1,0 +1,67 @@
+
+            Source Code:
+
+import java.util.Scanner;
+
+public class PoundToKilogramConverter 
+{
+    public static double convert(double amount, String unit)
+    {
+        final double OnePoundToKg = 0.454;
+        double result;
+        if (unit.equalsIgnoreCase("kg"))
+        {
+            result = amount/OnePoundToKg;
+        }
+        else if (unit.equalsIgnoreCase("p"))
+        {
+            result = amount * OnePoundToKg;
+        }
+        else {
+            result = 0.0;
+        }
+        return result;
+    }
+    
+    public static void menu()
+    {
+        System.out.printf("\t\t\tConvert:\n[1] Pounds to Kilogram\n[2] Kilogram to Pounds\n[3] "
+                + "Exit\nEnter Choice: ");
+    }
+    public static void main(String args[])
+    {
+        Scanner input = new Scanner(System.in);
+        int user_input;
+        double amount;
+        do {
+
+            menu();
+            user_input = input.nextInt();
+            if (user_input == 3)
+                break;
+            System.out.print("Enter the amount to convert: ");
+            
+            amount = input.nextDouble();
+            if (user_input > 3 || user_input < 1)
+                System.out.println("Invalid Input");
+            else {
+                switch (user_input)
+                {
+                    case 1:
+                        System.out.printf("\n%.2fpounds = %.2fKg\n",amount,convert(amount, "p"));
+                        break;
+                    case 2:
+                        System.out.printf("\n%.2fKg = %.2fPounds\n",amount,convert(amount, "kg"));
+                        break;
+                    case 3:
+                        break;
+                        
+                }
+            }
+        }
+        while (user_input != 3);
+        System.out.println("Thank you!");
+        
+    }
+    
+}

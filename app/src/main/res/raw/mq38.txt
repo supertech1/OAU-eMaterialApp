@@ -1,0 +1,1 @@
+Which of these methods is used to get x coordinate of the mouse?

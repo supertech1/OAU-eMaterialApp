@@ -1,0 +1,7 @@
+when the program in (Qst 17) is compiled at command prompt with correct file name, what will be the result?
+
+A. Back to command prompt, silently generating a file with a new extension
+B. Three errors will be indicated
+C. One error will be pointed out
+D. Compilation will not be possible
+E. It is difficult to determine without working on a computer system

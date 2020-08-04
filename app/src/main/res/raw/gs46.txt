@@ -1,0 +1,2 @@
+Answer: a
+Explanation: The writeDiskCache() method takes an UrlCacheEntry object and writes it persistently into the local disk. It constructs directory names out of URL, making sure to replace the slash(/) characters with system dependent seperatorChar.

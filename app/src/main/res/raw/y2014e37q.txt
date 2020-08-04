@@ -1,0 +1,7 @@
+Which of these is method for testing whether the specified element is a file or a directory?
+	
+
+	A. IsFile( )	
+	B. isFile( )	
+	C. Isfile()	
+	D. isfile()

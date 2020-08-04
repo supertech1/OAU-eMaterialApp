@@ -1,0 +1,5 @@
+What is the value stored in x in following lines of code?
+int x, y, z;
+x = 0;
+y = 1;
+x = y = z = 8;

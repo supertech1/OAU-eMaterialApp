@@ -1,0 +1,2 @@
+Answer: a
+Explanation: isinfinite() method returns true is the value being tested is infinitely large or small in magnitude.

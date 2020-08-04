@@ -1,0 +1,1 @@
+A class member declared protected becomes member of subclass of which type?

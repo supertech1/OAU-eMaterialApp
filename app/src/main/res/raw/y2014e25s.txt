@@ -1,0 +1,22 @@
+Answer : A
+
+Explanation :
+	
+public class Switchy
+{
+	public static void main(String [ ] args)
+	{
+		final int x = 2;  //declaration and initialization of a constant variable x
+		for (int z = 0; z < 3; z++)  //NB: this for loop will iterate three times
+		{
+			switch(z)  //check for the current value of z using the switch statement
+			{
+				case x-2:  System.out.print("0 ");break;  //Hint: on first iteration, only this case label will be true
+				case x-1:  System.out.print("1 ");break;  //Hint: on second iteration, only this case label will be true
+				case x:  System.out.print("2 ");break; // Hint: on third iteration, only this case label will be true
+
+			}
+		}
+	}
+}
+		

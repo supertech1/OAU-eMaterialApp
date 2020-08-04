@@ -1,0 +1,2 @@
+Answer: d
+Explanation: WindowEvent is generated when a window is activated, closed, deactivated, deiconfied, iconfied, opened or quit.

@@ -1,0 +1,2 @@
+Answer: b
+Explanation: There is no relation between random numbers generated previously in Java.

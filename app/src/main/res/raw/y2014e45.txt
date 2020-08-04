@@ -1,0 +1,5 @@
+Which of these classes is not related to input and output stream in terms of functioning?
+	A. File		B.  Writer	C. InputStream	D. Reader
+Solution :
+Explanation: A File describes properties of a file, a File object is used to obtain or manipulate the information associated with a disk file, such as the permissions, time date, and directories path, and to navigate subdirectories.
+	Ans : A

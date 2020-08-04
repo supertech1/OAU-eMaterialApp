@@ -1,0 +1,2 @@
+Answer: d
+Explanation: we cannot Create, Catch, or Throw Objects of Parameterized Types as generic class cannot extend the Throwable class directly or indirectly.

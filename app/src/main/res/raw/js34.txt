@@ -1,0 +1,2 @@
+Answer: a
+Explanation: Java assigns to each thread a priority that determines hoe that thread should be treated with respect to others. Thread priority are integers that specify relative priority of one thread to another.

@@ -1,0 +1,2 @@
+Answer: c
+Explanation: shuffle – randomizes all the elements in a list.

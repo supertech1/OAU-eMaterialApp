@@ -1,0 +1,6 @@
+which method can be defined only once in a program?
+
+A.	main method
+B.	finalize method
+C.	static method
+D.	private method

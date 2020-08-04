@@ -1,0 +1,7 @@
+................... is the name of a stream that connects two running programs in java
+
+
+A.	Program stream
+B.	Condult
+C.	Pipe
+D.	Channel

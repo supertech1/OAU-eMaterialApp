@@ -1,0 +1,16 @@
+
+Which of the following loops will execute the body of loop even 
+when condition controlling the loop is initially false?
+
+A. do-while  B. while	C. for	D. None
+
+
+	Solution:
+
+for and while loop checks for the test condition before executing the
+body of the loop; if the test condition  is false, the body never executes.
+The do-while statement is similar but different from 'if and while'
+statements because it checks the test condition after executing the loop's
+body; therefore, the body always executes at least once.
+		
+	Ans : A

@@ -1,0 +1,2 @@
+Answer: d
+Explanation: getLength returns the length of the valid data contained in the byte array that would be returned from the getData () method. This typically is not equal to length of whole byte array.

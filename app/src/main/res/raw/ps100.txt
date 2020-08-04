@@ -1,0 +1,6 @@
+Answer: d
+Explanation: None.
+Output:
+$ javac Output.javac
+java Output command Line 10 A b 4 N
+N

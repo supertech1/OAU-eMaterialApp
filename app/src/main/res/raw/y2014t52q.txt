@@ -1,0 +1,6 @@
+Which of this is necessary to specify at time of array initialization?
+
+	A. Row	
+	B. Column	
+	C. Both Row and Column	
+	D. None of the mentioned

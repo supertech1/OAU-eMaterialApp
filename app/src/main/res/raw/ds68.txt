@@ -1,0 +1,6 @@
+Answer: d
+Explanation: replace() method replaces all occurrences of one character in invoking string with another character. s1.replace('l','w') replaces every occurrence of 'l' in hello by 'w', giving hewwo.
+Output:
+$ javac output.java
+$ java output
+hewwo

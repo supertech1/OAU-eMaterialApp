@@ -1,0 +1,15 @@
+Answer : B
+
+Explanation :
+
+Type casting a larger variable into a smaller variable results in modulo of
+
+larger variable by range of smaller variable. Variables 'a' and 'b' contains
+
+ 295.04 and  300 which are larger than byte's range i:e -128 to 127 hence,
+
+variable 'c'  contains 295 modulo 256  i.e 39 and variable 'd' contains
+
+300 modulo 256 i:e 44.
+	
+		

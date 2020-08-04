@@ -1,0 +1,2 @@
+Answer: b
+Explanation: The type parameter section, delimited by angle brackets (<>), follows the class name. It specifies the type parameters (also called type variables) T1, T2, ..., and Tn.

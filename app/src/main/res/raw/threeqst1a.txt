@@ -1,0 +1,2 @@
+Qst: Implement a program that displays even numbers from 1 to 20
+        instead of from 10 down to 1.

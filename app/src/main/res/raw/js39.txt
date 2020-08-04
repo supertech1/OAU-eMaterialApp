@@ -1,0 +1,6 @@
+Answer: a
+Explanation: The output of program is Thread[main,5,main], Since we have not explicitly named the thread they are named by the group to they belong i:e main method. Hence they are named "main".
+Output:
+$ javac multithreaded_programing.java
+$ java multithreaded_programing
+Thread[main,5,main] 

@@ -1,0 +1,6 @@
+Answer : C
+
+Explanation :
+
+When an Exception occurs, your program must handle it using object-oriented
+exception-handling techniques.

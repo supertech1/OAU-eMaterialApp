@@ -1,0 +1,5 @@
+Which of these packages contain classes and interfaces used for input & output operations of a program?
+	A. java.util	B. java.lang	C. java.io	D. All of the mentioned
+Solution :
+Explanation: java.io provides support for input and output operations.
+Ans : C

@@ -1,0 +1,7 @@
+What is the correct syntax for main method of a java class?
+
+
+A.	public static int main(String[] args)
+B.	public int main (String[] args)
+C.	public static void main(String[] args)
+D.	none of the above

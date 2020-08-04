@@ -1,0 +1,13 @@
+Fill in the blanks of the following code fragment so that the elements of the array are printed in 
+reverse order, starting with the last element.
+
+int [] egArray = {2,4,6,8,10,1,3,5,7,9};
+for(int index = ...............; ..............; .................){
+System.out.print(egArray[index] + " ");
+}
+
+
+A.	index = 0; index < egArray.length; index - - 
+B.	index = length; index< 0; index - - 
+C.	index = length - 1; index > 0; index - -
+D.	index = egArray.length - 1; index >= 0; index - -

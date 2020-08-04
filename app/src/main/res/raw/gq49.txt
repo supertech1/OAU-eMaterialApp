@@ -1,0 +1,1 @@
+Which of these method is called when http daemon is acting like a normal web server?

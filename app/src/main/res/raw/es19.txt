@@ -1,0 +1,6 @@
+Answer: c
+Explanation: class displayA implements the interface calculate by doubling the value of item, where as class displayB implements the interface by dividing item by item, therefore variable x of class displayA stores 4 and variable x of class displayB stores 1.
+Output:
+$ javac interfaces.java
+$ java interfaces
+4 1

@@ -1,0 +1,2 @@
+Answer: a
+Explanation: replace() method replaces all occurrences of one character in invoking string with another character.

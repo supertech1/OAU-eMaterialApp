@@ -1,0 +1,2 @@
+Answer: a
+Explanation: getX() and getY() are used to obtain X AND Y coordinates of the mouse.

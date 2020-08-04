@@ -1,0 +1,13 @@
+Given the following :
+
+int[][] items =
+{{ 0,1,3,4},
+{4,3,99,0,7},
+{3,2}};
+
+which of the following statements replaces the 99 with 77?
+
+A.	items[1][2] = 77;
+B.	items[1][3] =77;
+C.	items[99] = 77;
+D.	items[2][3] = 77;	

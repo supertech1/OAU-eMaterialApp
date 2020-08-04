@@ -1,0 +1,2 @@
+Answer: d
+Explanation: Remote class does not define any methods, its pupose is simply to indicate that an interface uses remote methods.

@@ -1,0 +1,2 @@
+What should be expression1 evaluate to in using ternary operator as in this line?
+expression1 ? expression2 : expression3

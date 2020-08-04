@@ -1,0 +1,6 @@
+Answer: c
+Explanation: None.
+output:
+$ javac access_specifier.java
+Exception in thread "main" java.lang.Error: Unresolved compilation problem:
+The field access.y is not visible

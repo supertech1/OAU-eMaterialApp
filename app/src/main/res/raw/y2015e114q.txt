@@ -1,0 +1,6 @@
+Can constructor be inherited?
+
+A.	True
+B.	False
+C.	Depends on the context
+D.	The constructor will determine that

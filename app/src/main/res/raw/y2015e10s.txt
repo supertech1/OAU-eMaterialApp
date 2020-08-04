@@ -1,0 +1,9 @@
+Answer : A
+
+Explanation : 
+
+Class String is used to represent strings in Java, String literals (stored in memory as String objects) 
+are written as a sequence of characters in double quotation marks. A string may include letters, digits 
+and various special characters, such as +, -, *, / and $.
+
+You declare a String as follows : String name = "tolu";

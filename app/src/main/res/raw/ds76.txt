@@ -1,0 +1,7 @@
+Answer:a
+Explantion: indexof('c') and lastIndexof('c') are pre defined function which are used to get the index of first and last occurrence of
+the character pointed by c in the given array.
+Output:
+$ javac output.java
+$ java output
+6 4 6 9

@@ -1,0 +1,7 @@
+The catch block that begins catch (Exception e) can catch Exceptions of type ..................
+
+
+	A.	IOException 
+	B.	Arithmetic Exception
+	C.	Both of the above
+	D.	None of the above

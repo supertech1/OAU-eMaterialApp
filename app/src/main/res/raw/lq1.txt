@@ -1,0 +1,1 @@
+Which of these functions is called to display the output of an applet?

@@ -1,0 +1,11 @@
+what must the test be so that the following fragment prints out the integers -5 through and including 5?
+
+for(int j = -5; ............. ; j++){
+System.out.print(j + " ");
+}
+System.out.println();
+
+A.	j<5;
+B.	j<=5
+C.	j>5
+D.	j==5

@@ -1,0 +1,2 @@
+Answer: b
+Explanation: The volatile modifier tells the compiler that the variable modified by volatile can be changed unexpectedly by other part of the program. Specially used in situations involving multithreading.

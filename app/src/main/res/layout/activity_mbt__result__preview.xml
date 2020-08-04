@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.supertech.csc201real.MBT_Result_Preview">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:paddingTop="45dp"
+
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:background="#FFC0C1C2"
+            android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:paddingLeft="30dp"
+            android:paddingRight="10dp"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+
+                android:paddingBottom="30dp"
+                android:paddingTop="20dp"
+                android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:text="Test Result Analysis"
+
+                />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Total Question :"
+                    android:layout_weight="0.7"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:id="@+id/mbt_result_total_question_textview"
+                    android:layout_weight="0.3"
+
+                    android:text="Num"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Total Time Used :"
+                    android:layout_weight="0.7"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:id="@+id/mbt_result_time_used_textview"
+                    android:layout_weight="0.3"
+
+                    android:text="Num"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Correct Answer :"
+                    android:layout_weight="0.7"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:id="@+id/mbt_result_correct_answer_textview"
+                    android:layout_weight="0.3"
+                    android:text="Num"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Wrong Answer :"
+                    android:layout_weight="0.7"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:id="@+id/mbt_result_wrong_answer_textview"
+                    android:layout_weight="0.3"
+                    android:text="Num"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Unattempted :"
+                    android:layout_weight="0.7"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:id="@+id/mbt_result_unattempted_answer_textview"
+                    android:layout_weight="0.3"
+                    android:text="Num"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Total Score :"
+                    android:layout_weight="0.7"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:id="@+id/mbt_result_total_score_textview"
+                    android:layout_weight="0.3"
+                    android:text="Num"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content"
+                android:text="Watch All Qsts Solution"
+                android:id="@+id/complete_solution_button" />
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:text="Watch Missed Qsts Solution"
+                android:id="@+id/missed_solution_button" />
+
+        </LinearLayout>
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>

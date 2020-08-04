@@ -1,0 +1,11 @@
+Given the following code segment, what is in the string referenced by a?
+
+String a = "xy";
+String b = a;
+a = a + b + "z";
+
+
+	A.	xyz
+	B.	xyxyz
+	C.	xyxy z
+	D.	xyz

@@ -1,0 +1,2 @@
+What is the prototype of the default constructor of this class?
+public class prototype { }

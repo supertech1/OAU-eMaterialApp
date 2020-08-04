@@ -1,0 +1,6 @@
+Ans : B
+
+Explanation :
+
+It is not a must for every class in java to contain a main() method, you only include a main() method 
+if you want to execute the class. Without a main() method, a class will compile but not execute.

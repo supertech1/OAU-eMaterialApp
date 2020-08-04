@@ -1,0 +1,6 @@
+which of the statements is correct?
+
+A.	Public method is accessible to all other classes in the hierarchy
+B.	Public method is accessible only to subclasses of its parent class
+C.	Public method can only be called by object of its class
+D.	Public method can be accessed by calling object of the public class

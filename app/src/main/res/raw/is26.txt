@@ -1,0 +1,7 @@
+Answer: d
+Explanation: None.
+Output:
+$ javac exception_handling.java
+$ java exception_handling
+Exception in thread "main" java.lang.ArithmeticException: / by zero
+World

@@ -1,0 +1,24 @@
+Answer : A
+
+Explanation :
+
+class dynamic_initialization
+{
+	
+	public static void main(String args[])
+	
+	{
+		double a, b; //declaration of double variables 'a' and 'b'
+
+		a = 3.0;  //assign 3.0 to variable 'a'
+
+		b = 4.0;  //assign 4.0 to variable 'b'
+
+		double c  = Math.sqrt( a *  a + b * b);   //use Math class utility method( sqrt ) from java library 
+		       				                      //to calculate the square root of the result of the expression inside the parenthesis
+		System.out.println ( c ); //display the value in variable 'c'
+	
+	}
+}
+
+            

@@ -1,0 +1,1 @@
+Which of these methods is used to obtain the object that generated a WindowEvent?

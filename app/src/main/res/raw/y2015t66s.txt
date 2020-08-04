@@ -1,0 +1,7 @@
+Ans : D
+
+Explanation :
+
+Keywords are reserved words in java. Keywords are words that have predefined meanings in Java 
+and they can only be used in the contexts defined by the Java language. Keywords in Java cannot 
+be used as identifiers. Examples of Keywords are : do, for, if, byte, case, public e.t.c.

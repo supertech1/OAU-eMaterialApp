@@ -1,0 +1,7 @@
+A ....... has to be declared and created to obtain user input from the keyboard
+
+
+	A.	Class
+	B.	Method
+	C.	Object
+	D.	Scanner

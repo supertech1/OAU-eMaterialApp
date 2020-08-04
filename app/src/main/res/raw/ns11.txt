@@ -1,0 +1,2 @@
+Answer: b
+Explanation: SystemMath class defines complete set of mathematical methods that are parallel those in Math class. The difference is that the StrictMath version is guaranteed to generate precisely identical results across all Java implementations.

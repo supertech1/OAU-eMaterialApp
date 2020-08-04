@@ -1,0 +1,5 @@
+Answer: a
+Explanation: None.
+Output:
+A Simple Applet
+(Output comes in a new java application)

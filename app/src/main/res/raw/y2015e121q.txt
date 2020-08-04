@@ -1,0 +1,8 @@
+which of these keywords is used to make a class?
+
+A.	class
+B.	struct
+C.	int
+D.	none of the mentioned
+
+

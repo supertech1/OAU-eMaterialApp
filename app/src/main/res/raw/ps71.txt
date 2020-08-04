@@ -1,0 +1,2 @@
+Answer: a
+Explanation: In generic code, the question mark (?), called the wildcard, represents an unknown type.

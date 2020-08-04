@@ -1,0 +1,6 @@
+Answer: d
+Explanation: None.
+output:
+$ javac binary.java
+$ java binary
+10001

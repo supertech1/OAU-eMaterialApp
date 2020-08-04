@@ -1,0 +1,1 @@
+Which method can be defined only once in a program?

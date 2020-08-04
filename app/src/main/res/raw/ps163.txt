@@ -1,0 +1,2 @@
+Answer: a
+Explanation: load() methods loads the dynamic library whose name is specified.

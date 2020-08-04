@@ -1,0 +1,6 @@
+Answer: d
+Explanation: obj.entrySet() method is used to obtain a set that contains the entries in the map. This method provides set view of the invoking map.
+Output:
+$ javac Maps.java
+$ java Maps
+[A=1, B=2, C=3] 

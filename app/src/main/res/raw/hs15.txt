@@ -1,0 +1,2 @@
+Answer: c
+Explanation: removeLast() and removeFirst() methods are used to remove elements in end and beginning of a linked list.

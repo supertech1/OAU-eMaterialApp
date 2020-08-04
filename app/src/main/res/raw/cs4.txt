@@ -1,0 +1,2 @@
+Answer: c
+Explanation: Operator new dynamically allocates memory for an object and returns a reference to it. This reference is address in memory of the object allocated by new.

@@ -1,0 +1,2 @@
+Answer: a
+Explanation: Thread is not an abstract class.

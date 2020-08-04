@@ -1,0 +1,24 @@
+
+public class DrawTWithStar //DrawTWithStar class declaration
+{ //DrawTWithStar opening brace
+    
+    public static void main(String args[])  //main method declaration
+    {  //main method opening brace
+        outer:  //this is a label attached to the outer for statement....we use the label to make a reference to the outer for loop....see implementation below
+        for (int row = 1; row <= 6; row++) //outer for statement which is to loop six times (i.e we will have six rows, u can as well check the output to count the number of rows displayed for you to understand the code better)
+        {  //for block opening brace
+            inner:  //also a label for the inner for statement
+            for (int column = 1; column <= 9; column++) //inner for loop (logic: it is programmed to run 9 times but we will jumb out of the inner for statement so to skip printing * in some colomns. This will enable us achieve the T shape
+            { //inner for block opening brace
+                if (row == 1 || row == 2 || row == 5 || row == 6) //check the current row to determine if it is rows 1,2,5,6. if so, we want to jump out of the inner for statement when we are on the fourth coloumn (check below how we break out of the loop) so as to skip outputing * in the cell
+                { //if block opening brace
+                    if (column == 4)  // check if the inner loop is reading for the fourth time
+                        break inner;  //if so break out of the inner for statement(This implies that we will move to the next row automatically..skipping print star on columns 4,5,6,7,8,9, on rows 1,2,5,6. (check the output now to understand better)
+                } //if block closing brace
+                System.out.print("*"); //now output * after considering all the conditions above.
+            } //inner for block closing brace
+            System.out.println();  //output a new line (i.e position the cursor on the next row)
+        }  //for block closing brace
+    } //main method closing brace
+    
+} // DrawTWithStar closing brace

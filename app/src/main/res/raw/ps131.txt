@@ -1,0 +1,2 @@
+Answer: c
+Explanation: Generics add stability to your code by making more of your bugs detectable at compile time.

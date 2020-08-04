@@ -1,0 +1,6 @@
+Multi-line comments starts with ............. in java.
+
+	A.	/**
+	B.	//
+	C.	/*
+	D.	*/

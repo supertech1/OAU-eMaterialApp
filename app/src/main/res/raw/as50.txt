@@ -1,0 +1,6 @@
+Answer:b
+Explanation:None.
+output:
+$ javac array_output.java
+$ java array_output
+9

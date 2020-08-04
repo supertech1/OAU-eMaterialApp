@@ -1,0 +1,6 @@
+Answer: b
+Explanation: System.ou.print() function fist converts the whole parameters into string and then prints, before 'Hello' goes to output stream 1 / 0 error is encountered which is cached by catch block printing just 'World' .
+Output:
+$ javac exception_handling.java
+$ java exception_handling
+World

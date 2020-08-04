@@ -1,0 +1,6 @@
+Assume d is 4, what is wrong with this statement? while ( ( d =< 10)
+
+	A. the relational operator =< is invalid
+	B. the while loop is an exit-condition loop
+	C. the test condition is always false
+	D. the test condition is always true

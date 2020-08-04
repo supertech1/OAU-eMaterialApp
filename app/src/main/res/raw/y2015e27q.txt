@@ -1,0 +1,8 @@
+What type should you use to hold the first name of a person?
+
+
+	A.	int 
+	B.	double
+	C.	boolean
+	D.	String
+

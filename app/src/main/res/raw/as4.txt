@@ -1,0 +1,2 @@
+Answer: a
+Explanation:An expression involving bytes, ints, shorts, literal numbers, the entire expression is promoted to int before any calculation is done.

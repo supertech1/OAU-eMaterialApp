@@ -1,0 +1,12 @@
+what are the values of x, y and z after the following code executes?
+
+int x = 3;
+int y = x;
+int z = x  * y;
+x++;
+
+A. x = 3, y = 3, z = 9
+B. x = 4, y = 3, z = 9
+C. x = 0, y = 3, z = 0
+D. x = 4, y = 4, z = 9
+E. x = 4, y = 4, z = 3

@@ -1,0 +1,2 @@
+Answer: d
+Explanation: Collection interfaces defines core methods that all the collections like set, map, arrays etc will have.

@@ -1,0 +1,7 @@
+Which of these statements is incorrect?
+
+A. Applets do not require a main() method at all
+B. Every class must contain a main() method
+C. There can be only one main() method in a program
+D. Main() method must be made public
+E. Every object must have a state and behaviour

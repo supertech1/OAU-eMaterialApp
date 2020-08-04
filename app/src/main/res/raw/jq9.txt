@@ -1,0 +1,31 @@
+What is the output of this program?
+
+class newthread extends Thread {
+
+     Thread t;
+
+     newthread() {
+
+    	t = new Thread(this,"New Thread");
+
+    	t.start();
+
+      }
+
+      public void run() {
+
+    	   System.out.println(t.isAlive());
+
+      }
+
+ }
+
+class multithreaded_programing {
+
+      public static void main(String args[]) {
+
+          new newthread();        
+
+      }
+
+ }

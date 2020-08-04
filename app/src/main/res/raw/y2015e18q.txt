@@ -1,0 +1,7 @@
+The memory location where the computer stores the list of method locations to which the system must return is known as the..........................
+
+	
+	A.	Registry
+	B.	Call Stack
+	C.	Chronicle
+	D.	Archieve

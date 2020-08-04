@@ -1,0 +1,6 @@
+Answer: c
+Explanation: None.
+output:
+$ Prameterized_method.java
+$ Prameterized_method
+6

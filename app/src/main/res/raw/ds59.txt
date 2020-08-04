@@ -1,0 +1,6 @@
+Answer: b
+Explanation: "hello" is a String literal, method charAt() returns the character specified at the index position. Character at index position 1 is e of hello, hence ch contains e.
+output:
+$ javac output.java
+$ java output
+e

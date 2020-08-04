@@ -1,0 +1,10 @@
+Answer :  A
+
+Explanation :
+
+The break statement is not required at the end of each case 
+in switch statement.  However, if it is omitted, control will
+flow into the next set of statements
+
+
+            

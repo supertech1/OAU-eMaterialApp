@@ -1,0 +1,2 @@
+Answer: b
+Explanation: previousIndex() returns index of previous element. if there is no previous element then -1 is returned.

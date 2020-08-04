@@ -1,0 +1,2 @@
+Answer: b
+Explanation: paint() is an abstract method defined in AWT.

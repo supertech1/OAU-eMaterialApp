@@ -1,0 +1,1 @@
+Which of these operators can skip evaluating right hand operand?

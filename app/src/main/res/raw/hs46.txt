@@ -1,0 +1,6 @@
+Answer: c
+Explanation: obj.elementAt(1) returns the value stored at index 1, which is 2.
+Output:
+$ javac vector.java
+$ java vector
+2

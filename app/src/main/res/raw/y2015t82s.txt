@@ -1,0 +1,6 @@
+Ans : D
+
+Explanation :
+
+The given array contains 4 elements but since the index start from 0, you deduct 1 from the
+normal number to access the element.

@@ -1,0 +1,6 @@
+Answer: b
+Explanation: Both obj1 and obj2 have threads with different name that is "one" and "two" hence obj1.t.equals(obj2.t) returns false.
+Output:
+$ javac multithreaded_programing.java
+$ java multithreaded_programing
+false

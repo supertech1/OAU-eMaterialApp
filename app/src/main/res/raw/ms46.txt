@@ -1,0 +1,2 @@
+Answer: d
+Explanation: when we click a button, first we enter the region of button hence mouseEntered() method responds then we press the button which leads to respond from mouseClicked() and mousePressed().

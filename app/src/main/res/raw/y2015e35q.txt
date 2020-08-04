@@ -1,0 +1,9 @@
+Which of the following operator does not have a left to right associativity?
+
+i)	++ ii) .NOT iii) / iv) .EQV.
+
+
+	A.	i only
+	B.	i and iii only
+	C.	i and ii only
+	D.	ii and iv only

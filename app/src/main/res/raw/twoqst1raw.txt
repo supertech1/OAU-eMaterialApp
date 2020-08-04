@@ -1,0 +1,74 @@
+public class ExceptionsQ5 
+{
+    static Scanner EasyScanner = new Scanner(System.in);
+    
+    public static void main(String args[])
+    {
+        int[] someArray = {12,9,3,11};
+        try
+        {
+            int position = getPosition();
+            display(someArray, position);
+        }
+        catch(NumberFormatException e)
+        {
+            System.out.println("Exception: "+e);
+        }
+        catch(InvalidPositionException e)
+        {
+            System.out.println("Exception: "+e);
+        }
+        catch(ArrayIndexOutOfBoundsException e)
+        {
+            System.out.println("Exception: "+e);
+        }
+        catch(Exception e)
+        {
+            e.printStackTrace();
+        }
+        finally
+        {
+            System.out.println("End of program");
+        }
+    }
+    
+    static int getPosition()
+    {
+        System.out.println("Enter array position to display");
+        String positionEntered = EasyScanner.nextLine();
+        return Integer.parseInt(positionEntered);
+    }
+    
+    static void display(int[] arrayIn, int posing) throws InvalidPositionException
+    {
+        if(posing >= arrayIn.length || posing < 0)
+            throw new InvalidPositionException("Invalid positon");
+        else
+            System.out.println("Item at this position is: "+ arrayIn[posing]);
+        
+    }
+    
+}
+
+
+
+class InvalidPositionException extends Exception
+{
+    InvalidPositionException()
+    {
+        super();
+    }
+    InvalidPositionException(String str)
+    {
+        super(str);
+    }
+    InvalidPositionException(Throwable str)
+    {
+        super(str);
+    }
+    InvalidPositionException(String str, Throwable t)
+    {
+        super(str, t);
+    }
+    
+}

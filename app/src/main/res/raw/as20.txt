@@ -1,0 +1,6 @@
+Answer:b
+Explanation:ASCII code for 'A' is 65 and for 'a' is 97.
+output:
+$ javac asciicodes.java
+$ java asciicodes
+65 97

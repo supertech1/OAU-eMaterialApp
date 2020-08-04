@@ -1,0 +1,8 @@
+Answer : B
+
+Explanation :
+
+NB: keywords are specially reserved words in java which cannot 
+be used for naming variables e.g public, private, int , float e.t.c
+
+            

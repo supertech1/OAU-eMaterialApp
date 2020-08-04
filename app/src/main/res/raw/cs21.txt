@@ -1,0 +1,2 @@
+Answer: d
+Explanation: Constructors does not have any return type, not even void.

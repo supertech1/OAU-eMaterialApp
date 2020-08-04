@@ -1,0 +1,8 @@
+Answer : D
+		
+int p = 1, n;  //declaration of integer variable p and n with only p being initialized
+for(n = 1; n<= 5; n++) ; //Note the attached empty statement( ; ).  Therefore this for loop will iterates 5times without doing anything. NB: variable n is now 6
+	p = p* n;  //p = 6 here
+System.out.println(p); //display the value of variable p
+
+		

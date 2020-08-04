@@ -1,0 +1,6 @@
+What is wrong? For(int k = 2, k <= 12, k++)
+	
+	A. the increment should always be ++k
+	B. the variable must always be the letter i when using a for loop
+	C. there should be a semicolon at the end of the statement
+	D. the commas should be semicolons

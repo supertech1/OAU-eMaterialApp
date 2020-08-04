@@ -1,0 +1,20 @@
+Solution :
+
+(ii)
+
+StockItem stock = new StockItem(tempNumber, tempName, tempPrice);
+
+stock.increaseTotalStock(5);
+ 
+System.out.println("Stock number: " + stock.getStockNumber());
+ 
+System.out.println("Total price: " + stock.calculateTotalPrice());
+
+
+(iii) final static double salesTax;
+
+
+(iv)  public static void setSalesTax(double value)
+       {
+              StockItem.salesTax = value
+        }

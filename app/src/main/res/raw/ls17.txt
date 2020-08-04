@@ -1,0 +1,8 @@
+Answer: a
+Explanation: None.
+Output:
+$ javac Additional_packages.java
+$ java Additional_packages
+public java.awt.Dimension(java.awt.Dimension)
+public java.awt.Dimension()
+public java.awt.Dimension(int,int)

@@ -1,0 +1,2 @@
+Answer: c
+Explanation: Division operator, /, has equal precedence as of multiplication operator. In expression involving multiplication and division evaluation of expression will begin from right side when no brackets are used.

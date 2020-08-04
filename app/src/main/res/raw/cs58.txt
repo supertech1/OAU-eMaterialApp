@@ -1,0 +1,6 @@
+Answer: c
+Explanation: None.
+output:
+$ javac static_use.java
+$ java static_use
+7 9

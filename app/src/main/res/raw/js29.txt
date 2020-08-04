@@ -1,0 +1,6 @@
+Answer: c
+Explanation: Thread t is seeded to currently program, hence when you run the program the thread becomes active & code 't.isAlive' returns true.
+Output:
+$ javac multithreaded_programing.java
+$ java multithreaded_programing
+true

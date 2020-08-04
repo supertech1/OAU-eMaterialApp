@@ -1,0 +1,2 @@
+Answer: a
+Explanation: the code in paint() method - g.drawString("A Simple Applet",20,20); draws an applet box of length 20 and width 20.

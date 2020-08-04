@@ -1,0 +1,2 @@
+Answer:d
+Explanation: First 0 to 127 character set in Unicode are same as those of ISO-LAIN-1 and ASCII.

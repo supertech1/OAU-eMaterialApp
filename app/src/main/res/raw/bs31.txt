@@ -1,0 +1,2 @@
+Answer: a
+Explanation: Order of precedence is (highest to lowest) a -> b -> c -> d.

@@ -1,0 +1,1 @@
+Which function of pre defined class Thread is used to check weather current thread being checked is still running?

@@ -1,0 +1,7 @@
+In terms of functioning, identify the class that is not related to input and output stream
+
+
+A.	Writer
+B.	InputStream
+C.	Reader
+D.	File

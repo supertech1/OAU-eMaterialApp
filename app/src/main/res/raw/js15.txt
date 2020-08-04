@@ -1,0 +1,2 @@
+Answer: d
+Explanation: run() method is used to define the code that constitutes the new thread, it contains the code to be executed. start() method is used to begin execution of the thread that is execution of run(). run() itself is never used for starting execution of the thread.

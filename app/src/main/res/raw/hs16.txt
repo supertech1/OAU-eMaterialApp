@@ -1,0 +1,2 @@
+Answer: c
+Explanation: An element in a LinkedList object can be changed by first using get() to obtain the index or location of that object and the passing that location to method set() along with its new value.

@@ -1,0 +1,10 @@
+What is printed when the following code executes and x equals 4 and y equals 3?
+
+if(!(x<3 || y>2))System.out.println("first note");
+else System.out.println("second note");
+
+A. first note
+B. second note
+C. "first note"
+D. "second note"
+E. Nothing will be printed

@@ -1,0 +1,18 @@
+What is the output of this program?
+
+class Output
+{
+	publicstaticvoid  main(String a[])
+	{
+		int x = 10, y = 1;
+		if( x != 10 )
+			System.out.println( y);
+		else
+			System.out.println( y + 3 )
+	}
+}
+
+	A.   1		
+	B.   4		
+	C.   Compilation error		
+	D.   10

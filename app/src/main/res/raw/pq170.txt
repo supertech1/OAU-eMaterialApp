@@ -1,0 +1,13 @@
+What value will this program return to Java run-time system?
+
+import java.lang.System;
+
+class Output {
+
+    public static void main(String args[]) {
+
+        System.exit(5);
+
+     }
+
+}

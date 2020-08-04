@@ -1,0 +1,7 @@
+The extension of the file name generated after compiling a java source code is:
+
+A. exe
+B. java
+C. txt
+D. class
+E. none of the above

@@ -1,0 +1,1 @@
+Which of these class encapsulate the run time state of an object or an interface?

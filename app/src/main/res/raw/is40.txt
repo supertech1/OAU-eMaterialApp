@@ -1,0 +1,6 @@
+Answer: c
+Explanation: Execution command line is "$ java exception_ handling one two" hence there are tro input making args.length = 2, hence "c[8] = 9" in second try block is executing which throws ArrayIndexOutOfBoundException which is caught by catch of nested try block. Hence 0TypeB is printed
+Output:
+$ javac exception_handling.java
+$ java exception_handling
+0TypeB

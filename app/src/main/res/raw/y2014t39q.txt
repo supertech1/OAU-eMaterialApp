@@ -1,0 +1,6 @@
+Which data type value is returned by all transcendental math functions?
+
+	A.   int	
+	B.   float	
+	C.   Double	
+	D.   long

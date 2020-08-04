@@ -1,0 +1,2 @@
+Answer: d
+Explanation: binaryserach() method uses binary search to find a specified value. This method must be applied to sorted arrays.

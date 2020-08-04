@@ -1,0 +1,7 @@
+Ans : B
+
+Explanation :
+
+Since the value of y (i.e 2)  is lesser than the value of x which is 3, the if condition
+on line 3 evaluate to false and hence, the statement attached to the if statement (i.e System.out.print("first"); )
+would not be executed by java. 

@@ -1,0 +1,24 @@
+What will be the output of this program?
+	public class Test
+	{
+		public static void main(String [] args)
+		{
+			int h = 11; 
+			while(h1 < 1)
+			System.out.print(h);
+		}
+	}
+	A.  1		B.  11	     C. 0  	D. Compilation error
+
+	Solution :
+	public class Test
+	{
+		public static void main(String [] args)
+		{
+			int h = 11;  //declaration and initialization of integer variable h
+			while(h1 < 1)  //Check if variable h1 is lesser than 1…NB: There is no declaration for variable h1, therefore, the above statement results to a compilation error.
+			System.out.print(h);
+		}
+	}
+	
+	Ans : D

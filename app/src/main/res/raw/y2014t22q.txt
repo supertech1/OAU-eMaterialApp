@@ -1,0 +1,6 @@
+Which of these cannot be used for a variable name in java?
+
+	A.  identifier	
+	B. keyword	
+	C. identifier & keyword		
+	D. None of the mentioned

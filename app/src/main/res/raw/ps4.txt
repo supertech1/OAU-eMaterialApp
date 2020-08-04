@@ -1,0 +1,2 @@
+Answer: a
+Explanation: clear() method removes all the elements from invoking collection.

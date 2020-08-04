@@ -1,0 +1,19 @@
+Answer: D
+ 
+Explanation : 
+
+Boolean Logical Operators are operators that operate on one
+or two operand. Unary Operators are those that operate on one
+operand e.g Logical Not ( ! ) while Binary Operators are those
+that operate on two operands (left and right operand) e.g 
+Short-circuit AND (&&), Logical AND (&),Short-circuit OR(||),
+Logical OR( | ) e.t.c. Logical  And(&) and Short-circuit AND (&&),
+both returns true if both  operands are true.If either operand is 
+false, they return false. (&&) is called a short-circuit AND operator
+because if operand1 (the left-hand operand) evaluate to false, it 
+returns false without evaluating operand2 (the right-hand operand) 
+which makes it different from (&) which evaluates both operand 
+irrespective of whether the left operand is false or true.
+	
+			
+			

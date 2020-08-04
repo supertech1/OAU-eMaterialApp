@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.supertech.csc201real.MBT_Exampage">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:paddingTop="50dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:id="@+id/top_layout"
+            android:background="#FFC0C1C2"
+            android:layout_height="match_parent"
+
+            android:orientation="vertical"
+            tools:context="com.example.supertech.csc201real.Practice_Solution_Fragment">
+
+            <!-- TODO: Update blank fragment layout -->
+
+            <LinearLayout
+                android:id="@+id/frag_practice_solution_toprow"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#2B87D2"
+                android:orientation="horizontal"
+
+                android:padding="0dp"
+                android:paddingLeft="0dp"
+                android:paddingRight="0dp"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/mbt_answers_index_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textColor="#ffffff"
+                    android:text="Qst : 1 / 50"
+                    android:gravity="center"
+                    />
+
+
+
+
+
+
+            </LinearLayout>
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="right">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:background="#555555"
+                        android:orientation="vertical"
+                        android:layout_gravity="right">
+
+                        <TextView
+                            android:id="@+id/mbt_answers_display_question_textview"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#ffffff"
+                            android:paddingBottom="15dp"
+                            android:text="@string/hello_blank_fragment" />
+                    </LinearLayout>
+
+                    <RadioGroup
+                        android:id="@+id/mbt_option_radio_group"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left">
+
+                        <RadioButton
+                            android:id="@+id/mbt_answers_display_radio_button_a"
+                            android:layout_width="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:textColor="#303F9F"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/frag_practice_question_textview"
+
+                            android:checked="false" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:background="#555555"
+                            android:layout_height="2dp" />
+
+                        <RadioButton
+                            android:id="@+id/mbt_answers_display_radio_button_b"
+                            android:layout_width="wrap_content"
+                            android:textColor="#303F9F"
+                            android:layout_marginLeft="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/frag_practice_question_textview"
+
+                            android:checked="false" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:background="#555555"
+                            android:layout_height="2dp" />
+
+                        <RadioButton
+                            android:id="@+id/mbt_answers_display_radio_button_c"
+                            android:textColor="#303F9F"
+                            android:layout_width="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/frag_practice_question_textview"
+
+                            android:checked="false" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:background="#555555"
+                            android:layout_height="2dp" />
+
+                        <RadioButton
+                            android:id="@+id/mbt_answers_display_radio_button_d"
+                            android:layout_width="wrap_content"
+                            android:textColor="#303F9F"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_below="@+id/frag_practice_question_textview"
+                            android:checked="false" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:background="#555555"
+                            android:layout_marginBottom="10dp"
+                            android:layout_height="2dp" />
+
+
+                    </RadioGroup>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/users_selection_textview"
+                        android:gravity="center_horizontal"
+                        android:textColor="@color/green"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginBottom="15dp"
+                        android:text="Users Selection:"
+
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="40dp"
+
+                        android:id="@+id/mbt_answers_display_solution_textview"
+                        android:text="Solution"
+
+                        />
+
+
+
+
+
+
+
+
+                </LinearLayout>
+
+
+            </ScrollView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:background="#2B87D2"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/bottom_layout"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:paddingTop="0dp"
+                android:paddingBottom="0dp"
+                android:id="@+id/mbt_answers_display_previous_button"
+                android:text="Previous"
+                android:layout_gravity="left"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:paddingTop="0dp"
+                android:paddingBottom="0dp"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_gravity="end"
+                android:paddingTop="0dp"
+                android:paddingBottom="0dp"
+
+                android:text="Next"
+                android:id="@+id/mbt_answers_display_next_button"
+                android:layout_height="wrap_content" />
+
+
+
+
+
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>

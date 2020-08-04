@@ -1,0 +1,26 @@
+
+		    Source code:
+
+public class DrawTWithStar 
+{
+    
+    public static void main(String args[])
+    {
+        outer:
+        for (int row = 1; row <= 6; row++)
+        {
+            inner:
+            for (int column = 1; column <= 9; column++)
+            {
+                if (row == 1 || row == 2 || row == 5 || row == 6)
+                {
+                    if (column == 4)
+                        break inner;
+                }
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+    
+}

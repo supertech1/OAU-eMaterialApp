@@ -1,0 +1,1 @@
+Which of these method return a smallest whole number greater than or equal to variable X?

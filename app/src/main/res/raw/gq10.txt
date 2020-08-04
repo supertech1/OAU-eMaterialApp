@@ -1,0 +1,15 @@
+What is the output of this program?
+
+import java.net.*;
+
+class networking {
+
+    public static void main(String[] args) throws UnknownHostException {
+
+         InetAddress obj1 = InetAddress.getByName("cisco.com");
+
+         System.out.print(obj1.getHostName());
+
+    }
+
+}

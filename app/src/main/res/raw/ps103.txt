@@ -1,0 +1,2 @@
+Answer: a
+Explanation: Any subclass of an abstract class must either implement all of the abstract method in the superclass or be itself declared abstract.

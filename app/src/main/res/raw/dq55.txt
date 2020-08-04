@@ -1,0 +1,1 @@
+Which of these data type value is returned by equals() method of String class?

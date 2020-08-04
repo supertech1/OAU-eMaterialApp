@@ -1,0 +1,2 @@
+Answer: d
+Explanation: Vectors are dynamic arrays, it contains many legacy methods that are not part of collection framework, and hence these methods are not present in ArrayList. But both are used to form dynamic arrays.

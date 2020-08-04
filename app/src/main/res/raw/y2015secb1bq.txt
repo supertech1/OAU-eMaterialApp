@@ -1,0 +1,2 @@
+Write a program in java, which creates an InputStreamReader to read 
+standard input stream until the user types a 'q'

@@ -1,0 +1,7 @@
+Ans : A
+
+Explanation :
+
+Main method is the starting point of every Java application. Java class declarations normally
+contain one or more methods. For a Java application, one of the methods must be called
+main and must be defined only once.

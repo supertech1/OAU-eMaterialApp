@@ -1,0 +1,28 @@
+            Source Code:
+
+public class Factorial
+{
+    public static int calculateFactorial(int num)
+    {
+        int result = 1;
+        if (num < 0)
+            result = 0;
+        else if (num == 0)
+            result = 1;
+        else {
+            for (int i = num; i>= 1; i--)
+            {
+                result *= i;
+            }
+            
+        }
+        System.out.printf("%d! = %d", num,result);
+        return result;
+    }
+    
+    public static void main(String args[])
+    {
+        calculateFactorial( 5);
+    }
+    
+}

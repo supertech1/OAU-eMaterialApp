@@ -1,0 +1,7 @@
+Which of these stream contains the classes which can work on character stream?
+
+
+	A.	Character Stream
+	B.	InputStream
+	C.	OutputStream
+	D.	ByteStream

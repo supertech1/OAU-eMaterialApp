@@ -1,0 +1,4 @@
+Answer: d Explanation: Character.MIN_VALUE returns the smallest character value, which is of space character ' '. 
+Output: 
+$ javac Output.java 
+$ java Output

@@ -1,0 +1,2 @@
+Answer: d
+Explanation: Standard output variable 'out' is defined in System class. out is usually used in print statement i:e System.out.print().

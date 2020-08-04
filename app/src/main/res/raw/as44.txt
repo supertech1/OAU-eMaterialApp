@@ -1,0 +1,2 @@
+Answer: a
+Explanation:Array can be initialized using both new and comma separated expressions surrounded by curly braces example : int arr[5] = new int[5]; and int arr[] = { 0, 1, 2, 3, 4};

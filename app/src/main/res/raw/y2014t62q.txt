@@ -1,0 +1,6 @@
+Each pass through a loop is called a/an
+	
+	A.  enumeration	
+	B.  iteration	
+	C.  culmination	
+	D.  None

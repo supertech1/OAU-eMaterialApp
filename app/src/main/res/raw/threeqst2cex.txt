@@ -1,0 +1,18 @@
+
+public class DrawTriangleWithStar  //DrawTriangleWithStar class declaration
+{  //DrawTriangleWithStar opening brace
+    public static void main(String args[]) //main method declaration
+    {  //main method opening brace
+        int width = 4; //this width variable holds the number of column
+        for (int row = 1; row<= 4; row++)  //outer for statement
+        { //outer for block opening brace
+            for (int column = 1; column <= width; column++) //inner for statement
+            { //inner for block opening brace
+                System.out.print("*"); //output * provided the conditions above are satisfied
+            } //inner for block closing brace
+            width--; //decrease the width variable by one using the post-decrement operator
+            System.out.println(); ////position the cursor on the next row byt outputing a new line
+        }  //outer for block closing brace
+    }  //main method closing brace
+    
+}  //DrawTriangleWithStar class closing brace

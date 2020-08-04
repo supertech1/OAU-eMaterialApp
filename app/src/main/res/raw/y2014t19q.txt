@@ -1,0 +1,6 @@
+Which of these is returned by operators &?
+
+	A.  Integer	
+	B.  Boolean	
+	C.  Character	
+	D.  Float

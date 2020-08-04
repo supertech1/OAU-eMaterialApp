@@ -1,0 +1,11 @@
+
+Which of these is a data type long literal?
+
+A. 0x99fffL	B. ABCDEFG		C. 0x99fffa	D. 99671246
+
+
+            Solution :
+
+NB: Long literals always ends with L (or lowercase l)
+		
+            Ans : A

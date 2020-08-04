@@ -1,0 +1,12 @@
+Identify and correct the errors in each of the following pieces of code. [Note: There may be several error in each piece of code]. Describe the output produced by this program segment :
+
+i)	if(age >= 65);
+		System.out.println("Age is greater than or equal to 65");
+	Else
+		System.out.println("Age is less than 65");
+
+ii)	if (gender ==1 )
+		System.out.println("Woman");
+	Else;
+		System.out.println("Man")
+

@@ -1,0 +1,1 @@
+On applying Left shift operator, <<, on an integer bits are lost one they are shifted past which position bit?

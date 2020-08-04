@@ -1,0 +1,7 @@
+Answer: c
+Explanation: None.
+Output:
+$ javac Additional_packages.java
+$ java Additional_packages
+public int java.awt.Dimension.width
+public int java.awt.Dimension.height

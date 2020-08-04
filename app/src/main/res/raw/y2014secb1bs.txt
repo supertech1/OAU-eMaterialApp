@@ -1,0 +1,46 @@
+Solution :
+
+public class EqualsTest
+{
+	public static void main(String[] args)   /* main method declaration */
+	{
+		
+		String s1 = "abc";  /* Assign String literal "abc" to String variable s1. NB: This statement will add a new String object containing String literal "abc" to the String pool. Therefore, variable s1 now refers to this object in memory */
+		
+
+		String s2 = s1;  /* Assign String variable s1 to String variable s2. NB: Both s2 and s1 are now referring to the same String object in memory. This implies that both variables contains String literal "abc" */
+		
+
+		String s5 = "abc";  /* Assign String literal "abc" to String variable s5. NB: since String literal "abc" is already in the String pool, String variable s5 will be assigned the reference to this object. */
+		
+
+		String s3 = new String("abc"); /* Assign String object containing String literal "abc" to String variable s3. NB: The new operator always creates a new object in memory. */
+		
+
+		String s4 = new String("abc");  /* Assign String object containing String literal "abc" to String variable s4. */
+		
+
+		System.out.println("== comparision: "+ (s1 ==s5)); /* check if variable s1 and s5 are equal using the == operator and append the boolean result(i.e either true or false) to the statement in the double quote. NB: the comparison here returns true since both variables are referring to the same String object in the string pool */
+		
+
+		System.out.println("== comparison : " + (s1 ==s2));  /* The comparison here will return true since variable s1 and s2 are both referring to the same object in memory */
+		
+
+		System.out.println("Using equals method: "" + s1.equals(s2));  /* The comparison here will return true since variable s1 and s2 contains the same value i.e "abc". NB: method equals compares the content of the variables. */
+		
+
+		System.out.println("== comparison : " + (s3 ==s4));   /* The comparison here will return false because both variable s3 and s4 are referring to different objects in memory */
+		
+
+		System.out.println("Using equals method:  " + s3.equals(s4)); /* The comparison here will return true since both variables contains the same string literal. */
+	}
+}
+
+
+Output : 
+
+== comparision: true
+== comparison : true
+Using equals method: true
+== comparison : false
+Using equals method:  true

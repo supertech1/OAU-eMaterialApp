@@ -1,0 +1,29 @@
+Answer : A
+
+Explanation :
+
+class array_output
+{
+	public static void main((String args[])
+	{
+
+		char array_variable [] = new char[10]; //Declaration and initialization of an array of characters
+                                               //with 10 being set as the array size
+
+		for(int i = 0; i < 10; ++i)    //for statement header
+		{
+		
+		    array_variable [i] = i;  // assign current value of variable 'i' to the current index array element
+                                     //e.g array_variable[2] = 2 ; array_variable[4] = 4 e.t.c.
+
+   		    System.out.print(array_variable[i] + " ");   //display the value of each array element
+                                                         //separated by a space
+
+   		     i++;  //increment i by one (NB: i  being incremented here in the for  block is different
+        		   //from the increment statement in the 'for header'...Thus, making i being
+         		   //incremented in two places. (This implies that loop control variable 'i' is being incremented by 2)
+		}
+	}
+}
+
+            

@@ -1,0 +1,18 @@
+How many errors can you identify in this program?
+
+public class Test
+{
+     public static void main(Strings[] arg)
+     {
+	 string day = "Tuesday";
+	 int time = 16;
+	 if(day.equal("Monday") & time == 16)
+	   System.out.println("CSC 201 lecture is on")
+     }
+}
+
+
+	A. 0	
+	B. 4	
+	C. 3	
+	D. 2

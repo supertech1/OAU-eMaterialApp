@@ -1,0 +1,8 @@
+
+What is the output of !(4 > 5 & 'a' !='b') ?
+
+A.   True	B.   False	C.   -1		D. Error
+
+	Solution:
+
+	Ans : A

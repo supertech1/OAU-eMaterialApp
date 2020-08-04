@@ -1,0 +1,7 @@
+The task to initialize all of the elements of a double array a to the same value equal to 1.5 is achievable by: (Assumed that the array has been correctly declared)
+
+
+	A.	for(int i =1; i<a.length; i++) a[i] = 1.5;
+	B.	for(int i =0; i <= a.length; i++) a[i] = 1.5;
+	C.	for(int i =0; i<a.length; i++) a[i] = 1.5;
+	D.	for(int i =0; i<a.length + 1; i++) a[i] = 1.5;

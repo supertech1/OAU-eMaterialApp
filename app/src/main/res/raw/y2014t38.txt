@@ -1,0 +1,13 @@
+
+Which of these literals can be contained in a data type float variable?
+
+A.  1.7e-308	B.  3.4e-038	C.  1.7e +  308		D.  3.4e -0.50
+
+
+	Solution :
+
+The type float specifies a single-precision value that uses 32 bits of storage. 
+
+Its value ranges from  1.4e-045 to 3.4e+038
+
+	Ans B

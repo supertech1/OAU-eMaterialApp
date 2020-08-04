@@ -1,0 +1,7 @@
+Which are subclasses of FilterInputStream and FilterOutputStream
+
+
+	A.	PipedInputStream
+	B.	DataInputStream
+	C.	DataOutputStream
+	D.	Both B & C

@@ -1,0 +1,1 @@
+Which of these is necessary condition for automatic type conversion in Java?

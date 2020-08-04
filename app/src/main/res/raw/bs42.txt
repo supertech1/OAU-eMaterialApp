@@ -1,0 +1,2 @@
+Answer:a
+Explanation: continue and break are jump statements, and for is an looping statement.

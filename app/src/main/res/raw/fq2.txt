@@ -1,0 +1,1 @@
+Which of these process occur automatically by java run time system?

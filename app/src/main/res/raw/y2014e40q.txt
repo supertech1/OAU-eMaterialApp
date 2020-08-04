@@ -1,0 +1,6 @@
+Which of these methods are used to read in from file?
+	
+	A. get()	
+	B. read()	
+	C. scan()	
+	D. readFileInput()

@@ -1,0 +1,5 @@
+Which of the following are legal lines of Java code?
+1. int w = (int)888.8;
+2. byte x = (byte)100L;
+3. long y = (byte)100;
+4. byte z = (byte)100L;

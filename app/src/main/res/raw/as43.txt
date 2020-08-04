@@ -1,0 +1,2 @@
+Answer:d
+Explanation:arr is an array variable, it is pointing to array if integers. Printing arr will print garbage value. It is not same as printing arr[0].

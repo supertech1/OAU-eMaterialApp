@@ -1,0 +1,2 @@
+Answer:d
+Explanation: We can use binary ampersand operator on integers/chars (and it returns an integer) or on booleans (and it returns a boolean).

@@ -1,0 +1,6 @@
+Answer: d
+Explanation: main() method must be made public. Without main() being public java run time system will not be able to access main() and will not be able to execute the code.
+output:
+$ javac Output.java
+Error: Main method not found in class Output, please define the main method as:
+public static void main(String[] args)

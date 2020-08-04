@@ -1,0 +1,7 @@
+Answer: c
+Explanation: obj.available() returns the number of bytes.
+Output:
+$ javac filesinputoutput.java
+$ java filesinputoutput
+1422
+(Output will be different in your case)

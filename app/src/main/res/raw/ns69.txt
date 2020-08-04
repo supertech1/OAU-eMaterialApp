@@ -1,0 +1,8 @@
+Answer: b
+Explanation: parseBoolean() Parses the string argument as a boolean. The boolean returned represents the value true if the string argument is not null and is equal, ignoring case, to the string "true".
+Example: Boolean.parseBoolean("True") returns true.
+Example: Boolean.parseBoolean("yes") returns false.
+Output:
+$ javac Output.java
+$ java Output
+false

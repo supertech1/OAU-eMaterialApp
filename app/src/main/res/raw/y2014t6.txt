@@ -1,0 +1,6 @@
+Qst 6. Which of these statements are incorrect? 
+
+A.  Assignment operators are more efficiently implemented by java run-time system than their equivalent longforms 
+B. Assignment operators run faster than there equivalent longforms. 
+C.  Assignment operators can be used only with numeric and character datatype. 
+D.  None

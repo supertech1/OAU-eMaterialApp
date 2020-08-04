@@ -1,0 +1,2 @@
+Answer: a
+Explanation: length()- returns the length of String the StringBuffer would create whereas capacity() returns total number of characters that can be supported before it is grown.

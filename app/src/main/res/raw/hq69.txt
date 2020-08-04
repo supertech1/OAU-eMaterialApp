@@ -1,0 +1,15 @@
+What is the output of this program?
+
+import java.util.*;
+
+class date {
+
+      public static void main(String args[]) {
+
+          Date obj = new Date();
+
+          System.out.print(obj);
+
+      }
+
+}

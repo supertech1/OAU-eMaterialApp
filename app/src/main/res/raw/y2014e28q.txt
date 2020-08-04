@@ -1,0 +1,11 @@
+Which line(s) contain errors in this code?
+if(gender == 'F')			//line 1
+		
+	System.out.print("Woman");  //line 2
+else;					//line 3
+	System.out.print("Man");	//line4
+	
+	A. line 1 only	
+	B. line 1 and line 3	
+	C.  line 3 only	
+	D. All

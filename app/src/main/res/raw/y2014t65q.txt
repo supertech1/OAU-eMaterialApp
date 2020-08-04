@@ -1,0 +1,6 @@
+The Statement i++; is equivalent to
+	
+	A. i = i + i; 	
+	B. i = i + 1; 	
+	C.  i = i - 1; 	
+	D.  i--;

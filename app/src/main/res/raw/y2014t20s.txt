@@ -1,0 +1,9 @@
+Answer : D
+
+Explanation :
+
+NB: long literals are preceded by L (or lowercase l). double literals may
+
+    optionally be preceded by D (or lowercase d).
+		
+            

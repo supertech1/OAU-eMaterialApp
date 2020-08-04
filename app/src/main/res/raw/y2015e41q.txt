@@ -1,0 +1,7 @@
+Given that y=ax^3 + 7, which of the following are correct java statements for this equation?
+
+	
+	A.	y=a*x*x*x + 7;
+	B.	y = a * x * x *(x+7)
+	C.	y = a * (x * x * x) + 7;
+	D.	y = (a * x) * x * x + 7;

@@ -1,0 +1,20 @@
+Which of the following loops prints "Welcome to java" 10 times?
+
+A. for(int count = 1; count <= 10; count++){
+	System.out.println("Welcome to Java");
+	}
+B. for(int count = 0; count < 10; count++){
+	System.out.println("Welcome to Java");
+	}
+C. for(int count = 1; count < 10; count++){
+ 	System.out.println("Welcome to java");
+	}
+D. for(int count = 0; count <=10; count++){
+	System.out.println("Welcome to java");
+	}
+
+A.	BD
+B.	ABC
+C.	AC
+D.	AB
+E.	BC

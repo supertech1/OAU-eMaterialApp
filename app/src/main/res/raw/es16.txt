@@ -1,0 +1,2 @@
+Answer: d
+Explanation: All methods and variables are implicitly public if interface is declared public.

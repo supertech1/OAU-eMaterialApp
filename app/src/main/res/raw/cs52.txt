@@ -1,0 +1,2 @@
+Answer: a
+Explanation: A variable can be declared final, doing so prevents its content from being modified. Final variables must be initialized when it is declared.

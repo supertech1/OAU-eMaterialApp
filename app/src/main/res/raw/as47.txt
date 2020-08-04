@@ -1,0 +1,6 @@
+Answer:b
+Explanation:arr[][] is a 2D array, array has been allotted memory in parts. 1st row contains 1 element, 2nd row contains 2 elements and 3rd row contains 3 elements. each element of array is given i + j value in loop. sum contains addition of all the elements of the array.
+output:
+$ javac multidimention_array.java
+$ java multidimention_array
+10

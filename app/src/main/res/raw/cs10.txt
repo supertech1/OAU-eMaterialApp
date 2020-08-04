@@ -1,0 +1,6 @@
+Answer: d
+Explanation: Object obj of box class contains reference to the memory which was given to its class instances. Printing obj will print the address of the memory.
+output:
+$ javac mainclass.java
+$ java mainclass
+box@130671e

@@ -1,0 +1,9 @@
+
+Which data type value is returned by all transcendental math functions?
+A.  int 	B. float	C.  double	D. long
+
+	        Solution :
+
+All transcendental math functions returns a double value
+
+            Ans : C

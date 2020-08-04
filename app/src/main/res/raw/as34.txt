@@ -1,0 +1,2 @@
+Answer: c
+Explanation:If any operand is double the result of expression is double.

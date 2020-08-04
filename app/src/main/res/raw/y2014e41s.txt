@@ -1,0 +1,5 @@
+Answer : C
+
+Explanation :
+
+PushbackReader class allows one or more characters to be returned to the input stream. This allows looking ahead in input stream and performing action accordingly.

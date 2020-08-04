@@ -1,0 +1,2 @@
+Answer: a
+Explanation: new is used to create instance of an exception. All of java's built in run-time exceptions have two constructors : one with no parameters and one that takes a string parameter.

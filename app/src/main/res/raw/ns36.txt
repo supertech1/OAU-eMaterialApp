@@ -1,0 +1,6 @@
+Answer: b
+Explanation: i.isNaN() method returns returns true if i is not a number and false when i is a number. Here false is returned because i is a number i:e 257.5.
+Output:
+$ javac Output.java
+$ java Output
+false

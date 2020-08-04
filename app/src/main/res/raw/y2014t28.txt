@@ -1,0 +1,22 @@
+
+What is the output of this program?
+
+class Guess
+{
+	publicstaticvoid  main(String a[])
+	{
+		int sum = 0, i;
+		for( i = 0; i < 5; ++i) sum += i;
+		System.out.print(sum);
+	}
+}
+
+A.  5	B. 10	C. 14	D. compilation error
+	
+	
+            Solution:
+
+NB: there is no space between 'public', 'static' and 'void' keywords in the main method declaration.
+Therfore, compiling this code results to compilation error.
+	
+            Ans D.

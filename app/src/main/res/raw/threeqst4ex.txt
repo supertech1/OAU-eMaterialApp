@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+public class DisplaySquareOfStars //DisplaySquareOfStars class declaration
+{  //DisplaySquareOfStars opening brace
+    public static void displaySquare(int size)  //displaySquare method declaration which has a single integer parameter (NB: The parameter holds the size of the square of stars
+    {  //displaySquare method opening brace
+        if (size >= 2 || size<= 20)  //check to determine if size is greater than/equals  2 OR size is lesser than/equals 20
+        { //if block opening brace
+            for (int row = 1; row <= size; row++) //outer for statement to keep track of the row
+            {  //outer for block opening brace
+                for (int column = 1; column <= size; column++)  //inner for statement to keep track of the column
+                {  //inner for block opening brace
+                    System.out.print("* "); //output * in the cell...i.e if all the conditions above are satisfied
+                }  //inner for block closing brace
+                System.out.println();  //position the cursur on the next row by outputing a new line 
+            }  //outer for block closing brace
+        }  //if block closing brace
+        else { // now if the user entered an invalid number as the argument, this else part will execute
+            System.out.println("Size must be between 2 and 20...Thanks");  //Display a message to notify the user
+        } //else block closing brace
+    }  //displaySquare method opening brace
+    
+    public static void main(String args[])  //main method declaration
+    {  //main method opening brace
+        Scanner input = new Scanner(System.in);  //declare reference variable input of datatype Scanner and assign it a reference to a Scanner object
+        System.out.print("Enter the size of the square between 2 and 20: ");  //display a message to ask user for the size
+        int user_input = input.nextInt();  //use the Scanner "nextInt()" method to read integer values from the console window
+        displaySquare(user_input); //now pass the value entered by the user as an argument to the method call of displaySquare method
+                
+    }  //main method closing brace
+}  //DisplaySquareOfStars closing brace

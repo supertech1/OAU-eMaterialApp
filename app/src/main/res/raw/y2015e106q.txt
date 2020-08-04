@@ -1,0 +1,14 @@
+What is the value in count after the following loop is executed?
+
+int count = 0;
+do {
+System.out.println("Welcome to java");
+}
+While(count++ < 9 );
+System.out.println(count);
+
+
+A.	8
+B.	9
+C.	11
+D.	10

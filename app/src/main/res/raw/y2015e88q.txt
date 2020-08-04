@@ -1,0 +1,12 @@
+Examine the following:
+
+double[][] values =
+{{1.2,9.0,3.2},
+{9.2,0.5,1.5,-1.2},
+{7.3,7.9,4.8}};
+What is in values [3][0]?
+
+A.	7.3
+B.	7.9
+C.	9.2
+D.	There is no such array element

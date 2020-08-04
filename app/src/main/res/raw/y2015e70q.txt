@@ -1,0 +1,7 @@
+Identify the method used to clear all the data present in output buffers
+
+
+	A.	flush()
+	B.	clear()
+	C.	fflush()
+	D.	close

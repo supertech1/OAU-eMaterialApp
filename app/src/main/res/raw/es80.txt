@@ -1,0 +1,6 @@
+Answer: d
+Explanation: None.
+Output:
+$ javac filesinputoutput.java
+$ java filesinputoutput
+AaBaaCaaa

@@ -1,0 +1,18 @@
+
+Which of these is an incorrect array declaration?
+
+A.  int arr[] = new int[5]    B.   int [] arr = new int[5]    
+
+C.  int arr[]; arr = new int[5]    D.   int arr[] = int[5] new
+
+	
+		Solution :
+
+On memory allocation to an array variable, operator new must precede
+
+the array type and size. Therefore, option D is an incorrect way of
+
+declaring an array.
+
+		
+		Ans :  D

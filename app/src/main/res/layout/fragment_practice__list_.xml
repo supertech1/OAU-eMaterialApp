@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    tools:context="com.example.supertech.csc201real.Practice_List_Fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/red"
+        android:text="We acknowlegde that the contents here are compiled from online"
+        android:id="@+id/textView" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="8dp"
+        android:layout_height="3dp"
+        android:background="@color/colorPrimary"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:choiceMode="singleChoice"
+        android:background="#FFE4E4E9"
+        android:id="@+id/practice_list_view" />
+
+
+
+</LinearLayout>

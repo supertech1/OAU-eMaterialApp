@@ -1,0 +1,6 @@
+Answer: b
+Explanation: None.
+Output:
+$ javac hashtable.java
+$ java hashtable
+{C=8, B=2}

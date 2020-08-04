@@ -1,0 +1,6 @@
+Which of these exception is thrown by close( ) and read( ) methods?
+	
+	A.  IOException	
+	B. FileException	
+	C. FileNotFoundException	
+	D. FileInputException

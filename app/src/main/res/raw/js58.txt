@@ -1,0 +1,6 @@
+Answer:a
+Explanation: The inner try block does not have a catch which can tackle ArrayIndexOutOfBoundException hence finally is executed which prints "A" the outer try block does have catch for ArrayIndexOutOfBoundException exception but no such exception occurs in it hence its catch is never executed and only "A" is printed.
+Output:
+$ javac exception_handling.java
+$ java exception_handling
+A

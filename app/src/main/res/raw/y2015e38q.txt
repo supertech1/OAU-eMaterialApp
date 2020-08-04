@@ -1,0 +1,7 @@
+In a java program, x =4.5, y=3.0, and w=1.5, what is the value of z if: z= x+w/ y+1
+
+
+	A.	1.5
+	B.	3.0
+	C.	4.5
+	D.	4.0

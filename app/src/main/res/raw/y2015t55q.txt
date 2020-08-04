@@ -1,0 +1,13 @@
+what does the following code print when x has been set to 200?
+
+if(x<0) System.out.println("x is negative");
+
+else  if( x == 0) System.out.println("x is zero");
+
+else System.out.println("x is positive");
+
+A. x is negative
+B. x is zero
+C. x is positive
+D. all of the above
+E. none of the above

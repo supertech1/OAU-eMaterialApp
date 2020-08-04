@@ -1,0 +1,6 @@
+Answer: d
+Explanation: class contains a private member variable j, this cannot be inherited by subclass B and does not have access to it.
+output:
+$ javac inheritance.java
+Exception in thread "main" java.lang.Error: Unresolved compilation problem:
+The field A.j is not visible

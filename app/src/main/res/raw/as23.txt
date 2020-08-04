@@ -1,0 +1,2 @@
+Answer:d
+Explanation:Data type long literals are appended by an upper or lowercase L.

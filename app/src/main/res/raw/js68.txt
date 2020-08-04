@@ -1,0 +1,6 @@
+Answer: b
+Explanation: Thread.sleep(1000) has caused all the threads to be suspended for some time, hence onj1.t.isAlive() returns false.
+Output:
+$ javac multithreaded_programing.java
+$ java multithreaded_programing
+false

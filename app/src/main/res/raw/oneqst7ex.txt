@@ -1,0 +1,29 @@
+import java.util.Scanner; //load Scanner class from java library into this class
+
+public class ProcessScore //ProcessScore class declaration
+{ //ProcessScore class opening brace
+
+    public static void main(String args[])  // main method declaration
+    { //main method opening brace
+        Scanner input = new Scanner(System.in); //assign a reference to a Scanner object (i.e new Scanner(System.in) to reference variable 'input' of data type Scanner
+        System.out.print("Enter Exam Score: "); //display a message asking for the student's score
+        double score = input.nextDouble();  //use Scanner method (nextDouble()) to read the number typed by the user on the console and thereafter store it in variable 'score' of data type double
+        char grade; //now declare a variable to hold the student's grade
+        
+        if (score >= 70) //use the if....elseif construct to test the category of grades the student's score belongs to. (Hint: the test condition in the bracket simply means "if score is greater or equal to 70, execute what follows")
+            grade ='A';  //assign character literal 'A' to variable 'grade' if the test condition above is true
+        else if(score >= 60 && score < 70)  // another test to know if the student's score is between 60 and 70(60 being inclusive)
+            grade = 'B'; //assign character literal 'B' to variable 'grade' if the test condition above is true (Hint: if any test condition evaluate to false, java will skip that block or the statement that follows and jumb to the next block/statement)
+        else if(score >= 50 && score < 60)  // another test condition to know if the score is between 50(inclucive) and 60
+            grade = 'C'; // assign character literal 'C' to variable 'grade' if the test condition above is true
+        else if(score >= 45 && score < 50) // test again to check if the student's score is between the specified range
+            grade = 'D'; // assign character literal 'D' to variable 'grade' if the test condition above is true
+        else if(score >= 40 && score <= 45)  // test again to check if the student's score is between the specified range
+            grade = 'E'; //assign character literal 'E' to varable 'grade' if the test condition above is true
+        else  { // now java readings will get here only if all the above test conditions evaluated to false which then implies that the student's grade is below 40
+            grade = 'F'; // assign character literal 'F' to grade
+        }
+        
+        System.out.printf("Your Grade is : %c", grade); //Now display a message on the console window along side with the student's grade (NB: we use the format specifier (%c) as a place holder for a character at that position...thus any other value entered by the user which is not a valid character will throw an Exception
+    } //main method closing brace
+} //ProcessScore class closing brace

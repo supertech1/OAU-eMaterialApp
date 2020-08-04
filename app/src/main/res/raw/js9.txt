@@ -1,0 +1,6 @@
+Answer: c
+Explanation: isAlive() method is used to check whether the thread being called is running or not, here thread is the main() method which is running till the program is terminated hence it returns true.
+Output:
+$ javac multithreaded_programing.java
+$ java multithreaded_programing
+true

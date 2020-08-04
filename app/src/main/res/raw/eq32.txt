@@ -1,0 +1,1 @@
+Which of the following methods is a method of wrapper Integer for obtaining hash code for the invoking object?

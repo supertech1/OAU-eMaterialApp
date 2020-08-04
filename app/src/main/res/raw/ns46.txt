@@ -1,0 +1,6 @@
+Answer: b
+Explanation: The super class of Double class defines a constant MAX_VALUE above which a number is considered to be infinity. MAX_VALUE is 1.7976931348623157E308.
+Output:
+$ javac Output.java
+$ java Output
+1.7976931348623157E308

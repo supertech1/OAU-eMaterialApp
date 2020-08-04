@@ -1,0 +1,6 @@
+Answer: b
+Explanation: i.byteValue() method returns the value of wrapper i as a byte value. i is 257, range of byte is 256 therefore i value exceeds byte range by 1 hence 1 is returned and stored in x.
+Output:
+$ javac Output.java
+$ java Output
+1

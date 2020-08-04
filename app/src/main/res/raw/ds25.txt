@@ -1,0 +1,2 @@
+Answer: a
+Explanation: A abstract class is incomplete by itself and relies upon its subclasses to provide complete implementation. If we declare a class final then no class can inherit that class, an abstract class needs its subclasses hence both final and abstract cannot be used for a same class.

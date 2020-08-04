@@ -1,0 +1,6 @@
+Answer: b
+Explanation: When array index goes out of bound then ArrayIndexOutOfBoundsException exceptio is thrown by the system.
+Output:
+$ javac exception_handling.java
+$ java exception_handling
+123450

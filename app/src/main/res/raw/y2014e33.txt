@@ -1,0 +1,5 @@
+Which of these methods is used to write() into a file?
+	A. put()	B. putFile()	C. write()	D. writeFile()
+
+	Solution :
+Ans : C

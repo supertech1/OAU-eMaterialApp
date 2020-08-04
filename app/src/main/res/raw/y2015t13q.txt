@@ -1,0 +1,7 @@
+Flowchart is an alternative to
+
+A. Generating the output of an interpreter
+B. Giving instruction to the compiler
+C. Writing android programs
+D. Writing java programs
+E. Writing pseudocodes

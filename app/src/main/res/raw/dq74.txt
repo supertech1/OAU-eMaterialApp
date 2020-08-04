@@ -1,0 +1,3 @@
+What is the string contained in s after following lines of code?
+StringBuffer s new StringBuffer("Hello");
+s.deleteCharAt(0);

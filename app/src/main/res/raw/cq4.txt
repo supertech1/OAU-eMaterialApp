@@ -1,0 +1,1 @@
+Which of these operators is used to allocate memory for an object?

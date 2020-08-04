@@ -1,0 +1,2 @@
+Answer: a
+Explanation: main() method can be defined only once in a program. Program execution begins from the main() method by java's run time system.

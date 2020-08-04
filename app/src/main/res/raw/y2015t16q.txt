@@ -1,0 +1,17 @@
+Given the following java program shown in italics:
+
+class Midsemester {				//Line1
+public static void Main(String args[]){		//Line2
+String course = "CSC201";			//Line3
+System.out.println("This course is: "+course)	//Line4
+}						//Line5
+}
+
+What is the expected file name in which this program will be saved?
+
+
+A. CSC201.java
+B. CSC201.class
+C. Midsemester.java
+D. Midsemester.class
+E. StudentRegNo.txt

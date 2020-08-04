@@ -1,0 +1,2 @@
+Answer: c
+Explanation: Its illegal to call max() only with comparator, we need to give the collection to be serched into.

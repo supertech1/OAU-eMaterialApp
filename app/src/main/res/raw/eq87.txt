@@ -1,0 +1,17 @@
+What is the output of this program?
+
+import java.io.*;
+
+class filesinputoutput {
+
+    public static void main(String args[]) {
+
+         InputStream obj = new FileInputStream("inputoutput.java");
+
+         System.out.print(obj.available());
+
+    }
+
+}
+
+Note: inputoutput.java is stored in the disk.

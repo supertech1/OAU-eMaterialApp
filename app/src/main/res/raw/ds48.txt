@@ -1,0 +1,7 @@
+Answer:c
+Explanation:Character.isDigit(c[i]),Character.isUpperCase(c[i]),Character.isWhitespace(c[i]) are the function of library java.lang. They are used to find weather the given character is of specified type or not. They return true or false i:e Boolean variable.
+Output:
+$ javac output.java
+$ java output
+a is a lower case Letter
+A is an Upper Case Letter

@@ -1,0 +1,2 @@
+Answer: b
+Explanation: finally keyword is used to define a set of instructions that will be executed irrespective of the exception found or not.

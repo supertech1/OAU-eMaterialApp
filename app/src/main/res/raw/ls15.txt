@@ -1,0 +1,2 @@
+Answer: a
+Explanation: java.rmi provides capabilities for remote method invocation.

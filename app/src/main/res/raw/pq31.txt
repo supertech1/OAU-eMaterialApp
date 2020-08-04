@@ -1,0 +1,1 @@
+Which of these return type of hasNext() method of an iterator?

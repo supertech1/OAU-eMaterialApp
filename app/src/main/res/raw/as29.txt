@@ -1,0 +1,2 @@
+Answer:d
+Explanation:all string literals must begin and end in same line.

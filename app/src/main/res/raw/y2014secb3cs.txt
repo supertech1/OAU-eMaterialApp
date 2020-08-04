@@ -1,0 +1,10 @@
+Solution :
+
+Line 1 is used to write characters to a file. In this case, the file to be written to is test.txt
+
+Line 2 is used to write characters to a Stream
+
+Line 3 is used to position the cursor on the next line in the file
+
+Line 4 closes the file being written to.
+

@@ -1,0 +1,6 @@
+Answer: d
+Explanation: try must be followed by either catch or finally
+Output:
+$ javac Output.javac
+Exception in thread "main" java.lang.Error: Unresolved compilation problem:
+Syntax error, insert "Finally" to complete BlockStatements

@@ -1,0 +1,7 @@
+Answer: D
+
+Explanation : 
+
+true and false are Boolean literals in java and not numeric values.
+
+				

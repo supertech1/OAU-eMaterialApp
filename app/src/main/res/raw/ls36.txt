@@ -1,0 +1,2 @@
+Answer: a
+Explanation: By using format string "w" we can print week in a year whereas by using 'W' we can print week of month.

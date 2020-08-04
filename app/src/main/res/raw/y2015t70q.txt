@@ -1,0 +1,7 @@
+........ is called an escape character 
+
+A. \
+B. *
+C. ^
+D. !
+E. %

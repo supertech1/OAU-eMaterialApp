@@ -1,0 +1,8 @@
+Ans : B
+
+Explanation :
+
+A Scanner enables a program to read data (e.g., numbers and strings) for 
+use in a program. The data can come from many sources, such as the user at
+ the keyboard or a file on disk. Before using a Scanner, you must create it 
+and specify the source of the data.

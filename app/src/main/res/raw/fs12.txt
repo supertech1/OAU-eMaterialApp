@@ -1,0 +1,2 @@
+Answer: d
+Explanation: Serialization, deserialization and Memory allocation occur automatically by java run time system.

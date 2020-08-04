@@ -1,0 +1,13 @@
+What is the priority of the thread in output of this program?
+
+class multithreaded_programing {
+
+     public static void main(String args[]) {
+
+          Thread t = Thread.currentThread();
+
+          System.out.println(t);        
+
+      }
+
+}

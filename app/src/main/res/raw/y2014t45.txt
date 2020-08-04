@@ -1,0 +1,12 @@
+
+Which of these coding types is used for data type characters in java?
+
+A.   ASCII	B.  ISO-LATIN-1	C.  UNICODE		D. None of the mentioned
+
+	        Solution :
+
+Unicode defines fully international character set that can represent all the 
+
+characters found in all human languages. 
+	
+	        Ans : C

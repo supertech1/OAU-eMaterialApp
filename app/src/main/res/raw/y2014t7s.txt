@@ -1,0 +1,24 @@
+Answer: C
+
+Explanation :
+
+Class increment    
+{ 
+	public static void main(String args[])  
+	{
+		double var1 = 1 + 5;  	   //var1 equals 6.0 after evaluation
+		double var2 = var1/4;	   //Here  var2 =  6 .0/ 4 since var1 is  6.0.
+   					   // After evaluation, var2 = 1.5, since
+					   //var2  is of double data type which support decimals.
+		int var3 = 1 + 5;	   // Var3 equals 6 after evaluation
+		int var4 = var3 / 4;	   //Here  var4 =  6 / 4 since var3 is 6. After evaluation, var4 = 1, since
+  					   // var4 is of int data type which does not support decimals...hence
+  					   // the decimal part is truncated.
+		System.out.println(var2 + " "+ var4);   // NB: + here is used to concatenate variables value
+ 					   //2geda with string. Hence, it is not used as an arithmetic
+					   //operator.
+	}
+}
+				
+
+		

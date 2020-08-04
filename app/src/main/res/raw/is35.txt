@@ -1,0 +1,2 @@
+Answer: c
+Explanation: If a method is capable of causing an exception that it does not handle. It must specify this behaviour the behaviour so that callers of the method can guard themselves against that exception. This is done by using throws clause in methods declaration.

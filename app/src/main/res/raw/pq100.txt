@@ -1,0 +1,11 @@
+What is the output of this program, Command line execution is done as - "java Output command Line 10 A b 4 N"?
+
+class Output {
+
+    public static void main(String args[]) {
+
+         System.out.print("args[6]");
+
+    }
+
+}

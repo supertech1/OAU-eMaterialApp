@@ -1,0 +1,7 @@
+What kind of programming language is java?
+
+	A. Object-Oriented high-level programming language
+	B. Procedural low-level programming language
+	C. Object-oriented scripting language
+	D. Embedded platform-dependent programming language
+	E. Functional machine-level programming language

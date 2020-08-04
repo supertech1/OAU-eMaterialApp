@@ -1,0 +1,7 @@
+In object-oriented programming terminology, an unexpected or error condition is a(n) ..............
+
+
+	A.	Anomaly
+	B.	Aberration
+	C.	Deviation
+	D.	Exception

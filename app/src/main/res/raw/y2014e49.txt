@@ -1,0 +1,5 @@
+Which of these classes can be used to implement input stream that uses a character array as the source?
+	A. BufferedReader	B. FileReader	C. CharArrayReader		D. FileArrayReader
+Solution :
+Explanation: CharArrayReader is an implementation of an input stream that uses character array as a source. Here array is the input source.
+Ans : C

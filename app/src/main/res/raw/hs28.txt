@@ -1,0 +1,6 @@
+Answer: a
+Explanation: keySet() method returns a set containing all the keys used in the invoking map. Here keys are characters A, B & C. 1, 2, 3 are the values given to these keys.
+Output:
+$ javac Maps.java
+$ java Maps
+[A, B, C] 

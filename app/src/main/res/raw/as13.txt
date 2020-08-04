@@ -1,0 +1,4 @@
+Answer:d
+Answer:d
+Answer:d
+Explanation: Boolean variable can contain only one of two possible values, true and false.

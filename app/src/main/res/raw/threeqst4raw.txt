@@ -1,0 +1,34 @@
+
+            Source Code:
+
+import java.util.Scanner;
+
+public class DisplaySquareOfStars
+{
+    public static void displaySquare(int size)
+    {
+        if (size >= 2 || size<= 20)
+        {
+            for (int row = 1; row <= size; row++)
+            {
+                for (int column = 1; column <= size; column++)
+                {
+                    System.out.print("* ");
+                }
+                System.out.println();
+            }
+        }
+        else {
+            System.out.println("Size must be between 2 and 20...Thanks");
+        }
+    }
+    
+    public static void main(String args[])
+    {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter the size of the square between 2 and 20: ");
+        int user_input = input.nextInt();
+        displaySquare(user_input);
+                
+    }
+}

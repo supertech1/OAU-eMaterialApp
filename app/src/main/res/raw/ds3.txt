@@ -1,0 +1,2 @@
+Answer: b
+Explanation: A class member declared protected becomes private member of subclass.

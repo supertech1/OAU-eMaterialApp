@@ -1,0 +1,1 @@
+Which of these handles the exception when no catch is used?

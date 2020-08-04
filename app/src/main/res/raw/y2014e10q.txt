@@ -1,0 +1,7 @@
+Which of these literals can be contained in a data type float variable?
+
+
+	A.  1.7e-308	
+	B.  3.4e-038	
+	C.  1.7e+308 	
+	D.  3.4e-050

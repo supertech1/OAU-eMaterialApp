@@ -1,0 +1,2 @@
+Answer:c
+Explanation:Operator new allocates block of memory specified by the size of array, and gives the reference of memory allocated to the array variable.

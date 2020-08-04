@@ -1,0 +1,6 @@
+Modulus operator, %, can be applied to which of these? 
+
+	A.  Integers	
+	B.  Floating-point numbers
+	C.   Both Integers and floating-point numbers   
+	D.  None of the mentioned.

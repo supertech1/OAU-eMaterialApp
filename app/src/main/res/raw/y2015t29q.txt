@@ -1,0 +1,7 @@
+A method that returns the following value: "Yes"; must be declared with one of the following keywords:
+
+A. args[]
+B. static
+C. public
+D. void
+E. String

@@ -1,0 +1,2 @@
+Answer: a
+Explanation: doubleValue() returns the value of invoking object as double.

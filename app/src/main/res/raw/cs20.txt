@@ -1,0 +1,6 @@
+Answer: d
+Explanation: Variable height is not defined.
+output:
+$ javac cons_method.java
+$ java cons_method
+error: cannot find symbol height

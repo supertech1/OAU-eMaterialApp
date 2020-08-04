@@ -1,0 +1,6 @@
+Answer: c
+Explanation: indexOf() method returns the index of first occurrence of the character where as lastIndexOf() returns the index of last occurrence of the character.
+output:
+$ javac output.java
+$ java output
+4 9

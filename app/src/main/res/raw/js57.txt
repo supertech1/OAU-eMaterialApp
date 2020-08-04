@@ -1,0 +1,6 @@
+Answer: d
+Explanation: try block is throwing NullPointerException but the catch block is used to counter Arithmetic Exception. Hence NullPointerException occurs since no catch is there which can handle it, runtime error occurs.
+Output:
+$ javac exception_handling.java
+$ java exception_handling
+Exception in thread "main" java.lang.NullPointerException: Hello

@@ -1,0 +1,6 @@
+Answer:d
+Explanation: None.
+output:
+$ javac leftshift_operator.java
+$ java leftshift_operator
+256 0

@@ -1,0 +1,6 @@
+Answer: c
+Explanation: x is initialized to 10 then increased by 1 by ++ operator making it 11. x is again decreased by -- operator making it 10, next x is incremented by post increment and intialized to y, here the value of x obtained before increment operator is executed, so value of y is 10 and value of x is 11.
+output:
+$ javac Output.java
+$ java Output
+11 10

@@ -1,0 +1,6 @@
+What is class variable?
+
+A.	Class variables are static variables within a class but outside any method
+B.	Class variables are variables defined inside methods, constructors or blocks
+C.	Class variables are variables within a class but outside any method
+D.	None of the above

@@ -1,0 +1,7 @@
+Which of the following is the logical relation symbol used in a program to ensure that two conditions are both true
+
+
+	A.	&
+	B.	n
+	C.	&&
+	D.	%
